@@ -15,7 +15,7 @@ C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57669
+59599
 Successfully changed project path to: C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
 C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14016] Host "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 3517860084 [EditorId] 3517860084 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10684] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 1697869581 [EditorId] 1697869581 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14016] Host "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 3517860084 [EditorId] 3517860084 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10684] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 1697869581 [EditorId] 1697869581 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 256.43 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 206.06 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,54 +67,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016168 seconds.
+Registered in 0.009851 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 585 ms
+Android Extension - Scanning For ADB Devices 537 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 304.59 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 222.04 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.031 seconds
+- Completed reload, in  1.754 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2032ms)
-		BeginReloadAssembly (166ms)
+	ReloadAssembly (1755ms)
+		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1665ms)
-			LoadAssemblies (165ms)
+		EndReloadAssembly (1462ms)
+			LoadAssemblies (140ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (217ms)
+			SetupTypeCache (179ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (1310ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (1140ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (748ms)
+				InitializePlatformSupportModulesInManaged (678ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (305ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (185ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
+				RefreshPlugins (222ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.017231 seconds.
+Registered in 0.013248 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -122,46 +122,46 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 253.97 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 214.97 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.406 seconds
+- Completed reload, in  2.291 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2408ms)
-		BeginReloadAssembly (182ms)
+	ReloadAssembly (2292ms)
+		BeginReloadAssembly (202ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (2037ms)
-			LoadAssemblies (180ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1922ms)
+			LoadAssemblies (135ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (463ms)
+			SetupTypeCache (427ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (111ms)
-			SetupLoadedEditorAssemblies (1172ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (1168ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (38ms)
+				InitializePlatformSupportModulesInManaged (33ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (254ms)
-				BeforeProcessingInitializeOnLoad (216ms)
-				ProcessInitializeOnLoadAttributes (511ms)
-				ProcessInitializeOnLoadMethodAttributes (140ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (215ms)
+				BeforeProcessingInitializeOnLoad (244ms)
+				ProcessInitializeOnLoadAttributes (523ms)
+				ProcessInitializeOnLoadMethodAttributes (141ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.40 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.96 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 74 unused Assets / (2.2 MB). Loaded Objects now: 6342.
-Memory consumption went from 241.0 MB to 238.9 MB.
-Total: 6.678900 ms (FindLiveObjects: 0.607200 ms CreateObjectMapping: 0.669500 ms MarkObjects: 4.714900 ms  DeleteObjects: 0.686100 ms)
+Unloading 74 unused Assets / (2.2 MB). Loaded Objects now: 6346.
+Memory consumption went from 241.4 MB to 239.2 MB.
+Total: 7.536100 ms (FindLiveObjects: 0.660600 ms CreateObjectMapping: 0.683900 ms MarkObjects: 5.371500 ms  DeleteObjects: 0.818600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,426 +175,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 22884.773975 seconds.
-  path: Assets/StarterAssets/Readme.asset
-  artifactKey: Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Readme.asset using Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5a6d789fc69aa3c38447a9ba74cf5c') in 0.068456 seconds 
+  Time since last request: 22110.273240 seconds.
+  path: Assets/Futuristic_soldier/Prefabs/Sci-fi_character_unity_green Variant.prefab
+  artifactKey: Guid(e77d76eda990d754094a01553d298620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuristic_soldier/Prefabs/Sci-fi_character_unity_green Variant.prefab using Guid(e77d76eda990d754094a01553d298620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b74aae5ecb4d920632886cdc08dd24') in 0.862725 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.899690 seconds.
-  path: Assets/Futuristic_soldier
-  artifactKey: Guid(5ff5f87f34356d64a91a011fef4ea33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Futuristic_soldier using Guid(5ff5f87f34356d64a91a011fef4ea33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0c588e6f5dea2faaafa0ada254c0d4') in 0.007606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.175026 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack
-  artifactKey: Guid(32461124477014b439535950a7bae51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack using Guid(32461124477014b439535950a7bae51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2895e983d0426bbd6ee441e99eb67d03') in 0.002433 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012400 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.70 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.877 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2878ms)
-		BeginReloadAssembly (271ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (83ms)
-		EndReloadAssembly (2439ms)
-			LoadAssemblies (207ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (704ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (142ms)
-			SetupLoadedEditorAssemblies (1184ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (58ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (233ms)
-				ProcessInitializeOnLoadAttributes (668ms)
-				ProcessInitializeOnLoadMethodAttributes (202ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (37ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.67 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5737 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (2.1 MB). Loaded Objects now: 6358.
-Memory consumption went from 229.8 MB to 227.6 MB.
-Total: 10.333700 ms (FindLiveObjects: 0.675600 ms CreateObjectMapping: 0.624000 ms MarkObjects: 7.465500 ms  DeleteObjects: 1.566100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 73.619634 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Prefabs
-  artifactKey: Guid(a54965f822af06343a5ffdf446f11783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs using Guid(a54965f822af06343a5ffdf446f11783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422476d79bfd48dabfc5fd86be6ac3c8') in 0.011020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.179741 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Example scenes
-  artifactKey: Guid(c3044d2c539506749a9607c66c189c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Example scenes using Guid(c3044d2c539506749a9607c66c189c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e575cb7c64040f1e0a2e7fe5607e298') in 0.004889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.141321 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Example scenes/Materials
-  artifactKey: Guid(2ab72befc884bc441bbb2ff569663c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Example scenes/Materials using Guid(2ab72befc884bc441bbb2ff569663c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a84a988474b8c72da8546c9bf41cef0') in 0.002401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.032582 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Example scenes/Materials/Sand.mat
-  artifactKey: Guid(d7ecd8db85bf61440b7ca5d302afd010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Example scenes/Materials/Sand.mat using Guid(d7ecd8db85bf61440b7ca5d302afd010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f9b3e466b770e83ebde34aca09d17a') in 2.020919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.411645 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models
-  artifactKey: Guid(5902297ebb0c5f34ca42aeca563efee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models using Guid(5902297ebb0c5f34ca42aeca563efee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b8d6c3989bed3ecf338d9540d185a9') in 0.003203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.034747 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/art_1.fbx
-  artifactKey: Guid(eb75e9f492c943a4dac52c742f729357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/art_1.fbx using Guid(eb75e9f492c943a4dac52c742f729357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b1243a171578b4060e46c6e7e2fcae') in 0.513281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/battery.fbx
-  artifactKey: Guid(154329710c2ffe04397c646ac704cdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/battery.fbx using Guid(154329710c2ffe04397c646ac704cdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9123c1cae6e37f44652057a3aa3f3357') in 0.040504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/computer_station.fbx
-  artifactKey: Guid(2127a279fcaa46847ac918e39e53bad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/computer_station.fbx using Guid(2127a279fcaa46847ac918e39e53bad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c912c721af41f8915e4eb32e0efbe59d') in 1.979165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.844882 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Example scenes/outpost on desert.unity
-  artifactKey: Guid(b42ca4c5c936383429d2318c931f7ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Example scenes/outpost on desert.unity using Guid(b42ca4c5c936383429d2318c931f7ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e74a018b91c5378f62c60166222842') in 0.003489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.931179 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Example scenes/outpost with snow.unity
-  artifactKey: Guid(e8cf1d29775c7e24f9dd35148a6437c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Example scenes/outpost with snow.unity using Guid(e8cf1d29775c7e24f9dd35148a6437c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712023f1f6bf920ffbe152f2b9550e4d') in 0.003693 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011381 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.91 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.979 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2980ms)
-		BeginReloadAssembly (244ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (2544ms)
-			LoadAssemblies (169ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (689ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (140ms)
-			SetupLoadedEditorAssemblies (1250ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (63ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (256ms)
-				ProcessInitializeOnLoadAttributes (693ms)
-				ProcessInitializeOnLoadMethodAttributes (217ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (43ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.32 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (2.2 MB). Loaded Objects now: 6461.
-Memory consumption went from 237.3 MB to 235.1 MB.
-Total: 10.849400 ms (FindLiveObjects: 0.757400 ms CreateObjectMapping: 0.732500 ms MarkObjects: 8.345400 ms  DeleteObjects: 1.011700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011906 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.50 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.132 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3134ms)
-		BeginReloadAssembly (273ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (2629ms)
-			LoadAssemblies (215ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (757ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (134ms)
-			SetupLoadedEditorAssemblies (1249ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (76ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (224ms)
-				ProcessInitializeOnLoadAttributes (729ms)
-				ProcessInitializeOnLoadMethodAttributes (200ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (40ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 8.05 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5745 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (2.2 MB). Loaded Objects now: 6476.
-Memory consumption went from 237.4 MB to 235.2 MB.
-Total: 9.859000 ms (FindLiveObjects: 0.738000 ms CreateObjectMapping: 0.696300 ms MarkObjects: 6.818700 ms  DeleteObjects: 1.603300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 241.373022 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/comuter_wall.mat
-  artifactKey: Guid(0d0f1f087865a1c47826008280428fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/comuter_wall.mat using Guid(0d0f1f087865a1c47826008280428fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0110439c9d4091ddfa3e697985ba3200') in 0.468136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/nature_bush.mat
-  artifactKey: Guid(4256c7f593c13f84bbd6e74b481a6ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/nature_bush.mat using Guid(4256c7f593c13f84bbd6e74b481a6ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173e0e81eb3b422ed69c09b047cb2c0e') in 0.021462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/nature_leaves.mat
-  artifactKey: Guid(5d84bcb5cc458944085f3169d277536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/nature_leaves.mat using Guid(5d84bcb5cc458944085f3169d277536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c46e47e973b71d224ef498073154854') in 0.030963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/hologram_particle.mat
-  artifactKey: Guid(d37e8378fe566f84a8b75b0083ec4838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/hologram_particle.mat using Guid(d37e8378fe566f84a8b75b0083ec4838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe436209db50bef492c763f8c69b7371') in 0.058376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/projector_warning.mat
-  artifactKey: Guid(51d587eafcd13384bafd060c5bc7cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/projector_warning.mat using Guid(51d587eafcd13384bafd060c5bc7cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac79d1ef25c5d4a54aece9a0ff5f2d55') in 0.017992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/lattice.mat
-  artifactKey: Guid(0f4853191d321d748b1f95a97d7b37f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/lattice.mat using Guid(0f4853191d321d748b1f95a97d7b37f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0314d196d890209f7759d99e1858bfaf') in 0.022558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/hologram.mat
-  artifactKey: Guid(e305453a48fa58446882f6671dfa0d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/hologram.mat using Guid(e305453a48fa58446882f6671dfa0d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05529311b6086c0e212f220729eebb0') in 2.047545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.588516 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/window.mat
-  artifactKey: Guid(6df5b81390f2c8d4d967baea2b0a190e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/window.mat using Guid(6df5b81390f2c8d4d967baea2b0a190e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aeb596ff66e6d6d69543fe32c810135') in 1.692203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1527.183145 seconds.
-  path: Assets/SkySeries Freebie/6SidedFluffball.mat
-  artifactKey: Guid(efd1c33efd2d58340b88804268e6833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/6SidedFluffball.mat using Guid(efd1c33efd2d58340b88804268e6833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1521b695b73eaf2f4acb374d71356f8f') in 0.269477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/SkySeries Freebie/HighFantasy.mat
-  artifactKey: Guid(e2341a9d03e86ec4290c72b1e22bbc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/HighFantasy.mat using Guid(e2341a9d03e86ec4290c72b1e22bbc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b076e7c415a1e10f61961dad509686') in 0.118230 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/SkySeries Freebie/UnearthlyRed.mat
-  artifactKey: Guid(5d133deeaa66ed445853e946ff25e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/UnearthlyRed.mat using Guid(5d133deeaa66ed445853e946ff25e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd233aef50992da2474170ce0896c57ce') in 0.094911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/SkySeries Freebie/6SidedMegaSun.mat
-  artifactKey: Guid(c52c5d7968fa6c9499b0b5752f899bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/6SidedMegaSun.mat using Guid(c52c5d7968fa6c9499b0b5752f899bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6caa86011563dafb6f5b8ac4fcc30dd7') in 0.030691 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/SkySeries Freebie/Cloudymorning.mat
-  artifactKey: Guid(d9dca9ae1786c394f9e79c637aa9a7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/Cloudymorning.mat using Guid(d9dca9ae1786c394f9e79c637aa9a7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f35ff7914bb4a7aaca749b0c8d80582') in 0.055447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/SkySeries Freebie/SkyhighFluffycloudField.mat
-  artifactKey: Guid(f15c336556dd74f40aaca655f7767970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/SkyhighFluffycloudField.mat using Guid(f15c336556dd74f40aaca655f7767970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156824f9d35b96c8e4274d87ba39b40b') in 0.053974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/SkySeries Freebie/DarkStorm.mat
-  artifactKey: Guid(2039a0ad0a9d05549928b70362f54902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/DarkStorm.mat using Guid(2039a0ad0a9d05549928b70362f54902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab9e1dda61e1941aaf6d4d6c5a14756') in 0.062849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/SkySeries Freebie/AmbienceExposure.mat
-  artifactKey: Guid(72deae4d18418f94688abef8e8483df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/AmbienceExposure.mat using Guid(72deae4d18418f94688abef8e8483df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf65b1a27b123441337b61fde264b377') in 0.066965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/SkySeries Freebie/FluffballDay.mat
-  artifactKey: Guid(20d4f77b9022eab48b4d94599ed4bf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FluffballDay.mat using Guid(20d4f77b9022eab48b4d94599ed4bf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f486de8302a1e7f08c4b4b9abc540682') in 0.064777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/SkySeries Freebie/MegaSun.mat
-  artifactKey: Guid(cede08c9fc471e64884909cd4bbeaf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/MegaSun.mat using Guid(cede08c9fc471e64884909cd4bbeaf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a6492e9481d366aafa1e1fb820bc5c') in 0.061002 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010211 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.72 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.896 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2898ms)
-		BeginReloadAssembly (287ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (80ms)
-		EndReloadAssembly (2392ms)
-			LoadAssemblies (220ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (633ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (137ms)
-			SetupLoadedEditorAssemblies (1172ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (62ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (221ms)
-				ProcessInitializeOnLoadAttributes (684ms)
-				ProcessInitializeOnLoadMethodAttributes (187ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (36ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.31 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (2.1 MB). Loaded Objects now: 6536.
-Memory consumption went from 238.1 MB to 236.0 MB.
-Total: 10.433100 ms (FindLiveObjects: 1.206300 ms CreateObjectMapping: 0.868000 ms MarkObjects: 7.511300 ms  DeleteObjects: 0.844800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 11.247387 seconds.
+  path: Assets/Futuristic_soldier/Prefabs/Sci-fi_character_unity_green Variant.prefab
+  artifactKey: Guid(e77d76eda990d754094a01553d298620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuristic_soldier/Prefabs/Sci-fi_character_unity_green Variant.prefab using Guid(e77d76eda990d754094a01553d298620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ddd9551e0fd45bbca262223d7d5fad') in 2.238272 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

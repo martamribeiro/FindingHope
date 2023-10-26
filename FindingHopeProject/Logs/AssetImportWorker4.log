@@ -15,7 +15,7 @@ C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-57669
+59599
 Successfully changed project path to: C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
 C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23436] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 4229166794 [EditorId] 4229166794 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16976] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 483320335 [EditorId] 483320335 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23436] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 4229166794 [EditorId] 4229166794 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16976] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 483320335 [EditorId] 483320335 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 274.54 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 247.28 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,54 +67,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007539 seconds.
+Registered in 0.014117 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 456 ms
+Android Extension - Scanning For ADB Devices 471 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 165.99 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 202.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.324 seconds
+- Completed reload, in  1.766 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1325ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (1766ms)
+		BeginReloadAssembly (255ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1129ms)
-			LoadAssemblies (87ms)
+		EndReloadAssembly (1330ms)
+			LoadAssemblies (256ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (143ms)
+			SetupTypeCache (209ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (885ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (981ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (574ms)
+				InitializePlatformSupportModulesInManaged (598ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (166ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (97ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				RefreshPlugins (203ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008762 seconds.
+Registered in 0.009826 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -122,105 +122,188 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 271.88 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 188.15 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.591 seconds
+- Completed reload, in  2.086 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2592ms)
-		BeginReloadAssembly (168ms)
+	ReloadAssembly (2088ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1803ms)
+			LoadAssemblies (219ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (391ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (980ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (188ms)
+				BeforeProcessingInitializeOnLoad (179ms)
+				ProcessInitializeOnLoadAttributes (430ms)
+				ProcessInitializeOnLoadMethodAttributes (144ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5900 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 74 unused Assets / (2.2 MB). Loaded Objects now: 6346.
+Memory consumption went from 241.4 MB to 239.2 MB.
+Total: 5.868200 ms (FindLiveObjects: 0.599100 ms CreateObjectMapping: 0.595400 ms MarkObjects: 4.005200 ms  DeleteObjects: 0.667300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23070.916343 seconds.
+  path: Assets/Interactive Monitor/Prefabs/CRT Display.prefab
+  artifactKey: Guid(13db0b795570e514d9ca4d905d4abb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interactive Monitor/Prefabs/CRT Display.prefab using Guid(13db0b795570e514d9ca4d905d4abb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572fe4e681f8781b0303c55c99341b9b') in 0.400115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 192.993586 seconds.
+  path: Assets/Interactive Monitor/Prefabs/CRT Display.prefab
+  artifactKey: Guid(13db0b795570e514d9ca4d905d4abb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interactive Monitor/Prefabs/CRT Display.prefab using Guid(13db0b795570e514d9ca4d905d4abb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3923d4fcd09871bd2e254486efe446b6') in 0.021301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.253060 seconds.
+  path: Assets/Interactive Monitor/Prefabs/CRT Display.prefab
+  artifactKey: Guid(13db0b795570e514d9ca4d905d4abb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interactive Monitor/Prefabs/CRT Display.prefab using Guid(13db0b795570e514d9ca4d905d4abb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740f72af4229ed6d27a45716369c9316') in 0.015718 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010490 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.985 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2986ms)
+		BeginReloadAssembly (325ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (2461ms)
+			LoadAssemblies (226ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (702ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (132ms)
+			SetupLoadedEditorAssemblies (1161ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (64ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (204ms)
+				ProcessInitializeOnLoadAttributes (682ms)
+				ProcessInitializeOnLoadMethodAttributes (190ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5744 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (2.2 MB). Loaded Objects now: 6418.
+Memory consumption went from 237.9 MB to 235.8 MB.
+Total: 11.027300 ms (FindLiveObjects: 0.872900 ms CreateObjectMapping: 0.574500 ms MarkObjects: 8.162100 ms  DeleteObjects: 1.415200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 113.481473 seconds.
+  path: Assets/Interactive Monitor/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interactive Monitor/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3f734645de6774e99707118d744259') in 0.013051 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016546 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.251 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3252ms)
+		BeginReloadAssembly (306ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (2202ms)
-			LoadAssemblies (177ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (2696ms)
+			LoadAssemblies (253ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (593ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (153ms)
-			SetupLoadedEditorAssemblies (1146ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (57ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (272ms)
-				BeforeProcessingInitializeOnLoad (257ms)
-				ProcessInitializeOnLoadAttributes (419ms)
-				ProcessInitializeOnLoadMethodAttributes (128ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.32 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 74 unused Assets / (2.2 MB). Loaded Objects now: 6345.
-Memory consumption went from 241.3 MB to 239.1 MB.
-Total: 5.535200 ms (FindLiveObjects: 0.537300 ms CreateObjectMapping: 0.476300 ms MarkObjects: 3.916500 ms  DeleteObjects: 0.604100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010852 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.787 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2788ms)
-		BeginReloadAssembly (262ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (2314ms)
-			LoadAssemblies (212ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (643ms)
+			SetupTypeCache (821ms)
 			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (140ms)
-			SetupLoadedEditorAssemblies (1150ms)
+			RebuildScriptCaches (148ms)
+			SetupLoadedEditorAssemblies (1239ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (57ms)
+				InitializePlatformSupportModulesInManaged (64ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (218ms)
-				ProcessInitializeOnLoadAttributes (668ms)
+				BeforeProcessingInitializeOnLoad (248ms)
+				ProcessInitializeOnLoadAttributes (720ms)
 				ProcessInitializeOnLoadMethodAttributes (188ms)
 				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (30ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 9.75 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.24 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5737 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (2.2 MB). Loaded Objects now: 6360.
-Memory consumption went from 230.4 MB to 228.2 MB.
-Total: 10.149300 ms (FindLiveObjects: 0.936400 ms CreateObjectMapping: 0.757700 ms MarkObjects: 7.325900 ms  DeleteObjects: 1.127400 ms)
+Unloading 5745 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (2.2 MB). Loaded Objects now: 6433.
+Memory consumption went from 238.0 MB to 235.8 MB.
+Total: 8.162900 ms (FindLiveObjects: 0.927900 ms CreateObjectMapping: 0.780600 ms MarkObjects: 5.673900 ms  DeleteObjects: 0.778800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -233,61 +316,818 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011965 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.78 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.632 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2634ms)
-		BeginReloadAssembly (242ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (2220ms)
-			LoadAssemblies (174ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (602ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (121ms)
-			SetupLoadedEditorAssemblies (1147ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (58ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (233ms)
-				ProcessInitializeOnLoadAttributes (660ms)
-				ProcessInitializeOnLoadMethodAttributes (178ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.16 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5737 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (2.2 MB). Loaded Objects now: 6375.
-Memory consumption went from 230.4 MB to 228.3 MB.
-Total: 9.865800 ms (FindLiveObjects: 0.751300 ms CreateObjectMapping: 0.694600 ms MarkObjects: 6.952600 ms  DeleteObjects: 1.465200 ms)
+Received Import Request.
+  Time since last request: 24.903842 seconds.
+  path: Assets/Scenes/AIUniverse.unity
+  artifactKey: Guid(60105e0aa3d56a74682b43b6c0c5a5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AIUniverse.unity using Guid(60105e0aa3d56a74682b43b6c0c5a5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d9ee44169ad0ddcbea4d23e10b7f0f') in 0.009951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.801258 seconds.
+  path: Assets/Assets_URPConverterIndex.index
+  artifactKey: Guid(6384278dbdefb9640880e617ece67378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_URPConverterIndex.index using Guid(6384278dbdefb9640880e617ece67378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e3fc8b033ad87d165b1d1e134fca85') in 0.037757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.011607 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Environment_Prefab.prefab
+  artifactKey: Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/StarterAssets/Environment/Prefabs/Environment_Prefab.prefab using Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c2d98e0f4753081ba9c8052401f3f60') in 0.361701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDay4k.hdr
+  artifactKey: Guid(3e80b688af9b1d84ea52c5d36bb1cbbd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDay4k.hdr using Guid(3e80b688af9b1d84ea52c5d36bb1cbbd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f473f5b88480ddddf5cad2a8cd715be') in 0.316462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CoriolisNight4k.hdr
+  artifactKey: Guid(354036e57ae357148aed267204ce73a7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CoriolisNight4k.hdr using Guid(354036e57ae357148aed267204ce73a7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6c7e6bd10c8414a81722e76bde6bf12') in 0.161345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SkySeries Freebie/UnderTheSea4k.mat
+  artifactKey: Guid(119ec07f1c7ed204db46bd8465fd5a50) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/UnderTheSea4k.mat using Guid(119ec07f1c7ed204db46bd8465fd5a50) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2755e7ff4c982047fc7f46b9dc2cd253') in 0.193643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/DarkStorm4K.hdr
+  artifactKey: Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/DarkStorm4K.hdr using Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e0e591c624f64da328370737ac5156a') in 0.127549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayTop.hdr
+  artifactKey: Guid(c769857dc541ab7449d1352d7ff46ce8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayTop.hdr using Guid(c769857dc541ab7449d1352d7ff46ce8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0de5063ed47a774844ae379bea1874f4') in 0.041806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/MegaSunBack.hdr
+  artifactKey: Guid(4e52cbaf92b83a94cb86bed75ed34652) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSunBack.hdr using Guid(4e52cbaf92b83a94cb86bed75ed34652) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33dfc90df2e587341acab5cfe1bc6549') in 0.050782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayBottom.hdr
+  artifactKey: Guid(42e0664ae4c5c424ebcd980a10687e18) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayBottom.hdr using Guid(42e0664ae4c5c424ebcd980a10687e18) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bfe07a191cbe955843fbc4f0f5f4fa3') in 0.038771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/MegaSunRight.hdr
+  artifactKey: Guid(f5760fc943c5eb643a2291630888f6a1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSunRight.hdr using Guid(f5760fc943c5eb643a2291630888f6a1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c71f081e8c229ca1c9b86c52dd63682b') in 0.063500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/MegaSunFront.hdr
+  artifactKey: Guid(b915aaf1fa7dbd54a9e60e42712933a9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSunFront.hdr using Guid(b915aaf1fa7dbd54a9e60e42712933a9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd61190e72bde1c040bfb099f5277bd83') in 0.044324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayFront.hdr
+  artifactKey: Guid(4499836ec803a0443834895abc208fba) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayFront.hdr using Guid(4499836ec803a0443834895abc208fba) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1102844ac8da6e5679b126b8055fdbcc') in 0.074768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects
+  artifactKey: Guid(4f34c5940141eff4e82f4c8bfdf6e203) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects using Guid(4f34c5940141eff4e82f4c8bfdf6e203) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db06fd98a67995bafdded848177398a8') in 0.022404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/CloudyMorning.unity
+  artifactKey: Guid(3ed7059aff13dc14fbe949f7f63b522f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/ExampleScenes/CloudyMorning.unity using Guid(3ed7059aff13dc14fbe949f7f63b522f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/SkySeries Freebie/ExampleScenes/CloudyMorning.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Problem detected while opening the Scene file: 'Assets/SkySeries Freebie/ExampleScenes/CloudyMorning.unity'.
+Check the following logs for more details.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+[C:\build\output\unity\unity\Runtime\PreloadManager\LoadSceneOperation.cpp line 898]
+
+Component at index 2 could not be loaded when loading game object 'Main Camera'. Removing it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\BaseClasses\ErrorsAndWarningsCapture.cpp line 73]
+
+Loaded scene 'Assets/SkySeries Freebie/ExampleScenes/CloudyMorning.unity'
+	Deserialize:            3.291 ms
+	Integration:            18.530 ms
+	Integration of assets:  0.008 ms
+	Thread Wait Time:       -0.000 ms
+	Total Operation Time:   21.829 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10b31b0c52ddb7fb90369a031c28205f') in 0.340270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/CasualDay.unity
+  artifactKey: Guid(745822b12dae28c44b79ddd800e253e4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/ExampleScenes/CasualDay.unity using Guid(745822b12dae28c44b79ddd800e253e4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/SkySeries Freebie/ExampleScenes/CasualDay.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Problem detected while opening the Scene file: 'Assets/SkySeries Freebie/ExampleScenes/CasualDay.unity'.
+Check the following logs for more details.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\PreloadManager\LoadSceneOperation.cpp line 898]
+
+Component at index 2 could not be loaded when loading game object 'Main Camera'. Removing it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\BaseClasses\ErrorsAndWarningsCapture.cpp line 73]
+
+Loaded scene 'Assets/SkySeries Freebie/ExampleScenes/CasualDay.unity'
+	Deserialize:            2.185 ms
+	Integration:            4.517 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.034 ms
+	Total Operation Time:   6.738 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd7251b68a0da4411d30b1d6036d6a39') in 0.232701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes
+  artifactKey: Guid(86425fc531d96d146b84220a347e07f7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/ExampleScenes using Guid(86425fc531d96d146b84220a347e07f7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28b5313e33a67ffe66e7b94ba3531d22') in 0.017436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudEQ_hdr.exr
+  artifactKey: Guid(09999639e73bcd64abda22253af612d8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudEQ_hdr.exr using Guid(09999639e73bcd64abda22253af612d8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6560835d2f05fb55486bb8bc6e1b6834') in 0.161608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/2_10.mat
+  artifactKey: Guid(eb10b6f571322b443bec8c532c088270) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/2_10.mat using Guid(eb10b6f571322b443bec8c532c088270) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '539524de42e79664acb90558e2d2e520') in 0.047796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/AmbienceExposure4k.hdr
+  artifactKey: Guid(c9bc6cdb7a2e78b4c85ae74715b0a355) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/AmbienceExposure4k.hdr using Guid(c9bc6cdb7a2e78b4c85ae74715b0a355) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2c5aca1ed0a7440edf2c5657b4d2dd4') in 0.124998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/screen.mat
+  artifactKey: Guid(bf1464b84bb76b44abb088d5a41acfee) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/screen.mat using Guid(bf1464b84bb76b44abb088d5a41acfee) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a74190324f3bac470e0efd02e8fe21d0') in 0.020937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/SkyhighFluffycloudField4k.hdr
+  artifactKey: Guid(18a0be10f0f64ac4c9f679d68e2cf857) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/SkyhighFluffycloudField4k.hdr using Guid(18a0be10f0f64ac4c9f679d68e2cf857) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ebfb72f519791a334150456ccea3f11') in 0.139343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/DarkStorm.unity
+  artifactKey: Guid(952ead6250bb92747a18eeb7e40334cc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/ExampleScenes/DarkStorm.unity using Guid(952ead6250bb92747a18eeb7e40334cc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/SkySeries Freebie/ExampleScenes/DarkStorm.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Problem detected while opening the Scene file: 'Assets/SkySeries Freebie/ExampleScenes/DarkStorm.unity'.
+Check the following logs for more details.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\PreloadManager\LoadSceneOperation.cpp line 898]
+
+Component at index 2 could not be loaded when loading game object 'Main Camera'. Removing it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\BaseClasses\ErrorsAndWarningsCapture.cpp line 73]
+
+Loaded scene 'Assets/SkySeries Freebie/ExampleScenes/DarkStorm.unity'
+	Deserialize:            1.656 ms
+	Integration:            4.241 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.092 ms
+	Total Operation Time:   5.996 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7304d3168976340668932b9a48f26904') in 0.231765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/UnderTheSea4k.hdr
+  artifactKey: Guid(26cddb2a3a1bc804d8e9ca09b109793a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/UnderTheSea4k.hdr using Guid(26cddb2a3a1bc804d8e9ca09b109793a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d93ee59c2723a22a5ec3ebe72b4a097') in 0.137101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/SunlessFreebieDemo.unity
+  artifactKey: Guid(73547a7486fb43f45b68fed50e680e64) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/ExampleScenes/SunlessFreebieDemo.unity using Guid(73547a7486fb43f45b68fed50e680e64) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/SkySeries Freebie/ExampleScenes/SunlessFreebieDemo.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Problem detected while opening the Scene file: 'Assets/SkySeries Freebie/ExampleScenes/SunlessFreebieDemo.unity'.
+Check the following logs for more details.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\PreloadManager\LoadSceneOperation.cpp line 898]
+
+Component at index 2 could not be loaded when loading game object 'Main Camera'. Removing it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\BaseClasses\ErrorsAndWarningsCapture.cpp line 73]
+
+Loaded scene 'Assets/SkySeries Freebie/ExampleScenes/SunlessFreebieDemo.unity'
+	Deserialize:            2.971 ms
+	Integration:            6.612 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.046 ms
+	Total Operation Time:   9.632 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59d17e39fccc98b8d9bd3231a7986bdf') in 0.228332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/nature_root.mat
+  artifactKey: Guid(00fc27719fc29924b9a34aab914dc83a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/nature_root.mat using Guid(00fc27719fc29924b9a34aab914dc83a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c6c22a7b831201409a0ad95b31104aa') in 0.018818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/window.mat
+  artifactKey: Guid(6df5b81390f2c8d4d967baea2b0a190e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/window.mat using Guid(6df5b81390f2c8d4d967baea2b0a190e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65f1617418db6e74f9abe474f8044109') in 0.025717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/SkyhighFreebieDemo.unity
+  artifactKey: Guid(475ff5ddb2faf0f41b3cc2073532de8f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/ExampleScenes/SkyhighFreebieDemo.unity using Guid(475ff5ddb2faf0f41b3cc2073532de8f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/SkySeries Freebie/ExampleScenes/SkyhighFreebieDemo.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Problem detected while opening the Scene file: 'Assets/SkySeries Freebie/ExampleScenes/SkyhighFreebieDemo.unity'.
+Check the following logs for more details.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\PreloadManager\LoadSceneOperation.cpp line 898]
+
+Component at index 2 could not be loaded when loading game object 'Main Camera'. Removing it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\BaseClasses\ErrorsAndWarningsCapture.cpp line 73]
+
+Loaded scene 'Assets/SkySeries Freebie/ExampleScenes/SkyhighFreebieDemo.unity'
+	Deserialize:            2.857 ms
+	Integration:            3.292 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.061 ms
+	Total Operation Time:   6.211 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31e8503cdfa1a6cccab319120dcb54ec') in 0.095011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SkySeries Freebie/DarkStorm.mat
+  artifactKey: Guid(2039a0ad0a9d05549928b70362f54902) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/DarkStorm.mat using Guid(2039a0ad0a9d05549928b70362f54902) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c812abe6704457569777a8a73dc95e1') in 0.073725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/SkySeries Freebie/AmbienceExposure.mat
+  artifactKey: Guid(72deae4d18418f94688abef8e8483df0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/AmbienceExposure.mat using Guid(72deae4d18418f94688abef8e8483df0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4fd5f78f51cad01b76da8ae8732506f6') in 0.060020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/MegaSunLeft.hdr
+  artifactKey: Guid(7f0373fb8ec72a142898c7984aada4b9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSunLeft.hdr using Guid(7f0373fb8ec72a142898c7984aada4b9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '150025038339a6c20b695634b9018287') in 0.047271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/UnearthlyRed4k.hdr
+  artifactKey: Guid(a3de28b69b48944438c87668bd722ae7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/UnearthlyRed4k.hdr using Guid(a3de28b69b48944438c87668bd722ae7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fdc1c735715c73de8a45498f93ea72a3') in 0.140158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CloudedSunGlow4k.hdr
+  artifactKey: Guid(12c15a8e5a294be45819b1dd4b9b08d3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CloudedSunGlow4k.hdr using Guid(12c15a8e5a294be45819b1dd4b9b08d3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ce59b3939ecb7f41fcd5b9ba627642a') in 0.111630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/MegaSun4k.hdr
+  artifactKey: Guid(8967f190ed29c46418093a47d66daee8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSun4k.hdr using Guid(8967f190ed29c46418093a47d66daee8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfdd9503ec7d5d7b1c89e286ee4b57bc') in 0.111360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SkySeries Freebie/MegaSun.mat
+  artifactKey: Guid(cede08c9fc471e64884909cd4bbeaf59) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/MegaSun.mat using Guid(cede08c9fc471e64884909cd4bbeaf59) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a7e05e548ec4e3071ef07e97ab9e651') in 0.058930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri
+  artifactKey: Guid(d78fe5a22bec38d43bbe7e846ac3925a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri using Guid(d78fe5a22bec38d43bbe7e846ac3925a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60e0a63d4e2240742290f4597bdf78a6') in 0.009267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SkySeries Freebie/SkyhighFluffycloudField.mat
+  artifactKey: Guid(f15c336556dd74f40aaca655f7767970) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/SkyhighFluffycloudField.mat using Guid(f15c336556dd74f40aaca655f7767970) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91f988cbc495e4d50abaf4bc345c6ae3') in 0.066984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/Full.mat
+  artifactKey: Guid(1b27a20a436b4c64b882a6f739bf91de) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/Full.mat using Guid(1b27a20a436b4c64b882a6f739bf91de) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b4b3c97f5ef016eec02987c72f685b6') in 0.018146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/SkySeries Freebie/Cloudymorning.mat
+  artifactKey: Guid(d9dca9ae1786c394f9e79c637aa9a7bf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/Cloudymorning.mat using Guid(d9dca9ae1786c394f9e79c637aa9a7bf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30aacff3c27cf5a8a28abd81418463db') in 0.115045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/CosmicCoolCloud.unity
+  artifactKey: Guid(919d3dbc008ab724da78b594b20b503d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/ExampleScenes/CosmicCoolCloud.unity using Guid(919d3dbc008ab724da78b594b20b503d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/SkySeries Freebie/ExampleScenes/CosmicCoolCloud.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Problem detected while opening the Scene file: 'Assets/SkySeries Freebie/ExampleScenes/CosmicCoolCloud.unity'.
+Check the following logs for more details.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\PreloadManager\LoadSceneOperation.cpp line 898]
+
+Component at index 2 could not be loaded when loading game object 'Main Camera'. Removing it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\BaseClasses\ErrorsAndWarningsCapture.cpp line 73]
+
+Loaded scene 'Assets/SkySeries Freebie/ExampleScenes/CosmicCoolCloud.unity'
+	Deserialize:            2.057 ms
+	Integration:            5.857 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.069 ms
+	Total Operation Time:   7.985 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d1598bbd1ac90f3988d44c8b8a39bbc') in 0.345324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CasualDay4K.hdr
+  artifactKey: Guid(1153dc89e66880c4eb7adc16ba588855) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CasualDay4K.hdr using Guid(1153dc89e66880c4eb7adc16ba588855) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4daf8038ffd76d3595680fea348c418b') in 0.103280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/4_10.mat
+  artifactKey: Guid(db3bceb128d32144ca6fd4550ac256bc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/4_10.mat using Guid(db3bceb128d32144ca6fd4550ac256bc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d6f64f588a0b52e1d73ef723aa33f31') in 0.013272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudFront.hdr
+  artifactKey: Guid(d822c5eff7d42f04691027bc8c2b0716) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudFront.hdr using Guid(d822c5eff7d42f04691027bc8c2b0716) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57a2957d7323d7a37354ad67f6191025') in 0.038216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SkySeries Freebie/SunlessCirruscover.mat
+  artifactKey: Guid(4e154bf235e41704bbd6bbc6fd6c63f6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/SunlessCirruscover.mat using Guid(4e154bf235e41704bbd6bbc6fd6c63f6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c9b113d9025a7b56cd46ab5cd9cbf16') in 0.103751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/PlanetaryFreebie.unity
+  artifactKey: Guid(b803de4d65984fd4b83f3b24d963118f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/ExampleScenes/PlanetaryFreebie.unity using Guid(b803de4d65984fd4b83f3b24d963118f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/SkySeries Freebie/ExampleScenes/PlanetaryFreebie.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Problem detected while opening the Scene file: 'Assets/SkySeries Freebie/ExampleScenes/PlanetaryFreebie.unity'.
+Check the following logs for more details.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\PreloadManager\LoadSceneOperation.cpp line 898]
+
+Component at index 2 could not be loaded when loading game object 'Main Camera'. Removing it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\BaseClasses\ErrorsAndWarningsCapture.cpp line 73]
+
+Loaded scene 'Assets/SkySeries Freebie/ExampleScenes/PlanetaryFreebie.unity'
+	Deserialize:            1.605 ms
+	Integration:            3.433 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.092 ms
+	Total Operation Time:   5.132 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b03b141d00d40904aaf9b27befdc49b4') in 0.131138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/PlanetaryEarth4k.hdr
+  artifactKey: Guid(3675d0c3c874f6b479bab57eb7e68c90) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/PlanetaryEarth4k.hdr using Guid(3675d0c3c874f6b479bab57eb7e68c90) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b4aac2614b57e38842dd08ca437322e') in 0.157992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SkySeries Freebie/Hdri setup.txt
+  artifactKey: Guid(add36ebe5ee5af347a876cdf41d00709) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/Hdri setup.txt using Guid(add36ebe5ee5af347a876cdf41d00709) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acbea9a63afc997b18ce10d0bad2cfab') in 0.026962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Futuristic_soldier/Materials/Futuristic_soldier_Red.mat
+  artifactKey: Guid(0d3796d0bd5d6224e9bf728d77aa5db6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Futuristic_soldier/Materials/Futuristic_soldier_Red.mat using Guid(0d3796d0bd5d6224e9bf728d77aa5db6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ee6f17ea216fe4507fc26e814f10d21') in 0.175234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/MegaSunTop.hdr
+  artifactKey: Guid(47d70ba0d1c1c3e4ab451b6bc37b0ebe) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSunTop.hdr using Guid(47d70ba0d1c1c3e4ab451b6bc37b0ebe) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f047656e85e578fe23ddfe2c32ba7989') in 0.027248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SkySeries Freebie/CoriolisNight4k.mat
+  artifactKey: Guid(d4454f71d85928744be7771e2143dab7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/CoriolisNight4k.mat using Guid(d4454f71d85928744be7771e2143dab7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2eff06744efcfb2ffd772ab422a3a127') in 0.055675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Example scenes/Materials/Sand.mat
+  artifactKey: Guid(d7ecd8db85bf61440b7ca5d302afd010) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci-Fi Styled Modular Pack/Example scenes/Materials/Sand.mat using Guid(d7ecd8db85bf61440b7ca5d302afd010) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5513c14b7e98503d45f6efe07b2be9a1') in 0.018992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/glass.mat
+  artifactKey: Guid(2ce01831e9f3ae441bb48623e5fbe0c0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/glass.mat using Guid(2ce01831e9f3ae441bb48623e5fbe0c0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c0fd869caae0a771faad4f50c1461a9') in 0.013484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/HighFantasy.unity
+  artifactKey: Guid(c5c5155be27cc3a4fbea5063433ca717) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/ExampleScenes/HighFantasy.unity using Guid(c5c5155be27cc3a4fbea5063433ca717) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/SkySeries Freebie/ExampleScenes/HighFantasy.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Problem detected while opening the Scene file: 'Assets/SkySeries Freebie/ExampleScenes/HighFantasy.unity'.
+Check the following logs for more details.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\PreloadManager\LoadSceneOperation.cpp line 898]
+
+Component at index 2 could not be loaded when loading game object 'Main Camera'. Removing it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\BaseClasses\ErrorsAndWarningsCapture.cpp line 73]
+
+Loaded scene 'Assets/SkySeries Freebie/ExampleScenes/HighFantasy.unity'
+	Deserialize:            1.342 ms
+	Integration:            2.830 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.086 ms
+	Total Operation Time:   4.260 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '888927589b38660ad58ab172faeb94b2') in 0.152482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudTop.hdr
+  artifactKey: Guid(a199da0432efa6a489df8883d1f3bfe0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudTop.hdr using Guid(a199da0432efa6a489df8883d1f3bfe0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'beafdf8680a2d4f927ef18f9bffd7c50') in 0.045270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudRight.hdr
+  artifactKey: Guid(438e868ac8cccca4e81873838a67c003) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudRight.hdr using Guid(438e868ac8cccca4e81873838a67c003) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d5d90f59736fcb39f5f5aac84f77d38') in 0.040827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SkySeries Freebie/FluffballDay.mat
+  artifactKey: Guid(20d4f77b9022eab48b4d94599ed4bf82) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FluffballDay.mat using Guid(20d4f77b9022eab48b4d94599ed4bf82) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fcfa2472593ee67aef7e30981667ff0d') in 0.063309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SkySeries Freebie/PlanetaryEarth.mat
+  artifactKey: Guid(16bc8a9d5451ca44d8f70575adbece3a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/PlanetaryEarth.mat using Guid(16bc8a9d5451ca44d8f70575adbece3a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cad013ab142e8c41f7c05a7ae46cc640') in 0.058270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/blue emission.mat
+  artifactKey: Guid(5476ae29e2e50194abce19e5cacce575) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/blue emission.mat using Guid(5476ae29e2e50194abce19e5cacce575) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79a82a515b34d5e99ded61fbe4987d6e') in 0.026904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat
+  artifactKey: Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat using Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a91db8e3600e40c7d143dab7e03834f') in 0.043957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/HighFantasy4k.hdr
+  artifactKey: Guid(6e998e53d0a82bb45928cd08a0fcfff3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/HighFantasy4k.hdr using Guid(6e998e53d0a82bb45928cd08a0fcfff3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb27ba7a4b606a5c3f0d2113eef80c2b') in 0.155637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBack.hdr
+  artifactKey: Guid(a779becf00399924184cd13e046a100e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBack.hdr using Guid(a779becf00399924184cd13e046a100e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0dd028e813a28343be0214066ec122d8') in 0.077550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/base color.mat
+  artifactKey: Guid(10de6384af0c3b54e8166f9c3f936e88) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/base color.mat using Guid(10de6384af0c3b54e8166f9c3f936e88) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '982ff69df9bdf8130b8ea383eade9af0') in 0.040157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/8_10.mat
+  artifactKey: Guid(964f6a34e2240bf45940918b112ce7be) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/8_10.mat using Guid(964f6a34e2240bf45940918b112ce7be) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aadf0e19211b9012df54f5f7eb18dd54') in 0.017711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SkySeries Freebie/HighFantasy.mat
+  artifactKey: Guid(e2341a9d03e86ec4290c72b1e22bbc7c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/HighFantasy.mat using Guid(e2341a9d03e86ec4290c72b1e22bbc7c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7593cedfc3f49977e41529b944f403a') in 0.097910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/UnderTheSea.unity
+  artifactKey: Guid(36dce1c4ecf83f74392c8361f42e87e7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/ExampleScenes/UnderTheSea.unity using Guid(36dce1c4ecf83f74392c8361f42e87e7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/SkySeries Freebie/ExampleScenes/UnderTheSea.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Problem detected while opening the Scene file: 'Assets/SkySeries Freebie/ExampleScenes/UnderTheSea.unity'.
+Check the following logs for more details.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\PreloadManager\LoadSceneOperation.cpp line 898]
+
+Component at index 2 could not be loaded when loading game object 'Main Camera'. Removing it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\BaseClasses\ErrorsAndWarningsCapture.cpp line 73]
+
+Loaded scene 'Assets/SkySeries Freebie/ExampleScenes/UnderTheSea.unity'
+	Deserialize:            2.690 ms
+	Integration:            4.579 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.039 ms
+	Total Operation Time:   7.309 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '950f0e3b3d56fefc403db1a0e1fd099b') in 0.292835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/DemoObjects.prefab
+  artifactKey: Guid(88c20de6c1dc0f04abeaffaac0a9a6cf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/DemoObjects.prefab using Guid(88c20de6c1dc0f04abeaffaac0a9a6cf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2847658095a6388bb89388062acce9cf') in 0.153622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Futuristic_soldier/Materials/Futuristic_soldier_Green.mat
+  artifactKey: Guid(f3a38759bf7d46244a94938d8387ad28) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Futuristic_soldier/Materials/Futuristic_soldier_Green.mat using Guid(f3a38759bf7d46244a94938d8387ad28) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8068c36b4b989ac7087a71fb2867cd0') in 0.197277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/DayInTheClouds4k.hdr
+  artifactKey: Guid(90196f2c2d8d2f2448717676e1a09894) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/DayInTheClouds4k.hdr using Guid(90196f2c2d8d2f2448717676e1a09894) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4acf8be5340666e624e4e96139dd237') in 0.097266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/UnEarthlyRed.unity
+  artifactKey: Guid(acc44db00cf3703479df04ea90bad261) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/ExampleScenes/UnEarthlyRed.unity using Guid(acc44db00cf3703479df04ea90bad261) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/SkySeries Freebie/ExampleScenes/UnEarthlyRed.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Problem detected while opening the Scene file: 'Assets/SkySeries Freebie/ExampleScenes/UnEarthlyRed.unity'.
+Check the following logs for more details.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\PreloadManager\LoadSceneOperation.cpp line 898]
+
+Component at index 2 could not be loaded when loading game object 'Main Camera'. Removing it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Runtime\BaseClasses\ErrorsAndWarningsCapture.cpp line 73]
+
+Loaded scene 'Assets/SkySeries Freebie/ExampleScenes/UnEarthlyRed.unity'
+	Deserialize:            2.303 ms
+	Integration:            4.853 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.033 ms
+	Total Operation Time:   7.194 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a81606b0ae087db179213b6683d520a') in 0.218956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayBack.hdr
+  artifactKey: Guid(50762494be58d144d98d179cd6ba1470) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayBack.hdr using Guid(50762494be58d144d98d179cd6ba1470) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1aae55c84ecf18275d1a2df62195d8bc') in 0.036999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayRight.hdr
+  artifactKey: Guid(669daa4bd63e4204dacb9aa01a164a7f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayRight.hdr using Guid(669daa4bd63e4204dacb9aa01a164a7f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf192b73d464c2978b476f12d99f8f63') in 0.029016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/comuter_wall.mat
+  artifactKey: Guid(0d0f1f087865a1c47826008280428fdf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/comuter_wall.mat using Guid(0d0f1f087865a1c47826008280428fdf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be36f5ba1e1df2bab3adcfa802cc6540') in 0.022587 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
