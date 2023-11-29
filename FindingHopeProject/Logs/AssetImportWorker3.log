@@ -1,0 +1,342 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'pt' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+49807
+Successfully changed project path to: C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
+C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13832] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 3733838534 [EditorId] 3733838534 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13832] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 3733838534 [EditorId] 3733838534 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 251.75 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009107 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 433 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 214.35 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.450 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1451ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1180ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (126ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (935ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (551ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (214ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019475 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 225.37 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.012 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2014ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1737ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (412ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (992ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (226ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (403ms)
+				ProcessInitializeOnLoadMethodAttributes (143ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6163 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (2.2 MB). Loaded Objects now: 6580.
+Memory consumption went from 258.9 MB to 256.8 MB.
+Total: 6.902400 ms (FindLiveObjects: 0.628500 ms CreateObjectMapping: 0.637900 ms MarkObjects: 4.924600 ms  DeleteObjects: 0.710200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5927.397212 seconds.
+  path: Assets/scp-scientist-female-2/source/BottomsMat.mat
+  artifactKey: Guid(b426024577039e5428cc4c2accd13b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/BottomsMat.mat using Guid(b426024577039e5428cc4c2accd13b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d2c51347752930da80c42580959743') in 2.130179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.616821 seconds.
+  path: Assets/scp-scientist-female-2/source/TopsMat.mat
+  artifactKey: Guid(12a0c456e8b3c8c4ab850b761c7ddaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/TopsMat.mat using Guid(12a0c456e8b3c8c4ab850b761c7ddaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a76d6211e04fb5ae6c452d547fbf19a') in 0.016139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 101.928878 seconds.
+  path: Assets/scp-scientist-female-2/source/BottomsMat.mat
+  artifactKey: Guid(b426024577039e5428cc4c2accd13b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/BottomsMat.mat using Guid(b426024577039e5428cc4c2accd13b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95ae43b8d9dcce4d09897068cbcdde5') in 0.022678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/scp-scientist-female-2/source/Scientist Female 2.obj
+  artifactKey: Guid(b01146d41f8b33d45991383b7988b52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/Scientist Female 2.obj using Guid(b01146d41f8b33d45991383b7988b52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34961dd37ef9f9684e64c4106a7faa92') in 0.245590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/scp-scientist-female-2/source/HairMat.mat
+  artifactKey: Guid(8d33bc97374e82b419dd310207d30e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/HairMat.mat using Guid(8d33bc97374e82b419dd310207d30e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0972df3e7b1a6b5dee8fd11eab9ebe5') in 0.017298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/scp-scientist-female-2/source/EyelashesMat.mat
+  artifactKey: Guid(8b5b2df899c57ea4e903028c177cf636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/EyelashesMat.mat using Guid(8b5b2df899c57ea4e903028c177cf636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fd888aec4a69ebdbc44c804d2a523e') in 0.024999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/scp-scientist-female-2/source/EyesMat.mat
+  artifactKey: Guid(930c48025f622fb45a5fd3bf85d97839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/EyesMat.mat using Guid(930c48025f622fb45a5fd3bf85d97839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdfffe75efd093459f782ee7deb2df3') in 0.025332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.855263 seconds.
+  path: Assets/scp-scientist-female-2/source/TopsMat.mat
+  artifactKey: Guid(12a0c456e8b3c8c4ab850b761c7ddaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/TopsMat.mat using Guid(12a0c456e8b3c8c4ab850b761c7ddaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff58d9d3f521afefa741ee983e84abeb') in 0.012428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.816600 seconds.
+  path: Assets/scp-scientist-female-2/source/EyesMat.mat
+  artifactKey: Guid(930c48025f622fb45a5fd3bf85d97839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/EyesMat.mat using Guid(930c48025f622fb45a5fd3bf85d97839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7f5e8ca0a4150ae6c5e543261456c6') in 0.013759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 456.279822 seconds.
+  path: Assets/stasis-chamber-with-animation/source/_Stasis_Chamber.fbx
+  artifactKey: Guid(93c0718c7359d4b46a81cf87845f7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/_Stasis_Chamber.fbx using Guid(93c0718c7359d4b46a81cf87845f7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbf118eb977959a1eec3b6c3dfd9b8d') in 1.752701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/stasis-chamber-with-animation/source/stasis_chamber_M_human_BaseColor.png
+  artifactKey: Guid(10d38bf0ae1200444bde0c9803adf505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/stasis_chamber_M_human_BaseColor.png using Guid(10d38bf0ae1200444bde0c9803adf505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c438b62c2b1b144099f974099d885b30') in 0.093780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/stasis-chamber-with-animation/source/stasis_chamber_M_glow_Roughness.png
+  artifactKey: Guid(8f1274902aaff364f945cc69ac4becff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/stasis_chamber_M_glow_Roughness.png using Guid(8f1274902aaff364f945cc69ac4becff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701cc09faa211cef42b217a0609b4e8b') in 0.034553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/stasis-chamber-with-animation/source/stasis_chamber_human_noanim.fbx
+  artifactKey: Guid(05561c86a52f7e74e94e662010f0fa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/stasis_chamber_human_noanim.fbx using Guid(05561c86a52f7e74e94e662010f0fa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608a0f76f2fe922af297f0ab30c96abb') in 0.096144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/stasis-chamber-with-animation/source/stasis_chamber_M_human_Roughness.png
+  artifactKey: Guid(c37f7164dea32054d91fd32ae8cf50cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/stasis_chamber_M_human_Roughness.png using Guid(c37f7164dea32054d91fd32ae8cf50cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9816b753f58cab75d1b89bf6a90e2860') in 0.056776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/stasis-chamber-with-animation/source/human_static.fbx
+  artifactKey: Guid(35eedf00fe22dbf409a3b6be35f8ab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/human_static.fbx using Guid(35eedf00fe22dbf409a3b6be35f8ab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8feed5764095bc98eb8667ff640562a') in 0.039440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/stasis-chamber-with-animation/source/stasis_chamber_empty.fbx
+  artifactKey: Guid(fb1d5d1350c71c543a81acfdd914427d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/stasis_chamber_empty.fbx using Guid(fb1d5d1350c71c543a81acfdd914427d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b49a954a93c73b919f0f4345f0ff36') in 0.074697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/stasis-chamber-with-animation/source/stasis_chamber_M_pod_Roughness.png
+  artifactKey: Guid(7abb09be815f60b44a94c4a790b4f61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/stasis_chamber_M_pod_Roughness.png using Guid(7abb09be815f60b44a94c4a790b4f61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a15ba8238997edb4819f263990a424') in 0.431561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/stasis-chamber-with-animation/source/stasis_chamber_M_pod_WithGraphics_BaseColor.png
+  artifactKey: Guid(29c50c5d09b34494d8653a7ee4852252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/stasis_chamber_M_pod_WithGraphics_BaseColor.png using Guid(29c50c5d09b34494d8653a7ee4852252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a929ea735b1bc90de4d8aa786135a6f9') in 0.344316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.082096 seconds.
+  path: Assets/stasis-chamber-with-animation/source/Displays_Diffuse.png
+  artifactKey: Guid(01d57a5cd18c5e945a9f1f01937ab220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/Displays_Diffuse.png using Guid(01d57a5cd18c5e945a9f1f01937ab220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba53aa2a997ab8745b0f40c8a16eb326') in 0.163580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/stasis-chamber-with-animation/source/stasis_chamber_empty.fbx
+  artifactKey: Guid(fb1d5d1350c71c543a81acfdd914427d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/stasis_chamber_empty.fbx using Guid(fb1d5d1350c71c543a81acfdd914427d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61281806bf5de184bd5870e27ce70fbd') in 0.110052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.820139 seconds.
+  path: Assets/stasis-chamber-with-animation/source/M_glass.mat
+  artifactKey: Guid(57d646b370a4c24409ab5c590f0b1064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/M_glass.mat using Guid(57d646b370a4c24409ab5c590f0b1064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0137f58fdc7f11cd84c73da33fe856d') in 0.020719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/stasis-chamber-with-animation/source/M_pod.mat
+  artifactKey: Guid(36d0161868889d94ebbb010a440dfcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/M_pod.mat using Guid(36d0161868889d94ebbb010a440dfcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f10e76a9164754234469219ece8b2f') in 0.019953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/stasis-chamber-with-animation/source/stasis_chamber_human_noanim.fbx
+  artifactKey: Guid(05561c86a52f7e74e94e662010f0fa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/stasis_chamber_human_noanim.fbx using Guid(05561c86a52f7e74e94e662010f0fa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a9fc041a42a840d343d16e71f07660') in 0.122386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 183.735150 seconds.
+  path: Assets/stasis-chamber-with-animation/source/HumanBody2_standardSurface2.mat
+  artifactKey: Guid(02e45372d8d272a4d8eb54c90a472a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/HumanBody2_standardSurface2.mat using Guid(02e45372d8d272a4d8eb54c90a472a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2f4bb795a299a90b1807901e3c3b19') in 0.024819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/stasis-chamber-with-animation/source/M_glow 1.mat
+  artifactKey: Guid(a58a2031eb1d98648aae4ae9e4341f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/M_glow 1.mat using Guid(a58a2031eb1d98648aae4ae9e4341f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f017367907122295f17eb8db93c6fb0') in 0.019400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/stasis-chamber-with-animation/source/M_glass 1.mat
+  artifactKey: Guid(9d4cc37e22eee47459825053c4f2ada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/M_glass 1.mat using Guid(9d4cc37e22eee47459825053c4f2ada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbcad1f19ba968748335f45630a73ce') in 0.024776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/stasis-chamber-with-animation/source/M_pod 1.mat
+  artifactKey: Guid(525d9c1a1bd72a34f9b2a092d6366a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stasis-chamber-with-animation/source/M_pod 1.mat using Guid(525d9c1a1bd72a34f9b2a092d6366a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fae36c4e9c850c363d6c061fe1b5ead') in 0.019142 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
