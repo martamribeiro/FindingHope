@@ -5,17 +5,37 @@ using UnityEngine;
 
 public class GameInput : MonoBehaviour
 {
-    private PlayerInputActions playerInputActions;
+    public event EventHandler OnCameraRotateLeftAction;
+    public event EventHandler OnCameraRotateRightAction;
+
+    private InputActions inputActions;
 
     private void Awake()
     {
-        playerInputActions = new PlayerInputActions();
-        playerInputActions.Player.Enable();
+        inputActions = new InputActions();
+        inputActions.Player.Enable();
+        inputActions.Camera.Enable();
+    }
+
+    private void Start()
+    {
+        inputActions.Camera.RotateLeft.performed += RotateLeft_performed;
+        inputActions.Camera.RotateRight.performed += RotateRight_performed;
+    }
+
+    private void RotateLeft_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    {
+        OnCameraRotateLeftAction?.Invoke(this, EventArgs.Empty);
+    }
+
+    private void RotateRight_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    {
+        OnCameraRotateRightAction?.Invoke(this, EventArgs.Empty);
     }
 
     public Vector2 GetMovementVectorNormalized()
     {
-        Vector2 inputVector = playerInputActions.Player.Move.ReadValue<Vector2>();
+        Vector2 inputVector = inputActions.Player.Move.ReadValue<Vector2>();
 
         return inputVector.normalized;
     }

@@ -69,7 +69,7 @@ public class Player : MonoBehaviour
                 // Attempt only z movement
                 Vector3 moveDirZ = (inputVector.y * mainCameraTransform.forward).normalized;
                 moveDirZ.y = 0;
-                Debug.DrawLine(transform.position, transform.position + moveDirX * 5, Color.blue);
+                Debug.DrawLine(transform.position, transform.position + moveDirZ * 5, Color.blue);
 
                 canMove = moveDir.y != 0 && !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight, playerRadius, moveDirZ, moveDistance);
 
