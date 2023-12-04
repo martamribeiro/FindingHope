@@ -7,10 +7,14 @@ public class Player : MonoBehaviour
     public static Player Instance { get; private set; }
 
     [SerializeField] private GameInput gameInput;
+    [SerializeField] private CharacterController characterController;
     [SerializeField] private float moveSpeed = 7f;
+    [SerializeField] private float gravityMultiplier = 3.0f;
 
-    private bool isWalking;
     private Transform mainCameraTransform;
+    private bool isWalking;
+    private float gravity = -9.81f;
+    private float velocity;
 
     private void Awake()
     {
@@ -41,54 +45,24 @@ public class Player : MonoBehaviour
         Vector3 moveDir = inputVector.y * mainCameraTransform.forward;
         moveDir += inputVector.x * mainCameraTransform.right;
         moveDir.y = 0;
-        moveDir.Normalize();
+        moveDir = moveDir.normalized * moveSpeed * Time.deltaTime;
 
-        Debug.DrawLine(transform.position, transform.position + moveDir * 5, Color.green);
-
-        float moveDistance = moveSpeed * Time.deltaTime;
-        float playerRadius = .7f;
-        float playerHeight = 2f;
-        bool canMove = !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight, playerRadius, moveDir, moveDistance);
-
-        if (!canMove)
+        if (characterController.isGrounded && velocity < 0.0f)
         {
-            // Attempt only X movement
-            Vector3 moveDirX = (inputVector.x * mainCameraTransform.right).normalized;
-            moveDirX.y = 0;
-            Debug.DrawLine(transform.position, transform.position + moveDirX * 5, Color.red);
-
-            canMove = moveDir.x != 0 && !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight, playerRadius, moveDirX, moveDistance);
-
-            if (canMove)
-            {
-                // Can move only on the X axis
-                moveDir = moveDirX;
-            }
-            else
-            {
-                // Attempt only z movement
-                Vector3 moveDirZ = (inputVector.y * mainCameraTransform.forward).normalized;
-                moveDirZ.y = 0;
-                Debug.DrawLine(transform.position, transform.position + moveDirZ * 5, Color.blue);
-
-                canMove = moveDir.y != 0 && !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight, playerRadius, moveDirZ, moveDistance);
-
-                if (canMove)
-                {
-                    // Can move only on the Z axis
-                    moveDir = moveDirZ;
-                }
-            }
+            velocity = 0.0f;
+        }
+        else
+        {
+            velocity += gravity * gravityMultiplier * Time.deltaTime;
+            moveDir.y = velocity;
         }
 
-        if (canMove)
-        {
-            transform.position += moveDir * moveDistance;
-        }
+        characterController.Move(moveDir);
 
-        isWalking = moveDir != Vector3.zero; 
-
+        //isWalking = moveDir != Vector3.zero; 
+        
         float rotateSpeed = 10f;
+        moveDir.y = 0;
         transform.forward = Vector3.Slerp(transform.forward, moveDir, Time.deltaTime * rotateSpeed);
     }
 }
