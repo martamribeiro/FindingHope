@@ -5,17 +5,26 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    private const float GRAVITY = -9.81f;
+
     public static Player Instance { get; private set; }
 
+    public event EventHandler<OnSelectedObjectChangedEventArgs> OnSelectedObjectChanged;
+    public class OnSelectedObjectChangedEventArgs : EventArgs
+    {
+        public IInteractable interactableObject;
+    }
+
+    [Header("Components")]
     [SerializeField] private GameInput gameInput;
     [SerializeField] private CharacterController characterController;
+
+    [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpForce = 1.3f;
     [SerializeField] private float gravityMultiplier = 0.01f;
 
     private Transform mainCameraTransform;
-    private bool isWalking;
-    private float gravity = -9.81f;
     private float verticalVelocity;
 
     private void Awake()
@@ -45,11 +54,6 @@ public class Player : MonoBehaviour
         HandleMovement();
     }
 
-    public bool IsWalking()
-    {
-        return isWalking;
-    }
-
     private void HandleMovement()
     {
         Vector2 inputVector = gameInput.GetMovementVectorNormalized();
@@ -65,13 +69,11 @@ public class Player : MonoBehaviour
         }
         else
         {
-            verticalVelocity += gravity * gravityMultiplier * Time.deltaTime;
+            verticalVelocity += GRAVITY * gravityMultiplier * Time.deltaTime;
             moveDir.y = verticalVelocity;
         }
 
         characterController.Move(moveDir);
-
-        isWalking = moveDir != Vector3.zero && IsGrounded(); 
         
         float rotateSpeed = 10f;
         moveDir.y = 0;
