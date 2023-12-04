@@ -40,11 +40,11 @@ public class ConvaiNPC : MonoBehaviour
     [SerializeField] public string CharacterID;
 
     private AudioSource audioSource;
-    private Animator characterAnimator;
+    /*private Animator characterAnimator;*/
         
     [SerializeField] private TextMeshProUGUI CharacterText;
 
-    bool animationPlaying = false;
+    /*bool animationPlaying = false;*/
 
     bool playingStopLoop = false;
 
@@ -93,7 +93,7 @@ public class ConvaiNPC : MonoBehaviour
     {
         grpcAPI = FindObjectOfType<ConvaiGRPCAPI>();
         audioSource = GetComponent<AudioSource>();
-        characterAnimator = GetComponent<Animator>();
+        /*characterAnimator = GetComponent<Animator>();*/
     }
 
     private void Start()
@@ -180,7 +180,7 @@ public class ConvaiNPC : MonoBehaviour
             getResponseResponses.Remove(getResponseResponses[0]);
         }
 
-        // if any audio is playing, play the talking animation
+        /*// if any audio is playing, play the talking animation
         if (ResponseAudios.Count > 0)
         {
             if (animationPlaying == false)
@@ -201,7 +201,7 @@ public class ConvaiNPC : MonoBehaviour
 
                 characterAnimator.SetBool("Talk", false);
             }
-        }
+        }*/
     }
 
     /// <summary>

@@ -15,7 +15,7 @@ C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50134
+49807
 Successfully changed project path to: C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
 C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20376] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 3164232946 [EditorId] 3164232946 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13244] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 1861268873 [EditorId] 1861268873 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20376] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 3164232946 [EditorId] 3164232946 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13244] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 1861268873 [EditorId] 1861268873 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 799.12 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 257.82 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,54 +67,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010619 seconds.
+Registered in 0.011765 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 553 ms
+Android Extension - Scanning For ADB Devices 608 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 233.62 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 269.56 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.828 seconds
+- Completed reload, in  1.856 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1829ms)
-		BeginReloadAssembly (128ms)
+	ReloadAssembly (1856ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1541ms)
-			LoadAssemblies (124ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1591ms)
+			LoadAssemblies (122ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (214ms)
+			SetupTypeCache (227ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (1170ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (1236ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (708ms)
+				InitializePlatformSupportModulesInManaged (746ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (234ms)
+				RefreshPlugins (270ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (140ms)
-				ProcessInitializeOnLoadMethodAttributes (85ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.021373 seconds.
+Registered in 0.023793 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -123,23 +123,23 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 267.93 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 327.31 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
   at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
-  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <57a8ad0d1492436d8cfee9ba8e6618f8>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <57a8ad0d1492436d8cfee9ba8e6618f8>:0 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
 UnityEditor.Tools:OnEnable ()
 UnityEngine.ScriptableObject:CreateInstance (System.Type)
 UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
@@ -152,43 +152,43 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.717 seconds
+- Completed reload, in  2.832 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2719ms)
-		BeginReloadAssembly (167ms)
+	ReloadAssembly (2833ms)
+		BeginReloadAssembly (183ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (2396ms)
-			LoadAssemblies (179ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2465ms)
+			LoadAssemblies (185ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (513ms)
+			SetupTypeCache (625ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (148ms)
-			SetupLoadedEditorAssemblies (1437ms)
+			RebuildScriptCaches (143ms)
+			SetupLoadedEditorAssemblies (1421ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (51ms)
+				InitializePlatformSupportModulesInManaged (41ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (268ms)
-				BeforeProcessingInitializeOnLoad (223ms)
-				ProcessInitializeOnLoadAttributes (656ms)
-				ProcessInitializeOnLoadMethodAttributes (219ms)
-				AfterProcessingInitializeOnLoad (20ms)
+				RefreshPlugins (327ms)
+				BeforeProcessingInitializeOnLoad (290ms)
+				ProcessInitializeOnLoadAttributes (589ms)
+				ProcessInitializeOnLoadMethodAttributes (163ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.31 seconds
-Refreshing native plugins compatible for Editor in 2.15 ms, found 6 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 2.54 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6163 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 105 unused Assets / (2.2 MB). Loaded Objects now: 6580.
 Memory consumption went from 259.1 MB to 256.9 MB.
-Total: 7.096000 ms (FindLiveObjects: 0.687400 ms CreateObjectMapping: 0.655100 ms MarkObjects: 4.904100 ms  DeleteObjects: 0.847700 ms)
+Total: 9.654000 ms (FindLiveObjects: 0.859700 ms CreateObjectMapping: 1.082300 ms MarkObjects: 6.754200 ms  DeleteObjects: 0.955900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -200,3 +200,151 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5268.059383 seconds.
+  path: Assets/scp-scientist-female-2/source/Scientist Female 2_Top_diffuse.png
+  artifactKey: Guid(31528ba569ed8a246af045db071d69f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/Scientist Female 2_Top_diffuse.png using Guid(31528ba569ed8a246af045db071d69f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821282fd3d95e49834258e49dfbf1e13') in 0.423053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/scp-scientist-female-2/source/Scientist Female 2_Top_normal.png
+  artifactKey: Guid(ed8d0d9942701a8428116ac2b6b01b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/Scientist Female 2_Top_normal.png using Guid(ed8d0d9942701a8428116ac2b6b01b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669dd586d43d93a6cbe420a857fdf851') in 0.182099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/scp-scientist-female-2/source/Scientist Female 2_Shoes_specular.png
+  artifactKey: Guid(ac86d228ea5661e44a5f883ed8196469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/Scientist Female 2_Shoes_specular.png using Guid(ac86d228ea5661e44a5f883ed8196469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543206c4e2b287a2e1ec378f67811dd4') in 0.062503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/scp-scientist-female-2/source/Scientist Female 2_Shoes_diffuse.png
+  artifactKey: Guid(b5d45be5e87d43940bc302a4d924b3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/Scientist Female 2_Shoes_diffuse.png using Guid(b5d45be5e87d43940bc302a4d924b3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb41a124848b80fbbdff79e9311ef8f8') in 0.052425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/scp-scientist-female-2/source/Scientist Female 2_Bottom_specular.png
+  artifactKey: Guid(641be7451b64b3941a2634ab998cf1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/Scientist Female 2_Bottom_specular.png using Guid(641be7451b64b3941a2634ab998cf1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe64535ea6f8bcb747cbc4df74984f3') in 0.095677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/scp-scientist-female-2/source/Scientist Female 2_Top_gloss.png
+  artifactKey: Guid(827f62aa1689c7a42992cdafcc93c949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/Scientist Female 2_Top_gloss.png using Guid(827f62aa1689c7a42992cdafcc93c949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd605d036d519ae8fc4575bf78b16e9bd') in 0.165021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/scp-scientist-female-2/source/Scientist Female 2_Body_diffuse.png
+  artifactKey: Guid(42846e766dbd27f4f867fc8264c94b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/Scientist Female 2_Body_diffuse.png using Guid(42846e766dbd27f4f867fc8264c94b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac579559452ec750dd2522ca6e4b88c2') in 0.167470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/scp-scientist-female-2/source/Scientist Female 2_Body_gloss.png
+  artifactKey: Guid(acb0beb6abd31a94e86096a476eb1d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/Scientist Female 2_Body_gloss.png using Guid(acb0beb6abd31a94e86096a476eb1d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f734cd07b19b9a50f762a0f60d067a7') in 0.095015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/scp-scientist-female-2/source/Scientist Female 2_Shoes_gloss.png
+  artifactKey: Guid(b353ef279b12bf24cafc718f38bf6fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/Scientist Female 2_Shoes_gloss.png using Guid(b353ef279b12bf24cafc718f38bf6fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50fe943296eaaf66f80625d5d33765b') in 0.046159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/scp-scientist-female-2/source/Scientist Female 2_Hair_gloss.png
+  artifactKey: Guid(7b847c7b1bd3fcc479aa24f119f9d224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/Scientist Female 2_Hair_gloss.png using Guid(7b847c7b1bd3fcc479aa24f119f9d224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80af2e69e08699d3d208342eb003801') in 0.041324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/scp-scientist-female-2
+  artifactKey: Guid(b8339f4c3d0ef3f43b68f2bee72f000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2 using Guid(b8339f4c3d0ef3f43b68f2bee72f000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1257ab97a4386b3fb2b219290cfe8f8e') in 0.003019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/scp-scientist-female-2/source
+  artifactKey: Guid(d45cf3271cbf0b64187a0d4a6dedbbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source using Guid(d45cf3271cbf0b64187a0d4a6dedbbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693035009951c0a89ca6e15984a814a2') in 0.003191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/scp-scientist-female-2/source/Scientist Female 2_Bottom_normal.png
+  artifactKey: Guid(39381f63d003c9b4db89c78d947f5cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/Scientist Female 2_Bottom_normal.png using Guid(39381f63d003c9b4db89c78d947f5cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0d2c3692a3020ecbf241c31158100d') in 0.162410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/scp-scientist-female-2/source/Scientist Female 2_Hair_diffuse.png
+  artifactKey: Guid(af2dd7af2fce9524faf815d892b75f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/Scientist Female 2_Hair_diffuse.png using Guid(af2dd7af2fce9524faf815d892b75f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c41a0b50705c941d172555f183df841') in 0.061358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/scp-scientist-female-2/source/Scientist Female 2_Body_specular.png
+  artifactKey: Guid(74856f4bb09eea744ab9c13775c6e263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/Scientist Female 2_Body_specular.png using Guid(74856f4bb09eea744ab9c13775c6e263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8a54e3d63feca01ff59f20f662ffb1') in 0.097818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.322946 seconds.
+  path: Assets/scp-scientist-female-2/textures/Scientist Female 2_Body_normal.png
+  artifactKey: Guid(89cd99363a50c3843b46b18d249f94ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/textures/Scientist Female 2_Body_normal.png using Guid(89cd99363a50c3843b46b18d249f94ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79bea5762419ee833851fcfe6c14659') in 0.132867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/scp-scientist-female-2/textures/Scientist Female 2_Bottom_normal.png
+  artifactKey: Guid(7515a33a04168f64489e0cff42c119af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/textures/Scientist Female 2_Bottom_normal.png using Guid(7515a33a04168f64489e0cff42c119af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2071764e2459e198eb3427e756b1ae8') in 0.142493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/scp-scientist-female-2/textures/Scientist Female 2_Bottom_gloss.png
+  artifactKey: Guid(e80e7060dceff72459dcd7e5615d23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/textures/Scientist Female 2_Bottom_gloss.png using Guid(e80e7060dceff72459dcd7e5615d23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73334904620901f2963b3ba7babff6de') in 0.085580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/scp-scientist-female-2/textures/Scientist Female 2_Shoes_normal.png
+  artifactKey: Guid(4bb471abc49386c41b00756c144112ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/textures/Scientist Female 2_Shoes_normal.png using Guid(4bb471abc49386c41b00756c144112ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f9001b8d39b9d75c6f063c254a4d91') in 0.052529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/scp-scientist-female-2/textures/Scientist Female 2_Shoes_specular.png
+  artifactKey: Guid(3e2442e3260f67d40acbaef07c60ba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/textures/Scientist Female 2_Shoes_specular.png using Guid(3e2442e3260f67d40acbaef07c60ba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510d3e651febf46a105c026adf0287e6') in 0.034265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/scp-scientist-female-2/textures/Scientist Female 2_Top_normal.png
+  artifactKey: Guid(ac3d0fba1bb15dd4893f91c75e3db027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/textures/Scientist Female 2_Top_normal.png using Guid(ac3d0fba1bb15dd4893f91c75e3db027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3914a77e018929d658fc780e5245167') in 0.143852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/scp-scientist-female-2/textures/Scientist Female 2_Hair_specular.png
+  artifactKey: Guid(bc0280ba582e9df4f83f038a9424391e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/textures/Scientist Female 2_Hair_specular.png using Guid(bc0280ba582e9df4f83f038a9424391e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f54768c162dbe048426529a09a7a4e') in 0.055683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 297.683112 seconds.
+  path: Assets/scp-scientist-female-2/source/BottomsMat.mat
+  artifactKey: Guid(b426024577039e5428cc4c2accd13b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/BottomsMat.mat using Guid(b426024577039e5428cc4c2accd13b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a8edd470ffebc64b059a01f43c4b87') in 0.417978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.133474 seconds.
+  path: Assets/scp-scientist-female-2/source/TopsMat.mat
+  artifactKey: Guid(12a0c456e8b3c8c4ab850b761c7ddaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scp-scientist-female-2/source/TopsMat.mat using Guid(12a0c456e8b3c8c4ab850b761c7ddaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79070bbb7e51dc908c823a0bfdf1b2f') in 0.010407 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
