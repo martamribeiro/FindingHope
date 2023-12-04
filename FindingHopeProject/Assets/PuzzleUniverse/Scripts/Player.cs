@@ -20,12 +20,16 @@ public class Player : MonoBehaviour
     [SerializeField] private CharacterController characterController;
 
     [Header("Movement Settings")]
-    [SerializeField] private float moveSpeed = 7f;
+    [SerializeField] private float walkingSpeed = 5f;
+    [SerializeField] private float runningSpeed = 8f;
     [SerializeField] private float jumpForce = 1.3f;
     [SerializeField] private float gravityMultiplier = 0.01f;
 
     private Transform mainCameraTransform;
     private float verticalVelocity;
+    private float movementSpeed;
+    private bool isRunning;
+    private bool isWalking;
 
     private void Awake()
     {
@@ -33,12 +37,29 @@ public class Player : MonoBehaviour
             Debug.LogError("There is more than one player instance!");
         
         Instance = this;
+        movementSpeed = walkingSpeed;
     }
 
     private void Start()
     {
         mainCameraTransform = Camera.main.transform;
+        
         gameInput.OnPlayerJumpAction += GameInput_OnPlayerJumpAction;
+        gameInput.OnPlayerRunAction += GameInput_OnPlayerRunAction;
+    }
+
+    private void GameInput_OnPlayerRunAction(object sender, EventArgs e)
+    {
+        if (isRunning)
+        {
+            movementSpeed = walkingSpeed;
+            isRunning = false;
+        }
+        else
+        {
+            movementSpeed = runningSpeed;
+            isRunning = true;
+        }
     }
 
     private void GameInput_OnPlayerJumpAction(object sender, System.EventArgs e)
@@ -61,7 +82,7 @@ public class Player : MonoBehaviour
         Vector3 moveDir = inputVector.y * mainCameraTransform.forward;
         moveDir += inputVector.x * mainCameraTransform.right;
         moveDir.y = 0;
-        moveDir = moveDir.normalized * moveSpeed * Time.deltaTime;
+        moveDir = moveDir.normalized * movementSpeed * Time.deltaTime;
 
         if (characterController.isGrounded && verticalVelocity < 0.0f)
         {
@@ -74,6 +95,8 @@ public class Player : MonoBehaviour
         }
 
         characterController.Move(moveDir);
+
+        isWalking = moveDir.x != 0.0f || moveDir.z != 0.0f;
         
         float rotateSpeed = 10f;
         moveDir.y = 0;
@@ -85,5 +108,15 @@ public class Player : MonoBehaviour
         float maxDistance = 0.1f;
 
         return Physics.Raycast(transform.position, Vector3.down, maxDistance);
+    }
+
+    public bool IsWalking()
+    {
+        return isWalking;
+    }
+
+    public bool IsRunning()
+    {
+        return isRunning;
     }
 }

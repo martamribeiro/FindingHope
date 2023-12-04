@@ -7,7 +7,10 @@ public class GameInput : MonoBehaviour
 {
     public event EventHandler OnCameraRotateLeftAction;
     public event EventHandler OnCameraRotateRightAction;
+
     public event EventHandler OnPlayerJumpAction;
+
+    public event EventHandler OnPlayerRunAction;
 
     private InputActions inputActions;
 
@@ -24,6 +27,14 @@ public class GameInput : MonoBehaviour
         inputActions.Camera.RotateRight.performed += RotateRight_performed;
 
         inputActions.Player.Jump.started += Jump_started;
+
+        inputActions.Player.Run.started += Run_action;
+        inputActions.Player.Run.canceled += Run_action;
+    }
+
+    private void Run_action(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    {
+        OnPlayerRunAction?.Invoke(this, EventArgs.Empty);
     }
 
     private void Jump_started(UnityEngine.InputSystem.InputAction.CallbackContext obj)
