@@ -7,7 +7,6 @@ using Siccity.GLTFUtility.Converters;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Scripting;
-using Newtonsoft.Json.Linq;
 
 namespace Siccity.GLTFUtility {
 	// https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#material
@@ -29,7 +28,6 @@ namespace Siccity.GLTFUtility {
 		public float alphaCutoff = 0.5f;
 		public bool doubleSided = false;
 		public Extensions extensions;
-		public JObject extras;
 
 		public class ImportResult {
 			public Material material;
@@ -293,10 +291,10 @@ namespace Siccity.GLTFUtility {
 				});
 			}
 
-			public override IEnumerator OnCoroutine(Action<float> onProgress = null) {
+			public override IEnumerator OnCoroutine(Action<float, ImportType> onProgress = null) {
 				// No materials
 				if (materials == null) {
-					if (onProgress != null) onProgress.Invoke(1f);
+					if (onProgress != null) onProgress.Invoke(1f, ImportType.MATERIAL);
 					IsCompleted = true;
 					yield break;
 				}
@@ -308,7 +306,7 @@ namespace Siccity.GLTFUtility {
 					while (en.MoveNext()) { yield return null; };
 
 					if (Result[i].material.name == null) Result[i].material.name = "material" + i;
-					if (onProgress != null) onProgress.Invoke((float) (i + 1) / (float) Result.Length);
+					if (onProgress != null) onProgress.Invoke((float) (i + 1) / (float) Result.Length, ImportType.MATERIAL);
 					yield return null;
 				}
 				IsCompleted = true;

@@ -44,13 +44,6 @@ namespace Siccity.GLTFUtility {
 
 #region Import
 		public class ImportResult {
-
-			private const float byteNormalize = 1f / byte.MaxValue;
-			private const float shortNormalize = 1f / short.MaxValue;
-			private const float ushortNormalize = 1f / ushort.MaxValue;
-			private const float intNormalize = 1f / int.MaxValue;
-			private const float uintNormalize = 1f / uint.MaxValue;
-
 			public GLTFBufferView.ImportResult bufferView;
 			public int? byteStride;
 			public int count;
@@ -139,10 +132,10 @@ namespace Siccity.GLTFUtility {
 				return m;
 			}
 
-			public Vector4[] ReadVec4(bool normalize = false) {
+			public Vector4[] ReadVec4() {
 				if (!ValidateAccessorType(type, AccessorType.VEC4)) return new Vector4[count];
 
-				Func<BufferedBinaryReader, float> floatReader = normalize ? GetNormalizedFloatReader(componentType) : GetFloatReader(componentType);
+				Func<BufferedBinaryReader, float> floatReader = GetFloatReader(componentType);
 
 				Vector4[] v = new Vector4[count];
 				if (bufferView != null) {
@@ -181,7 +174,7 @@ namespace Siccity.GLTFUtility {
 			public Color[] ReadColor() {
 				if (!ValidateAccessorTypeAny(type, AccessorType.VEC3, AccessorType.VEC4)) return new Color[count];
 
-				Func<BufferedBinaryReader, float> floatReader = GetNormalizedFloatReader(componentType);
+				Func<BufferedBinaryReader, float> floatReader = GetFloatReader(componentType);
 
 				Color[] c = new Color[count];
 				if (bufferView != null) {
@@ -235,10 +228,10 @@ namespace Siccity.GLTFUtility {
 				return c;
 			}
 
-			public Vector3[] ReadVec3(bool normalize = false) {
+			public Vector3[] ReadVec3() {
 				if (!ValidateAccessorType(type, AccessorType.VEC3)) return new Vector3[count];
 
-				Func<BufferedBinaryReader, float> floatReader = normalize ? GetNormalizedFloatReader(componentType) : GetFloatReader(componentType);
+				Func<BufferedBinaryReader, float> floatReader = GetFloatReader(componentType);
 
 				Vector3[] v = new Vector3[count];
 				if (bufferView != null) {
@@ -272,10 +265,10 @@ namespace Siccity.GLTFUtility {
 				return v;
 			}
 
-			public Vector2[] ReadVec2(bool normalize = false) {
+			public Vector2[] ReadVec2() {
 				if (!ValidateAccessorType(type, AccessorType.VEC2)) return new Vector2[count];
 
-				Func<BufferedBinaryReader, float> floatReader = normalize ? GetNormalizedFloatReader(componentType) : GetFloatReader(componentType);
+				Func<BufferedBinaryReader, float> floatReader = GetFloatReader(componentType);
 
 				Vector2[] v = new Vector2[count];
 				if (bufferView != null) {
@@ -409,29 +402,6 @@ namespace Siccity.GLTFUtility {
 						return readMethod = x => x.ReadUInt16();
 					case GLType.UNSIGNED_INT:
 						return readMethod = x => x.ReadUInt32();
-					default:
-						Debug.LogWarning("No componentType defined");
-						return readMethod = x => x.ReadSingle();
-				}
-			}
-
-			public Func<BufferedBinaryReader, float> GetNormalizedFloatReader(GLType componentType)
-			{
-				Func<BufferedBinaryReader, float> readMethod;
-				switch(componentType)
-				{
-					case GLType.BYTE:
-						return x => x.ReadSByte();
-					case GLType.UNSIGNED_BYTE:
-						return readMethod = x => x.ReadByte() * byteNormalize;
-					case GLType.FLOAT:
-						return readMethod = x => x.ReadSingle();
-					case GLType.SHORT:
-						return readMethod = x => x.ReadInt16() * shortNormalize;
-					case GLType.UNSIGNED_SHORT:
-						return readMethod = x => x.ReadUInt16() * ushortNormalize;
-					case GLType.UNSIGNED_INT:
-						return readMethod = x => x.ReadUInt32() / uintNormalize;
 					default:
 						Debug.LogWarning("No componentType defined");
 						return readMethod = x => x.ReadSingle();

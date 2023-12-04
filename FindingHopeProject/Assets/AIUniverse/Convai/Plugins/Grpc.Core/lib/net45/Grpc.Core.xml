@@ -1584,11 +1584,11 @@
         <member name="M:Grpc.Core.Logging.ILogger.ForType``1">
             <summary>Returns a logger associated with the specified type.</summary>
         </member>
-        <member name="M:Grpc.Core.Logging.ILogger.Debug(System.String)">
-            <summary>Logs a message with severity Debug.</summary>
+        <member name="M:Grpc.Core.Logging.ILogger.DebugLog(System.String)">
+            <summary>Logs a message with severity DebugLog.</summary>
         </member>
-        <member name="M:Grpc.Core.Logging.ILogger.Debug(System.String,System.Object[])">
-            <summary>Logs a formatted message with severity Debug.</summary>
+        <member name="M:Grpc.Core.Logging.ILogger.DebugLog(System.String,System.Object[])">
+            <summary>Logs a formatted message with severity DebugLog.</summary>
         </member>
         <member name="M:Grpc.Core.Logging.ILogger.Info(System.String)">
             <summary>Logs a message with severity Info.</summary>
@@ -1617,9 +1617,9 @@
         <member name="T:Grpc.Core.Logging.LogLevel">
             <summary>Standard logging levels.</summary>
         </member>
-        <member name="F:Grpc.Core.Logging.LogLevel.Debug">
+        <member name="F:Grpc.Core.Logging.LogLevel.DebugLog">
             <summary>
-            Debug severity.
+            DebugLog severity.
             </summary>
         </member>
         <member name="F:Grpc.Core.Logging.LogLevel.Info">
@@ -1666,11 +1666,11 @@
             Returns a logger associated with the specified type.
             </summary>
         </member>
-        <member name="M:Grpc.Core.Logging.LogLevelFilterLogger.Debug(System.String)">
-            <summary>Logs a message with severity Debug.</summary>
+        <member name="M:Grpc.Core.Logging.LogLevelFilterLogger.DebugLog(System.String)">
+            <summary>Logs a message with severity DebugLog.</summary>
         </member>
-        <member name="M:Grpc.Core.Logging.LogLevelFilterLogger.Debug(System.String,System.Object[])">
-            <summary>Logs a formatted message with severity Debug.</summary>
+        <member name="M:Grpc.Core.Logging.LogLevelFilterLogger.DebugLog(System.String,System.Object[])">
+            <summary>Logs a formatted message with severity DebugLog.</summary>
         </member>
         <member name="M:Grpc.Core.Logging.LogLevelFilterLogger.Info(System.String)">
             <summary>Logs a message with severity Info.</summary>
@@ -1704,12 +1704,12 @@
             Logger which doesn't log any information anywhere.
             </summary>
         </member>
-        <member name="M:Grpc.Core.Logging.NullLogger.Debug(System.String)">
+        <member name="M:Grpc.Core.Logging.NullLogger.DebugLog(System.String)">
             <summary>
             As with all logging calls on this logger, this method is a no-op.
             </summary>
         </member>
-        <member name="M:Grpc.Core.Logging.NullLogger.Debug(System.String,System.Object[])">
+        <member name="M:Grpc.Core.Logging.NullLogger.DebugLog(System.String,System.Object[])">
             <summary>
             As with all logging calls on this logger, this method is a no-op.
             </summary>
@@ -1783,11 +1783,11 @@
             Returns a logger associated with the specified type.
             </summary>
         </member>
-        <member name="M:Grpc.Core.Logging.TextWriterLogger.Debug(System.String)">
-            <summary>Logs a message with severity Debug.</summary>
+        <member name="M:Grpc.Core.Logging.TextWriterLogger.DebugLog(System.String)">
+            <summary>Logs a message with severity DebugLog.</summary>
         </member>
-        <member name="M:Grpc.Core.Logging.TextWriterLogger.Debug(System.String,System.Object[])">
-            <summary>Logs a formatted message with severity Debug.</summary>
+        <member name="M:Grpc.Core.Logging.TextWriterLogger.DebugLog(System.String,System.Object[])">
+            <summary>Logs a formatted message with severity DebugLog.</summary>
         </member>
         <member name="M:Grpc.Core.Logging.TextWriterLogger.Info(System.String)">
             <summary>Logs a message with severity Info.</summary>

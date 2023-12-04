@@ -16,7 +16,7 @@ namespace Siccity.GLTFUtility {
 		/// <summary> Indices of child nodes </summary>
 		public int[] children;
 		/// <summary> Local TRS </summary>
-		[JsonConverter(typeof(Matrix4x4Converter))] public Matrix4x4 matrix = Matrix4x4.identity;
+		[JsonProperty, JsonConverter(typeof(Matrix4x4Converter))] private Matrix4x4 matrix { set { value.UnpackTRS(ref translation, ref rotation, ref scale); } }
 		/// <summary> Local position </summary>
 		[JsonConverter(typeof(TranslationConverter))] public Vector3 translation = Vector3.zero;
 		/// <summary> Local rotation </summary>
@@ -44,8 +44,6 @@ namespace Siccity.GLTFUtility {
 
 		/// <summary> Set local position, rotation and scale </summary>
 		public void ApplyTRS(Transform transform) {
-			if(matrix!=Matrix4x4.identity)
-				matrix.UnpackTRS(ref translation, ref rotation, ref scale); 
 			transform.localPosition = translation;
 			transform.localRotation = rotation;
 			transform.localScale = scale;
@@ -62,20 +60,19 @@ namespace Siccity.GLTFUtility {
 				this.meshTask = meshTask;
 				this.skinTask = skinTask;
 				this.cameras = cameras;
-				//task = new Task(() => { });
+				task = new Task(() => { });
 			}
 
-			public override IEnumerator OnCoroutine(Action<float> onProgress = null) {
+			public override IEnumerator OnCoroutine(Action<float, ImportType> onProgress = null) {
 				// No nodes
 				if (nodes == null) {
-					if (onProgress != null) onProgress.Invoke(1f);
+					if (onProgress != null) onProgress.Invoke(1f, ImportType.NODE);
 					IsCompleted = true;
 					yield break;
 				}
 
 				Result = new ImportResult[nodes.Count];
 
-				
 				// Initialize transforms
 				for (int i = 0; i < Result.Length; i++) {
 					Result[i] = new GLTFNode.ImportResult();
@@ -132,7 +129,6 @@ namespace Siccity.GLTFUtility {
 					if (nodes[i].camera.HasValue) {
 						GLTFCamera cameraData = cameras[nodes[i].camera.Value];
 						Camera camera = Result[i].transform.gameObject.AddComponent<Camera>();
-						Result[i].transform.localRotation = Result[i].transform.localRotation * Quaternion.Euler(0, 180, 0);
 						if (cameraData.type == CameraType.orthographic) {
 							camera.orthographic = true;
 							camera.nearClipPlane = cameraData.orthographic.znear;
