@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,12 +10,13 @@ public class Player : MonoBehaviour
     [SerializeField] private GameInput gameInput;
     [SerializeField] private CharacterController characterController;
     [SerializeField] private float moveSpeed = 7f;
-    [SerializeField] private float gravityMultiplier = 3.0f;
+    [SerializeField] private float jumpForce = 1.3f;
+    [SerializeField] private float gravityMultiplier = 0.01f;
 
     private Transform mainCameraTransform;
     private bool isWalking;
     private float gravity = -9.81f;
-    private float velocity;
+    private float verticalVelocity;
 
     private void Awake()
     {
@@ -27,12 +29,22 @@ public class Player : MonoBehaviour
     private void Start()
     {
         mainCameraTransform = Camera.main.transform;
+        gameInput.OnPlayerJumpAction += GameInput_OnPlayerJumpAction;
+    }
+
+    private void GameInput_OnPlayerJumpAction(object sender, System.EventArgs e)
+    {
+        if (!IsGrounded())
+            return;
+
+        verticalVelocity += jumpForce;
     }
 
     private void Update()
     {
         HandleMovement();
     }
+
     public bool IsWalking()
     {
         return isWalking;
@@ -47,22 +59,29 @@ public class Player : MonoBehaviour
         moveDir.y = 0;
         moveDir = moveDir.normalized * moveSpeed * Time.deltaTime;
 
-        if (characterController.isGrounded && velocity < 0.0f)
+        if (characterController.isGrounded && verticalVelocity < 0.0f)
         {
-            velocity = 0.0f;
+            verticalVelocity = 0.0f;
         }
         else
         {
-            velocity += gravity * gravityMultiplier * Time.deltaTime;
-            moveDir.y = velocity;
+            verticalVelocity += gravity * gravityMultiplier * Time.deltaTime;
+            moveDir.y = verticalVelocity;
         }
 
         characterController.Move(moveDir);
 
-        //isWalking = moveDir != Vector3.zero; 
+        isWalking = moveDir != Vector3.zero && IsGrounded(); 
         
         float rotateSpeed = 10f;
         moveDir.y = 0;
         transform.forward = Vector3.Slerp(transform.forward, moveDir, Time.deltaTime * rotateSpeed);
+    }
+
+    private bool IsGrounded()
+    {   
+        float maxDistance = 0.1f;
+
+        return Physics.Raycast(transform.position, Vector3.down, maxDistance);
     }
 }
