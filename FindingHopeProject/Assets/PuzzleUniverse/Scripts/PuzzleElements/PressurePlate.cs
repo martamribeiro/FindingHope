@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class PressurePlate : MonoBehaviour
 {
-    [SerializeField] private GameObject activatableGameObject;
-    [SerializeField] private PressurePlateAnimator pressurePlateAnimator;
+    [SerializeField] protected GameObject activatableGameObject;
+    [SerializeField] protected PressurePlateAnimator pressurePlateAnimator;
 
-    private IActivatable activatableObject;
-    private int totalNumberOfEntities = 0;
+    protected IActivatable activatableObject;
+    protected int totalNumberOfEntities = 0;
 
     private void Start()
     {
