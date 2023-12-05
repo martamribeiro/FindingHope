@@ -15,7 +15,7 @@ C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59774
+61361
 Successfully changed project path to: C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
 C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25424] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 302680478 [EditorId] 302680478 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14032] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 531788065 [EditorId] 531788065 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25424] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 302680478 [EditorId] 302680478 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14032] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 531788065 [EditorId] 531788065 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 264.11 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 234.58 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -63,58 +63,59 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     3962 MB
     Driver:   31.0.15.1640
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008789 seconds.
+Registered in 0.017747 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 594 ms
+Android Extension - Scanning For ADB Devices 504 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 231.53 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 241.30 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.828 seconds
+- Completed reload, in  1.572 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1829ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (1572ms)
+		BeginReloadAssembly (119ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1542ms)
-			LoadAssemblies (133ms)
+		EndReloadAssembly (1303ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (164ms)
+			SetupTypeCache (145ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (1244ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (1054ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (782ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (232ms)
+				InitializePlatformSupportModulesInManaged (632ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (241ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (145ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.017295 seconds.
+Registered in 0.015510 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -123,112 +124,73 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 192.69 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 372.09 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <57a8ad0d1492436d8cfee9ba8e6618f8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  2.262 seconds
+- Completed reload, in  2.692 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2263ms)
-		BeginReloadAssembly (229ms)
+	ReloadAssembly (2694ms)
+		BeginReloadAssembly (166ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1866ms)
-			LoadAssemblies (188ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (2360ms)
+			LoadAssemblies (148ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (490ms)
+			SetupTypeCache (587ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (106ms)
-			SetupLoadedEditorAssemblies (1021ms)
+			RebuildScriptCaches (130ms)
+			SetupLoadedEditorAssemblies (1396ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
+				InitializePlatformSupportModulesInManaged (29ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (193ms)
-				BeforeProcessingInitializeOnLoad (209ms)
-				ProcessInitializeOnLoadAttributes (441ms)
-				ProcessInitializeOnLoadMethodAttributes (136ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (372ms)
+				BeforeProcessingInitializeOnLoad (221ms)
+				ProcessInitializeOnLoadAttributes (614ms)
+				ProcessInitializeOnLoadMethodAttributes (150ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 2.98 ms, found 6 plugins.
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6164 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 105 unused Assets / (2.2 MB). Loaded Objects now: 6581.
-Memory consumption went from 255.3 MB to 253.1 MB.
-Total: 8.743700 ms (FindLiveObjects: 0.742700 ms CreateObjectMapping: 0.789300 ms MarkObjects: 6.000900 ms  DeleteObjects: 1.208800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 24675.661357 seconds.
-  path: Assets/Scenes/AIUniverse/AIUniverse.unity
-  artifactKey: Guid(60105e0aa3d56a74682b43b6c0c5a5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AIUniverse/AIUniverse.unity using Guid(60105e0aa3d56a74682b43b6c0c5a5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9639c1bdfa3d0b12efb782c2fc1329ff') in 0.014671 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.027577 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.05 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.476 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2477ms)
-		BeginReloadAssembly (216ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (2071ms)
-			LoadAssemblies (169ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (655ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (136ms)
-			SetupLoadedEditorAssemblies (963ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (52ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (213ms)
-				ProcessInitializeOnLoadAttributes (551ms)
-				ProcessInitializeOnLoadMethodAttributes (130ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 14.17 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.2 MB). Loaded Objects now: 6597.
-Memory consumption went from 242.7 MB to 240.6 MB.
-Total: 7.661000 ms (FindLiveObjects: 0.639300 ms CreateObjectMapping: 0.542300 ms MarkObjects: 5.336700 ms  DeleteObjects: 1.140900 ms)
+Unloading 6274 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 108 unused Assets / (4.1 MB). Loaded Objects now: 6689.
+Memory consumption went from 313.0 MB to 308.9 MB.
+Total: 6.383300 ms (FindLiveObjects: 0.632300 ms CreateObjectMapping: 0.573100 ms MarkObjects: 4.151100 ms  DeleteObjects: 1.025700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -243,7 +205,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.019385 seconds.
+Registered in 0.022461 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -252,307 +214,7 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.67 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.676 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2678ms)
-		BeginReloadAssembly (261ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (87ms)
-		EndReloadAssembly (2217ms)
-			LoadAssemblies (218ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (755ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (117ms)
-			SetupLoadedEditorAssemblies (941ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (43ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (162ms)
-				ProcessInitializeOnLoadAttributes (535ms)
-				ProcessInitializeOnLoadMethodAttributes (184ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (27ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 14.51 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.2 MB). Loaded Objects now: 6613.
-Memory consumption went from 242.8 MB to 240.6 MB.
-Total: 9.054800 ms (FindLiveObjects: 0.791000 ms CreateObjectMapping: 0.602800 ms MarkObjects: 6.609900 ms  DeleteObjects: 1.049500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.022359 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.97 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.891 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2893ms)
-		BeginReloadAssembly (246ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (2453ms)
-			LoadAssemblies (202ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (777ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (175ms)
-			SetupLoadedEditorAssemblies (1055ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (47ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (180ms)
-				ProcessInitializeOnLoadAttributes (573ms)
-				ProcessInitializeOnLoadMethodAttributes (236ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 11.20 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.2 MB). Loaded Objects now: 6629.
-Memory consumption went from 242.8 MB to 240.6 MB.
-Total: 9.095800 ms (FindLiveObjects: 0.769100 ms CreateObjectMapping: 0.855200 ms MarkObjects: 6.482200 ms  DeleteObjects: 0.987500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.024294 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.99 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.786 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2787ms)
-		BeginReloadAssembly (245ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (2331ms)
-			LoadAssemblies (221ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (641ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (132ms)
-			SetupLoadedEditorAssemblies (1146ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (55ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (229ms)
-				ProcessInitializeOnLoadAttributes (663ms)
-				ProcessInitializeOnLoadMethodAttributes (179ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (30ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 13.63 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.2 MB). Loaded Objects now: 6645.
-Memory consumption went from 242.8 MB to 240.6 MB.
-Total: 9.805000 ms (FindLiveObjects: 0.794300 ms CreateObjectMapping: 0.804200 ms MarkObjects: 6.898300 ms  DeleteObjects: 1.306000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.023313 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.83 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.735 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2736ms)
-		BeginReloadAssembly (269ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (83ms)
-		EndReloadAssembly (2296ms)
-			LoadAssemblies (224ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (675ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (128ms)
-			SetupLoadedEditorAssemblies (1095ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (57ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (225ms)
-				ProcessInitializeOnLoadAttributes (629ms)
-				ProcessInitializeOnLoadMethodAttributes (166ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 13.82 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.2 MB). Loaded Objects now: 6661.
-Memory consumption went from 242.8 MB to 240.7 MB.
-Total: 7.725600 ms (FindLiveObjects: 0.617400 ms CreateObjectMapping: 0.732500 ms MarkObjects: 5.459400 ms  DeleteObjects: 0.914600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.024742 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.99 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.820 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2821ms)
-		BeginReloadAssembly (283ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (2363ms)
-			LoadAssemblies (225ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (700ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (131ms)
-			SetupLoadedEditorAssemblies (1132ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (62ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (219ms)
-				ProcessInitializeOnLoadAttributes (661ms)
-				ProcessInitializeOnLoadMethodAttributes (167ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (33ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 10.28 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.2 MB). Loaded Objects now: 6677.
-Memory consumption went from 242.8 MB to 240.7 MB.
-Total: 6.813600 ms (FindLiveObjects: 0.648900 ms CreateObjectMapping: 0.627300 ms MarkObjects: 4.748800 ms  DeleteObjects: 0.787200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017809 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.71 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 2.38 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
@@ -581,949 +243,41 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.820 seconds
+- Completed reload, in  2.731 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2821ms)
-		BeginReloadAssembly (255ms)
+	ReloadAssembly (2733ms)
+		BeginReloadAssembly (234ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (67ms)
-		EndReloadAssembly (2362ms)
-			LoadAssemblies (216ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (659ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (152ms)
-			SetupLoadedEditorAssemblies (1147ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (57ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (185ms)
-				ProcessInitializeOnLoadAttributes (690ms)
-				ProcessInitializeOnLoadMethodAttributes (195ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (44ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 19.23 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.2 MB). Loaded Objects now: 6693.
-Memory consumption went from 243.0 MB to 240.8 MB.
-Total: 10.034300 ms (FindLiveObjects: 0.781000 ms CreateObjectMapping: 0.717200 ms MarkObjects: 7.548600 ms  DeleteObjects: 0.985600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.023953 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.35 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.982 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2983ms)
-		BeginReloadAssembly (274ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (2529ms)
-			LoadAssemblies (210ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (691ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (217ms)
-			SetupLoadedEditorAssemblies (1137ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (65ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (222ms)
-				ProcessInitializeOnLoadAttributes (640ms)
-				ProcessInitializeOnLoadMethodAttributes (186ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (50ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 12.34 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.2 MB). Loaded Objects now: 6709.
-Memory consumption went from 243.0 MB to 240.9 MB.
-Total: 8.689600 ms (FindLiveObjects: 0.925600 ms CreateObjectMapping: 0.703200 ms MarkObjects: 6.118900 ms  DeleteObjects: 0.939400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.021440 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.545 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2547ms)
-		BeginReloadAssembly (269ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (75ms)
-		EndReloadAssembly (2082ms)
-			LoadAssemblies (214ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (628ms)
-			ReleaseScriptCaches (6ms)
-			RebuildScriptCaches (121ms)
-			SetupLoadedEditorAssemblies (944ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (167ms)
-				ProcessInitializeOnLoadAttributes (534ms)
-				ProcessInitializeOnLoadMethodAttributes (194ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (40ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 13.36 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.2 MB). Loaded Objects now: 6725.
-Memory consumption went from 243.0 MB to 240.9 MB.
-Total: 8.308100 ms (FindLiveObjects: 0.726900 ms CreateObjectMapping: 0.726600 ms MarkObjects: 5.798500 ms  DeleteObjects: 1.054300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020881 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.31 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.727 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2728ms)
-		BeginReloadAssembly (245ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (63ms)
-		EndReloadAssembly (2272ms)
-			LoadAssemblies (211ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (613ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (137ms)
-			SetupLoadedEditorAssemblies (1117ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (50ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (222ms)
-				ProcessInitializeOnLoadAttributes (657ms)
-				ProcessInitializeOnLoadMethodAttributes (169ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (36ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 14.20 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.2 MB). Loaded Objects now: 6741.
-Memory consumption went from 243.1 MB to 240.9 MB.
-Total: 9.132400 ms (FindLiveObjects: 1.046500 ms CreateObjectMapping: 0.665200 ms MarkObjects: 6.461700 ms  DeleteObjects: 0.956300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.026599 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 4.17 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.895 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2897ms)
-		BeginReloadAssembly (265ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (2418ms)
-			LoadAssemblies (225ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (616ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (111ms)
-			SetupLoadedEditorAssemblies (1266ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (65ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (278ms)
-				ProcessInitializeOnLoadAttributes (716ms)
-				ProcessInitializeOnLoadMethodAttributes (185ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (37ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 16.55 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.2 MB). Loaded Objects now: 6757.
-Memory consumption went from 243.1 MB to 240.9 MB.
-Total: 11.702000 ms (FindLiveObjects: 0.789200 ms CreateObjectMapping: 0.763000 ms MarkObjects: 8.892700 ms  DeleteObjects: 1.254500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.021693 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.55 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
-  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <57a8ad0d1492436d8cfee9ba8e6618f8>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.871 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2873ms)
-		BeginReloadAssembly (282ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (2406ms)
-			LoadAssemblies (231ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (629ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (1226ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (71ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (262ms)
-				ProcessInitializeOnLoadAttributes (683ms)
-				ProcessInitializeOnLoadMethodAttributes (190ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (54ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 16.71 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.2 MB). Loaded Objects now: 6773.
-Memory consumption went from 243.1 MB to 240.9 MB.
-Total: 7.277800 ms (FindLiveObjects: 0.660900 ms CreateObjectMapping: 0.582500 ms MarkObjects: 5.074300 ms  DeleteObjects: 0.958400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.027606 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.29 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.924 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2926ms)
-		BeginReloadAssembly (257ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (2472ms)
-			LoadAssemblies (232ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (734ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (127ms)
-			SetupLoadedEditorAssemblies (1172ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (64ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (225ms)
-				ProcessInitializeOnLoadAttributes (674ms)
-				ProcessInitializeOnLoadMethodAttributes (190ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (40ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 19.11 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.2 MB). Loaded Objects now: 6789.
-Memory consumption went from 243.1 MB to 241.0 MB.
-Total: 9.287100 ms (FindLiveObjects: 0.825800 ms CreateObjectMapping: 0.688800 ms MarkObjects: 6.399300 ms  DeleteObjects: 1.370500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020892 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.01 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.592 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2593ms)
-		BeginReloadAssembly (279ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (83ms)
-		EndReloadAssembly (2135ms)
-			LoadAssemblies (218ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (585ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (114ms)
-			SetupLoadedEditorAssemblies (1058ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (57ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (197ms)
-				ProcessInitializeOnLoadAttributes (610ms)
-				ProcessInitializeOnLoadMethodAttributes (179ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (37ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 13.52 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.2 MB). Loaded Objects now: 6805.
-Memory consumption went from 243.2 MB to 241.0 MB.
-Total: 7.382800 ms (FindLiveObjects: 0.803200 ms CreateObjectMapping: 0.576700 ms MarkObjects: 5.020300 ms  DeleteObjects: 0.980300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.024692 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.70 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.509 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2510ms)
-		BeginReloadAssembly (204ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (2129ms)
-			LoadAssemblies (188ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (566ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (113ms)
-			SetupLoadedEditorAssemblies (1094ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (48ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (216ms)
-				ProcessInitializeOnLoadAttributes (617ms)
-				ProcessInitializeOnLoadMethodAttributes (195ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (40ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 11.52 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.2 MB). Loaded Objects now: 6821.
-Memory consumption went from 243.2 MB to 241.0 MB.
-Total: 9.877800 ms (FindLiveObjects: 0.665400 ms CreateObjectMapping: 0.641400 ms MarkObjects: 7.008900 ms  DeleteObjects: 1.560300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.021274 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.77 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.534 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2536ms)
-		BeginReloadAssembly (201ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (2120ms)
-			LoadAssemblies (177ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (535ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (138ms)
-			SetupLoadedEditorAssemblies (1064ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (55ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (197ms)
-				ProcessInitializeOnLoadAttributes (617ms)
-				ProcessInitializeOnLoadMethodAttributes (180ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (41ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 10.58 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.2 MB). Loaded Objects now: 6837.
-Memory consumption went from 243.2 MB to 241.0 MB.
-Total: 8.358200 ms (FindLiveObjects: 0.817800 ms CreateObjectMapping: 1.122900 ms MarkObjects: 5.387600 ms  DeleteObjects: 1.026400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018490 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.01 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.546 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2550ms)
-		BeginReloadAssembly (213ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (2153ms)
-			LoadAssemblies (198ms)
+		EndReloadAssembly (2326ms)
+			LoadAssemblies (208ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (570ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (107ms)
-			SetupLoadedEditorAssemblies (1084ms)
+			SetupTypeCache (661ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (127ms)
+			SetupLoadedEditorAssemblies (1125ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (61ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (218ms)
-				ProcessInitializeOnLoadAttributes (622ms)
-				ProcessInitializeOnLoadMethodAttributes (168ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (45ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 17.25 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (2.2 MB). Loaded Objects now: 6853.
-Memory consumption went from 243.2 MB to 241.0 MB.
-Total: 7.669300 ms (FindLiveObjects: 0.918300 ms CreateObjectMapping: 0.894200 ms MarkObjects: 4.799700 ms  DeleteObjects: 1.055400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2711.536075 seconds.
-  path: Assets/AIUniverse/Convai/Animations
-  artifactKey: Guid(61e8f0d83af0f6c4d965e5ffd0b2159e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/Animations using Guid(61e8f0d83af0f6c4d965e5ffd0b2159e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54707c387abedb08a6d3ed1209c901e7') in 0.018634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.649287 seconds.
-  path: Assets/AIUniverse/Convai/AnimationAvatars
-  artifactKey: Guid(02d75494f43b3674dadd6aa311e89101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/AnimationAvatars using Guid(02d75494f43b3674dadd6aa311e89101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88477505d4dff1956ce4fecbf06a82f') in 0.002465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.714889 seconds.
-  path: Assets/AIUniverse/Convai/Scripts
-  artifactKey: Guid(f751a8f2ee8354495b9492199b5d3833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/Scripts using Guid(f751a8f2ee8354495b9492199b5d3833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44901d05c974263a95630c0e285ceee7') in 0.002427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.556634 seconds.
-  path: Assets/AIUniverse/Convai/Protos
-  artifactKey: Guid(74efffb0bde9612448c784b8de6481cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/Protos using Guid(74efffb0bde9612448c784b8de6481cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5377f033e180f065c64a226baf5800a') in 0.002755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.800975 seconds.
-  path: Assets/AIUniverse/Convai/Prefabs
-  artifactKey: Guid(5785ccd8705b96e4f9479a9658ef6d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/Prefabs using Guid(5785ccd8705b96e4f9479a9658ef6d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d02934089a569daf32649ccc7cba06') in 0.002598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.779171 seconds.
-  path: Assets/AIUniverse/Convai/Images
-  artifactKey: Guid(4dff2df83d736db4d9c1055ac5495cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/Images using Guid(4dff2df83d736db4d9c1055ac5495cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4691e15e5cdb42c1163eecdb6c028ad8') in 0.002426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.250593 seconds.
-  path: Assets/AIUniverse/Convai/Animators
-  artifactKey: Guid(ee58f0364cd4249428ddaec98b6118f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/Animators using Guid(ee58f0364cd4249428ddaec98b6118f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4266608ddb2b73ec73f167cc86713fbf') in 0.002714 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.106458 seconds.
-  path: Assets/AIUniverse/Convai/AnimationAvatars/FeminineAnimationAvatar.asset
-  artifactKey: Guid(2959e7c83a4719e49be9d20621fa24ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/AnimationAvatars/FeminineAnimationAvatar.asset using Guid(2959e7c83a4719e49be9d20621fa24ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b23cd4194f468dffababa9407f8f5c') in 0.048367 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.032415 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.78 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.237 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2238ms)
-		BeginReloadAssembly (402ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (23ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (174ms)
-		EndReloadAssembly (1681ms)
-			LoadAssemblies (224ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (482ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (807ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (41ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (151ms)
-				ProcessInitializeOnLoadAttributes (463ms)
-				ProcessInitializeOnLoadMethodAttributes (136ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 14.78 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5998 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (2.2 MB). Loaded Objects now: 6879.
-Memory consumption went from 243.9 MB to 241.7 MB.
-Total: 14.237900 ms (FindLiveObjects: 0.928400 ms CreateObjectMapping: 1.217000 ms MarkObjects: 10.344200 ms  DeleteObjects: 1.746000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.025341 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.69 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <57a8ad0d1492436d8cfee9ba8e6618f8>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <57a8ad0d1492436d8cfee9ba8e6618f8>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.923 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2924ms)
-		BeginReloadAssembly (272ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (84ms)
-		EndReloadAssembly (2446ms)
-			LoadAssemblies (230ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (632ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (153ms)
-			SetupLoadedEditorAssemblies (1187ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (62ms)
+				InitializePlatformSupportModulesInManaged (58ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (237ms)
-				ProcessInitializeOnLoadAttributes (650ms)
-				ProcessInitializeOnLoadMethodAttributes (215ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (52ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 19.10 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5998 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (2.2 MB). Loaded Objects now: 6895.
-Memory consumption went from 243.9 MB to 241.7 MB.
-Total: 6.860100 ms (FindLiveObjects: 0.623900 ms CreateObjectMapping: 0.539900 ms MarkObjects: 4.795600 ms  DeleteObjects: 0.899600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1056.459343 seconds.
-  path: Assets/Convai Character Models
-  artifactKey: Guid(e447ff965ee128d419fd9cd052823cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convai Character Models using Guid(e447ff965ee128d419fd9cd052823cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defa4989a9b3a740d1d969fa26cd43f9') in 0.011803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.842367 seconds.
-  path: Assets/Scenes/AIUniverse/AIUniverse.unity
-  artifactKey: Guid(60105e0aa3d56a74682b43b6c0c5a5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AIUniverse/AIUniverse.unity using Guid(60105e0aa3d56a74682b43b6c0c5a5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bec081007a6cff22f0d414fd073eaea') in 0.002232 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019464 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.37 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.703 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2705ms)
-		BeginReloadAssembly (232ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (2289ms)
-			LoadAssemblies (190ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (634ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (142ms)
-			SetupLoadedEditorAssemblies (1117ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (63ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (227ms)
-				ProcessInitializeOnLoadAttributes (622ms)
+				BeforeProcessingInitializeOnLoad (212ms)
+				ProcessInitializeOnLoadAttributes (651ms)
 				ProcessInitializeOnLoadMethodAttributes (186ms)
 				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (42ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 15.06 ms, found 6 plugins.
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 9.73 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5998 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (2.2 MB). Loaded Objects now: 6911.
-Memory consumption went from 243.9 MB to 241.8 MB.
-Total: 10.408100 ms (FindLiveObjects: 0.732900 ms CreateObjectMapping: 0.618600 ms MarkObjects: 7.368100 ms  DeleteObjects: 1.685900 ms)
+Unloading 6038 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (4.1 MB). Loaded Objects now: 6705.
+Memory consumption went from 295.2 MB to 291.1 MB.
+Total: 6.199700 ms (FindLiveObjects: 0.630400 ms CreateObjectMapping: 0.589900 ms MarkObjects: 3.948600 ms  DeleteObjects: 1.029700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1538,7 +292,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.027379 seconds.
+Registered in 0.020493 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -1547,124 +301,44 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.99 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 3.14 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.186 seconds
+- Completed reload, in  2.684 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3187ms)
-		BeginReloadAssembly (280ms)
+	ReloadAssembly (2686ms)
+		BeginReloadAssembly (247ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (2676ms)
-			LoadAssemblies (233ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (2260ms)
+			LoadAssemblies (193ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (926ms)
+			SetupTypeCache (639ms)
 			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (152ms)
-			SetupLoadedEditorAssemblies (1164ms)
+			RebuildScriptCaches (131ms)
+			SetupLoadedEditorAssemblies (1108ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (52ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (177ms)
-				ProcessInitializeOnLoadAttributes (683ms)
-				ProcessInitializeOnLoadMethodAttributes (232ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (39ms)
-Platform modules already initialized, skipping
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 10.69 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 179 unused Assets / (44.3 MB). Loaded Objects now: 6968.
-Memory consumption went from 301.8 MB to 257.6 MB.
-Total: 20.924900 ms (FindLiveObjects: 0.730400 ms CreateObjectMapping: 0.721100 ms MarkObjects: 4.884100 ms  DeleteObjects: 14.587500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.029287 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.75 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <57a8ad0d1492436d8cfee9ba8e6618f8>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.973 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2975ms)
-		BeginReloadAssembly (257ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (2518ms)
-			LoadAssemblies (224ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (744ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (147ms)
-			SetupLoadedEditorAssemblies (1179ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (66ms)
+				InitializePlatformSupportModulesInManaged (57ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (237ms)
-				ProcessInitializeOnLoadAttributes (658ms)
-				ProcessInitializeOnLoadMethodAttributes (194ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (208ms)
+				ProcessInitializeOnLoadAttributes (637ms)
+				ProcessInitializeOnLoadMethodAttributes (189ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (56ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
 Platform modules already initialized, skipping
 Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 10.95 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 17.41 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 148 unused Assets / (44.3 MB). Loaded Objects now: 6984.
-Memory consumption went from 301.7 MB to 257.5 MB.
-Total: 24.148100 ms (FindLiveObjects: 0.789900 ms CreateObjectMapping: 0.790600 ms MarkObjects: 5.964900 ms  DeleteObjects: 16.600400 ms)
+Unloading 6038 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (4.1 MB). Loaded Objects now: 6721.
+Memory consumption went from 294.6 MB to 290.5 MB.
+Total: 9.798800 ms (FindLiveObjects: 0.970300 ms CreateObjectMapping: 0.722100 ms MarkObjects: 6.430700 ms  DeleteObjects: 1.673700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1676,145 +350,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.027498 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.70 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
-  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <57a8ad0d1492436d8cfee9ba8e6618f8>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.961 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2962ms)
-		BeginReloadAssembly (260ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (2497ms)
-			LoadAssemblies (207ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (660ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (138ms)
-			SetupLoadedEditorAssemblies (1239ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (71ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (256ms)
-				ProcessInitializeOnLoadAttributes (705ms)
-				ProcessInitializeOnLoadMethodAttributes (187ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (52ms)
-Platform modules already initialized, skipping
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 12.52 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 148 unused Assets / (44.3 MB). Loaded Objects now: 7000.
-Memory consumption went from 301.7 MB to 257.5 MB.
-Total: 23.089400 ms (FindLiveObjects: 0.623800 ms CreateObjectMapping: 0.565000 ms MarkObjects: 6.752000 ms  DeleteObjects: 15.147100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 212.332953 seconds.
-  path: Assets/AIUniverse/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material Templates/Amplify/Tessellation/RL_Template_Baked_CorneaParallaxCustom_3D_Amplify_T.mat
-  artifactKey: Guid(976312ea0c20d6b4eb81754a98df4c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material Templates/Amplify/Tessellation/RL_Template_Baked_CorneaParallaxCustom_3D_Amplify_T.mat using Guid(976312ea0c20d6b4eb81754a98df4c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a978feaf96e189ba4a69c7f69a20f522') in 0.501179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/AIUniverse/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material Templates/Amplify/Tessellation/RL_Template_HQ_Hair_Coverage_3D_Amplify_T.mat
-  artifactKey: Guid(970b519de04ee1449a5f78ee51ed7dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material Templates/Amplify/Tessellation/RL_Template_HQ_Hair_Coverage_3D_Amplify_T.mat using Guid(970b519de04ee1449a5f78ee51ed7dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc95f89023ae851039f826f7de1c4572') in 0.027642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/AIUniverse/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material Templates/Amplify/Tessellation/RL_Template_HQ_Teeth_3D_Amplify_T.mat
-  artifactKey: Guid(d3f0c480be9358f488b095584c798031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material Templates/Amplify/Tessellation/RL_Template_HQ_Teeth_3D_Amplify_T.mat using Guid(d3f0c480be9358f488b095584c798031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ce61fed941a8d8e805be3ea5b51557') in 0.027676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/AIUniverse/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material Templates/Amplify/Tessellation/RL_Template_HQ_HeadWrinkle_3D_Amplify_T.mat
-  artifactKey: Guid(ec092776bce57d546b28161269c0f635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material Templates/Amplify/Tessellation/RL_Template_HQ_HeadWrinkle_3D_Amplify_T.mat using Guid(ec092776bce57d546b28161269c0f635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd39b37b81a8d90e60b7cc01bba463e5') in 0.344853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/AIUniverse/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material Templates/Amplify/Tessellation/RL_Template_Baked_HairCustom_3D_Amplify_T.mat
-  artifactKey: Guid(0dc5264e953222d4b87c468c686f296c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material Templates/Amplify/Tessellation/RL_Template_Baked_HairCustom_3D_Amplify_T.mat using Guid(0dc5264e953222d4b87c468c686f296c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0f5408a4555eed65b5aea007507490') in 0.024631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/AIUniverse/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material Templates/Amplify/Tessellation/RL_Template_Baked_Skin_3D_Amplify_T.mat
-  artifactKey: Guid(25396047ddedfca41b35542c6e891c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material Templates/Amplify/Tessellation/RL_Template_Baked_Skin_3D_Amplify_T.mat using Guid(25396047ddedfca41b35542c6e891c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fdd5af9c172188a7b29ce31ef8a488') in 0.025100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/AIUniverse/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material Templates/Amplify/Tessellation/RL_Template_Baked_HairCustom_1st_Pass_3D_Amplify_T.mat
-  artifactKey: Guid(be7f5d11b9bc095408144215b07bd5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material Templates/Amplify/Tessellation/RL_Template_Baked_HairCustom_1st_Pass_3D_Amplify_T.mat using Guid(be7f5d11b9bc095408144215b07bd5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb410bbdb7ffba5f9e8210ea4f1a6a7') in 0.027000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/AIUniverse/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material Templates/Amplify/Tessellation/RL_Template_Baked_HeadWrinkleCustom_3D_Amplify_T.mat
-  artifactKey: Guid(5a8b3d054ccd30f4b9dad293846d706f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material Templates/Amplify/Tessellation/RL_Template_Baked_HeadWrinkleCustom_3D_Amplify_T.mat using Guid(5a8b3d054ccd30f4b9dad293846d706f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322a21081e9380d6d0ec85583533a7bf') in 0.317928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.729198 seconds.
-  path: Assets/AIUniverse/Convai
-  artifactKey: Guid(0a894802daf890b4fb8e06253ec34b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai using Guid(0a894802daf890b4fb8e06253ec34b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73d92f135d657af0391905e228f9167') in 0.002701 seconds 
