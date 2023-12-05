@@ -33,7 +33,12 @@ public class Golem : MonoBehaviour
             case State.Follow:
                 FollowAction();
                 break;
-            case State.Moving: 
+            case State.Moving:
+                if (Vector3.Distance(transform.position, navMeshAgent.destination) < 0.05f)
+                {
+                    navMeshAgent.isStopped = true;
+                    state = State.StandBy;
+                }
                 break;
             case State.Carrying:
                 break;
@@ -42,7 +47,6 @@ public class Golem : MonoBehaviour
                 break;
         }
     }
-
 
     private void Awake()
     {
@@ -75,6 +79,9 @@ public class Golem : MonoBehaviour
 
                 targetBreakableWall = breakableWall;
                 navMeshAgent.destination = breakableWall.GetInteractionPoint().position;
+
+                if (navMeshAgent.isStopped)
+                    navMeshAgent.isStopped = false;
             }
             else
             {

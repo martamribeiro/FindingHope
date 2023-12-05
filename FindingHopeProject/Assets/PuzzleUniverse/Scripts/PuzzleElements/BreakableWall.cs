@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class BreakableWall : MonoBehaviour
 {
@@ -55,6 +56,7 @@ public class BreakableWall : MonoBehaviour
             if (timeElapsed >= startDisapearTime)
             {
                 GetComponent<BoxCollider>().enabled = false;
+                GetComponent<NavMeshObstacle>().enabled = false;
 
                 float elapsedPercentage = timeElapsed / disapearTime;
                 elapsedPercentage = Mathf.SmoothStep(0, 1, elapsedPercentage);
