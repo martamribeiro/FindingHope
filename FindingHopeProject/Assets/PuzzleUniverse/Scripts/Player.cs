@@ -9,12 +9,6 @@ public class Player : MonoBehaviour
 
     public static Player Instance { get; private set; }
 
-    public event EventHandler<OnSelectedObjectChangedEventArgs> OnSelectedObjectChanged;
-    public class OnSelectedObjectChangedEventArgs : EventArgs
-    {
-        public IInteractable interactableObject;
-    }
-
     [Header("Components")]
     [SerializeField] private GameInput gameInput;
     [SerializeField] private CharacterController characterController;
@@ -24,6 +18,9 @@ public class Player : MonoBehaviour
     [SerializeField] private float runningSpeed = 8f;
     [SerializeField] private float jumpForce = 1.3f;
     [SerializeField] private float gravityMultiplier = 0.01f;
+
+    [Header("Interaction Settings")]
+    [SerializeField] private LayerMask interactionLayer;
 
     private Transform mainCameraTransform;
     private float verticalVelocity;
@@ -43,9 +40,26 @@ public class Player : MonoBehaviour
     private void Start()
     {
         mainCameraTransform = Camera.main.transform;
-        
+
+        gameInput.OnPlayerInteractAction += GameInput_OnPlayerInteractAction;
         gameInput.OnPlayerJumpAction += GameInput_OnPlayerJumpAction;
         gameInput.OnPlayerRunAction += GameInput_OnPlayerRunAction;
+    }
+
+    private void GameInput_OnPlayerInteractAction(object sender, EventArgs e)
+    {
+        float interactRange = 2f;
+
+        Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange, interactionLayer);
+
+        foreach (Collider collider in colliderArray)
+        {
+            if (collider.TryGetComponent(out IInteractable interactable))
+            {
+                interactable.Interact(this);
+                break;
+            }
+        }
     }
 
     private void GameInput_OnPlayerRunAction(object sender, EventArgs e)
