@@ -19,6 +19,7 @@ public class UniverseTravel : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha2) && IsTriggerObjectActive())
         {
             // Go to universe 2
+            SceneManager.LoadScene("LabyrinthScene");
         }
         // Check if the player is inside the trigger area and pressing the "3" key
         if (Input.GetKeyDown(KeyCode.Alpha3) && IsTriggerObjectActive())

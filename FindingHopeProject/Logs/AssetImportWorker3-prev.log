@@ -15,7 +15,7 @@ A:/Ano4/DESDJ/FindingHope/FindingHopeProject
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-50334
+50127
 Successfully changed project path to: A:/Ano4/DESDJ/FindingHope/FindingHopeProject
 A:/Ano4/DESDJ/FindingHope/FindingHopeProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ A:/Ano4/DESDJ/FindingHope/FindingHopeProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22216] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 3996992634 [EditorId] 3996992634 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H91IS5NJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25080] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 1490077403 [EditorId] 1490077403 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H91IS5NJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22216] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 3996992634 [EditorId] 3996992634 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H91IS5NJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25080] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 1490077403 [EditorId] 1490077403 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H91IS5NJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 209.55 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 234.26 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path D:/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,49 +67,49 @@ Initialize mono
 Mono path[0] = 'D:/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/2021.3.21f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.003564 seconds.
+Registered in 0.004499 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 166.94 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 175.38 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.773 seconds
+- Completed reload, in  0.865 seconds
 Domain Reload Profiling:
-	ReloadAssembly (773ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (866ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (577ms)
-			LoadAssemblies (100ms)
+		EndReloadAssembly (654ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (121ms)
+			SetupTypeCache (169ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (371ms)
+			SetupLoadedEditorAssemblies (387ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (167ms)
+				RefreshPlugins (175ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (145ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014047 seconds.
+Registered in 0.014450 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -117,46 +117,72 @@ Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\Findi
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 171.52 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 185.29 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <57a8ad0d1492436d8cfee9ba8e6618f8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.782 seconds
+- Completed reload, in 10.913 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1783ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (10914ms)
+		BeginReloadAssembly (139ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1545ms)
-			LoadAssemblies (123ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (10533ms)
+			LoadAssemblies (8360ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (327ms)
+			SetupTypeCache (908ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (97ms)
-			SetupLoadedEditorAssemblies (967ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (1147ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (172ms)
-				BeforeProcessingInitializeOnLoad (136ms)
-				ProcessInitializeOnLoadAttributes (568ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
+				RefreshPlugins (185ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (722ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.42 ms, found 6 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 3.38 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6166 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 99 unused Assets / (2.0 MB). Loaded Objects now: 6582.
-Memory consumption went from 257.6 MB to 255.6 MB.
-Total: 5.056000 ms (FindLiveObjects: 0.496400 ms CreateObjectMapping: 0.401200 ms MarkObjects: 3.633800 ms  DeleteObjects: 0.523800 ms)
+Memory consumption went from 257.8 MB to 255.7 MB.
+Total: 12.588000 ms (FindLiveObjects: 0.904600 ms CreateObjectMapping: 0.845000 ms MarkObjects: 9.936700 ms  DeleteObjects: 0.900300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,118 +197,1041 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 35393.929039 seconds.
-  path: Assets/RPG_Universe/Assets/TurnBasedHUD/Stuff/BattleStation.psd
-  artifactKey: Guid(acead2bace632914698025dc28c95e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/TurnBasedHUD/Stuff/BattleStation.psd using Guid(acead2bace632914698025dc28c95e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab56e16ad7d41e91bcb96e55a71a7e0') in 0.138123 seconds 
+  Time since last request: 7900.480288 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Character.png
+  artifactKey: Guid(9d50c1ca1a48be3439e6781f0ae69a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Character.png using Guid(9d50c1ca1a48be3439e6781f0ae69a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5337ceaee7cde7ca710f6b36de994eff') in 0.243236 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 401.783856 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_1.asset
-  artifactKey: Guid(00afefd486d0a8842bd8884ddb96815b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_1.asset using Guid(00afefd486d0a8842bd8884ddb96815b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2382d3c85efd9aa51dda6375336bcc3') in 0.025137 seconds 
+  Time since last request: 87.920829 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/arrow_2.png
+  artifactKey: Guid(3e7b811a31d35ac4ab505fa6689866d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/arrow_2.png using Guid(3e7b811a31d35ac4ab505fa6689866d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890c02b07863027828cfa749585d9765') in 0.065201 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_36.asset
-  artifactKey: Guid(3cee3342b153a98429ae20c801e742e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_36.asset using Guid(3cee3342b153a98429ae20c801e742e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4951115da23831b46543019eda21de0e') in 0.014166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_15.asset
-  artifactKey: Guid(375969ae1ded31545a5f186049f43f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_15.asset using Guid(375969ae1ded31545a5f186049f43f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0707da0596b3bfe0e4cb183f8168d2af') in 0.014837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_30.asset
-  artifactKey: Guid(42b3aa3e55e1dca4d98d61fc168975e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_30.asset using Guid(42b3aa3e55e1dca4d98d61fc168975e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad974fbc1998c145f240a8a06c58841') in 0.016369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_22.asset
-  artifactKey: Guid(5874cd39178f6f2438a5e0026410e506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_22.asset using Guid(5874cd39178f6f2438a5e0026410e506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45045c57e1f506da02ab84c6aac35fa5') in 0.010283 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_26.asset
-  artifactKey: Guid(b2a2c5b57a995964e902157b8b201ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_26.asset using Guid(b2a2c5b57a995964e902157b8b201ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fade982b0e9f492f26292001cf7bb971') in 0.012195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_21.asset
-  artifactKey: Guid(c2795519227d20c47b78d29e265beaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_21.asset using Guid(c2795519227d20c47b78d29e265beaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3058d14b994ecd073d63d8352715c71') in 0.016956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_33.asset
-  artifactKey: Guid(d48e83efa0e8e1949bb087283201378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_33.asset using Guid(d48e83efa0e8e1949bb087283201378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696240d61023723d5aab99b108cff66f') in 0.011879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_29.asset
-  artifactKey: Guid(2917586676c608149bbf55281af608c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_29.asset using Guid(2917586676c608149bbf55281af608c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07f7e636cada6d451ff6e7e94d3d00c') in 0.013362 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/arrow_3.png
+  artifactKey: Guid(8748882ea9b6f9f48ac77881b6e981be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/arrow_3.png using Guid(8748882ea9b6f9f48ac77881b6e981be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d48874e12b30ad2b134e4a34c0f4b0') in 0.045509 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_11.asset
-  artifactKey: Guid(99a9f83481ac0f844899b3677b829bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_11.asset using Guid(99a9f83481ac0f844899b3677b829bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d7daaef1d1086c166bca4501a3ff96') in 0.022707 seconds 
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/Just_arrow.png
+  artifactKey: Guid(4502659e4e222b5468749b26f86eb4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/Just_arrow.png using Guid(4502659e4e222b5468749b26f86eb4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63e25c1627061ede966dac276ec853f') in 0.033625 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014113 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.72 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.503 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2505ms)
+		BeginReloadAssembly (419ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (182ms)
+		EndReloadAssembly (1947ms)
+			LoadAssemblies (200ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (530ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (1064ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (800ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.31 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5987 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (2.0 MB). Loaded Objects now: 6607.
+Memory consumption went from 251.6 MB to 249.6 MB.
+Total: 9.560500 ms (FindLiveObjects: 0.799700 ms CreateObjectMapping: 0.652700 ms MarkObjects: 6.868600 ms  DeleteObjects: 1.237600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015030 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.49 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.062 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2063ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1792ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (472ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (1008ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (752ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.77 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5987 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (2.0 MB). Loaded Objects now: 6623.
+Memory consumption went from 251.6 MB to 249.6 MB.
+Total: 7.306300 ms (FindLiveObjects: 1.066600 ms CreateObjectMapping: 0.463000 ms MarkObjects: 5.152400 ms  DeleteObjects: 0.623200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014328 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.91 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.186 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2187ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1906ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (525ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (1031ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (768ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.24 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5987 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (2.0 MB). Loaded Objects now: 6639.
+Memory consumption went from 251.7 MB to 249.7 MB.
+Total: 7.977800 ms (FindLiveObjects: 0.644000 ms CreateObjectMapping: 0.677000 ms MarkObjects: 5.945200 ms  DeleteObjects: 0.706400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_20.asset
-  artifactKey: Guid(da0aa10b1249c4a448a6ea413a34cf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_20.asset using Guid(da0aa10b1249c4a448a6ea413a34cf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1121f23264e019b86f861bdd85d9b81d') in 0.024141 seconds 
+  Time since last request: 30346.320546 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_1.asset
+  artifactKey: Guid(8d07c9ddd95af68499c35178e9569e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_1.asset using Guid(8d07c9ddd95af68499c35178e9569e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834b2a2bbdcaa60ef3d395f0187db97c') in 0.643511 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_4.asset
-  artifactKey: Guid(d4ddcac11e7609b4b809663e2c77fae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_4.asset using Guid(d4ddcac11e7609b4b809663e2c77fae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54d131cee15b37557e9f7e00d60df4b') in 0.018283 seconds 
+  Time since last request: 0.000083 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_13.asset
+  artifactKey: Guid(93f55d4a90387d845abe61632bfccba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_13.asset using Guid(93f55d4a90387d845abe61632bfccba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab2dde31b2425beba694242cd3f64c0') in 0.043039 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_5.asset
-  artifactKey: Guid(d313284a867ed274c9e687f351f3ca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_5.asset using Guid(d313284a867ed274c9e687f351f3ca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51febbc0a06ff7780d75f716117b1b8a') in 0.010713 seconds 
+  Time since last request: 0.000048 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_17.asset
+  artifactKey: Guid(9e6e1d6dffc67164793e1f495ad3ec7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_17.asset using Guid(9e6e1d6dffc67164793e1f495ad3ec7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41edeefe3ef8d5d78b45f6cd2a9974c') in 0.043911 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_12.asset
-  artifactKey: Guid(c00e1d9cf297ce54498eda22bcd722b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_12.asset using Guid(c00e1d9cf297ce54498eda22bcd722b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc20733effbd9e3a8a89ecc4bbbee2d7') in 0.010027 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_25.asset
+  artifactKey: Guid(2dfcf0908bf6f7b4ab24b853bb35687c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_25.asset using Guid(2dfcf0908bf6f7b4ab24b853bb35687c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42811d6b53af202c876544c9e7dab983') in 0.046065 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_13.asset
-  artifactKey: Guid(f1141a45743ef3e4c81e781eb56ed1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_13.asset using Guid(f1141a45743ef3e4c81e781eb56ed1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0fdbbb87d347c94f523323ec2f0ac2') in 0.048528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_19.asset
-  artifactKey: Guid(f2552537016e5c647b416632affb3a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_19.asset using Guid(f2552537016e5c647b416632affb3a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc313bf8d3a817f4acf6fa20e6a6831d') in 0.023095 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_22.asset
+  artifactKey: Guid(8a7e3b211035ade48ac1e54a9547a5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_22.asset using Guid(8a7e3b211035ade48ac1e54a9547a5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad68d6de4e66f19ebf432025ed0b48f') in 0.024670 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000037 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_32.asset
-  artifactKey: Guid(cd8d13d5557304647b266a349810b111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_32.asset using Guid(cd8d13d5557304647b266a349810b111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76693d551754ba55aedab211950facb') in 0.017016 seconds 
+  path: Assets/RPG_Universe/Dungeon_Tileset_12.asset
+  artifactKey: Guid(039e8bf567e7f4344afe9719f7b54afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_12.asset using Guid(039e8bf567e7f4344afe9719f7b54afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b2e91e4075f3a313c7ad79727286db') in 0.035405 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_27.asset
-  artifactKey: Guid(a1b32f799e6e24341b793bffc2da4bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Tileset_27.asset using Guid(a1b32f799e6e24341b793bffc2da4bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5096ab082ffc83f60ef5587866bc78') in 0.015901 seconds 
+  Time since last request: 0.000057 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_2.asset
+  artifactKey: Guid(a24d66208cee8ee48b2c3dbd267bc2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_2.asset using Guid(a24d66208cee8ee48b2c3dbd267bc2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f434654ff6b985b0c2440370b19995ec') in 0.032213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_3.asset
+  artifactKey: Guid(f6d3f66240b9ef241a1cae9e2373794d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_3.asset using Guid(f6d3f66240b9ef241a1cae9e2373794d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6a1c5e6a355cd3ec568999ff9e7f27') in 0.034171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_16.asset
+  artifactKey: Guid(5ee6e9e0458211743a7d180405b5d6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_16.asset using Guid(5ee6e9e0458211743a7d180405b5d6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ee02c7fc8fc2cc402f79608417aa90') in 0.025981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_5.asset
+  artifactKey: Guid(2aef0ffecee173e4095b193a78467a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_5.asset using Guid(2aef0ffecee173e4095b193a78467a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f2db0c4c62d02818e6e751c6dcf0c2') in 0.020975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_6.asset
+  artifactKey: Guid(7b8c4c3aba65ac84eaf875d699a1f588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_6.asset using Guid(7b8c4c3aba65ac84eaf875d699a1f588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d87d3bdbf750e5378286e402cd0123') in 0.021302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_15.asset
+  artifactKey: Guid(4b060b876d4d324499bf5a001bbb6128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_15.asset using Guid(4b060b876d4d324499bf5a001bbb6128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653988eb95272d859f82cb0a23db6e0c') in 0.034039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_8.asset
+  artifactKey: Guid(95148b157f353054792e82aa11279043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_8.asset using Guid(95148b157f353054792e82aa11279043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bd4006b3cc541fa10c481513d5e2d1') in 0.031890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.607742 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_28.asset
+  artifactKey: Guid(64f37f4474c9daf4cb2a33fa97e3ae05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_28.asset using Guid(64f37f4474c9daf4cb2a33fa97e3ae05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4d88169010da3effbaa98e463d2daa') in 0.053693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_29.asset
+  artifactKey: Guid(d62aaa4b7f8860e4194db7b674a4c093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_29.asset using Guid(d62aaa4b7f8860e4194db7b674a4c093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c1c27d6c03ba53e956d660b9c65f94') in 0.052764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_33.asset
+  artifactKey: Guid(7366c1763048cb34dbc9f151b4aa5d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_33.asset using Guid(7366c1763048cb34dbc9f151b4aa5d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69344841aaaf5559ff54ce823b4095a9') in 0.039754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_31.asset
+  artifactKey: Guid(294ba86c7dbc7f74e9205f83b3802dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_31.asset using Guid(294ba86c7dbc7f74e9205f83b3802dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6be2b76b4d686cd788c62c52110f4d') in 0.023453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_34.asset
+  artifactKey: Guid(ee7356907afe61547a700d1328e83344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_34.asset using Guid(ee7356907afe61547a700d1328e83344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89f02d79c8aa81e11635c5fee34cacd') in 0.025173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.286323 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_38.asset
+  artifactKey: Guid(666c2e61668ba1f4f9f8e33fcc29bceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_38.asset using Guid(666c2e61668ba1f4f9f8e33fcc29bceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1fc3bbd9d08308f7be83f74dc218c1') in 0.188469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_40.asset
+  artifactKey: Guid(7d33adda4c834e94d90032a6dfaea941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_40.asset using Guid(7d33adda4c834e94d90032a6dfaea941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae568875ad276d20251bb75876afb2a1') in 0.087827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_53.asset
+  artifactKey: Guid(7f0e9bec167142e4ab771af818304598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_53.asset using Guid(7f0e9bec167142e4ab771af818304598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28771bc9a91055cdbebaa7addab116c') in 1.682670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_84.asset
+  artifactKey: Guid(4c71fbe82ac4b8241b1d2824e1633860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_84.asset using Guid(4c71fbe82ac4b8241b1d2824e1633860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914ffd28d03c82a96f70edeff7286675') in 0.053045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_94.asset
+  artifactKey: Guid(84f5077133058bb44a506a04402e0911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_94.asset using Guid(84f5077133058bb44a506a04402e0911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c85d297a7c9595b31a4c9b29955f5f1') in 0.041240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_39.asset
+  artifactKey: Guid(f0edc7fc3615fe742933ab307762d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_39.asset using Guid(f0edc7fc3615fe742933ab307762d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07cc3a354b88647343de0b9da5cb2e36') in 0.035874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_42.asset
+  artifactKey: Guid(67d1e0a6606b18e468f2197e7cd7651b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_42.asset using Guid(67d1e0a6606b18e468f2197e7cd7651b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd57ca77b1b475ca44d801f720257f95') in 0.025505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_49.asset
+  artifactKey: Guid(5b25ea33220d912459903567a27497d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_49.asset using Guid(5b25ea33220d912459903567a27497d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3764144594f6ed1242f9069f8250d7b6') in 0.037236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_88.asset
+  artifactKey: Guid(ea7b6fa37762c124693341195722602a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_88.asset using Guid(ea7b6fa37762c124693341195722602a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504164445eb303054b2bcbc3aa37ae7d') in 0.023030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_45.asset
+  artifactKey: Guid(aba4d96058dee2148abe6b22d1ca0f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_45.asset using Guid(aba4d96058dee2148abe6b22d1ca0f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9c4302b621a0c8780ec614c42a6c18') in 0.030451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_87.asset
+  artifactKey: Guid(df9431004ee0f144096fb60f2c910d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_87.asset using Guid(df9431004ee0f144096fb60f2c910d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb3d1eedea6e2fcdfefd15c317f198b') in 0.031410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_55.asset
+  artifactKey: Guid(5c6325a9208b7464fae67ed71988d1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_55.asset using Guid(5c6325a9208b7464fae67ed71988d1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfc1c85287c641f08788b31ec0c193e') in 0.025912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_80.asset
+  artifactKey: Guid(8cb91013deeb16d42bf610e7cab2e539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_80.asset using Guid(8cb91013deeb16d42bf610e7cab2e539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9e74a77e9c68686c598c1396289f11') in 0.021563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002935 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_90.asset
+  artifactKey: Guid(7ab38ae35873cfd4bb86842faa40ef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_90.asset using Guid(7ab38ae35873cfd4bb86842faa40ef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587fc7faf6cfb202b09700b9172a0638') in 0.038561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_47.asset
+  artifactKey: Guid(49ef584413e1d8d42815707cb8e7607e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_47.asset using Guid(49ef584413e1d8d42815707cb8e7607e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ece66d56e6140cddab9f271f23faca2') in 0.029520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_82.asset
+  artifactKey: Guid(0cfa93b4b2f36dc46858b2fb7fcb5031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_82.asset using Guid(0cfa93b4b2f36dc46858b2fb7fcb5031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fb34e646dfd7f63459261dba6d3e64') in 0.041977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RPG_Universe/Labyrinth.prefab
+  artifactKey: Guid(5a8a4a5b786589748b5f2355bd81b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Labyrinth.prefab using Guid(5a8a4a5b786589748b5f2355bd81b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d658adbba3d97ccfdb6c5f2f8dd21f2') in 1.349738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_86.asset
+  artifactKey: Guid(1381fc2845ce24246a337172bf63392f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_86.asset using Guid(1381fc2845ce24246a337172bf63392f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b8a95f7d74cca61bbc55ce4e5c4022') in 0.014565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_65.asset
+  artifactKey: Guid(59b6e8ba1836b784586bb352ac639541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_65.asset using Guid(59b6e8ba1836b784586bb352ac639541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570192383bd0321e0ea0b7e17c89e0dd') in 0.095020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/RPG_Universe/Dungeon_Tileset_92.asset
+  artifactKey: Guid(d10fbd680b4b83a42b3f8d90b8be3393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Dungeon_Tileset_92.asset using Guid(d10fbd680b4b83a42b3f8d90b8be3393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344e58cd8ce36153ee6b9f11cbbf2f23') in 0.015007 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015684 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.11 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.248 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3249ms)
+		BeginReloadAssembly (475ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (240ms)
+		EndReloadAssembly (2574ms)
+			LoadAssemblies (257ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (762ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (139ms)
+			SetupLoadedEditorAssemblies (1282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (174ms)
+				ProcessInitializeOnLoadAttributes (959ms)
+				ProcessInitializeOnLoadMethodAttributes (130ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.09 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5995 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (2.0 MB). Loaded Objects now: 6707.
+Memory consumption went from 255.0 MB to 253.0 MB.
+Total: 8.233500 ms (FindLiveObjects: 0.569400 ms CreateObjectMapping: 0.463100 ms MarkObjects: 6.546900 ms  DeleteObjects: 0.634400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016960 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.72 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <57a8ad0d1492436d8cfee9ba8e6618f8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.453 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2455ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2011ms)
+			LoadAssemblies (219ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (456ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (1119ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (827ms)
+				ProcessInitializeOnLoadMethodAttributes (140ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (64ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.42 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5996 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (2.0 MB). Loaded Objects now: 6723.
+Memory consumption went from 255.0 MB to 253.0 MB.
+Total: 7.539600 ms (FindLiveObjects: 0.786800 ms CreateObjectMapping: 0.978100 ms MarkObjects: 4.967500 ms  DeleteObjects: 0.806200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018144 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.21 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.546 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2547ms)
+		BeginReloadAssembly (258ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (2147ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (524ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (1123ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (867ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (61ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.55 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5996 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (2.0 MB). Loaded Objects now: 6739.
+Memory consumption went from 255.1 MB to 253.1 MB.
+Total: 8.118300 ms (FindLiveObjects: 0.553400 ms CreateObjectMapping: 0.556900 ms MarkObjects: 6.232100 ms  DeleteObjects: 0.775000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014106 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.89 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.235 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2236ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1855ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (455ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (997ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (751ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.01 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5996 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (2.0 MB). Loaded Objects now: 6755.
+Memory consumption went from 255.1 MB to 253.1 MB.
+Total: 4.960000 ms (FindLiveObjects: 0.487700 ms CreateObjectMapping: 0.366100 ms MarkObjects: 3.557300 ms  DeleteObjects: 0.547600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014459 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.18 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.116 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2117ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1839ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (430ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (1041ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (792ms)
+				ProcessInitializeOnLoadMethodAttributes (105ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.90 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5996 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (2.0 MB). Loaded Objects now: 6771.
+Memory consumption went from 255.1 MB to 253.1 MB.
+Total: 10.530700 ms (FindLiveObjects: 0.677900 ms CreateObjectMapping: 1.043100 ms MarkObjects: 7.586000 ms  DeleteObjects: 1.221700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014610 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.694 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1694ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1432ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (856ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (653ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 14.24 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5996 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (2.0 MB). Loaded Objects now: 6787.
+Memory consumption went from 255.1 MB to 253.1 MB.
+Total: 6.105500 ms (FindLiveObjects: 0.494000 ms CreateObjectMapping: 0.376400 ms MarkObjects: 4.668600 ms  DeleteObjects: 0.565400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016311 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.45 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.581 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1582ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1309ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (724ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (528ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.54 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5996 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (2.0 MB). Loaded Objects now: 6803.
+Memory consumption went from 255.1 MB to 253.1 MB.
+Total: 4.845000 ms (FindLiveObjects: 0.479400 ms CreateObjectMapping: 0.340900 ms MarkObjects: 3.531100 ms  DeleteObjects: 0.492800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016600 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.03 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.381 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2383ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (2088ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (499ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (1186ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (903ms)
+				ProcessInitializeOnLoadMethodAttributes (134ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.97 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5996 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (2.0 MB). Loaded Objects now: 6819.
+Memory consumption went from 255.2 MB to 253.2 MB.
+Total: 8.437700 ms (FindLiveObjects: 0.946900 ms CreateObjectMapping: 0.773400 ms MarkObjects: 5.954500 ms  DeleteObjects: 0.761100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 806.197276 seconds.
+  path: Assets/RPG_Universe/Assets/!Microlight/MicroBar/Sprites/spr_microBar_BW_bg.png
+  artifactKey: Guid(2d390ce73c5818541b39a8f93c0b015b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/!Microlight/MicroBar/Sprites/spr_microBar_BW_bg.png using Guid(2d390ce73c5818541b39a8f93c0b015b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aadcb023f5ebc551dc1db96ff934dad') in 0.152192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5726.258328 seconds.
+  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_1.asset
+  artifactKey: Guid(98c6f9baeaf02c246baf91d2f123719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_1.asset using Guid(98c6f9baeaf02c246baf91d2f123719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8ccf1dbbfd0b7c3ef429cbbcbb4baa') in 0.301095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_2_7.asset
+  artifactKey: Guid(db997917123ff8449ae1502b903cf39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_2_7.asset using Guid(db997917123ff8449ae1502b903cf39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d82012fbaa3e0428f3ed0e4390418aa') in 0.059907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_5.asset
+  artifactKey: Guid(14340fa8910355c4ea5d90f7051f2ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_5.asset using Guid(14340fa8910355c4ea5d90f7051f2ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cafb4c7827e66a63d93955e8f54c1f8') in 0.032170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_8.asset
+  artifactKey: Guid(801e1ca171db0bd4da259f2bd8bac490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_8.asset using Guid(801e1ca171db0bd4da259f2bd8bac490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb5d47fc2e001eccf8725266b972859') in 0.035143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_2_12.asset
+  artifactKey: Guid(38cc2acb2931a3c4eae7b9bda3f51815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_2_12.asset using Guid(38cc2acb2931a3c4eae7b9bda3f51815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954036655e8c862e772002d18d9cd5b9') in 0.092078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_7.asset
+  artifactKey: Guid(fd1e003bc9b60f346a90beb614bf7a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_7.asset using Guid(fd1e003bc9b60f346a90beb614bf7a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287f6256062e8c9b948fc90fcc840492') in 0.064315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_2_6.asset
+  artifactKey: Guid(4382de80fcbdb694aac4f45f7c234a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_2_6.asset using Guid(4382de80fcbdb694aac4f45f7c234a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21185ec9003b4ede6188f164066e09df') in 0.193479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_2.asset
+  artifactKey: Guid(9c8f6949bcaac9348acbb909b42da793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_2.asset using Guid(9c8f6949bcaac9348acbb909b42da793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2eddbef2a3572da15d7b096d1e181f5') in 0.069706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_2_0.asset
+  artifactKey: Guid(c8be4501f1e78f84399418ae02126c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_2_0.asset using Guid(c8be4501f1e78f84399418ae02126c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08e441681b238ecb7596f40ada6c9c8') in 0.091451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_19.asset
+  artifactKey: Guid(38674f16f44e6a64c8525fb47d8a32d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_19.asset using Guid(38674f16f44e6a64c8525fb47d8a32d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865a654681f4604daac59021bf5143ed') in 0.062460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_14.asset
+  artifactKey: Guid(d061f871578b02649adbaede1c63c3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_14.asset using Guid(d061f871578b02649adbaede1c63c3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df2123ead04a5bf245ba239b55986b2') in 0.080400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_11.asset
+  artifactKey: Guid(a1143a34654211841a3634f57d76ea7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_11.asset using Guid(a1143a34654211841a3634f57d76ea7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f015064709bd83cecef04d88f1420549') in 0.776170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_2_8.asset
+  artifactKey: Guid(8bb74c4f1ec3a004e9ad0078bf95b7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_2_8.asset using Guid(8bb74c4f1ec3a004e9ad0078bf95b7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700aa75bb8f39c9551cb5e6bfd5eb127') in 0.047595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_20.asset
+  artifactKey: Guid(d68dd3442e6b33b4f8d5d21eef0052b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_20.asset using Guid(d68dd3442e6b33b4f8d5d21eef0052b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c25bffea35f21c36a3a6a0ff5a9488b') in 0.024093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_4.asset
+  artifactKey: Guid(e48c62d9f3c5acb44a6669ad364eed82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_4.asset using Guid(e48c62d9f3c5acb44a6669ad364eed82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1d07044f2098d2d0852f6177cbf257') in 0.337575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_2_3.asset
+  artifactKey: Guid(444d5457892665e4c900127d14566a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_2_3.asset using Guid(444d5457892665e4c900127d14566a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec05364a13b92fedf57f1feec4229c3') in 0.088838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_18.asset
+  artifactKey: Guid(a2224250f670c594a855bb3c549d3495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/SpritePallete/Dungeon_Character_18.asset using Guid(a2224250f670c594a855bb3c549d3495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f54623f97fdaf76bb42c05908bbd032') in 0.063410 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
