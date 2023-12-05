@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorAnimator: {fileID: 5903949945897711444}
+  isOpen: 0
 --- !u!1 &5778045302491458245
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,6 +127,7 @@ GameObject:
   - component: {fileID: 2916091240228473131}
   - component: {fileID: 4951532841896201279}
   - component: {fileID: 5673168984476227279}
+  - component: {fileID: 7853619135629017044}
   m_Layer: 0
   m_Name: RightSide
   m_TagString: Untagged
@@ -211,6 +213,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!208 &7853619135629017044
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6404719517966079281}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &8045762877348241766
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,6 +241,7 @@ GameObject:
   - component: {fileID: 1207996499792834501}
   - component: {fileID: 8344281157913515180}
   - component: {fileID: 6842907723659777869}
+  - component: {fileID: 3830349939573635026}
   m_Layer: 0
   m_Name: LeftSide
   m_TagString: Untagged
@@ -308,3 +327,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!208 &3830349939573635026
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8045762877348241766}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5

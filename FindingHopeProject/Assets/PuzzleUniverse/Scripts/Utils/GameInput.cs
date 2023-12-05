@@ -5,14 +5,18 @@ using UnityEngine;
 
 public class GameInput : MonoBehaviour
 {
+    #region CameraEvents
     public event EventHandler OnCameraRotateLeftAction;
     public event EventHandler OnCameraRotateRightAction;
+    #endregion
 
+    #region PlayerEvents
     public event EventHandler OnPlayerInteractAction;
-
     public event EventHandler OnPlayerJumpAction;
-
     public event EventHandler OnPlayerRunAction;
+    #endregion
+
+    public event EventHandler OnGolemMoveAction;
 
     private InputActions inputActions;
 
@@ -47,10 +51,7 @@ public class GameInput : MonoBehaviour
 
     private void GolemMoveAction_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
     {
-        if (MousePosition.GetRaycastHitFromMouseInput(Camera.main, out RaycastHit hit))
-        {
-            Debug.Log(hit.point);
-        }
+        OnGolemMoveAction?.Invoke(this, EventArgs.Empty);
     }
 
     private void PlayerInteractAction_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
