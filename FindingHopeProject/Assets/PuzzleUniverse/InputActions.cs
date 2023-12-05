@@ -323,6 +323,34 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Golem"",
+            ""id"": ""b1db1dd4-3304-4b93-bce8-895724fcc3ae"",
+            ""actions"": [
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""Button"",
+                    ""id"": ""0fadd65c-0c9c-4ae7-85bc-d445f30aa683"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""d0da26e6-3f7e-4522-a874-558b1da7ce2a"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -337,6 +365,9 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         m_Camera = asset.FindActionMap("Camera", throwIfNotFound: true);
         m_Camera_RotateLeft = m_Camera.FindAction("RotateLeft", throwIfNotFound: true);
         m_Camera_RotateRight = m_Camera.FindAction("RotateRight", throwIfNotFound: true);
+        // Golem
+        m_Golem = asset.FindActionMap("Golem", throwIfNotFound: true);
+        m_Golem_Move = m_Golem.FindAction("Move", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -518,6 +549,52 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         }
     }
     public CameraActions @Camera => new CameraActions(this);
+
+    // Golem
+    private readonly InputActionMap m_Golem;
+    private List<IGolemActions> m_GolemActionsCallbackInterfaces = new List<IGolemActions>();
+    private readonly InputAction m_Golem_Move;
+    public struct GolemActions
+    {
+        private @InputActions m_Wrapper;
+        public GolemActions(@InputActions wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Move => m_Wrapper.m_Golem_Move;
+        public InputActionMap Get() { return m_Wrapper.m_Golem; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(GolemActions set) { return set.Get(); }
+        public void AddCallbacks(IGolemActions instance)
+        {
+            if (instance == null || m_Wrapper.m_GolemActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_GolemActionsCallbackInterfaces.Add(instance);
+            @Move.started += instance.OnMove;
+            @Move.performed += instance.OnMove;
+            @Move.canceled += instance.OnMove;
+        }
+
+        private void UnregisterCallbacks(IGolemActions instance)
+        {
+            @Move.started -= instance.OnMove;
+            @Move.performed -= instance.OnMove;
+            @Move.canceled -= instance.OnMove;
+        }
+
+        public void RemoveCallbacks(IGolemActions instance)
+        {
+            if (m_Wrapper.m_GolemActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        public void SetCallbacks(IGolemActions instance)
+        {
+            foreach (var item in m_Wrapper.m_GolemActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_GolemActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    public GolemActions @Golem => new GolemActions(this);
     public interface IPlayerActions
     {
         void OnMove(InputAction.CallbackContext context);
@@ -529,5 +606,9 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
     {
         void OnRotateLeft(InputAction.CallbackContext context);
         void OnRotateRight(InputAction.CallbackContext context);
+    }
+    public interface IGolemActions
+    {
+        void OnMove(InputAction.CallbackContext context);
     }
 }

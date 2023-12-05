@@ -21,42 +21,59 @@ public class GameInput : MonoBehaviour
         inputActions = new InputActions();
         inputActions.Player.Enable();
         inputActions.Camera.Enable();
+        inputActions.Golem.Enable();
     }
 
     private void Start()
     {
-        inputActions.Camera.RotateLeft.performed += RotateLeft_performed;
-        inputActions.Camera.RotateRight.performed += RotateRight_performed;
+        #region CameraInputs
+        inputActions.Camera.RotateLeft.performed += CameraRotateLeft_performed;
+        inputActions.Camera.RotateRight.performed += CameraRotateRight_performed;
+        #endregion
 
-        inputActions.Player.Interact.performed += Interact_performed;
+        #region PlayerInputs
+        inputActions.Player.Interact.performed += PlayerInteractAction_performed;
 
-        inputActions.Player.Jump.started += Jump_started;
+        inputActions.Player.Jump.started += PlayerJumpAction_started;
 
-        inputActions.Player.Run.started += Run_action;
-        inputActions.Player.Run.canceled += Run_action;
+        inputActions.Player.Run.started += PlayerRun_action;
+        inputActions.Player.Run.canceled += PlayerRun_action;
+        #endregion
+
+        #region GolemInputs
+        inputActions.Golem.Move.performed += GolemMoveAction_performed;
+        #endregion
     }
 
-    private void Interact_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    private void GolemMoveAction_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    {
+        if (MousePosition.GetRaycastHitFromMouseInput(Camera.main, out RaycastHit hit))
+        {
+            Debug.Log(hit.point);
+        }
+    }
+
+    private void PlayerInteractAction_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
     {
         OnPlayerInteractAction?.Invoke(this, EventArgs.Empty);
     }
 
-    private void Run_action(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    private void PlayerRun_action(UnityEngine.InputSystem.InputAction.CallbackContext obj)
     {
         OnPlayerRunAction?.Invoke(this, EventArgs.Empty);
     }
 
-    private void Jump_started(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    private void PlayerJumpAction_started(UnityEngine.InputSystem.InputAction.CallbackContext obj)
     {
         OnPlayerJumpAction?.Invoke(this, EventArgs.Empty);
     }
 
-    private void RotateLeft_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    private void CameraRotateLeft_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
     {
         OnCameraRotateLeftAction?.Invoke(this, EventArgs.Empty);
     }
 
-    private void RotateRight_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    private void CameraRotateRight_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
     {
         OnCameraRotateRightAction?.Invoke(this, EventArgs.Empty);
     }

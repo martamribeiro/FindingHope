@@ -301,6 +301,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Golem",
+            "id": "b1db1dd4-3304-4b93-bce8-895724fcc3ae",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "0fadd65c-0c9c-4ae7-85bc-d445f30aa683",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d0da26e6-3f7e-4522-a874-558b1da7ce2a",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []
