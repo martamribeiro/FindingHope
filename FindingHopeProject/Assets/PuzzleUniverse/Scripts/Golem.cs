@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using static UnityEngine.Rendering.DebugUI;
 
-public class Golem : MonoBehaviour
+public class Golem : MonoBehaviour, IBoxParentObject
 {
     private enum State
     {
@@ -16,6 +17,10 @@ public class Golem : MonoBehaviour
 
     [SerializeField] Camera camera;
     [SerializeField] GameInput gameInput;
+
+    [SerializeField] Transform boxGrabPosition;
+
+    private Box grabbedBox;
 
     private NavMeshAgent navMeshAgent;
     private Player playerInstance;
@@ -41,6 +46,7 @@ public class Golem : MonoBehaviour
                 }
                 break;
             case State.Carrying:
+                CarryingAction();
                 break;
             case State.Interacting:
                 InteractAction();
@@ -86,7 +92,9 @@ public class Golem : MonoBehaviour
             else
             {
                 navMeshAgent.destination = raycastHit.point;
-                state = State.Moving;
+
+                if (state != State.Carrying)
+                    state = State.Moving;
 
                 if (navMeshAgent.isStopped)
                     navMeshAgent.isStopped = false;
@@ -113,9 +121,49 @@ public class Golem : MonoBehaviour
 
     private void InteractAction()
     {
-        if (Vector3.Distance(transform.position, navMeshAgent.destination) < 0.5f) {
-            targetInteractable.Interact(this);
+        if (Vector3.Distance(transform.position, navMeshAgent.destination) < 0.5f || (targetInteractable is Box && Vector3.Distance(transform.position, navMeshAgent.destination) < 2f)) {
             state = State.StandBy;
+            targetInteractable.Interact(this);
         }
+    }
+
+    private void CarryingAction()
+    {
+        if (navMeshAgent.isStopped)
+            return;
+
+        if (Vector3.Distance(transform.position, navMeshAgent.destination) < 1f)
+            DropBox();
+    }
+
+    public void GrabBox(Box box)
+    {
+        navMeshAgent.isStopped = true;
+
+        grabbedBox = box;
+        state = State.Carrying;
+
+        grabbedBox.GetComponent<Rigidbody>().useGravity = false;
+        grabbedBox.GetComponent<NavMeshObstacle>().enabled = false;
+
+    }
+
+    public void DropBox()
+    {
+        grabbedBox.RemoveParent();
+
+        grabbedBox.GetComponent<Rigidbody>().useGravity = true;
+        grabbedBox.GetComponent<NavMeshObstacle>().enabled = true;
+
+        grabbedBox.transform.position = navMeshAgent.destination;
+
+        grabbedBox = null;
+        state = State.StandBy;
+        navMeshAgent.isStopped = true;
+    }
+
+    public Transform GetGrabPositionTransform()
+    {
+        return boxGrabPosition;
     }
 }

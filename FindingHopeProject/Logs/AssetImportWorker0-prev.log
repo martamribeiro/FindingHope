@@ -15,7 +15,7 @@ C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-10763
+3957
 Successfully changed project path to: C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject
 C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [78448] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 1489691534 [EditorId] 1489691534 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1736] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 1964506076 [EditorId] 1964506076 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [78448] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 1489691534 [EditorId] 1489691534 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1736] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 1964506076 [EditorId] 1964506076 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 200.41 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 753.25 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,51 +67,607 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007109 seconds.
+Registered in 0.009638 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 171.43 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 148.03 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.864 seconds
+- Completed reload, in  0.899 seconds
 Domain Reload Profiling:
-	ReloadAssembly (864ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (901ms)
+		BeginReloadAssembly (174ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (608ms)
-			LoadAssemblies (137ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (131ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (383ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (365ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (171ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (147ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
+				RefreshPlugins (148ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.025470 seconds.
+Registered in 0.040403 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 186.79 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 167.36 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.959 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1959ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1701ms)
+			LoadAssemblies (226ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (350ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (992ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (167ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (579ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.03 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6249 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 96 unused Assets / (1.6 MB). Loaded Objects now: 6672.
+Memory consumption went from 263.2 MB to 261.5 MB.
+Total: 6.411900 ms (FindLiveObjects: 0.604700 ms CreateObjectMapping: 0.608800 ms MarkObjects: 4.497300 ms  DeleteObjects: 0.699900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1307066.868082 seconds.
+  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Cone_01P.prefab
+  artifactKey: Guid(917b3e362cb87ec4c9f396c33a955af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Cone_01P.prefab using Guid(917b3e362cb87ec4c9f396c33a955af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69f22ff015f0741b46cfedba00726d6') in 0.350116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 133.119811 seconds.
+  path: Assets/PuzzleUniverse/Prefabs/Box.prefab
+  artifactKey: Guid(d6368b28254468f498b0cf5af3f76fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/Prefabs/Box.prefab using Guid(d6368b28254468f498b0cf5af3f76fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02fc86c06d5de1b3f7c2caf62c3ee4a') in 0.021315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.177425 seconds.
+  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs
+  artifactKey: Guid(4a76af20b1decd340896c06c996c2044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs using Guid(4a76af20b1decd340896c06c996c2044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b6dfb4a1a2849bc498b926ba94507d') in 0.010301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 251.354812 seconds.
+  path: Assets/PuzzleUniverse/Prefabs/Box.prefab
+  artifactKey: Guid(d6368b28254468f498b0cf5af3f76fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/Prefabs/Box.prefab using Guid(d6368b28254468f498b0cf5af3f76fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd174ce16f19504928de9e13c1cb0881c') in 0.914558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.090186 seconds.
+  path: Assets/PuzzleUniverse/Prefabs/Button.prefab
+  artifactKey: Guid(77803afda1153d4479f5555c0d511b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/Prefabs/Button.prefab using Guid(77803afda1153d4479f5555c0d511b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ea2540af48780be8bfc4124b920f27') in 0.045151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.724924 seconds.
+  path: Assets/PuzzleUniverse/Prefabs/Box.prefab
+  artifactKey: Guid(d6368b28254468f498b0cf5af3f76fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/Prefabs/Box.prefab using Guid(d6368b28254468f498b0cf5af3f76fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99b4d14129d026aa3c488d976ad70ee') in 0.016012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.447108 seconds.
+  path: Assets/PuzzleUniverse/_Assets/Materials/MultiPressurePlate.mat
+  artifactKey: Guid(71610510e7792ce48a4909e16fe80680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/_Assets/Materials/MultiPressurePlate.mat using Guid(71610510e7792ce48a4909e16fe80680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375254f965983c8f4b00ccd4e168ef84') in 0.115593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PuzzleUniverse/_Assets/Materials/Selected.mat
+  artifactKey: Guid(9103aefc78534b6419632ef4fc207b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/_Assets/Materials/Selected.mat using Guid(9103aefc78534b6419632ef4fc207b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3094256405c467d236637ff436813f3c') in 0.024653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PuzzleUniverse/_Assets/Materials/PolygonStarter_SeeThrough.mat
+  artifactKey: Guid(85f6fdecd1fd5134fb978c214e25f740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/_Assets/Materials/PolygonStarter_SeeThrough.mat using Guid(85f6fdecd1fd5134fb978c214e25f740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e798817d644614f6ca41121231f613') in 0.039434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 270.426655 seconds.
+  path: Assets/PuzzleUniverse/Scripts/PuzzleElements/Box.cs
+  artifactKey: Guid(4ac4ceb1814625541bd0795afedd5ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/Scripts/PuzzleElements/Box.cs using Guid(4ac4ceb1814625541bd0795afedd5ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e19d429051c3212b2e1114377af560') in 0.020414 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011167 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.32 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.167 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2169ms)
+		BeginReloadAssembly (794ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (179ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (361ms)
+		EndReloadAssembly (1252ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (374ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (604ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (376ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.33 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.6 MB). Loaded Objects now: 6777.
+Memory consumption went from 259.2 MB to 257.6 MB.
+Total: 7.307200 ms (FindLiveObjects: 0.721800 ms CreateObjectMapping: 0.644400 ms MarkObjects: 5.535800 ms  DeleteObjects: 0.403700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010013 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.289 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1290ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1054ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (509ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (318ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.88 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.6 MB). Loaded Objects now: 6793.
+Memory consumption went from 259.2 MB to 257.6 MB.
+Total: 6.143900 ms (FindLiveObjects: 0.544300 ms CreateObjectMapping: 0.669500 ms MarkObjects: 4.493300 ms  DeleteObjects: 0.435600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009559 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.358 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1359ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1095ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (342ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (510ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (323ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.14 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.6 MB). Loaded Objects now: 6809.
+Memory consumption went from 259.2 MB to 257.6 MB.
+Total: 6.028600 ms (FindLiveObjects: 0.577300 ms CreateObjectMapping: 0.581000 ms MarkObjects: 4.521600 ms  DeleteObjects: 0.347400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011324 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.74 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.529 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1531ms)
+		BeginReloadAssembly (277ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1138ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (541ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.44 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.6 MB). Loaded Objects now: 6825.
+Memory consumption went from 259.2 MB to 257.6 MB.
+Total: 7.905200 ms (FindLiveObjects: 0.638400 ms CreateObjectMapping: 0.497700 ms MarkObjects: 6.371800 ms  DeleteObjects: 0.395600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008936 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.306 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1306ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1069ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (513ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.02 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.6 MB). Loaded Objects now: 6841.
+Memory consumption went from 259.2 MB to 257.6 MB.
+Total: 5.359900 ms (FindLiveObjects: 0.590300 ms CreateObjectMapping: 0.720400 ms MarkObjects: 3.681500 ms  DeleteObjects: 0.366700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 496.501595 seconds.
+  path: Assets/PuzzleUniverse/Scripts/Golem.cs
+  artifactKey: Guid(c40f16f4ca1dae8459704164f0cb6cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/Scripts/Golem.cs using Guid(c40f16f4ca1dae8459704164f0cb6cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c3bf0b8175bfa2bfc2cccf9406c99c') in 0.015186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.178523 seconds.
+  path: Assets/PuzzleUniverse/Scripts/BoxParentObject.cs
+  artifactKey: Guid(ff9f58052acef4f4e89d17b5faf53394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/Scripts/BoxParentObject.cs using Guid(ff9f58052acef4f4e89d17b5faf53394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8375adbf815170d23e8038bcc3b00605') in 0.011417 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013787 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.93 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <57a8ad0d1492436d8cfee9ba8e6618f8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.602 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1603ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1345ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (626ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (382ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.19 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6074 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.6 MB). Loaded Objects now: 6858.
+Memory consumption went from 259.4 MB to 257.8 MB.
+Total: 5.942300 ms (FindLiveObjects: 0.648500 ms CreateObjectMapping: 0.665700 ms MarkObjects: 4.244200 ms  DeleteObjects: 0.382300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010028 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.620 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1621ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (145ms)
+		EndReloadAssembly (1259ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (674ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (327ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (138ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.88 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6074 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.6 MB). Loaded Objects now: 6874.
+Memory consumption went from 259.4 MB to 257.8 MB.
+Total: 7.856000 ms (FindLiveObjects: 0.761900 ms CreateObjectMapping: 1.728500 ms MarkObjects: 4.967500 ms  DeleteObjects: 0.397000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009357 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
@@ -140,200 +696,40 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.333 seconds
+- Completed reload, in  1.327 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2334ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (1327ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (2054ms)
-			LoadAssemblies (307ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1082ms)
+			LoadAssemblies (101ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (476ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (1088ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (187ms)
-				BeforeProcessingInitializeOnLoad (143ms)
-				ProcessInitializeOnLoadAttributes (637ms)
-				ProcessInitializeOnLoadMethodAttributes (109ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.39 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6245 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 96 unused Assets / (1.6 MB). Loaded Objects now: 6668.
-Memory consumption went from 263.2 MB to 261.5 MB.
-Total: 7.410900 ms (FindLiveObjects: 1.621900 ms CreateObjectMapping: 0.706500 ms MarkObjects: 4.452400 ms  DeleteObjects: 0.628000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1291012.370227 seconds.
-  path: Assets/PuzzleUniverse/Scripts/Interfaces/IActivatable.cs
-  artifactKey: Guid(3814e9cf97e83ff4a8202e38cb3f67ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/Scripts/Interfaces/IActivatable.cs using Guid(3814e9cf97e83ff4a8202e38cb3f67ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfbbf0e5e8731ba9c5066ee64680e20') in 0.233032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.394081 seconds.
-  path: Assets/PuzzleUniverse/Scripts/Interfaces/IInteractable1.cs
-  artifactKey: Guid(646f656c663e91f4fbc2881cbbce6329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/Scripts/Interfaces/IInteractable1.cs using Guid(646f656c663e91f4fbc2881cbbce6329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8d2fc79dc436c1ed3070960f00bc70') in 0.010378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.423864 seconds.
-  path: Assets/PuzzleUniverse/Scripts/Interfaces/IGolemInteractable.cs
-  artifactKey: Guid(646f656c663e91f4fbc2881cbbce6329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/Scripts/Interfaces/IGolemInteractable.cs using Guid(646f656c663e91f4fbc2881cbbce6329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc440eb2028c8d25228c03f8fce47877') in 0.007033 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010318 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 4.81 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.404 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3407ms)
-		BeginReloadAssembly (965ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (99ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (581ms)
-		EndReloadAssembly (2239ms)
-			LoadAssemblies (230ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (909ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (133ms)
-			SetupLoadedEditorAssemblies (925ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (153ms)
-				ProcessInitializeOnLoadAttributes (629ms)
-				ProcessInitializeOnLoadMethodAttributes (116ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 13.34 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6061 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (1.6 MB). Loaded Objects now: 6685.
-Memory consumption went from 251.6 MB to 250.0 MB.
-Total: 8.138900 ms (FindLiveObjects: 0.695300 ms CreateObjectMapping: 0.597800 ms MarkObjects: 6.373800 ms  DeleteObjects: 0.470200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 212.312547 seconds.
-  path: Assets/PuzzleUniverse/Scripts/Interfaces/IGolemInteractable.cs
-  artifactKey: Guid(646f656c663e91f4fbc2881cbbce6329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/Scripts/Interfaces/IGolemInteractable.cs using Guid(646f656c663e91f4fbc2881cbbce6329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2cc468811ed2e3e8466131e361825a') in 0.024839 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010204 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <57a8ad0d1492436d8cfee9ba8e6618f8>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.395 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1395ms)
-		BeginReloadAssembly (172ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1115ms)
-			LoadAssemblies (122ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (346ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (539ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (514ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (343ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.35 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 8.47 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6061 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (1.6 MB). Loaded Objects now: 6701.
-Memory consumption went from 251.6 MB to 250.0 MB.
-Total: 4.021500 ms (FindLiveObjects: 0.476400 ms CreateObjectMapping: 0.411700 ms MarkObjects: 2.894800 ms  DeleteObjects: 0.237700 ms)
+Unloading 6074 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.6 MB). Loaded Objects now: 6890.
+Memory consumption went from 259.5 MB to 257.9 MB.
+Total: 5.663800 ms (FindLiveObjects: 0.472900 ms CreateObjectMapping: 0.444300 ms MarkObjects: 4.400600 ms  DeleteObjects: 0.344700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -346,361 +742,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 257.762229 seconds.
-  path: Assets/PuzzleUniverse/Prefabs/GolemSwitch.prefab
-  artifactKey: Guid(42ef48b371fae954c8a3342b747f9582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/Prefabs/GolemSwitch.prefab using Guid(42ef48b371fae954c8a3342b747f9582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2089d9b41d15ef274f52ea9bab5c61') in 0.075374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 191.271447 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_Prop_Plane_Ring_01.fbx
-  artifactKey: Guid(8d1177ba3d7335442be5de9e2472ae26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_Prop_Plane_Ring_01.fbx using Guid(8d1177ba3d7335442be5de9e2472ae26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6806ab742449cc0fbffa4a51ead588f9') in 0.351378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.363973 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_SimpleSky_Dome_01.fbx
-  artifactKey: Guid(e9ca908cdd3e3f54a8fd61457b2a8c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_SimpleSky_Dome_01.fbx using Guid(e9ca908cdd3e3f54a8fd61457b2a8c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b16f10a5016277a038390f7284b04e1') in 0.024071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.689420 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_Veh_Plane_Stunt_01.fbx
-  artifactKey: Guid(89cfb46882e163d428cb9f3d79ae2393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_Veh_Plane_Stunt_01.fbx using Guid(89cfb46882e163d428cb9f3d79ae2393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7774f47d074ee1be5942507b8519e630') in 0.145899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.277758 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_Wep_Shield_04.fbx
-  artifactKey: Guid(87eb24cd8b7c5b145a5b6e0a7a932dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_Wep_Shield_04.fbx using Guid(87eb24cd8b7c5b145a5b6e0a7a932dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721a9de86b08da89191edd318c6ef9e6') in 0.020716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.695693 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_Wep_Watergun_01.fbx
-  artifactKey: Guid(e42a245ddc40f744994b4b96b407ec47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_Wep_Watergun_01.fbx using Guid(e42a245ddc40f744994b4b96b407ec47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae43aa55ec7fced8f65572fa4f3970a') in 0.053456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.724820 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_Wep_Watergun_02.fbx
-  artifactKey: Guid(27d85ed0b41b13e4b931011bd61b932b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_Wep_Watergun_02.fbx using Guid(27d85ed0b41b13e4b931011bd61b932b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce66a815fdbec4d3108c95b080839c9d') in 0.052071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.684090 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_Wep_WaterPistol_01.fbx
-  artifactKey: Guid(1d2d5f0a598df4e4d833227a0b9dd82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_Wep_WaterPistol_01.fbx using Guid(1d2d5f0a598df4e4d833227a0b9dd82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c55098843d71cbb6ea508274ac69257') in 0.032335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.327084 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Target_03.fbx
-  artifactKey: Guid(8332f017cfb13984196e491ffb1aaf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Target_03.fbx using Guid(8332f017cfb13984196e491ffb1aaf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050daec66f060b9598a84563ca3f7098') in 0.021935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.148592 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Ladder_1x2_01P.fbx
-  artifactKey: Guid(e9671205b5c307944a4c1715dbd3cf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Ladder_1x2_01P.fbx using Guid(e9671205b5c307944a4c1715dbd3cf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd64b8db8c06ab4762e4ae0ea4ecd80') in 0.019677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.833188 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Sword_01.fbx
-  artifactKey: Guid(5177448ec4a4be94ab1faeb920c5e49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Sword_01.fbx using Guid(5177448ec4a4be94ab1faeb920c5e49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f978544f876531e519e80b2fd3e937') in 0.016596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.605071 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Cone_01.fbx
-  artifactKey: Guid(10f4e51254da985418a112d2dfe124f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Cone_01.fbx using Guid(10f4e51254da985418a112d2dfe124f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4363115f5ad9b7bbfdca98a6cd4abb') in 0.020592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.187370 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Sphere_01P.fbx
-  artifactKey: Guid(d5e83122f8e5b6d4cae918de4ade20ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Sphere_01P.fbx using Guid(d5e83122f8e5b6d4cae918de4ade20ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b90308fde2aa3d09693a92494a343c6') in 0.018676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.549411 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Tube_01P.fbx
-  artifactKey: Guid(d87ac280bde89b843b6fb7284ab0fed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Tube_01P.fbx using Guid(d87ac280bde89b843b6fb7284ab0fed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1fc4b5c1fd32d8a82e7f9e032a263d') in 0.020957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.348885 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Cylander_01P.fbx
-  artifactKey: Guid(5cbb72520f7443f49b700d24eeec82e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Cylander_01P.fbx using Guid(5cbb72520f7443f49b700d24eeec82e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15783a8d0fc2c96480edc6d727f07957') in 0.024464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.492693 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Cone_01P.fbx
-  artifactKey: Guid(8d1a2ae25a118b4489e87176fcf3bbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Cone_01P.fbx using Guid(8d1a2ae25a118b4489e87176fcf3bbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2995c2595a6377723e74b82c23f7ae') in 0.019540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.422356 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Letter_Question_01.fbx
-  artifactKey: Guid(d3451d4509d73de44aa114b52f182239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Letter_Question_01.fbx using Guid(d3451d4509d73de44aa114b52f182239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac21651ef8f88ccbe5b44df8c9f6064') in 0.021621 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.648824 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Arrow_Small_01.fbx
-  artifactKey: Guid(b9979013b18adc147ac208c3520b982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Arrow_Small_01.fbx using Guid(b9979013b18adc147ac208c3520b982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c9850500a432724bab9ddb9ce99895') in 0.020862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.955445 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_WallWindow_2x3_01P.fbx
-  artifactKey: Guid(6be28cf95702ed2459d89932f1370fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_WallWindow_2x3_01P.fbx using Guid(6be28cf95702ed2459d89932f1370fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bac87b9da477352602f5ce6ba7b80a3') in 0.021223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.665756 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.fbx
-  artifactKey: Guid(4d167806285be1145935ba43ca5996fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.fbx using Guid(4d167806285be1145935ba43ca5996fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea54909be0e9e7834860496b182006c6') in 0.021124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.899686 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.fbx
-  artifactKey: Guid(863c2e4bd290d4344bfa0c76e862a0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.fbx using Guid(863c2e4bd290d4344bfa0c76e862a0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ff1daf0bd14e8a6d3a0b707f26313a') in 0.020500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.489830 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Ramp_45_1x1_01P.fbx
-  artifactKey: Guid(7e4cace35ee41bc41870fd214b6609e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Ramp_45_1x1_01P.fbx using Guid(7e4cace35ee41bc41870fd214b6609e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f236656362751398d59adfd112a3ba68') in 0.020784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.701820 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Crate_03.fbx
-  artifactKey: Guid(8dca5595cdaced544b3bca78ca84e8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Crate_03.fbx using Guid(8dca5595cdaced544b3bca78ca84e8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598eb16e30660c9579ec8af1fc856105') in 0.023641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 88.893765 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Tube_01P.prefab
-  artifactKey: Guid(6fb840e833a0f2049b655aba4bf98513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Tube_01P.prefab using Guid(6fb840e833a0f2049b655aba4bf98513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae8c3040042bb9d7921a299eb683c7d') in 0.020452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.615847 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Sphere_01P.prefab
-  artifactKey: Guid(296b6c6ad62626c48aef7fa6c5e2a9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Sphere_01P.prefab using Guid(296b6c6ad62626c48aef7fa6c5e2a9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b272ee6ed7e5cb4c7bcdec478eb34c2a') in 0.018623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.564804 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Cone_01.prefab
-  artifactKey: Guid(37e681eb08549004c9d9c2be529cbf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Cone_01.prefab using Guid(37e681eb08549004c9d9c2be529cbf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c9aeab8bc30cc4ba3a9eab5b266645') in 0.013788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.230402 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Crate_03.prefab
-  artifactKey: Guid(5527826a6315a224d850675a730c4f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Crate_03.prefab using Guid(5527826a6315a224d850675a730c4f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450b752fd2ad94ba58da7b2f85cce824') in 0.016136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.665001 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Ladder_1x2_01P.prefab
-  artifactKey: Guid(807bf6650795ad04395313d04ebe88c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Ladder_1x2_01P.prefab using Guid(807bf6650795ad04395313d04ebe88c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a520dc7c325ceec8fc4c7758100baeaf') in 0.016446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.079258 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Cylander_01P.prefab
-  artifactKey: Guid(4ec4cfadebd96154690192fbd49e28b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Cylander_01P.prefab using Guid(4ec4cfadebd96154690192fbd49e28b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa9991f695505f2eb5b9d7fea804b72') in 0.014327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.364700 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.prefab
-  artifactKey: Guid(dc7c84106cc461e4f8dac748879dbe72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.prefab using Guid(dc7c84106cc461e4f8dac748879dbe72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc720f40026b13e31740e0a78200a49') in 0.017222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.358169 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallWindow_2x3_01P.prefab
-  artifactKey: Guid(c65338a0f30f41c4681e41312190273d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallWindow_2x3_01P.prefab using Guid(c65338a0f30f41c4681e41312190273d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0a3ff1e37ce3d46b579b54e7a9d98c') in 0.020502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.332572 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.prefab
-  artifactKey: Guid(d3f65bf385a3c3847ab550b32f3e53e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.prefab using Guid(d3f65bf385a3c3847ab550b32f3e53e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692e312ec124c8e439b9135cb6cacdd0') in 0.018109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.176253 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.prefab
-  artifactKey: Guid(f675c07d915406144ae3100b985c0abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.prefab using Guid(f675c07d915406144ae3100b985c0abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e0db733079a5df41155b01ed3f2779') in 0.014355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.447530 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Ramp_45_1x1_01P.prefab
-  artifactKey: Guid(fc6f3424666dfda45bcbadbbf42e5968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Ramp_45_1x1_01P.prefab using Guid(fc6f3424666dfda45bcbadbbf42e5968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d18606d9d64e61e16a12687ac3b93a') in 0.015173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.884396 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Column_2x3_01P.prefab
-  artifactKey: Guid(a2e435ea5b0f606429670d1f3f1f1504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Column_2x3_01P.prefab using Guid(a2e435ea5b0f606429670d1f3f1f1504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a45391cf409d6930c45299ce8baa361') in 0.020130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 168.311397 seconds.
-  path: Assets/PuzzleUniverse/Animations/GolemSwitch.controller
-  artifactKey: Guid(7f13fb5916321244c9dc0b391eb9e807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/Animations/GolemSwitch.controller using Guid(7f13fb5916321244c9dc0b391eb9e807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3147d4a3d8260a5c9f3c5c6819b1aa') in 0.022214 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.108484 seconds.
-  path: Assets/PuzzleUniverse/Animations/GolemSwitch
-  artifactKey: Guid(3c8c3003e720b61418d93846b6b8cc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/Animations/GolemSwitch using Guid(3c8c3003e720b61418d93846b6b8cc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d23a66423c3e8a8de9908f1d7910d6e') in 0.002187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.045156 seconds.
-  path: Assets/PuzzleUniverse/Animations/GolemSwitch/GolemSwitch.controller
-  artifactKey: Guid(7f13fb5916321244c9dc0b391eb9e807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/Animations/GolemSwitch/GolemSwitch.controller using Guid(7f13fb5916321244c9dc0b391eb9e807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef36ee4d22adc75f674db76525acf476') in 0.003721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 206.936845 seconds.
-  path: Assets/PuzzleUniverse/Animations/GolemSwitch/SwitchOff.anim
-  artifactKey: Guid(aa92dcbc24be7ea42938525f53558e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/Animations/GolemSwitch/SwitchOff.anim using Guid(aa92dcbc24be7ea42938525f53558e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337d238a9fae84fa2ac28fd2e47913ca') in 0.012828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.710675 seconds.
-  path: Assets/PuzzleUniverse/Animations/GolemSwitch/SwitchOff 1.anim
-  artifactKey: Guid(255f25dfd8fe35e47bb61cfaae3246ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/Animations/GolemSwitch/SwitchOff 1.anim using Guid(255f25dfd8fe35e47bb61cfaae3246ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df02e18af54e00066d984c5099b12d03') in 0.008449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.857580 seconds.
-  path: Assets/PuzzleUniverse/Animations/GolemSwitch/SwitchOff.anim
-  artifactKey: Guid(aa92dcbc24be7ea42938525f53558e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/Animations/GolemSwitch/SwitchOff.anim using Guid(aa92dcbc24be7ea42938525f53558e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fba6557a576d5a24e8a29642f0af3e3') in 0.002806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.541506 seconds.
-  path: Assets/PuzzleUniverse/Animations/GolemSwitch/SwitchOn.anim
-  artifactKey: Guid(255f25dfd8fe35e47bb61cfaae3246ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/Animations/GolemSwitch/SwitchOn.anim using Guid(255f25dfd8fe35e47bb61cfaae3246ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b94b6e896f044ac6a21e037016cbdc9') in 0.009125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.936869 seconds.
-  path: Assets/PuzzleUniverse/Animations/GolemSwitch/GolemSwitch.controller
-  artifactKey: Guid(7f13fb5916321244c9dc0b391eb9e807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/Animations/GolemSwitch/GolemSwitch.controller using Guid(7f13fb5916321244c9dc0b391eb9e807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082ec54e57e1a243c460faf8d346a8fc') in 0.002748 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.638075 seconds.
-  path: Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTree.mat
-  artifactKey: Guid(138b35dd321622a4d93635b532ae8b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTree.mat using Guid(138b35dd321622a4d93635b532ae8b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04990918bda9206ab5952cfb1e05f685') in 0.265228 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Terrain.mat
-  artifactKey: Guid(2557d3f1d341fdb4e9d53179c053ffd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Terrain.mat using Guid(2557d3f1d341fdb4e9d53179c053ffd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b2f9c56c512f6324b7c58ad086a6ed') in 0.028676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Night.mat
-  artifactKey: Guid(cc421da483ed06c49933077a621bff25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Night.mat using Guid(cc421da483ed06c49933077a621bff25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3949708619fbb83ca3327d50d13cb0f5') in 0.794634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Materials/PolygonStarter_Mat_01.mat
-  artifactKey: Guid(dd41db2cdb4e66e4985303e1287ab101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Materials/PolygonStarter_Mat_01.mat using Guid(dd41db2cdb4e66e4985303e1287ab101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5814d6ed199e5fa272b55758904fbc96') in 0.188517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Rock.mat
-  artifactKey: Guid(37524ae4594222f4f8acd7b76234f79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Rock.mat using Guid(37524ae4594222f4f8acd7b76234f79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be6d64011d95a431853011e33842fc1') in 0.036592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PuzzleUniverse/_Assets/Materials/OrbLit.mat
-  artifactKey: Guid(5a2e9168d8990844983225cee189779a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/Materials/OrbLit.mat using Guid(5a2e9168d8990844983225cee189779a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a4ff003e283a55bb9729b38334adf3') in 0.105827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - TreeTrunk.mat
-  artifactKey: Guid(2a8f9a878cb7cff45b00339938d945ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - TreeTrunk.mat using Guid(2a8f9a878cb7cff45b00339938d945ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664afb2f18a0c2ad81b07ce9bc3fa01d') in 0.030012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PuzzleUniverse/_Assets/Materials/Red.mat
-  artifactKey: Guid(9eed7f80d52015545b9b6a297c2c3ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/Materials/Red.mat using Guid(9eed7f80d52015545b9b6a297c2c3ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6734897bfb4a64ec75207fe57509cfc3') in 0.027061 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat
-  artifactKey: Guid(6fc6652ed834922468cdd63bb95f7fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat using Guid(6fc6652ed834922468cdd63bb95f7fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ac146ff87e61fae82799d58fdf2612') in 0.035480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend.mat
-  artifactKey: Guid(1cf6f4c6e6e0518419839d3f5448dd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend.mat using Guid(1cf6f4c6e6e0518419839d3f5448dd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890d047f6f64372fb892345afea8fc53') in 0.641673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/PuzzleUniverse/_Assets/Materials/PolygonStarter_SeeThrough.mat
-  artifactKey: Guid(85f6fdecd1fd5134fb978c214e25f740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/Materials/PolygonStarter_SeeThrough.mat using Guid(85f6fdecd1fd5134fb978c214e25f740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475ebbfa65d5366a1d3c46e3179125ac') in 0.061622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Materials/Polygon_Plane_Texture_01.mat
-  artifactKey: Guid(187293f7f4a106346955444c0fab7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Materials/Polygon_Plane_Texture_01.mat using Guid(187293f7f4a106346955444c0fab7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390414e45ef47926ca5b4086a02c9fc0') in 0.040932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Day.mat
-  artifactKey: Guid(2bd8959f5fbd3644aa33af1a155fc147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Day.mat using Guid(2bd8959f5fbd3644aa33af1a155fc147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c93098cbb744ab1e7a1b986c3ab882') in 0.178828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Materials/PolygonStarter_Texture_02.mat
-  artifactKey: Guid(a393e4807c9bde64fbdf9c34f25216cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Materials/PolygonStarter_Texture_02.mat using Guid(a393e4807c9bde64fbdf9c34f25216cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20979b62875f0fd55f909f0d7c5acd58') in 0.032904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Wood.mat
-  artifactKey: Guid(ff059fc016fcf8d4a88162b27e334cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Wood.mat using Guid(ff059fc016fcf8d4a88162b27e334cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe3a6a930e9ca8b97e24b56f6aca877') in 0.033001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PuzzleUniverse/_Assets/PolygonStarter/Materials/PolygonStarter_Texture_03.mat
-  artifactKey: Guid(f3dba1d1db9190f419e6dcd8f492db86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/_Assets/PolygonStarter/Materials/PolygonStarter_Texture_03.mat using Guid(f3dba1d1db9190f419e6dcd8f492db86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96d646d150894f00d4ec1e3aa29ab64') in 0.022694 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

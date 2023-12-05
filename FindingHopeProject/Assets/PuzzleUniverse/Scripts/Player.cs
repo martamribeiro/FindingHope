@@ -2,8 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IBoxParentObject
 {
     private const float GRAVITY = -9.81f;
 
@@ -21,6 +22,14 @@ public class Player : MonoBehaviour
 
     [Header("Interaction Settings")]
     [SerializeField] private LayerMask interactionLayer;
+
+    [Header("Grab Settings")]
+    [SerializeField] private Transform grabPosition;
+    [SerializeField] private float grabbingSpeed = 3f;
+    [SerializeField] private float turningSpeedWhileGrabbing = 4f;
+
+    private Box grabbedBox;
+    private bool hasBox = false; 
 
     private Transform mainCameraTransform;
     private float verticalVelocity;
@@ -48,6 +57,12 @@ public class Player : MonoBehaviour
 
     private void GameInput_OnPlayerInteractAction(object sender, EventArgs e)
     {
+        if (hasBox)
+        {
+            DropBox();
+            return;
+        }
+
         float interactRange = 2f;
 
         Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange, interactionLayer);
@@ -86,7 +101,10 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        HandleMovement();
+        if (!hasBox)
+            HandleMovement();
+        else
+            HandleBoxMovement();
     }
 
     private void HandleMovement()
@@ -117,6 +135,31 @@ public class Player : MonoBehaviour
         transform.forward = Vector3.Slerp(transform.forward, moveDir, Time.deltaTime * rotateSpeed);
     }
 
+    private void HandleBoxMovement()
+    {
+        Vector2 inputVector = gameInput.GetMovementVectorNormalized();
+
+        Vector3 moveDir = inputVector.y * mainCameraTransform.forward;
+        moveDir += inputVector.x * mainCameraTransform.right;
+        moveDir.y = 0;
+        moveDir = moveDir.normalized * grabbingSpeed * Time.deltaTime;
+
+        if (characterController.isGrounded && verticalVelocity < 0.0f)
+        {
+            verticalVelocity = 0.0f;
+        }
+        else
+        {
+            verticalVelocity += GRAVITY * gravityMultiplier * Time.deltaTime;
+            moveDir.y = verticalVelocity;
+        }
+
+        characterController.Move(moveDir);
+
+        moveDir.y = 0;
+        transform.forward = Vector3.Slerp(transform.forward, moveDir, Time.deltaTime * turningSpeedWhileGrabbing);
+    }
+
     private bool IsGrounded()
     {   
         float maxDistance = 0.1f;
@@ -132,5 +175,24 @@ public class Player : MonoBehaviour
     public bool IsRunning()
     {
         return isRunning;
+    }
+
+    public void GrabBox(Box box)
+    {
+        grabbedBox = box;
+        hasBox = true;
+    }
+
+    public void DropBox()
+    {   
+        grabbedBox.RemoveParent();
+
+        grabbedBox = null;
+        hasBox = false;
+    }
+
+    public Transform GetGrabPositionTransform()
+    {
+        return grabPosition;
     }
 }

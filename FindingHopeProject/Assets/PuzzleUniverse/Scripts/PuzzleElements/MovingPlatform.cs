@@ -66,7 +66,9 @@ public class MovingPlatform : MonoBehaviour, IActivatable
 
     private void OnTriggerExit(Collider other)
     {
-        other.transform.SetParent(null);
+        if (!(other.TryGetComponent(out Box box) && box.HasParent())) {
+            other.transform.SetParent(null);
+        }
     }
 
     public void Activate()
