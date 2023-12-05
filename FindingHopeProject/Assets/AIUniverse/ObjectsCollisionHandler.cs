@@ -7,10 +7,10 @@ public class ObjectsCollisionHandler : MonoBehaviour
 {
     public GameObject objectB;
     public GameObject[] objectsToShow;
-    public TextMeshProUGUI textMeshPro;
+    //public TextMeshProUGUI textMeshPro;
 
-    [SerializeField]
-    private string customText = "Robot";
+    /*[SerializeField]
+    private string customText = "Robot";*/
 
     private void OnTriggerEnter(Collider other)
     {
@@ -22,7 +22,7 @@ public class ObjectsCollisionHandler : MonoBehaviour
         }
 
         // Change the content of TextMeshPro
-        ChangeText(customText);
+        //ChangeText(customText);
     }
 
     private void OnTriggerExit(Collider other)
@@ -35,7 +35,7 @@ public class ObjectsCollisionHandler : MonoBehaviour
         }
 
         // Change the content of TextMeshPro
-        ChangeText("Robot");
+        //ChangeText("Robot");
     }
 
     void ShowObjectsX()
@@ -54,11 +54,11 @@ public class ObjectsCollisionHandler : MonoBehaviour
         }
     }
 
-    void ChangeText(string newText)
+    /*void ChangeText(string newText)
     {
         if (textMeshPro != null)
         {
             textMeshPro.text = newText;
         }
-    }
+    }*/
 }
