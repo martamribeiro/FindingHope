@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DoorAnimator : MonoBehaviour
 {
+    private const string OPEN = "Open";
+
     private Animator animator;
 
     private void Awake()
@@ -13,11 +15,11 @@ public class DoorAnimator : MonoBehaviour
 
     public void OpenDoor()
     {
-        animator.SetBool("Open", true);
+        animator.SetBool(OPEN, true);
     }
 
     public void CloseDoor()
     {
-        animator.SetBool("Open", false);
+        animator.SetBool(OPEN, false);
     }
 }
