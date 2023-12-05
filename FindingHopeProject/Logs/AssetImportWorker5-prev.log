@@ -1,0 +1,1501 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16190 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+A:/Ano4/DESDJ/FindingHope/FindingHopeProject
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+50334
+Successfully changed project path to: A:/Ano4/DESDJ/FindingHope/FindingHopeProject
+A:/Ano4/DESDJ/FindingHope/FindingHopeProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [33724] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 541291606 [EditorId] 541291606 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H91IS5NJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [33724] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 541291606 [EditorId] 541291606 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H91IS5NJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 191.84 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path D:/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path A:/Ano4/DESDJ/FindingHope/FindingHopeProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     4018 MB
+    Driver:   31.0.15.2892
+Initialize mono
+Mono path[0] = 'D:/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/2021.3.21f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.003492 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 176.10 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.769 seconds
+Domain Reload Profiling:
+	ReloadAssembly (769ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (593ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (112ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (176ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014850 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image A:\Ano4\DESDJ\FindingHope\FindingHopeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 174.58 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.926 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1927ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1695ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (1106ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (175ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (686ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6166 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 99 unused Assets / (2.0 MB). Loaded Objects now: 6582.
+Memory consumption went from 257.6 MB to 255.6 MB.
+Total: 6.011800 ms (FindLiveObjects: 0.636900 ms CreateObjectMapping: 0.611200 ms MarkObjects: 4.229800 ms  DeleteObjects: 0.533100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37903.705673 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/items/weapon/weapon.gif
+  artifactKey: Guid(f177c137e3c931b4cb4db05c5c279361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/items/weapon/weapon.gif using Guid(f177c137e3c931b4cb4db05c5c279361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2095bb75b54f17090f426204e3cee67') in 0.282049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/3D-wall/wall-texture-1.png
+  artifactKey: Guid(4e9a6e809d77ef24b8b033f844f389e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/3D-wall/wall-texture-1.png using Guid(4e9a6e809d77ef24b8b033f844f389e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b94eafe02dcc0ed4c49ad70cfd1238a') in 0.095466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Visibility_Tool@2x.png
+  artifactKey: Guid(ef9977ed07c438845a52c577f4ffcc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Visibility_Tool@2x.png using Guid(ef9977ed07c438845a52c577f4ffcc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44893f6ad9d12c8e29fdfc12f7133358') in 0.086612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/background-elements/waterfall-end.gif
+  artifactKey: Guid(f0033edb61a36b9428030335d93f0925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/background-elements/waterfall-end.gif using Guid(f0033edb61a36b9428030335d93f0925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c60f268f3657b12e3dd2c8f0ed39f0e') in 0.048489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/torch_1.png
+  artifactKey: Guid(6a401d35398a519448b9c35960bfa8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/torch_1.png using Guid(6a401d35398a519448b9c35960bfa8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b695da64dec06ec3cf0b59cf899b2b10') in 0.056076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/torch_2.png
+  artifactKey: Guid(f9f002b245c2e9b43b819d7746f73971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/torch_2.png using Guid(f9f002b245c2e9b43b819d7746f73971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a63a43f9da465902baea0fbd4d6466') in 0.040171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Visibility_Tool@4x.png
+  artifactKey: Guid(f082e69f825d0aa44b687e592731c0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Visibility_Tool@4x.png using Guid(f082e69f825d0aa44b687e592731c0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250af538f7ed421c14424c09aa647770') in 0.047525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded.png
+  artifactKey: Guid(a20f7223e2252fc4d813fc92d0f3a614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded.png using Guid(a20f7223e2252fc4d813fc92d0f3a614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af62ddcea857a4e0e4bfcd4011f905c') in 0.045393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Tool@2x.png
+  artifactKey: Guid(45c995b76b893fd4b9e8d3e0f9f6463b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Tool@2x.png using Guid(45c995b76b893fd4b9e8d3e0f9f6463b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed05d7789949fcfeb20442c3cc740f08') in 0.098695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Mode@2x.png
+  artifactKey: Guid(cfe99a1afb609b4488d6fc9224a62f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Mode@2x.png using Guid(cfe99a1afb609b4488d6fc9224a62f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3f5fd014dcc450e958d2c16cf3a380') in 0.150043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/items/food/sushi.png
+  artifactKey: Guid(c66e4e9e995e34e45b1b6cbf2e6da5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/items/food/sushi.png using Guid(c66e4e9e995e34e45b1b6cbf2e6da5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a269289e0523035e0b1f61af37df36e') in 0.043321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v2/vampire_v2_3.png
+  artifactKey: Guid(cb728c5d787912544bb5c8abfb58e773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v2/vampire_v2_3.png using Guid(cb728c5d787912544bb5c8abfb58e773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70047060851b5035dfb5ed0e5888532d') in 0.050021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Influence.png
+  artifactKey: Guid(768531f76566d4b18bfe4ed7b21e5ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Influence.png using Guid(768531f76566d4b18bfe4ed7b21e5ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c6f59d0728099887cfca611d8ecaac') in 0.075987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/3D-wall/wall-texture-11.png
+  artifactKey: Guid(b3c8fca15238cdc43a2697e78c007c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/3D-wall/wall-texture-11.png using Guid(b3c8fca15238cdc43a2697e78c007c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c638db1f4ce63af0499f748c07dd6ca5') in 0.030995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Look.png
+  artifactKey: Guid(af0ae2dbf3d1efb4f82af377950704a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Look.png using Guid(af0ae2dbf3d1efb4f82af377950704a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b45979af8f5eed3d889006f5ad16e1') in 0.381109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/monsters/gif-preview/tyrannosaurus-walk.gif
+  artifactKey: Guid(11cbb158f21c0a149a6068463e176193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/monsters/gif-preview/tyrannosaurus-walk.gif using Guid(11cbb158f21c0a149a6068463e176193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef4efec4256039d59d8aaba3ee826e4') in 0.317472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/snake/sprite-sheet-147x94.png
+  artifactKey: Guid(0fb5813beb2b1c94791f2c60c8fdb6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/snake/sprite-sheet-147x94.png using Guid(0fb5813beb2b1c94791f2c60c8fdb6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58a8e6a83952d42c664f03022f14b1d') in 0.268537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/14.png
+  artifactKey: Guid(b140c6d9ac563c944a3458b972ef1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/14.png using Guid(b140c6d9ac563c944a3458b972ef1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1ce8f59b94923fc5f7d60bfe804e86') in 0.033207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/background-elements/fragile-block.png
+  artifactKey: Guid(72e5b9d324eb048489701e7fecbb8d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/background-elements/fragile-block.png using Guid(72e5b9d324eb048489701e7fecbb8d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf67e9728907bcb9710bee230718363') in 0.108084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/bottle-1.png
+  artifactKey: Guid(44cfd286737ec7347a6a5bb80fff3381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/bottle-1.png using Guid(44cfd286737ec7347a6a5bb80fff3381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5208f274929da1b5563c740cbc128e9') in 0.119022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/background-elements/sky-1.png
+  artifactKey: Guid(0ac9b578abe224f418821fe8315d03e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/background-elements/sky-1.png using Guid(0ac9b578abe224f418821fe8315d03e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cc98af1354bd6bfb52dbe512065276') in 0.149850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/characters/faceset/22.png
+  artifactKey: Guid(3b64e227e1bc019499ebe985d47de060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/characters/faceset/22.png using Guid(3b64e227e1bc019499ebe985d47de060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3912edd17cab780fbf90bdaabea34605') in 0.080174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_4.png
+  artifactKey: Guid(3f426ac25c5eddb4b96cd8902ec0713e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_4.png using Guid(3f426ac25c5eddb4b96cd8902ec0713e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc40af172add55c672719c2879d60821') in 0.068445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/fx/15.gif
+  artifactKey: Guid(2b25bc8763b9823498fb5fc4a3ebe1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/fx/15.gif using Guid(2b25bc8763b9823498fb5fc4a3ebe1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6d4d6683d14750ca91f7082075a1e3') in 0.190235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/effects/2-preview.gif
+  artifactKey: Guid(fe247169dd15867459bb340bc54798e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/effects/2-preview.gif using Guid(fe247169dd15867459bb340bc54798e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bfc94ec869b197b284f2a7bfc87694') in 0.102689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Doctor_Pack02/Sprite Sheets/Doctor_02/Doc02_RUn.png
+  artifactKey: Guid(3c24e587fe10fde4fb5a407c4b606859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doctor_Pack02/Sprite Sheets/Doctor_02/Doc02_RUn.png using Guid(3c24e587fe10fde4fb5a407c4b606859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a676d870a7d037dbf748b851fb5fe11e') in 1.479875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/weapons/shoot/Bomb.png
+  artifactKey: Guid(394c2cd9d786533459d7395c30c61e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/weapons/shoot/Bomb.png using Guid(394c2cd9d786533459d7395c30c61e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e310f0ab0b7888cd867202c65dffc823') in 0.097861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/mushroom/idle.gif
+  artifactKey: Guid(188995bfff678344295ae7e664be41a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/mushroom/idle.gif using Guid(188995bfff678344295ae7e664be41a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c42c252612f53b10ca8c6215e32bb31') in 0.056917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/background-elements/14.png
+  artifactKey: Guid(4b023f08da3c3214c9fe26a0a6d18706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/background-elements/14.png using Guid(4b023f08da3c3214c9fe26a0a6d18706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699855b6e887ca637ce84648ceb0999e') in 0.101882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Visibility_Tool@2x 1.png
+  artifactKey: Guid(1c5db39ecfdc3764c9b3874920a80999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Visibility_Tool@2x 1.png using Guid(1c5db39ecfdc3764c9b3874920a80999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f109bcbea6d68d7fd4f62a809e5e28') in 0.068430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/characters/4.png
+  artifactKey: Guid(e285f9be82b13bf44a12693286a316b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/characters/4.png using Guid(e285f9be82b13bf44a12693286a316b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c69cbbf7f540931a1e5c60e4e777d1') in 0.085819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/effects/fx-4.png
+  artifactKey: Guid(8bfed1362f0f1114e8b6a7c90587fce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/effects/fx-4.png using Guid(8bfed1362f0f1114e8b6a7c90587fce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678e0b62d0804cd722e977b3a7d30748') in 0.067211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/characters/head/1.png
+  artifactKey: Guid(04b21b8a2df05c6449b49bc389634fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/characters/head/1.png using Guid(04b21b8a2df05c6449b49bc389634fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bec24a2b608e1a0122e5670c927b364') in 0.041959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Generate_Geometry.png
+  artifactKey: Guid(41842964c48860f46b45e7b3d5986e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Generate_Geometry.png using Guid(41842964c48860f46b45e7b3d5986e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4d53e88d813b5d96efcdd2a94bb6e2') in 0.074731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step1.png
+  artifactKey: Guid(9ce84ff0fdeb13d4a83f077d075dd9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step1.png using Guid(9ce84ff0fdeb13d4a83f077d075dd9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44dfa33e724828b4ce60e45e5c5efed1') in 0.105530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/0-tileset-32x32.png
+  artifactKey: Guid(6be2e3e6343b46245ad645cea2553f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/0-tileset-32x32.png using Guid(6be2e3e6343b46245ad645cea2553f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62961fce4452169fac14ced1be042da6') in 0.109721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/weapons/attach-to-body/1.png
+  artifactKey: Guid(f152158de38392143a52432b7209078a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/weapons/attach-to-body/1.png using Guid(f152158de38392143a52432b7209078a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fcb21e478e40e6e45f284cf117b4da') in 0.065859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/monsters/gif-preview/tyrannosaurus-attack.gif
+  artifactKey: Guid(c5f1f7477e819194884f21319bf528fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/monsters/gif-preview/tyrannosaurus-attack.gif using Guid(c5f1f7477e819194884f21319bf528fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f449d87c86322353a5293ac7d3973cd') in 0.066311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/characters/npc/dragon-man.png
+  artifactKey: Guid(d82d0b709c3326d48858b4d5ae72cd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/characters/npc/dragon-man.png using Guid(d82d0b709c3326d48858b4d5ae72cd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3975f5316e7a343f6903ba4c299a429d') in 0.093158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/items/food-&-potion/food.gif
+  artifactKey: Guid(a0ef15f612413b14eab1f8d12e29a494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/items/food-&-potion/food.gif using Guid(a0ef15f612413b14eab1f8d12e29a494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7da211f562b989bdd20230f7d8d138') in 0.038968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/hud/full-heart.png
+  artifactKey: Guid(be837ab85d55ec542bd9193d1e85bcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/hud/full-heart.png using Guid(be837ab85d55ec542bd9193d1e85bcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e164cf8ab66e325693dc8513107c55f') in 0.273010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/1.png
+  artifactKey: Guid(53502b1b175143249b02c5b742841e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/1.png using Guid(53502b1b175143249b02c5b742841e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45ae8cd421407358f679cd6d5f80b96') in 0.034798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/items/gold-&-gem/gem-4.png
+  artifactKey: Guid(e803605a08d28c746a385160f4f11c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/items/gold-&-gem/gem-4.png using Guid(e803605a08d28c746a385160f4f11c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ffc44f0855d8b2aa3314b6eadf51dca') in 0.064147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/backgrounds/backgrounds/22.png
+  artifactKey: Guid(fc5512e9e3a032e4e961ee94d4568aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/backgrounds/backgrounds/22.png using Guid(fc5512e9e3a032e4e961ee94d4568aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132d82c24dac71de74d4b03f9a67a06c') in 0.133496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Visibility_Tool 1.png
+  artifactKey: Guid(8ce57331a725cc74d84af900f8f3c641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Visibility_Tool 1.png using Guid(8ce57331a725cc74d84af900f8f3c641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1a0dfaeeaab590044f9bb70471c83c') in 0.070268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Weight_Brush.png
+  artifactKey: Guid(e41886f7c5271c74f9adbf719cbd3e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Weight_Brush.png using Guid(e41886f7c5271c74f9adbf719cbd3e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ab6e9aa67492248eea94ed802b6ba6') in 0.104162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/background/tileset.png
+  artifactKey: Guid(e13036b9e53fbd647bd50cf29de0e7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/background/tileset.png using Guid(e13036b9e53fbd647bd50cf29de0e7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f64790748f51d2ef417142e687181a5') in 0.038002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/monsters/dragon.png
+  artifactKey: Guid(1cf5062a5abad944c99cb0e94fefe706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/monsters/dragon.png using Guid(1cf5062a5abad944c99cb0e94fefe706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8830274bc68c809b6c56e5c958cd0f5') in 0.092109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step3.png
+  artifactKey: Guid(46930b20180b59e46b73494adf53abbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step3.png using Guid(46930b20180b59e46b73494adf53abbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a02e759d739f2f2f60519acfade9978') in 0.059611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconcheckedoutlocaloverlay.png
+  artifactKey: Guid(bb1928aff4fd4cf44af1f629dc14ef9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconcheckedoutlocaloverlay.png using Guid(bb1928aff4fd4cf44af1f629dc14ef9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247742cb95eb048beccfb988da764765') in 0.055909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/3D-wall/wall-texture-9.png
+  artifactKey: Guid(f3fd0c6659868654994de30830530ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/3D-wall/wall-texture-9.png using Guid(f3fd0c6659868654994de30830530ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6ee16b0b9d2b129457bd902077cdb8') in 0.050901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/monsters/turtle-2.png
+  artifactKey: Guid(773ff47cdcc77e54783f15609f5eda4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/monsters/turtle-2.png using Guid(773ff47cdcc77e54783f15609f5eda4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e851efd64e132dfc36134b6d646f5bd6') in 0.079815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/characters/tank-base.png
+  artifactKey: Guid(7da0a54b88d382c4789d83f08ca2f332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/characters/tank-base.png using Guid(7da0a54b88d382c4789d83f08ca2f332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fb741a7dc1640b4f81b05009b3a852') in 0.109988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/particles/smoke-particle-1.png
+  artifactKey: Guid(8ba2bb6d1516aba41afcf9b1f29b99cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/particles/smoke-particle-1.png using Guid(8ba2bb6d1516aba41afcf9b1f29b99cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ff75fc6d3c4f24773f6816ec7e5484') in 0.065710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/monsters/gif-preview/turtle-death.gif
+  artifactKey: Guid(f2856cd9ee1bb2b469abb0e254bc64c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/monsters/gif-preview/turtle-death.gif using Guid(f2856cd9ee1bb2b469abb0e254bc64c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd544a960be922857e7dc105b2930956') in 0.051714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Weight_Brush@4x.png
+  artifactKey: Guid(f68f6cf24545d2f41b27323ca2b06a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Weight_Brush@4x.png using Guid(f68f6cf24545d2f41b27323ca2b06a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e855e1cdbdfd0b508ba987e6959112f') in 0.197150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/backgrounds/backgrounds/23.png
+  artifactKey: Guid(57c477a8a600fae4da7741b3ad3e5e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/backgrounds/backgrounds/23.png using Guid(57c477a8a600fae4da7741b3ad3e5e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80a713f16191d4e3c7e35e8a60c4114') in 0.095626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/fx/15.png
+  artifactKey: Guid(3726cad7e43dc1944ae05570dcb81e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/fx/15.png using Guid(3726cad7e43dc1944ae05570dcb81e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8eff5f97ee7e17d775caf718dc4c76') in 0.055241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/characters/body/2.png
+  artifactKey: Guid(2659904175d7f95468517d93a7645664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/characters/body/2.png using Guid(2659904175d7f95468517d93a7645664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec2f5f90e10bcd043957910f61d5882') in 0.035360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stepok.png
+  artifactKey: Guid(be423a54b981d38428de82ad12534629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stepok.png using Guid(be423a54b981d38428de82ad12534629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2113edc47eec5d5a28dec83305f8a0d0') in 0.128413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Sprint.png
+  artifactKey: Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Sprint.png using Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58662bd6d301ed2ef8efe84cbe2aec1a') in 0.241979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/items/23.png
+  artifactKey: Guid(8d025c60257b8ba4fab682dd7d69841e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/items/23.png using Guid(8d025c60257b8ba4fab682dd7d69841e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85f3a677d42ee7e7be5b282200e0d03') in 0.104925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Tool@3x.png
+  artifactKey: Guid(ec23e33668eecff4aaec16f735dcc204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Tool@3x.png using Guid(ec23e33668eecff4aaec16f735dcc204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6dbab3f08eae87c3f3dceb80d092c58') in 0.061421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/SpriteShapeEdge.png
+  artifactKey: Guid(0ae2b74b1edd14bb18dd7b65ae916a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/SpriteShapeEdge.png using Guid(0ae2b74b1edd14bb18dd7b65ae916a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bdeb7f8e35c9272c314b6945a368da') in 0.063698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Influence@2x.png
+  artifactKey: Guid(8169b95b76b504e3b8dc9ccf0bdbe226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Influence@2x.png using Guid(8169b95b76b504e3b8dc9ccf0bdbe226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a70bf39470b6f7771a2eecc451c951') in 0.112343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/characters/24.png
+  artifactKey: Guid(7db3ba7329e611749bff1a2a548027d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/characters/24.png using Guid(7db3ba7329e611749bff1a2a548027d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daada3ddd9dc2e69ba5308ad82103a7c') in 0.072957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Visibility_Tool@3x.png
+  artifactKey: Guid(8c3b52e1fbc36584d802ee0099c48682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Visibility_Tool@3x.png using Guid(8c3b52e1fbc36584d802ee0099c48682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93dd39a0a5d805da9b6ca92dd3d0ec59') in 0.141140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Visibility_Hidded@3x.png
+  artifactKey: Guid(dc1f494fe190bd54bb487d11e639d5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Visibility_Hidded@3x.png using Guid(dc1f494fe190bd54bb487d11e639d5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4fef04f006e6d19afc5ddeda4d03ba') in 0.197273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/bat/sprite-sheet-121x89.png
+  artifactKey: Guid(cbdd29c00c0e0a04da3c8a16daf191d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/bat/sprite-sheet-121x89.png using Guid(cbdd29c00c0e0a04da3c8a16daf191d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6616100d984a57fc6a80ca68f21b569d') in 0.205382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Edit_Geometry@4x.png
+  artifactKey: Guid(1a96ab5f501a8e84c9016458682e1ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Edit_Geometry@4x.png using Guid(1a96ab5f501a8e84c9016458682e1ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd617ec9fb8dc64527b18292953291763') in 0.114876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/facesets/23.png
+  artifactKey: Guid(b2b6886e95afdd642a490253d20e9999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/facesets/23.png using Guid(b2b6886e95afdd642a490253d20e9999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910e9d8085fa8f315f530ddccd20874f') in 0.046079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/backgrounds/meteor-2.png
+  artifactKey: Guid(f75ba55b5daec1647b9e38ef20dda2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/backgrounds/meteor-2.png using Guid(f75ba55b5daec1647b9e38ef20dda2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56686070162c9f0076a6bf85cda1a99') in 0.088153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Doctor_Pack02/Sprite Sheets/Doctor_02/Doc02_Walk.png
+  artifactKey: Guid(69a8470d2d6f11247b470765ef79f61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doctor_Pack02/Sprite Sheets/Doctor_02/Doc02_Walk.png using Guid(69a8470d2d6f11247b470765ef79f61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440650bcfe4a8d31d57af3719ba2e707') in 1.359943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/bone.png
+  artifactKey: Guid(ec4b50e8aaedeb349809f64d0936d50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/bone.png using Guid(ec4b50e8aaedeb349809f64d0936d50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e29d9f9d9291684be9d774188b9cc11') in 0.055336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/46.png
+  artifactKey: Guid(2dbd2049cf5b9e9438f5dece6570ecbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/46.png using Guid(2dbd2049cf5b9e9438f5dece6570ecbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2356719293d945eb62fa3b845bc4716') in 0.051448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflicted@2x.png
+  artifactKey: Guid(65f0e363b74cf5845ab8c3fbc14f39ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflicted@2x.png using Guid(65f0e363b74cf5845ab8c3fbc14f39ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697815e3f076b58b0fa6c691f687312f') in 0.065772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Sprite_Mode@4x.png
+  artifactKey: Guid(177f0e0a4941a464f935c21b367d57c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Sprite_Mode@4x.png using Guid(177f0e0a4941a464f935c21b367d57c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926f8929f0822705d5fafc935a8c5a8f') in 0.059788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/chest/sprite-sheet-127x88.png
+  artifactKey: Guid(08c0a486c328d4e4eb7e46ecc1849d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/chest/sprite-sheet-127x88.png using Guid(08c0a486c328d4e4eb7e46ecc1849d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfefa34c356633fed5d8a26e146c646') in 0.112803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/effects/4.png
+  artifactKey: Guid(1c3c8daa8d621b848abc61a8c6c15862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/effects/4.png using Guid(1c3c8daa8d621b848abc61a8c6c15862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffff5e5ec29260fcc9f6f7831289a950') in 0.036168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/characters/turret/2.png
+  artifactKey: Guid(d6be79e4202b19e418618f4dc2d63983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/characters/turret/2.png using Guid(d6be79e4202b19e418618f4dc2d63983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e51aac9f9136d8a08d1b844e59e3ebd') in 0.034241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_2.png
+  artifactKey: Guid(5ab089c8fc547894ea1031b132d12394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_2.png using Guid(5ab089c8fc547894ea1031b132d12394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120a99cc33768aba80bb205017283870') in 0.044058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Doctor_Pack02/Sprite Sheets/Doctor_03/Doc03_Death.png
+  artifactKey: Guid(5b4541b434928b245b95c9bbd7db745f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doctor_Pack02/Sprite Sheets/Doctor_03/Doc03_Death.png using Guid(5b4541b434928b245b95c9bbd7db745f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936162c2e70ac831b1b66b2c1767bec8') in 0.698293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@4x.png
+  artifactKey: Guid(9125c204f566db048a92ebcb64d9d14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@4x.png using Guid(9125c204f566db048a92ebcb64d9d14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8baa8de8f65ce0b592a5ba9a5883f98') in 0.056696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Mesh@4x.png
+  artifactKey: Guid(953b8abb3b6548c4294b547c2f473be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Mesh@4x.png using Guid(953b8abb3b6548c4294b547c2f473be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05368c651503c3b7ba6f5d0a313ef413') in 0.147795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/coin.png
+  artifactKey: Guid(b88bd302784b3aa439a0440903247df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/coin.png using Guid(b88bd302784b3aa439a0440903247df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2839538ab95235140f5032488d6c7f') in 0.157034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay@2x.png
+  artifactKey: Guid(a6fbd5a181bc51e42a61a73fe8d727c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay@2x.png using Guid(a6fbd5a181bc51e42a61a73fe8d727c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7064765536a1be077a14d7ed7c6714ce') in 0.085548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/particles/bottle-1.png
+  artifactKey: Guid(12cda3f8b0bf3b04c9815ff9bd6d710e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/particles/bottle-1.png using Guid(12cda3f8b0bf3b04c9815ff9bd6d710e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466659effd53b1b9005ffb438fc81593') in 0.045816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/items/food/sushi-2.png
+  artifactKey: Guid(64649f5ef5d6d8f4ca6bfc179f26b405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/items/food/sushi-2.png using Guid(64649f5ef5d6d8f4ca6bfc179f26b405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1538d7c401315af8ef057c2aaa3fc70c') in 0.085036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded@2x.png
+  artifactKey: Guid(f3940f64802892746b2ec336d3b0c5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded@2x.png using Guid(f3940f64802892746b2ec336d3b0c5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0360fe1fea7fee9a0bc89963e1b55cf') in 0.063184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/21.png
+  artifactKey: Guid(b301aa9ebacf3d140b52fcf1b59101fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/21.png using Guid(b301aa9ebacf3d140b52fcf1b59101fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20fa372c2b456a969176f0d089f1046') in 0.038364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/mushroom/sprite-sheet-192x163.png
+  artifactKey: Guid(78fdde0a5ab13b14091ca085ea9f0182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/mushroom/sprite-sheet-192x163.png using Guid(78fdde0a5ab13b14091ca085ea9f0182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2039cf1788c6af5a2c20223c955ac047') in 0.236132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Mode@3x.png
+  artifactKey: Guid(71d8b2e508f1d9947ba51013600a5eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Mode@3x.png using Guid(71d8b2e508f1d9947ba51013600a5eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6af9cb739ef7079a5748143a5482d0') in 0.088522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/fx/3-b.png
+  artifactKey: Guid(1779a62beb846c14bba7db7ad5e54d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/fx/3-b.png using Guid(1779a62beb846c14bba7db7ad5e54d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc126faf79ffab813559d9a185728a8') in 0.045711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/weapons/shoot/2.png
+  artifactKey: Guid(e800a84a043fd864381c83133641f1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/weapons/shoot/2.png using Guid(e800a84a043fd864381c83133641f1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c455693584e83c8302e6e05b29a1cf') in 0.064822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/characters/15.png
+  artifactKey: Guid(00570648d52739947aa7558ad3a906bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/characters/15.png using Guid(00570648d52739947aa7558ad3a906bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b13d27f3b1672e864088693b07eb19b') in 0.045340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step1.png
+  artifactKey: Guid(38236a82ff44aaa4b972248479d5f970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step1.png using Guid(38236a82ff44aaa4b972248479d5f970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32515b825cb890b17ef34606a5d609cf') in 0.089088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/sky-background.png
+  artifactKey: Guid(c7cec4adb0d09334b9554e9f98468f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/sky-background.png using Guid(c7cec4adb0d09334b9554e9f98468f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0451abe30f5615c4d8070ba22e879a94') in 0.071059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded@4x.png
+  artifactKey: Guid(f469f8253737d534ca7809ae6f0d2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded@4x.png using Guid(f469f8253737d534ca7809ae6f0d2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfeded359a28be5da49d314ddfa7ca18') in 0.116678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v2/vampire_v2_4.png
+  artifactKey: Guid(549721a4d8acd51409bc0d7f97c098d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v2/vampire_v2_4.png using Guid(549721a4d8acd51409bc0d7f97c098d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ebc25ca039aa0e7937e675e0a8cd1d') in 0.054444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/items/milk-pot.png
+  artifactKey: Guid(d92c9e27f22f861439c6c64c30c8b283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/items/milk-pot.png using Guid(d92c9e27f22f861439c6c64c30c8b283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fece9fe8ac0a2eff00c7773c594d81c5') in 0.059201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/hud/1.png
+  artifactKey: Guid(f439c0e8509d9dd4e8694b1a038d9f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/hud/1.png using Guid(f439c0e8509d9dd4e8694b1a038d9f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9f968471013add2061760e26033e95') in 0.086405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Influence@4x.png
+  artifactKey: Guid(0e0d5e38f19194a978d2f42b0b806775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Influence@4x.png using Guid(0e0d5e38f19194a978d2f42b0b806775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b687e85adca8023399efef916a58c6ff') in 0.096663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v2/skull_v2_2.png
+  artifactKey: Guid(470c9de4e00ac3e4fb5902488d7b7d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v2/skull_v2_2.png using Guid(470c9de4e00ac3e4fb5902488d7b7d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8f21190dc97de3ed8c230ef559c5f0') in 0.073811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflicted.png
+  artifactKey: Guid(881798b77426a8f47b533dcc4767e9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflicted.png using Guid(881798b77426a8f47b533dcc4767e9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fcfbc16e4c88f1131cbc97186315d4') in 0.066673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@2x.png
+  artifactKey: Guid(0779ad3feec52124e97114bcbb12ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@2x.png using Guid(0779ad3feec52124e97114bcbb12ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a247c5f82d33c167ce785a0aa68082') in 0.043619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Visibility_Tool@2x.png
+  artifactKey: Guid(a9e89ee3f041fa5459a4e78b37d1e58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Visibility_Tool@2x.png using Guid(a9e89ee3f041fa5459a4e78b37d1e58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3a082c4bef011a04dbc35c0f15c064') in 0.635778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/mimic/sprite-sheet-231x172.png
+  artifactKey: Guid(b17f2c8fd74aced4999c07c417fdcb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/mimic/sprite-sheet-231x172.png using Guid(b17f2c8fd74aced4999c07c417fdcb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3839836c63af40ee9fa33d6a3c5d5924') in 0.190093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/3D-wall/wall-texture-7.png
+  artifactKey: Guid(e229a28a401983b409ca1a6d6f8afd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/3D-wall/wall-texture-7.png using Guid(e229a28a401983b409ca1a6d6f8afd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4beedd92cf7c5951dad370fa4d8fc598') in 0.038978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/snake/hit.gif
+  artifactKey: Guid(4068f9ef7e2aa1d43aeff9d93e3d8a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/snake/hit.gif using Guid(4068f9ef7e2aa1d43aeff9d93e3d8a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434c413ba95a9ace4328d13e616add66') in 0.175345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Edit_Joints@2x.png
+  artifactKey: Guid(2fc7298673dedaa4a9f850a8ca46e299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Edit_Joints@2x.png using Guid(2fc7298673dedaa4a9f850a8ca46e299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72793f2ce68fb2a30c3697c73a721cb') in 0.516258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/font-number-40x40.png
+  artifactKey: Guid(282ec00567baaf248945da6a0a8f05c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/font-number-40x40.png using Guid(282ec00567baaf248945da6a0a8f05c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a594060e6f4a04e88df4526b48aac7') in 0.314388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/items/44.png
+  artifactKey: Guid(aa54c141a099e044f8a2e7740f1e9ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/items/44.png using Guid(aa54c141a099e044f8a2e7740f1e9ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316f1b56dae1b2d491172c0c4a52f5c7') in 0.117326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Influence@2x.png
+  artifactKey: Guid(80f77a76467b24d1a856328afa989eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Influence@2x.png using Guid(80f77a76467b24d1a856328afa989eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9b7115fa4e453156c27faaead36279') in 0.142238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/characters/head/14.png
+  artifactKey: Guid(7f1a6241098be7d4884a185d7217f476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/characters/head/14.png using Guid(7f1a6241098be7d4884a185d7217f476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40078c236505edc93b9adb121360666') in 0.181623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/items/22.png
+  artifactKey: Guid(e2cb796c4c7949045af89d1630bda3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/items/22.png using Guid(e2cb796c4c7949045af89d1630bda3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5da5f04c109422603f47d6d86dccfc') in 0.072387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/bottle-3.png
+  artifactKey: Guid(cc3a794481995544f9df7b360682ea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/bottle-3.png using Guid(cc3a794481995544f9df7b360682ea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212f913adeacce31286e4946f06547c4') in 0.140940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/42.png
+  artifactKey: Guid(843b8f589e1543e42a34c6095a35498f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/42.png using Guid(843b8f589e1543e42a34c6095a35498f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763f86b61c71407fc5223c1d8e2d70bb') in 0.173746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_1.png
+  artifactKey: Guid(aea4cfa5094d7ed4dbfe1c1351114e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_1.png using Guid(aea4cfa5094d7ed4dbfe1c1351114e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2f8fec9756973d91b03ff6e145f9c8') in 0.069343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/characters/robot/body.png
+  artifactKey: Guid(c3231c456c1736b439c462abdbf3f05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/characters/robot/body.png using Guid(c3231c456c1736b439c462abdbf3f05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75941cf13428445ff630edd9b323efa') in 0.042826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/items/food-&-potion/food.png
+  artifactKey: Guid(4a48ae7a187edf84388ed2458be0af36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/items/food-&-potion/food.png using Guid(4a48ae7a187edf84388ed2458be0af36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7234aba012ebcf622c73cba9a7706447') in 0.052045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Textures/computer_wall_texture.png
+  artifactKey: Guid(7b98260aedcf3b0438023520105fd422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Textures/computer_wall_texture.png using Guid(7b98260aedcf3b0438023520105fd422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b9a0a7684629265323f0d80517cdf2') in 0.130293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/weapons/4.png
+  artifactKey: Guid(7549e02308f09e14ea47ea439441da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/weapons/4.png using Guid(7549e02308f09e14ea47ea439441da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be44270cb229132cda55dd80faa92c4') in 0.043847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/fx/14.png
+  artifactKey: Guid(7323bd6a5dff38342820bdeb3e4d584b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/fx/14.png using Guid(7323bd6a5dff38342820bdeb3e4d584b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8093b38b613ce45221f7b5b737e0db8') in 0.050274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Doctor_Pack02/Sprite Sheets/Doctor_02/Doc02_Idle.png
+  artifactKey: Guid(493f51b603398004690a06bd93b66f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doctor_Pack02/Sprite Sheets/Doctor_02/Doc02_Idle.png using Guid(493f51b603398004690a06bd93b66f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336ec10342d0a9bb9413dcd1a7f3a5e9') in 0.613030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/slime/idle.gif
+  artifactKey: Guid(3f8a5bf5b1cbbc945aa4f07c17c72e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/slime/idle.gif using Guid(3f8a5bf5b1cbbc945aa4f07c17c72e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83008c46eb952dd8f16c1231fa6da92') in 0.071561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/items/medipack.png
+  artifactKey: Guid(5bbea6d389065c04495563232e5fc604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/items/medipack.png using Guid(5bbea6d389065c04495563232e5fc604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e945048d12c572d86990f92bd3f69c7') in 0.057559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/characters/22.png
+  artifactKey: Guid(d017a903d7e4fca45aa2c59913b7c58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/characters/22.png using Guid(d017a903d7e4fca45aa2c59913b7c58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e192e1f5ef0ad641df494a94f486dc') in 0.115109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/items/3.png
+  artifactKey: Guid(60f125ae974b69445b8f6cda404b5d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/items/3.png using Guid(60f125ae974b69445b8f6cda404b5d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03d43554d742ecf4731e625f13bdd81') in 0.087901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconclosebutton.png
+  artifactKey: Guid(9cadde7a0d5f9024ab3f2cd5f6a740d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconclosebutton.png using Guid(9cadde7a0d5f9024ab3f2cd5f6a740d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffc4af75b6d44a0ed75ccb21cc5d245') in 0.116849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Edit_Geometry.png
+  artifactKey: Guid(b668cd73b0ac4ba4db9f21a167c80e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Edit_Geometry.png using Guid(b668cd73b0ac4ba4db9f21a167c80e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a946557732a7dbba53c8f2cedba2e7') in 0.042082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/fx/14.png
+  artifactKey: Guid(9b56f89d8d9a1c64ca662eaef56d554f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/fx/14.png using Guid(9b56f89d8d9a1c64ca662eaef56d554f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c66d0d90a9143935f7a7e744cdb20d3') in 0.058616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/monsters/gif-preview/tyrannosaurus-hit.gif
+  artifactKey: Guid(db740f6c24a060143837189bf5e6cfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/monsters/gif-preview/tyrannosaurus-hit.gif using Guid(db740f6c24a060143837189bf5e6cfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a6170b8f8e67c28003e076c802451a') in 0.154508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/items/projectile/4.png
+  artifactKey: Guid(b350d0fbad034294195546e974a9c8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/items/projectile/4.png using Guid(b350d0fbad034294195546e974a9c8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bb291d75dc92cfa2c838d00421eee5') in 0.034785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/backgrounds/backgrounds/14.png
+  artifactKey: Guid(636cb0ac1bcd1da4780c5ec21999fa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/backgrounds/backgrounds/14.png using Guid(636cb0ac1bcd1da4780c5ec21999fa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3c8e562f79bb67c7ede2bb31a945a1') in 0.169825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/items/ice-spike.png
+  artifactKey: Guid(8eeb5e4b3d07e284bafbaf69588368a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/items/ice-spike.png using Guid(8eeb5e4b3d07e284bafbaf69588368a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8cea188b6db7ec48822adab762af4c') in 0.043428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/3D-wall/wall-texture-2.png
+  artifactKey: Guid(25d608a06d2e5784bbff102b100bd058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/3D-wall/wall-texture-2.png using Guid(25d608a06d2e5784bbff102b100bd058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f20c99cdee338fcf7e0b69f44faa8a') in 0.027315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Generate_Geometry@3x.png
+  artifactKey: Guid(d0c7c8e72b5fcf84e9478a13bd449ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Generate_Geometry@3x.png using Guid(d0c7c8e72b5fcf84e9478a13bd449ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259b9d1b2b598e055790678c1d4ef42d') in 0.036221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/effects/3.png
+  artifactKey: Guid(b9753ff4e49937b4c8978ad073097128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/effects/3.png using Guid(b9753ff4e49937b4c8978ad073097128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae9fc91fa705942698f60df46245e39') in 0.043209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/monsters/dragon-2.png
+  artifactKey: Guid(93d89f7a4910c154fa6362630417ffdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/monsters/dragon-2.png using Guid(93d89f7a4910c154fa6362630417ffdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dde8e479ea9f6e97476997aca151fc') in 0.047682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremote.png
+  artifactKey: Guid(23e66f7264c74424889342127f229577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremote.png using Guid(23e66f7264c74424889342127f229577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8887f41f689c45c757c0a7843a975130') in 0.348751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/characters/turret/1.png
+  artifactKey: Guid(7ce76ffa4aa728e43a61321e692600a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/characters/turret/1.png using Guid(7ce76ffa4aa728e43a61321e692600a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca17823a3b812eaffef2051794bb3a0') in 0.062025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Textures/mettalic.png
+  artifactKey: Guid(5ef1ecb17b682174ebbeed9a9d7af166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Textures/mettalic.png using Guid(5ef1ecb17b682174ebbeed9a9d7af166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7ffb9886ff647e463d5ce9a9283341') in 0.172365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Visibility_Hidded.png
+  artifactKey: Guid(53537648d368cf6459e256af3d925e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Visibility_Hidded.png using Guid(53537648d368cf6459e256af3d925e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a2cf7ea57688b7a933f183ce7eb40c') in 0.060216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading@2x.png
+  artifactKey: Guid(5dbc069eb79bd4d43840847264d6d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading@2x.png using Guid(5dbc069eb79bd4d43840847264d6d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0ce8001f05259eaf46962f1fee3b8c') in 0.081236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/items/gem-2.png
+  artifactKey: Guid(1332f7420a698724fa8ae8bb854276dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/items/gem-2.png using Guid(1332f7420a698724fa8ae8bb854276dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e90f0ccf5950185b07146cfeccef0a') in 0.054909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/items/element/1.png
+  artifactKey: Guid(2198eb6aef1c6fd4b95ad06bd1c8fd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/items/element/1.png using Guid(2198eb6aef1c6fd4b95ad06bd1c8fd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a98e7c80351a3bed0707985d2c38b8') in 0.026703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Weight_Brush.png
+  artifactKey: Guid(bf734b7184825b040837040cb93a8dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Weight_Brush.png using Guid(bf734b7184825b040837040cb93a8dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766c80461671f2e6d91b799c0427abce') in 0.037636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/boar/idle.gif
+  artifactKey: Guid(030fba5630a7c3747bc4cb121dfb5477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/boar/idle.gif using Guid(030fba5630a7c3747bc4cb121dfb5477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39bb04bfb7fe4605978262a48219f93') in 0.108848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconclosebutton@2x.png
+  artifactKey: Guid(0525793900d728a42936791a8a6de63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconclosebutton@2x.png using Guid(0525793900d728a42936791a8a6de63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfb9fd482ef907e5fb67113ef2a1ad2') in 0.173421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/items/element/4.png
+  artifactKey: Guid(ea11c0dc8dddb814286580186a54e6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/items/element/4.png using Guid(ea11c0dc8dddb814286580186a54e6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745713a4314fff695b19b64a3c958eea') in 0.077112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/items/gem-4.gif
+  artifactKey: Guid(0f3e22ec1fcf2c445ab6cb112542b0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/items/gem-4.gif using Guid(0f3e22ec1fcf2c445ab6cb112542b0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ff4010a534b7a0ac59f0c70483b820') in 0.037373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/title-font.png
+  artifactKey: Guid(272ae4df93699794a810604b7b123aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/title-font.png using Guid(272ae4df93699794a810604b7b123aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdb06bb0329194478817b3cebff9883') in 0.109695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/3D-wall/wall-texture-12.png
+  artifactKey: Guid(7288eaf7c7e9f2542a9cbe008799f319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/3D-wall/wall-texture-12.png using Guid(7288eaf7c7e9f2542a9cbe008799f319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e780ff31f77c11b3b68479661de9b3e') in 0.041761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/backgrounds/stars.png
+  artifactKey: Guid(5dc7d7326ec97e94db8aa86a83cfe36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/backgrounds/stars.png using Guid(5dc7d7326ec97e94db8aa86a83cfe36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13921a490a72c2516e95f71274ac4abf') in 0.086848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/cards/icon-leonard.png
+  artifactKey: Guid(ee0f7488277eea64fa1725ac12794b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/cards/icon-leonard.png using Guid(ee0f7488277eea64fa1725ac12794b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f7f17211c1bebbb9731d31f3faf0ba') in 0.042565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/facesets/3.png
+  artifactKey: Guid(433b366dfcee0bb409fdb4eef71cbe8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/facesets/3.png using Guid(433b366dfcee0bb409fdb4eef71cbe8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0692959b90693b6dace5c91bf62f0137') in 0.022738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/facesets/4.png
+  artifactKey: Guid(ce31282da21f0784e909ec9d0dcf13c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/facesets/4.png using Guid(ce31282da21f0784e909ec9d0dcf13c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9aff88f18107f5a38c4370abbfaa13a') in 0.158922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2.png
+  artifactKey: Guid(cd0b17b71a5c498428ee91dee8a78a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2.png using Guid(cd0b17b71a5c498428ee91dee8a78a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcaa4f9525acd4da6894fce9adbd2285') in 0.062186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/3D-wall/wall-texture-6.png
+  artifactKey: Guid(f0eb4f7fbed78c34d872f12223044a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/3D-wall/wall-texture-6.png using Guid(f0eb4f7fbed78c34d872f12223044a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ec45892913e6686e62418d3704ac09') in 0.056030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/52.png
+  artifactKey: Guid(8718f7c23202d3840a0b2d6fd2472bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/52.png using Guid(8718f7c23202d3840a0b2d6fd2472bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9ebb72e381f0cad5abce9571b0aa39') in 0.037717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/monsters/21.png
+  artifactKey: Guid(389f4dd36cb90d14896ae2de5a59b36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/monsters/21.png using Guid(389f4dd36cb90d14896ae2de5a59b36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d8176c58684777b9f162486aac7ce7') in 0.047021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/monsters/mini-tyrannosaurus-2.png
+  artifactKey: Guid(c1a7a581bd420954cb932520987838a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/monsters/mini-tyrannosaurus-2.png using Guid(c1a7a581bd420954cb932520987838a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947859662dacf5374d85a032b8049931') in 0.076064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/fx/14.gif
+  artifactKey: Guid(48889164b5c2ad841b54bc3b1ceffbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/fx/14.gif using Guid(48889164b5c2ad841b54bc3b1ceffbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f89680ae2cfb1d681a2091fbea0aa2') in 0.031594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/items/50.png
+  artifactKey: Guid(c68de8c5a952a644495248c612429ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/items/50.png using Guid(c68de8c5a952a644495248c612429ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019c7260cff1675ef2ca62f32a1c06ec') in 0.081489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/HUD/icon.gif
+  artifactKey: Guid(9832acac6c4a15d4c80c047467ac843a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/HUD/icon.gif using Guid(9832acac6c4a15d4c80c047467ac843a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f61689c4532a1b75b40d6abce970c0') in 0.041846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Jump.png
+  artifactKey: Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Jump.png using Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3283937f5fa0c2b14b45945feb36f71') in 0.193384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Mode@2x.png
+  artifactKey: Guid(ff2aa9ebc8aee604caa5f8459ac4ae43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Mode@2x.png using Guid(ff2aa9ebc8aee604caa5f8459ac4ae43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb59edcb38c9e586e8fc4822c16263f') in 0.038139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/boar/hit.gif
+  artifactKey: Guid(00c25ef213cace04c9cf57cb0fa320f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/boar/hit.gif using Guid(00c25ef213cace04c9cf57cb0fa320f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88583cc8f016f67306442518f7121bf') in 0.088030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_3.png
+  artifactKey: Guid(3ff020b9d061a7347a63c2b7663eb38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_3.png using Guid(3ff020b9d061a7347a63c2b7663eb38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e28122225ca6c402fcc59de60a75fb3') in 0.083884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/hud-32x32.png
+  artifactKey: Guid(d0bbb2fe69708a842aa9019906bedd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/hud-32x32.png using Guid(d0bbb2fe69708a842aa9019906bedd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f38d8ef861f2b1ecfc2055cbe94494a') in 0.080417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v2/skeleton_v2_4.png
+  artifactKey: Guid(f3945a4c5c6b9984f9d4a0f92c64b59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v2/skeleton_v2_4.png using Guid(f3945a4c5c6b9984f9d4a0f92c64b59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ef328a1ab7eb3a4592be7f01bf22dd') in 0.305151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence.png
+  artifactKey: Guid(ff00345da0563d641903c5bd5bb748a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence.png using Guid(ff00345da0563d641903c5bd5bb748a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e41dd3911fcd767a7809e48a41613e') in 0.052986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/HUD/black-strip.png
+  artifactKey: Guid(de3b1374fc61b4147ba842e292c29af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/HUD/black-strip.png using Guid(de3b1374fc61b4147ba842e292c29af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d888886f75b5674b09cb06ce7648b6d') in 0.437322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedlocaloverlay@2x.png
+  artifactKey: Guid(ae53a7884da90e94eb5dfeab594b746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedlocaloverlay@2x.png using Guid(ae53a7884da90e94eb5dfeab594b746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d112193db07cce30d73ca5af04c1015') in 0.127310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/cards/icon-3.png
+  artifactKey: Guid(5e902092706f18d4083fae15d07cb76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/cards/icon-3.png using Guid(5e902092706f18d4083fae15d07cb76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd89cda727caa4f2184bae53f1cd9e1') in 0.057450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Edit_Joints@4x.png
+  artifactKey: Guid(d7b47eae8bab6b94798f1c25eabe65c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Edit_Joints@4x.png using Guid(d7b47eae8bab6b94798f1c25eabe65c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9bda5eae1d4fb606d433633ff2a61d') in 0.183068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/particles/smoke-particle-2.png
+  artifactKey: Guid(ddfa5792e4a2e16449b92f65306da48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/particles/smoke-particle-2.png using Guid(ddfa5792e4a2e16449b92f65306da48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0876d0968cc9fbf123ecfa6af6a7b819') in 0.164156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Visibility_Hidded@2x.png
+  artifactKey: Guid(1a2673cb12e2ed1459bc6ab5dad05aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Visibility_Hidded@2x.png using Guid(1a2673cb12e2ed1459bc6ab5dad05aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33055d98d7a04f3327e180374e2016bf') in 0.047308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/characters/23.png
+  artifactKey: Guid(69bd793f00707884c96bdc4f89aade9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/characters/23.png using Guid(69bd793f00707884c96bdc4f89aade9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1631246e32ded1df7679ba09332fcf12') in 0.067414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/dragon/idle.gif
+  artifactKey: Guid(70a1e6b012c99894fb7153ce129c51fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/dragon/idle.gif using Guid(70a1e6b012c99894fb7153ce129c51fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67554a025433d8393d0b0545e0f4a7e') in 0.090801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/effects/4.gif
+  artifactKey: Guid(f23de978873f38943ba2d438ed1d371d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/effects/4.gif using Guid(f23de978873f38943ba2d438ed1d371d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b899c7b6f0fdd85068d9aed5439d98') in 0.182373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/monsters/14.png
+  artifactKey: Guid(71661b521eced9842a60d73ae04c9301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/monsters/14.png using Guid(71661b521eced9842a60d73ae04c9301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3b2da969e636d75a63c92d676ee95c') in 0.054030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/characters/4.png
+  artifactKey: Guid(4e965832bcb5143469f0f54296bbea9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/characters/4.png using Guid(4e965832bcb5143469f0f54296bbea9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba844167fabb58fe01df52267e9f273d') in 0.111725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/backgrounds/meteor-4.png
+  artifactKey: Guid(3938b669454012947b2f6b42c7c97e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/backgrounds/meteor-4.png using Guid(3938b669454012947b2f6b42c7c97e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9c7edb91d15c39619fb1ba66bfbe91') in 0.088514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Edit_Pose@3x.png
+  artifactKey: Guid(334b0c5a2da656f4a9d2fe6b658cfd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Edit_Pose@3x.png using Guid(334b0c5a2da656f4a9d2fe6b658cfd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772c5564f04d36b375dfc77b1ceda35f') in 0.051796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/background-elements/0-tileset.png
+  artifactKey: Guid(aa8921747ec170f4ea004c62aaf2654c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/background-elements/0-tileset.png using Guid(aa8921747ec170f4ea004c62aaf2654c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdc12043c97a635b6541ddae8b042e7') in 0.046612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/weapons/2-in-game.png
+  artifactKey: Guid(2448e9710f227fd438c4589b9529427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/weapons/2-in-game.png using Guid(2448e9710f227fd438c4589b9529427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8611dae56ecc2218b226b9f579c18bb7') in 0.040838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/items/element/3.png
+  artifactKey: Guid(d4bcc40579569c24c949bd7de1b2bf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/items/element/3.png using Guid(d4bcc40579569c24c949bd7de1b2bf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e988589c1ba87bd7227b4baca913a5') in 0.039940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/23.png
+  artifactKey: Guid(eb637b206be24734c8c615ef305e4feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/23.png using Guid(eb637b206be24734c8c615ef305e4feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a83a80bbb72d456f340debe8d30178') in 0.078782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/Handles/ss_leftrange.png
+  artifactKey: Guid(9417efc47083f4a1598c1966a6345cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/Handles/ss_leftrange.png using Guid(9417efc47083f4a1598c1966a6345cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad6c9d64ea2106f1d08b89c88e6bedc') in 0.094913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/items/gem-3.gif
+  artifactKey: Guid(8c332f65454e4aa4190228ad735bcbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/items/gem-3.gif using Guid(8c332f65454e4aa4190228ad735bcbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad80aeda351f0b44532d6562bf1b0df') in 0.040611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@3x.png
+  artifactKey: Guid(55ad4b6109677be42b239f450ce98c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@3x.png using Guid(55ad4b6109677be42b239f450ce98c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45dd9d43515665e17e13e031167855c9') in 0.038491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/ships/1.png
+  artifactKey: Guid(94c48a53c57710a4c8299476d3ff3597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/ships/1.png using Guid(94c48a53c57710a4c8299476d3ff3597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4132d725eb8cd67a0681e474bbeffbcf') in 0.218066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/characters/faceset/21.png
+  artifactKey: Guid(59d8dabc1426c824bbd376a51845fda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/characters/faceset/21.png using Guid(59d8dabc1426c824bbd376a51845fda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623b724e048c6664760ec2b7977fa68e') in 0.123529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_1/mini_box_1_2.png
+  artifactKey: Guid(6e2884e2388e66344bd9a5253a7a4465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_1/mini_box_1_2.png using Guid(6e2884e2388e66344bd9a5253a7a4465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7af44a0711795396a69ca80fc964c9') in 0.561786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/items/51.png
+  artifactKey: Guid(9aaf0ad0bba8ad340b3d5fb2edc830fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/items/51.png using Guid(9aaf0ad0bba8ad340b3d5fb2edc830fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00b129a9c242cf33c378ea58a84df7d') in 0.033522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_2/mini_box_2_2.png
+  artifactKey: Guid(51d108a56ea88a2439cd49ed65899c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_2/mini_box_2_2.png using Guid(51d108a56ea88a2439cd49ed65899c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4725f1668b891f2e2f4086f640a8f383') in 0.068963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/items/45.png
+  artifactKey: Guid(06a5370917fdf7248bb995abbc425d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/items/45.png using Guid(06a5370917fdf7248bb995abbc425d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44fe29ecf591cf6d81da468cdbce2323') in 0.032004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/characters/faceset/4.png
+  artifactKey: Guid(64460376aa46b614f8b2ba8a4d1ba68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/characters/faceset/4.png using Guid(64460376aa46b614f8b2ba8a4d1ba68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7725c1b3e12b71decb04bd4eae19510') in 0.076545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/monsters/4.png
+  artifactKey: Guid(c5f86b7951f97d34983b8b832e86af1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/monsters/4.png using Guid(c5f86b7951f97d34983b8b832e86af1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ec3cd54939adda5b4e21e1a8e48629') in 0.043268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/icons/tipi.png
+  artifactKey: Guid(3e0685c675c993d43b5585574d178a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/icons/tipi.png using Guid(3e0685c675c993d43b5585574d178a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70faf0ac889cdf4fa8c977a3365d1fe') in 0.042021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v1/vampire_v1_1.png
+  artifactKey: Guid(3ea34e53634774b4897d31c9ae819d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v1/vampire_v1_1.png using Guid(3ea34e53634774b4897d31c9ae819d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d07e0e7e50bab082ea58432d5e9db3') in 0.296382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Edit_Geometry@4x.png
+  artifactKey: Guid(088ce4ab56060504083daeb4556a09c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Edit_Geometry@4x.png using Guid(088ce4ab56060504083daeb4556a09c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed68f35421ad174a9a7d9667f06a9545') in 0.082200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/background-elements/cloud-1.png
+  artifactKey: Guid(88fd973bc714e4e48a483491bdead5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/background-elements/cloud-1.png using Guid(88fd973bc714e4e48a483491bdead5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa26446265d8186737f5a0d16e12d549') in 0.290949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@3x.png
+  artifactKey: Guid(68e5a78013e33f247822a837e55b0ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@3x.png using Guid(68e5a78013e33f247822a837e55b0ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0dc2327161b5ddbf878a87746325be2') in 0.100705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/effects/2.png
+  artifactKey: Guid(3debfa85fe256894ca60d36c489c12db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/effects/2.png using Guid(3debfa85fe256894ca60d36c489c12db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f089b975534a142bbbd622c10dce8a84') in 0.155246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Mode.png
+  artifactKey: Guid(ca778bc7303b24948abf3e907abbf2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Mode.png using Guid(ca778bc7303b24948abf3e907abbf2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fb87af301caa0d7be28f36e687f67b') in 0.236536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/boot.png
+  artifactKey: Guid(df614a47ab0e85840a9a1fd4404fdb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/boot.png using Guid(df614a47ab0e85840a9a1fd4404fdb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68884507b73ac6865f8efe7c8c08fd6d') in 0.659416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/cards/icon-1.png
+  artifactKey: Guid(89d1a7b9e6abfb540848ebbdbfc9bd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/cards/icon-1.png using Guid(89d1a7b9e6abfb540848ebbdbfc9bd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9bf4d8cce65e93870868183851e11b') in 0.116118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/15.png
+  artifactKey: Guid(58cde9032334c7347afdf1bfae82b0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/item/15.png using Guid(58cde9032334c7347afdf1bfae82b0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b0f2d154a0bc86821df718808d2028') in 0.325855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay.png
+  artifactKey: Guid(73d124bf77e463c45942d14136745d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay.png using Guid(73d124bf77e463c45942d14136745d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84ed6ae0fa524c436c31ec84c85e9e1') in 0.045835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/ghost/idle.gif
+  artifactKey: Guid(429de55049a3deb41be78745951e053b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/ghost/idle.gif using Guid(429de55049a3deb41be78745951e053b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb4a7c9f3664d54c5c3d6478493aa1d') in 0.048480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/fx/4.png
+  artifactKey: Guid(bac5a4f8a4d184b4cad927114627b2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/fx/4.png using Guid(bac5a4f8a4d184b4cad927114627b2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1605a4a60abf21f51d69d77c6462545') in 0.064980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/weapons/3-in-game.png
+  artifactKey: Guid(44f9e92c15c4dbf478049d37ec822257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/weapons/3-in-game.png using Guid(44f9e92c15c4dbf478049d37ec822257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2d6c2858b5cb8c7ffc1dbd54ba33e2') in 0.084042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Edit_Joints.png
+  artifactKey: Guid(e7b30dca77466b8478690c280b0010ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Edit_Joints.png using Guid(e7b30dca77466b8478690c280b0010ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d0ed5ea7a6c75fa1e70b39f33a26f1') in 0.063440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/fx/4.gif
+  artifactKey: Guid(1354edbd1acc2b340bb20cde5ac420ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/fx/4.gif using Guid(1354edbd1acc2b340bb20cde5ac420ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a9fa31b658b8d9c571e8ff50b1783f') in 0.091115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3.png
+  artifactKey: Guid(69899ed144c8eea4baea48b858b37746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3.png using Guid(69899ed144c8eea4baea48b858b37746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592c152480248956bcd8076d28de2842') in 0.081257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_1.png
+  artifactKey: Guid(4fdc2e16306e0be4aba10fa78ac0aad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_1.png using Guid(4fdc2e16306e0be4aba10fa78ac0aad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c4ad15848f107f261db220559f2750') in 0.046304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Edit_Pose@3x.png
+  artifactKey: Guid(32854586e42553846b24646ce18cf625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Edit_Pose@3x.png using Guid(32854586e42553846b24646ce18cf625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0cd2326642bdf8c8a8e75e965e7dee') in 0.072215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Doctor_Pack02/Sprite Sheets/Doctor_01/Doc01_Interacting.png
+  artifactKey: Guid(652a888424839e54c8fd5a752cf05a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doctor_Pack02/Sprite Sheets/Doctor_01/Doc01_Interacting.png using Guid(652a888424839e54c8fd5a752cf05a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44929d77e24a1fa0168fc0de82a9ffa1') in 0.834058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/characters/faceset/3.png
+  artifactKey: Guid(add30a7aa20058448bf9d04a909fa514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/characters/faceset/3.png using Guid(add30a7aa20058448bf9d04a909fa514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec7567cc2b3b5bf4864630e9472c009') in 0.053097 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
