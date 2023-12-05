@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class BreakableWall : MonoBehaviour
+public class BreakableWall : MonoBehaviour, IGolemInteractable 
 {
     [SerializeField] private Transform bricks;
     [SerializeField] private Transform interactionPoint;
@@ -26,7 +26,7 @@ public class BreakableWall : MonoBehaviour
         return interactionPoint;
     }
 
-    public void Break()
+    public void Interact(Golem golem)
     {
         for (int i = 0; i < bricks.childCount; i++)
         {

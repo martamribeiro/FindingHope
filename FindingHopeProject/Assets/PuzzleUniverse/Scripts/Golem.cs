@@ -20,7 +20,7 @@ public class Golem : MonoBehaviour
     private NavMeshAgent navMeshAgent;
     private Player playerInstance;
 
-    private BreakableWall targetBreakableWall;
+    private IGolemInteractable targetInteractable;
 
     private State state = State.StandBy;
 
@@ -73,12 +73,12 @@ public class Golem : MonoBehaviour
             {
                 state = State.Follow;
             }
-            else if (raycastHit.collider.transform.TryGetComponent<BreakableWall>(out BreakableWall breakableWall))
+            else if (raycastHit.collider.transform.TryGetComponent<IGolemInteractable>(out IGolemInteractable interactable))
             {
                 state = State.Interacting;
 
-                targetBreakableWall = breakableWall;
-                navMeshAgent.destination = breakableWall.GetInteractionPoint().position;
+                targetInteractable = interactable;
+                navMeshAgent.destination = interactable.GetInteractionPoint().position;
 
                 if (navMeshAgent.isStopped)
                     navMeshAgent.isStopped = false;
@@ -114,7 +114,7 @@ public class Golem : MonoBehaviour
     private void InteractAction()
     {
         if (Vector3.Distance(transform.position, navMeshAgent.destination) < 0.5f) {
-            targetBreakableWall.Break();
+            targetInteractable.Interact(this);
             state = State.StandBy;
         }
     }
