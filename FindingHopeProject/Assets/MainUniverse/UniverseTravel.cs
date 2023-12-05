@@ -25,6 +25,9 @@ public class UniverseTravel : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha3) && IsTriggerObjectActive())
         {
             // Go to universe 3
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            SceneManager.LoadScene("PuzzleUniverse");
         }
     }
 

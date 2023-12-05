@@ -11,6 +11,8 @@ public class RPGUniverseTravelToMain : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.T))
         {
             // Go to universe 1
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
             SceneManager.LoadScene("MainUniverse");
         }
     }
