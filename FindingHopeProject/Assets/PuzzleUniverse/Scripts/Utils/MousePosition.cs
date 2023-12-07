@@ -15,4 +15,16 @@ public static class MousePosition
 
         return false;
     }
+
+    public static bool GetRaycastHitFromMouseInput(Camera camera, out RaycastHit raycastHit, float maxDistance, LayerMask layerMask)
+    {
+        Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+
+        if (Physics.Raycast(ray, out raycastHit, maxDistance, layerMask))
+        {
+            return true;
+        }
+
+        return false;
+    }
 }

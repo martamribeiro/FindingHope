@@ -20,6 +20,10 @@ public class Golem : MonoBehaviour, IBoxParentObject
 
     [SerializeField] Transform boxGrabPosition;
 
+    [Header("Raycast Settings")]
+    [SerializeField] LayerMask raycastLayerMask;
+    [SerializeField] float maxDistance;
+
     private Box grabbedBox;
 
     private NavMeshAgent navMeshAgent;
@@ -73,7 +77,7 @@ public class Golem : MonoBehaviour, IBoxParentObject
 
     private void PerformMovement()
     {
-        if (MousePosition.GetRaycastHitFromMouseInput(camera, out RaycastHit raycastHit))
+        if (MousePosition.GetRaycastHitFromMouseInput(camera, out RaycastHit raycastHit, maxDistance, raycastLayerMask))
         {
             if (raycastHit.collider.transform.TryGetComponent<Player>(out _))
             {

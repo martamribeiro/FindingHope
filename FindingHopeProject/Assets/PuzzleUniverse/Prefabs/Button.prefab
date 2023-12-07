@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 4582257203744522985}
   - component: {fileID: 5860941736134835921}
   - component: {fileID: 9169825950593662715}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Selected
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64e8c1ff7916e2c408ae1d2ddbd05d6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activatableGameObject: {fileID: 0}
+  activatableGameObjectArray: []
 --- !u!1 &3524291023864776659
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 306229707655552320}
   - component: {fileID: 3641749150777886363}
   - component: {fileID: 3919355278153077325}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 4027917865798200062}
   - component: {fileID: 8638906920778809034}
   - component: {fileID: 6017139006574637727}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
