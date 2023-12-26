@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1282482621144692735
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 102163949824975863, guid: cbb30370029d58b4d976dd4f839b5a22, type: 3}
+      propertyPath: m_Name
+      value: MultiPressurePlate
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868470400326324829, guid: cbb30370029d58b4d976dd4f839b5a22, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71610510e7792ce48a4909e16fe80680, type: 2}
+    - target: {fileID: 4531593996368799461, guid: cbb30370029d58b4d976dd4f839b5a22, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531593996368799461, guid: cbb30370029d58b4d976dd4f839b5a22, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531593996368799461, guid: cbb30370029d58b4d976dd4f839b5a22, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531593996368799461, guid: cbb30370029d58b4d976dd4f839b5a22, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531593996368799461, guid: cbb30370029d58b4d976dd4f839b5a22, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531593996368799461, guid: cbb30370029d58b4d976dd4f839b5a22, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531593996368799461, guid: cbb30370029d58b4d976dd4f839b5a22, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531593996368799461, guid: cbb30370029d58b4d976dd4f839b5a22, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531593996368799461, guid: cbb30370029d58b4d976dd4f839b5a22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531593996368799461, guid: cbb30370029d58b4d976dd4f839b5a22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531593996368799461, guid: cbb30370029d58b4d976dd4f839b5a22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4416153765767905792, guid: cbb30370029d58b4d976dd4f839b5a22, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: cbb30370029d58b4d976dd4f839b5a22, type: 3}
+--- !u!1 &1199856031410934792 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 102163949824975863, guid: cbb30370029d58b4d976dd4f839b5a22, type: 3}
+  m_PrefabInstance: {fileID: 1282482621144692735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8123171131201936561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199856031410934792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb7ad966c4c839b489a0e209dadaa939, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activatableGameObject: {fileID: 0}
+  pressurePlateAnimator: {fileID: 5624997269672483212}
+  multiPressurePlateArray: []
+--- !u!114 &5624997269672483212 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6907477365332258419, guid: cbb30370029d58b4d976dd4f839b5a22, type: 3}
+  m_PrefabInstance: {fileID: 1282482621144692735}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf3d6d02c8b91a4288f6bc82fe32ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

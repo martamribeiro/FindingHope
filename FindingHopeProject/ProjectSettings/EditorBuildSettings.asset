@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/LabHorror.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/MainUniverse/MainUniverse.unity
+    guid: 71ab9d5c33faa974699a71b41faa98a7
+  - enabled: 1
+    path: Assets/Scenes/AIUniverse/AIUniverse.unity
+    guid: 60105e0aa3d56a74682b43b6c0c5a5b3
+  - enabled: 1
+    path: Assets/Scenes/RPG_Universe/LabyrinthScene.unity
+    guid: b1fbe5d1e79d0ae4f8d5408324581f23
+  - enabled: 1
+    path: Assets/Scenes/Puzzle Universe/PuzzleUniverse.unity
+    guid: b4e974d042941c448ab59819af8f7736
   m_configObjects: {}
