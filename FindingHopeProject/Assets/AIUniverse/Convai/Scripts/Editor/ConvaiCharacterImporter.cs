@@ -1,245 +1,274 @@
-using System.Collections;
-using System.Collections.Generic;
+#if UNITY_EDITOR
 
-using Siccity.GLTFUtility;
-
-using UnityEngine;
-using UnityEngine.UIElements;
-
-using UnityEditor;
-using Newtonsoft.Json;
-
+using System;
 using System.IO;
 using System.Net;
 using System.Text;
-using System;
-using System.Net.Http;
-using System.Threading.Tasks;
-using System.Security.Policy;
+using Convai.Scripts.Utils;
+using Newtonsoft.Json;
+using ReadyPlayerMe;
+using UnityEditor;
 using UnityEditor.Animations;
+using UnityEngine;
+using UnityEngine.UIElements;
 
-public class ConvaiCharacterImporter : EditorWindow
+namespace Convai.Scripts.Editor
 {
-    [MenuItem("Convai/Character Importer")]
-    public static void CharacterImporter()
+    public class ConvaiCharacterImporter : EditorWindow
     {
-        ConvaiCharacterImporter wnd = GetWindow<ConvaiCharacterImporter>();
-        wnd.titleContent = new GUIContent("Character Downloader");
-    }
-
-    class GetRequest
-    {
-        [JsonProperty("charID")] public string charID;
-
-        public GetRequest(string charID)
+        public void CreateGUI()
         {
-            this.charID = charID;
-        }
-    }
+            VisualElement root = rootVisualElement;
 
-    class ModelDetails
-    {
-        public string modelType;
-        public string modelLink;
-        public string modelPlaceholder;
-    }
+            VisualElement page2 = new ScrollView();
 
-    class GetResponse
-    {
-        public string character_name;
-        public string user_id;
-        public string character_id;
-        public string voice_type;
-        public string timestamp;
-        public string[] character_actions;
-        public string[] character_emotions;
-        public ModelDetails model_details;
-        public string backstory;
-    }
+            root.Add(new Label(""));
 
-    async void DownloadCharacter(string characterID)
-    {
-        GetRequest getRequest = new GetRequest(characterID);
-
-        string stringGetRequest = JsonConvert.SerializeObject(getRequest);
-
-        ConvaiAPIKeySetup APIKeyScriptableObject = Resources.Load<ConvaiAPIKeySetup>("ConvaiAPIKey");
-
-        // Create a new HttpWebRequest object
-        var request = WebRequest.Create("https://api.convai.com/character/get");
-        request.Method = "post";
-
-        // Set the request headers
-        request.ContentType = "application/json";
-
-        // Convert the json string to bytes
-        byte[] jsonBytes = Encoding.UTF8.GetBytes(stringGetRequest);
-
-        request.Headers.Add("CONVAI-API-KEY", APIKeyScriptableObject.APIKey);
-
-        string modelLink = "";
-
-        // Write the data to the request stream
-        using (Stream requestStream = await request.GetRequestStreamAsync())
-        {
-            await requestStream.WriteAsync(jsonBytes, 0, jsonBytes.Length);
-        }
-
-        // Get the response from the server
-        try
-        {
-            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            Image convaiLogoImage = new()
             {
-                using (Stream streamResponse = response.GetResponseStream())
+                image = AssetDatabase.LoadAssetAtPath<Texture>("Assets/Convai/Images/color.png"),
+                style =
                 {
-                    using (StreamReader reader = new StreamReader(streamResponse))
-                    {
-                        string responseContent = reader.ReadToEnd();
+                    height = 100,
+                    paddingBottom = 10,
+                    paddingTop = 10,
+                    paddingRight = 10,
+                    paddingLeft = 10
+                }
+            };
 
-                        //Debug.Log($"{responseContent}");
-                        var getResponseContent = JsonConvert.DeserializeObject<GetResponse>(responseContent);
-                        //Debug.Log(getResponseContent.model_details.modelLink);
-                        modelLink = getResponseContent.model_details.modelLink;
+            root.Add(convaiLogoImage);
+
+            Label convaiCharacterIDLabel = new("Enter your Character ID: ")
+            {
+                style =
+                {
+                    fontSize = 16
+                }
+            };
+
+            TextField characterIDTextField = new();
+
+            Button downloadButton = new(() => { DownloadCharacter(characterIDTextField.text); })
+            {
+                text = "Import!",
+                style =
+                {
+                    fontSize = 16,
+                    unityFontStyleAndWeight = FontStyle.Bold,
+                    alignSelf = Align.Center,
+                    paddingBottom = 10,
+                    paddingLeft = 30,
+                    paddingRight = 30,
+                    paddingTop = 10
+                }
+            };
+
+            Button docsLink = new(() =>
+            {
+                Application.OpenURL(
+                    "https://docs.convai.com/api-docs-restructure/plugins-and-integrations/unity-plugin/creating-characters");
+            })
+            {
+                text = "How do I create a character?",
+                style =
+                {
+                    alignSelf = Align.Center,
+                    paddingBottom = 5,
+                    paddingLeft = 50,
+                    paddingRight = 50,
+                    paddingTop = 5
+                }
+            };
+
+            page2.Add(convaiCharacterIDLabel);
+            page2.Add(new Label(""));
+            page2.Add(characterIDTextField);
+            page2.Add(new Label(""));
+            page2.Add(downloadButton);
+            page2.Add(new Label(""));
+            page2.Add(docsLink);
+
+            page2.style.marginBottom = 20;
+            page2.style.marginLeft = 20;
+            page2.style.marginRight = 20;
+            page2.style.marginTop = 20;
+
+            root.Add(page2);
+        }
+
+        [MenuItem("Convai/Character Importer", false, 2)]
+        public static void CharacterImporter()
+        {
+            ConvaiCharacterImporter wnd = GetWindow<ConvaiCharacterImporter>();
+            wnd.titleContent = new GUIContent("Character Importer");
+        }
+
+        private async void DownloadCharacter(string characterID)
+        {
+            GetRequest getRequest = new(characterID);
+
+            string stringGetRequest = JsonConvert.SerializeObject(getRequest);
+
+            ConvaiAPIKeySetup apiKeyScriptableObject = null;
+            if (File.Exists("Assets/Resources/ConvaiAPIKey.asset"))
+                apiKeyScriptableObject = Resources.Load<ConvaiAPIKeySetup>("ConvaiAPIKey");
+            else
+                Debug.LogError("No API Key file found. Please add the API Key.");
+
+            WebRequest request = WebRequest.Create("https://api.convai.com/character/get");
+            request.Method = "post";
+
+            request.ContentType = "application/json";
+
+            byte[] jsonBytes = Encoding.UTF8.GetBytes(stringGetRequest);
+
+            if (apiKeyScriptableObject != null) request.Headers.Add("CONVAI-API-KEY", apiKeyScriptableObject.APIKey);
+
+            string characterName;
+
+            GameObject gameObject = null;
+
+            using (Stream requestStream = await request.GetRequestStreamAsync())
+            {
+                await requestStream.WriteAsync(jsonBytes, 0, jsonBytes.Length);
+            }
+
+            try
+            {
+                using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+                {
+                    using (Stream streamResponse = response.GetResponseStream())
+                    {
+                        using (StreamReader reader = new(streamResponse))
+                        {
+                            string responseContent = reader.ReadToEnd();
+
+                            GetResponse getResponseContent =
+                                JsonConvert.DeserializeObject<GetResponse>(responseContent);
+                            string modelLink = getResponseContent.model_details.modelLink;
+                            characterName = getResponseContent.character_name;
+
+                            AvatarLoader avatarLoader = new();
+
+                            if (File.Exists("Assets/Convai/RPMSetupAssets/Avatar Config.asset"))
+                                avatarLoader.AvatarConfig =
+                                    AssetDatabase.LoadAssetAtPath<AvatarConfig>(
+                                        "Assets/Convai/RPMSetupAssets/Avatar Config.asset");
+
+                            avatarLoader.SaveInProjectFolder = true;
+
+                            avatarLoader.OnCompleted += (_, args) =>
+                            {
+                                gameObject = args.Avatar;
+                                AvatarAnimatorHelper.SetupAnimator(args.Metadata.BodyType, gameObject);
+
+                                gameObject.tag = "Character";
+
+                                CapsuleCollider capsuleColliderComponent = gameObject.AddComponent<CapsuleCollider>();
+
+                                capsuleColliderComponent.center = new Vector3(0, 0.9f, 0);
+                                capsuleColliderComponent.radius = 0.3f;
+                                capsuleColliderComponent.height = 1.8f;
+                                capsuleColliderComponent.isTrigger = true;
+
+                                gameObject.AddComponent<AudioSource>();
+
+                                gameObject.AddComponent<Animator>();
+
+                                if (File.Exists("Assets/Convai/Animators/NPC Animator.controller"))
+                                    gameObject.GetComponent<Animator>().runtimeAnimatorController =
+                                        AssetDatabase.LoadAssetAtPath<AnimatorController>(
+                                            "Assets/Convai/Animators/NPC Animator.controller");
+
+                                if (File.Exists("Assets/Convai/AnimationAvatars/MasculineAnimationAvatar.asset"))
+                                    gameObject.GetComponent<Animator>().avatar =
+                                        AssetDatabase.LoadAssetAtPath<Avatar>(
+                                            "Assets/Convai/AnimationAvatars/MasculineAnimationAvatar.asset");
+
+                                ConvaiNPC convaiNPCComponent = gameObject.AddComponent<ConvaiNPC>();
+                                convaiNPCComponent.sessionID = "-1";
+                                convaiNPCComponent.characterID = characterID;
+                                convaiNPCComponent.characterName = characterName;
+
+                                gameObject.name = $"Convai NPC {characterName}";
+
+                                ConvaiChatUIHandler _chatUIHandler = FindObjectOfType<ConvaiChatUIHandler>();
+
+                                if (_chatUIHandler != null)
+                                {
+                                    // Check if the character is already in the list to avoid duplicates
+                                    bool characterExists = false;
+                                    foreach (Character characterInfo in _chatUIHandler.characters)
+                                        if (characterInfo.characterName == convaiNPCComponent.characterName)
+                                        {
+                                            characterExists = true;
+                                            break;
+                                        }
+
+                                    // If the character is not in the list, add it
+                                    if (!characterExists)
+                                    {
+                                        Character newCharacter = new()
+                                        {
+                                            characterName = convaiNPCComponent.characterName,
+                                            CharacterTextColor = Color.red, // Set the default color
+                                            characterText = "" // Set the default text
+                                        };
+                                        _chatUIHandler.characters.Add(newCharacter);
+                                        EditorUtility.SetDirty(_chatUIHandler);
+                                    }
+                                }
+
+                                EditorUtilities.CreatePrefab(gameObject,
+                                    $"Assets/Convai/Prefabs/{gameObject.name}.prefab");
+                            };
+
+                            avatarLoader.LoadAvatar(modelLink);
+                        }
                     }
                 }
             }
-        }
-        catch (WebException e)
-        {
-            Debug.LogError(e.Message + "\nPlease check if Character ID is correct.");
-        }
-        catch (Exception e)
-        {
-            Debug.LogError(e);
-        }
-
-        string glbFilePath = Path.Combine("Assets", "Convai Character Models", Path.GetFileName(modelLink));
-
-        // Download the GLB model using HttpClient
-        using (var httpClient = new HttpClient())
-        {
-            var glbBytes = await httpClient.GetByteArrayAsync(modelLink);
-
-            if (!AssetDatabase.IsValidFolder("Assets/Convai Character Models"))
+            catch (WebException e)
             {
-                AssetDatabase.CreateFolder("Assets", "Convai Character Models");
+                Debug.LogError(e.Message + "\nPlease check if Character ID is correct.");
             }
-
-            File.WriteAllBytes(glbFilePath, glbBytes);
-            AssetDatabase.Refresh();
-
-            GameObject result = Importer.LoadFromFile(glbFilePath);
-
-            GameObject gameObject = new GameObject(characterID);
-
-            result.transform.parent = gameObject.transform;
-
-            for (int i = 0; i < result.transform.childCount; i++)
+            catch (Exception e)
             {
-                if (result.transform.GetChild(i).name == "Wolf3D_Avatar")
-                {
-                    result.transform.GetChild(i).name = "Renderer_Avatar";
-                    result.transform.GetChild(i).transform.parent = gameObject.transform;
-                }
+                Debug.LogError(e);
             }
-
-            gameObject.tag = "Character";
-
-            gameObject.AddComponent<CapsuleCollider>();
-            // setup capsule collider
-            gameObject.GetComponent<CapsuleCollider>().center = new Vector3(0, 0.9f, 0);
-            gameObject.GetComponent<CapsuleCollider>().radius = 0.3f;
-            gameObject.GetComponent<CapsuleCollider>().height = 1.8f;
-            gameObject.GetComponent<CapsuleCollider>().isTrigger = true;
-
-            gameObject.AddComponent<AudioSource>();
-
-            gameObject.AddComponent<Animator>();
-            if (File.Exists("Assets/Convai/Animators/NPC Animator.controller"))
-            {
-                gameObject.GetComponent<Animator>().runtimeAnimatorController = AssetDatabase.LoadAssetAtPath<AnimatorController>("Assets/Convai/Animators/NPC Animator.controller");
-            }
-            if (File.Exists("Assets/Convai/AnimationAvatars/FeminineAnimationAvatar.asset"))
-            {
-                gameObject.GetComponent<Animator>().avatar = AssetDatabase.LoadAssetAtPath<Avatar>("Assets/Convai/AnimationAvatars/FeminineAnimationAvatar.asset");
-            }
-            // setup animator Assets/Convai/Animators
-
-            gameObject.AddComponent<ConvaiNPC>();
-            gameObject.GetComponent<ConvaiNPC>().sessionID = "-1";
-            gameObject.GetComponent<ConvaiNPC>().CharacterID = characterID;
-
-            Close();
         }
 
-    }
-
-    public void CreateGUI()
-    {
-        // Each editor window contains a root VisualElement object
-        VisualElement root = rootVisualElement;
-
-        VisualElement page2 = new ScrollView();
-
-        root.Add(new Label(""));
-
-        Image convaiLogoImage = new Image();
-        convaiLogoImage.image = AssetDatabase.LoadAssetAtPath<Texture>("Assets/Convai/Images/color.png");
-        convaiLogoImage.style.height = 100;
-
-        convaiLogoImage.style.paddingBottom = 10;
-        convaiLogoImage.style.paddingTop = 10;
-        convaiLogoImage.style.paddingRight = 10;
-        convaiLogoImage.style.paddingLeft = 10;
-
-        root.Add(convaiLogoImage);
-
-        Label convaiCharacterIDLabel = new Label("Enter your Character ID: ");
-        convaiCharacterIDLabel.style.fontSize = 16;
-
-        TextField CharacterIDTextField = new TextField();
-
-        Button downloadButton = new Button(() =>
+        private class GetRequest
         {
-            DownloadCharacter(CharacterIDTextField.text);
-        });
+            [JsonProperty("charID")] public string charID;
 
-        downloadButton.text = "Import!";
+            public GetRequest(string charID)
+            {
+                this.charID = charID;
+            }
+        }
 
-        downloadButton.style.fontSize = 16;
-        downloadButton.style.unityFontStyleAndWeight = FontStyle.Bold;
-        downloadButton.style.alignSelf = Align.Center;
-
-        downloadButton.style.paddingBottom = 10;
-        downloadButton.style.paddingLeft = 30;
-        downloadButton.style.paddingRight = 30;
-        downloadButton.style.paddingTop = 10;
-
-        Button docsLink = new Button(() =>
+        private class ModelDetails
         {
-            Application.OpenURL("https://docs.convai.com/api-docs-restructure/plugins-and-integrations/unity-plugin/creating-characters");
-        });
+            public string modelLink;
+            public string modelPlaceholder;
+            public string modelType;
+        }
 
-        docsLink.text = "How do I create a character?";
-        docsLink.style.alignSelf = Align.Center;
-        docsLink.style.paddingBottom = 5;
-        docsLink.style.paddingLeft = 50;
-        docsLink.style.paddingRight = 50;
-        docsLink.style.paddingTop = 5;
-
-        page2.Add(convaiCharacterIDLabel);
-        page2.Add(new Label(""));
-        page2.Add(CharacterIDTextField);
-        page2.Add(new Label(""));
-        page2.Add(downloadButton);
-        page2.Add(new Label(""));
-        page2.Add(docsLink);
-
-        page2.style.marginBottom = 20;
-        page2.style.marginLeft = 20;
-        page2.style.marginRight = 20;
-        page2.style.marginTop = 20;
-
-        root.Add(page2);
+        private class GetResponse
+        {
+            public string backstory;
+            public string[] character_actions;
+            public string[] character_emotions;
+            public string character_id;
+            public string character_name;
+            public ModelDetails model_details;
+            public string timestamp;
+            public string user_id;
+            public string voice_type;
+        }
     }
 }
+
+#endif

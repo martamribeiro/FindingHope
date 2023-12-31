@@ -1,486 +1,620 @@
 using System;
+using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
-using System.IO;
-
-using UnityEngine;
-
+using Google.Protobuf;
 using Grpc.Core;
 using Service;
+using UnityEngine;
 using static Service.GetResponseRequest.Types;
-using Google.Protobuf;
-using TMPro;
-using UnityEditor;
 
-namespace Convai.gRPCAPI
+namespace Convai.Scripts.Utils
 {
+    /// <summary>
+    ///     This class is dedicated to manage all communications between the Convai server and plugin, in addition to
+    ///     processing any data transmitted during these interactions. It abstracts the underlying complexities of the plugin,
+    ///     providing a seamless interface for users. Modifications to this class are discouraged as they may impact the
+    ///     stability and functionality of the system. This class is maintained by the development team to ensure compatibility
+    ///     and performance.
+    /// </summary>
+    [DisallowMultipleComponent]
+    [RequireComponent(typeof(ConvaiNPCManager))]
+    [AddComponentMenu("Convai/Convai GRPC API")]
+    [HelpURL(
+        "https://docs.convai.com/api-docs/plugins-and-integrations/unity-plugin/scripts-overview/convaigrpcapi.cs")]
     public class ConvaiGRPCAPI : MonoBehaviour
     {
         public static ConvaiGRPCAPI Instance;
-
-        public GameObject activeCharacter;
-
-        [HideInInspector]
-        public ConvaiNPC activeConvaiNPC;
-
-        [HideInInspector] public string APIKey;
-
-        [SerializeField] private GameObject recordingMarker;
-
-        private string stringUserText = "";
-        [SerializeField] private TextMeshProUGUI UserText;
-
+        private readonly List<string> _stringUserText = new();
+        private ConvaiNPC _activeConvaiNPC;
+        private CancellationTokenSource _cancellationTokenSource;
+        private ConvaiChatUIHandler _chatUIHandler;
+        private string APIKey { get; set; }
 
         private void Awake()
         {
-            if (Instance == null)
-            {
-                Instance = this;
-            }
-            else
+            // Singleton pattern: Ensure only one instance of this script is active.
+            if (Instance != null && Instance != this)
             {
                 Destroy(gameObject);
+                return;
             }
 
-            ConvaiAPIKeySetup APIKeyScriptableObject = Resources.Load<ConvaiAPIKeySetup>("ConvaiAPIKey");
+            Instance = this;
 
-            if (APIKeyScriptableObject != null)
-            {
-                APIKey = APIKeyScriptableObject.APIKey;
-            }
+            // Load API key from a ScriptableObject in Resources folder.
+            ConvaiAPIKeySetup apiKeyScriptableObject = Resources.Load<ConvaiAPIKeySetup>("ConvaiAPIKey");
+
+            if (apiKeyScriptableObject != null)
+                // If the API key data is found, assign it to the APIKey field.
+                APIKey = apiKeyScriptableObject.APIKey;
             else
-            {
-                Debug.LogError("No API Key data found. Please complete the Convai Setup. In the Menu Bar, click Convai > Setup.");
-            }
+                // Log an error if API key data is missing.
+                Logger.Error(
+                    "No API Key data found. Please complete the Convai Setup. In the Menu Bar, click Convai > Setup.",
+                    Logger.LogCategory.Character);
 
-            //Debug.Log("API Key: " + APIKey);
+            // Find and store a reference to the ConvaiChatUIHandler component in the scene.
+            _chatUIHandler = FindObjectOfType<ConvaiChatUIHandler>();
         }
 
-        private void Update()
+
+        private void Start()
         {
-            UserText.text = stringUserText;
+            ConvaiNPCManager.Instance.OnActiveNPCChanged += HandleActiveNPCChanged;
+
+            _cancellationTokenSource = new CancellationTokenSource();
+        }
+
+        private void FixedUpdate()
+        {
+            // Check if there are pending user texts to display
+            // If chatUIHandler is available, send the first user text in the list
+            if (_stringUserText.Count > 0 && _chatUIHandler != null)
+            {
+                _chatUIHandler.SendPlayerText(_stringUserText[0]);
+                // Remove the displayed user text from the list
+                _stringUserText.RemoveAt(0);
+            }
+        }
+
+        private void OnDestroy()
+        {
+            ConvaiNPCManager.Instance.OnActiveNPCChanged -= HandleActiveNPCChanged;
+
+            try
+            {
+                _cancellationTokenSource?.Cancel();
+                _cancellationTokenSource?.Dispose();
+            }
+            catch (ObjectDisposedException ex)
+            {
+                // Handle the ObjectDisposedException, which can occur if the CancellationTokenSource is already disposed. 
+                Logger.Warn("ObjectDisposedException in OnDestroy: " + ex.Message, Logger.LogCategory.Character);
+            }
+
+            _cancellationTokenSource = null;
+        }
+
+        private void OnApplicationQuit()
+        {
+            // Cancel any ongoing tasks
+            if (_cancellationTokenSource != null)
+            {
+                _cancellationTokenSource.Cancel();
+                _cancellationTokenSource.Dispose();
+            }
         }
 
         /// <summary>
-        ///     This function sets the active character based on the who the player character is facing.
+        ///     Asynchronously initializes a session ID by communicating with a gRPC service and returns the session ID if
+        ///     successful.
         /// </summary>
-        /// <param name="other">The collider of the object with which this collider collides</param>
-        private void OnTriggerEnter(Collider other)
+        /// <param name="characterName">The name of the character for which the session is being initialized.</param>
+        /// <param name="client">The gRPC service client used to make the call to the server.</param>
+        /// <param name="characterID">The unique identifier for the character.</param>
+        /// <param name="sessionID">The session ID that may be updated during the initialization process.</param>
+        /// <returns>
+        ///     A task that represents the asynchronous operation. The task result contains the initialized session ID if
+        ///     successful, or null if the initialization fails.
+        /// </returns>
+        public static async Task<string> InitializeSessionIDAsync(string characterName,
+            ConvaiService.ConvaiServiceClient client,
+            string characterID, string sessionID)
         {
-            if (other.tag == "Character" && other.gameObject.GetComponent<ConvaiNPC>() != null)
+            Logger.DebugLog("Initializing SessionID for character: " + characterName, Logger.LogCategory.Character);
+
+            if (client == null)
             {
-                if (activeCharacter != null)
+                Logger.Error("gRPC client is not initialized.", Logger.LogCategory.Character);
+                return null;
+            }
+
+            using AsyncDuplexStreamingCall<GetResponseRequest, GetResponseResponse> call = client.GetResponse();
+            GetResponseRequest getResponseConfigRequest = new()
+            {
+                GetResponseConfig = new GetResponseConfig
                 {
-                    activeConvaiNPC = activeCharacter.GetComponent<ConvaiNPC>();
-                    activeConvaiNPC.isCharacterActive = false;
+                    CharacterId = characterID,
+                    ApiKey = Instance.APIKey,
+                    SessionId = sessionID,
+                    AudioConfig = new AudioConfig { DisableAudio = true }
+                }
+            };
+
+            try
+            {
+                await call.RequestStream.WriteAsync(getResponseConfigRequest);
+                await call.RequestStream.WriteAsync(new GetResponseRequest
+                {
+                    GetResponseData = new GetResponseData
+                    {
+                        TextData = "Repeat the following exactly as it is: [Hii]"
+                    }
+                });
+
+                await call.RequestStream.CompleteAsync();
+
+                while (await call.ResponseStream.MoveNext())
+                {
+                    GetResponseResponse result = call.ResponseStream.Current;
+
+                    if (!string.IsNullOrEmpty(result.SessionId))
+                    {
+                        Logger.DebugLog("SessionID Initialization SUCCESS for: " + characterName,
+                            Logger.LogCategory.Character);
+                        sessionID = result.SessionId;
+                        return sessionID;
+                    }
                 }
 
-                activeCharacter = other.gameObject;
-                activeConvaiNPC = activeCharacter.GetComponent<ConvaiNPC>();
+                Logger.Exception("SessionID Initialization FAILED for: " + characterName, Logger.LogCategory.Character);
+            }
+            catch (RpcException rpcException)
+            {
+                switch (rpcException.StatusCode)
+                {
+                    case StatusCode.Cancelled:
+                        Logger.Exception(rpcException, Logger.LogCategory.Character);
+                        break;
+                    case StatusCode.Unknown:
+                        Logger.Error($"Unknown error from server: {rpcException.Status.Detail}",
+                            Logger.LogCategory.Character);
+                        break;
+                    default:
+                        throw;
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.Exception(ex, Logger.LogCategory.Actions);
+            }
 
-                activeConvaiNPC.isCharacterActive = true;
+            return null;
+        }
+
+
+        /// <summary>
+        ///     Sends text data to the server and processes the response.
+        /// </summary>
+        /// <param name="client">The gRPC client used to communicate with the server.</param>
+        /// <param name="userText">The text data to send to the server.</param>
+        /// <param name="characterID">The ID of the character that is sending the text.</param>
+        /// <param name="isActionActive">Indicates whether actions are active.</param>
+        /// <param name="isLipSyncActive">Indicates whether lip sync is active.</param>
+        /// <param name="actionConfig">The action configuration.</param>
+        /// <param name="faceModel">The face model.</param>
+        /// <returns>A task that represents the asynchronous operation.</returns>
+        public async Task SendTextData(
+            ConvaiService.ConvaiServiceClient client,
+            string userText,
+            string characterID,
+            bool isActionActive,
+            bool isLipSyncActive,
+            ActionConfig actionConfig,
+            FaceModel faceModel)
+        {
+            AsyncDuplexStreamingCall<GetResponseRequest, GetResponseResponse> call =
+                GetAsyncDuplexStreamingCallOptions(client);
+
+            GetResponseRequest getResponseConfigRequest = CreateGetResponseRequest(
+                isActionActive,
+                isLipSyncActive,
+                0,
+                characterID,
+                actionConfig,
+                faceModel);
+
+            try
+            {
+                await call.RequestStream.WriteAsync(getResponseConfigRequest);
+                await call.RequestStream.WriteAsync(new GetResponseRequest
+                {
+                    GetResponseData = new GetResponseData
+                    {
+                        TextData = userText
+                    }
+                });
+                await call.RequestStream.CompleteAsync();
+
+                // Store the task that receives results from the server.
+                Task receiveResultsTask = Task.Run(
+                    async () => { await ReceiveResultFromServer(call, _cancellationTokenSource.Token); },
+                    _cancellationTokenSource.Token);
+
+                // Await the task if needed to ensure it completes before this method returns [OPTIONAL]
+                await receiveResultsTask.ConfigureAwait(false);
+            }
+            catch (Exception ex)
+            {
+                Logger.Error(ex, Logger.LogCategory.Character);
             }
         }
 
-        #region CONVAI_UTILS
-
-        public byte[] ProcessRequestAudiotoWav(AudioClip requestAudioClip)
+        // This method will be called whenever the active NPC changes.
+        private void HandleActiveNPCChanged(ConvaiNPC newActiveNPC)
         {
-            float[] floatAudioData = new float[requestAudioClip.samples];
-            requestAudioClip.GetData(floatAudioData, 0);
-
-            var intData = new short[floatAudioData.Length];
-            //converting in 2 float[] steps to Int16[], //then Int16[] to Byte[]
-
-            var bytesData = new byte[floatAudioData.Length * 2];
-            //bytesData array is twice the size of
-            //dataSource array because a float converted in Int16 is 2 bytes.
-
-            var rescaleFactor = 32767; //to convert float to Int16
-
-            for (var i = 0; i < floatAudioData.Length; i++)
-            {
-                intData[i] = (short)(floatAudioData[i] * rescaleFactor);
-
-                var byteArr = BitConverter.GetBytes(intData[i]);
-                byteArr.CopyTo(bytesData, i * 2);
-            }
-
-            byte[] wavByteData = AddByteToArray(bytesData, requestAudioClip.frequency.ToString());
-
-            return wavByteData;
+            _activeConvaiNPC = newActiveNPC;
         }
 
         /// <summary>
-        /// Converts a byte array to a float array representing audio data
+        ///     Converts a byte array representing 16-bit audio samples to a float array.
         /// </summary>
-        /// <param name="source"></param>
-        /// <returns>float array containing audio data</returns>
-        float[] Convert16BitByteArrayToFloatAudioClipData(byte[] source)
+        /// <param name="source">Byte array containing 16-bit audio data</param>
+        /// <returns>Float array containing audio samples in the range [-1, 1]</returns>
+        private static float[] Convert16BitByteArrayToFloatAudioClipData(byte[] source)
         {
-            int x = sizeof(short);
-            int convertedSize = source.Length / x;
-            float[] data = new float[convertedSize];
+            const int x = sizeof(short); // Size of a short in bytes
+            int convertedSize = source.Length / x; // Number of short samples
+            float[] data = new float[convertedSize]; // Float array to hold the converted data
 
-            int byte_idx = 0;
-            int data_idx = 0;
+            int byteIndex = 0; // Index for the byte array
+            int dataIndex = 0; // Index for the float array
 
-            while (byte_idx < source.Length)
+            // Convert each pair of bytes to a short and then to a float
+            while (byteIndex < source.Length)
             {
-                var first_byte = source[byte_idx];
-                var second_byte = source[byte_idx + 1];
-                byte_idx += 2;
-                // convert two bytes to one short (little endian)
-                short s = (short)((second_byte << 8) | first_byte);
-                data[data_idx] = s / 32768.0F;
-                data_idx++;
+                byte firstByte = source[byteIndex];
+                byte secondByte = source[byteIndex + 1];
+                byteIndex += 2;
+
+                // Combine the two bytes to form a short (little endian)
+                short s = (short)((secondByte << 8) | firstByte);
+
+                // Convert the short value to a float in the range [-1, 1]
+                data[dataIndex] = s / 32768.0F; // Dividing by 32768.0 to normalize the range
+                dataIndex++;
             }
+
             return data;
-
         }
 
         /// <summary>
-        /// Converts string audio data to an audio clip
+        ///     Converts a byte array containing audio data into an AudioClip.
         /// </summary>
-        /// <param name="audioData">string containining audio data</param>
-        /// <param name="stringSampleRate">string containing the sample rate of the audio</param>
-        /// <returns>audio clip</returns>
-        public AudioClip ProcessStringAudioDataToAudioClip(string audioData, string stringSampleRate)
-        {
-            byte[] byteAudio = Convert.FromBase64String(audioData);
-
-            // trim 44 bytes of header
-            byte[] trimmedByteAudio = new byte[byteAudio.Length - 44];
-
-            for (int i = 0, j = 44; i < byteAudio.Length - 44; i++, j++)
-            {
-                trimmedByteAudio[i] = byteAudio[j];
-            }
-
-            float[] samples = Convert16BitByteArrayToFloatAudioClipData(trimmedByteAudio);
-
-            int channels = 1;
-            int sampleRate = int.Parse(stringSampleRate);
-
-            AudioClip clip = AudioClip.Create("ClipName", samples.Length, channels, sampleRate, false);
-            clip.SetData(samples, 0);
-            return clip;
-        }
-
-        /// <summary>
-        /// Converts byte array containing audio data into audio clip
-        /// </summary>
-        /// <param name="byteAudio">byte array containing audio data</param>
-        /// <param name="stringSampleRate">string containing the sample rate of the audio</param>
-        /// <returns>audio clip</returns>
+        /// <param name="byteAudio">Byte array containing the audio data</param>
+        /// <param name="stringSampleRate">String containing the sample rate of the audio</param>
+        /// <returns>AudioClip containing the decoded audio data</returns>
         public AudioClip ProcessByteAudioDataToAudioClip(byte[] byteAudio, string stringSampleRate)
         {
-            // trim 44 bytes of header
-            byte[] trimmedByteAudio = new byte[byteAudio.Length - 44];
-
-            for (int i = 0, j = 44; i < byteAudio.Length - 44; i++, j++)
+            try
             {
-                trimmedByteAudio[i] = byteAudio[j];
+                if (byteAudio.Length <= 44)
+                    throw new ArgumentException("Not enough data in byte audio to trim the header.", nameof(byteAudio));
+
+                // Trim the 44 bytes WAV header from the byte array to get the actual audio data
+                byte[] trimmedByteAudio = new byte[byteAudio.Length - 44];
+                for (int i = 0, j = 44; i < byteAudio.Length - 44; i++, j++) trimmedByteAudio[i] = byteAudio[j];
+
+                // Convert the trimmed byte audio data to a float array of audio samples
+                float[] samples = Convert16BitByteArrayToFloatAudioClipData(trimmedByteAudio);
+                if (samples.Length <= 0) throw new Exception("No samples created after conversion from byte array.");
+
+                const int channels = 1; // Mono audio
+                int sampleRate = int.Parse(stringSampleRate); // Convert the sample rate string to an integer
+
+                // Create an AudioClip using the converted audio samples and other parameters
+                AudioClip clip = AudioClip.Create("Audio Response", samples.Length, channels, sampleRate, false);
+
+                // Set the audio data for the AudioClip
+                clip.SetData(samples, 0);
+
+                return clip;
             }
-
-            float[] samples = Convert16BitByteArrayToFloatAudioClipData(trimmedByteAudio);
-
-            int channels = 1;
-            int sampleRate = int.Parse(stringSampleRate);
-
-            AudioClip clip = AudioClip.Create("ClipName", samples.Length, channels, sampleRate, false);
-            clip.SetData(samples, 0);
-            return clip;
+            catch (Exception)
+            {
+                // Log or handle exceptions appropriately
+                return null;
+            }
         }
 
+
         /// <summary>
-        /// Starts recording the audio and sends it to the server in periodic chunks.
+        ///     Starts recording audio and sends it to the server for processing.
         /// </summary>
         /// <param name="client">gRPC service Client object</param>
         /// <param name="isActionActive">Bool specifying whether we are expecting action responses</param>
+        /// <param name="isLipSyncActive"></param>
         /// <param name="recordingFrequency">Frequency of the audio being sent</param>
         /// <param name="recordingLength">Length of the recording from the microphone</param>
         /// <param name="characterID">Character ID obtained from the playground</param>
         /// <param name="actionConfig">Object containing the action configuration</param>
-        /// <param name="enableTestMode">Bool specifying whether test mode is enabled</param>
-        /// <param name="testUserQuery">String containing the test query that will be sent to the server for processing</param>
-        public async Task StartRecordAudio(ConvaiService.ConvaiServiceClient client, bool isActionActive, int recordingFrequency, int recordingLength, string characterID, ActionConfig actionConfig, bool enableTestMode, string testUserQuery)
+        /// <param name="faceModel"></param>
+        public async Task StartRecordAudio(
+            ConvaiService.ConvaiServiceClient client,
+            bool isActionActive,
+            bool isLipSyncActive,
+            int recordingFrequency,
+            int recordingLength,
+            string characterID,
+            ActionConfig actionConfig,
+            FaceModel faceModel)
         {
-            // causes the computer to freeze
-            AsyncDuplexStreamingCall<GetResponseRequest, GetResponseResponse> call = client.GetResponse();
+            AsyncDuplexStreamingCall<GetResponseRequest, GetResponseResponse>
+                call = GetAsyncDuplexStreamingCallOptions(client);
 
-            // Start the duplex streaming call
-            GetResponseRequest getResponseConfigRequest = null;
+            GetResponseRequest getResponseConfigRequest = CreateGetResponseRequest(
+                isActionActive,
+                isLipSyncActive,
+                recordingFrequency,
+                characterID,
+                actionConfig,
+                faceModel);
 
-            // Debug.Log("Record audio!");
+            Logger.DebugLog(getResponseConfigRequest.ToString(), Logger.LogCategory.Character);
 
-            #region CONFIG_SETUP
-
-            if (isActionActive || activeConvaiNPC != null)
-            {
-                getResponseConfigRequest = new GetResponseRequest
-                {
-                    GetResponseConfig = new GetResponseConfig
-                    {
-                        CharacterId = characterID,
-                        ApiKey = APIKey,
-                        SessionId = activeConvaiNPC.sessionID,
-                        AudioConfig = new AudioConfig
-                        {
-                            SampleRateHertz = recordingFrequency,
-                        },
-                        ActionConfig = actionConfig
-                    }
-                };
-            }
-            else
-            {
-                getResponseConfigRequest = new GetResponseRequest
-                {
-                    GetResponseConfig = new GetResponseConfig
-                    {
-                        CharacterId = characterID,
-                        ApiKey = APIKey,
-                        SessionId = activeConvaiNPC.sessionID,
-                        AudioConfig = new AudioConfig
-                        {
-                            SampleRateHertz = recordingFrequency,
-                        }
-                    }
-                };
-            }
-
-            //Debug.Log("API Key sent to server: " + getResponseConfigRequest.GetResponseConfig.ApiKey);
             try
             {
                 await call.RequestStream.WriteAsync(getResponseConfigRequest);
             }
             catch (Exception ex)
             {
-                Debug.LogError(ex);
+                Logger.Error(ex, Logger.LogCategory.Character);
+                return; // early return on error
             }
-            #endregion
 
             AudioClip audioClip = Microphone.Start(null, false, recordingLength, recordingFrequency);
 
-            if (recordingMarker != null)
-                recordingMarker.SetActive(true);
+            // Assumes _chatUIHandler could be null
+            if (_chatUIHandler != null)
+                _chatUIHandler.IsPlayerTalking = true;
+            Logger.Info(_activeConvaiNPC.characterName + " is now listening", Logger.LogCategory.Character);
 
-            Task task = Task.Run(async () =>
+            await ProcessAudioContinuously(call, recordingFrequency, recordingLength, audioClip);
+
+            if (_chatUIHandler != null)
+                _chatUIHandler.IsPlayerTalking = false;
+        }
+
+        private AsyncDuplexStreamingCall<GetResponseRequest, GetResponseResponse>
+            GetAsyncDuplexStreamingCallOptions(
+                ConvaiService.ConvaiServiceClient client)
+        {
+            Metadata headers = new()
             {
-                await ReceiveResultFromServer(call);
-            });
+                { "source", "Unity" },
+                { "version", "2.0.0" }
+            };
 
-            float[] audioData = null;
+            CallOptions options = new(headers);
+            return client.GetResponse(options);
+        }
+
+        /// <summary>
+        ///     Creates a GetResponseRequest object configured with the specified parameters for initiating a gRPC call.
+        /// </summary>
+        /// <param name="isActionActive">Indicates whether actions are enabled for the character.</param>
+        /// <param name="isLipSyncActive">Indicates whether lip sync is enabled for the character.</param>
+        /// <param name="recordingFrequency">The frequency at which the audio is recorded.</param>
+        /// <param name="characterID">The unique identifier for the character.</param>
+        /// <param name="actionConfig">The configuration for character actions.</param>
+        /// <param name="faceModel">The facial model configuration for the character.</param>
+        /// <returns>A GetResponseRequest object configured with the provided settings.</returns>
+        private GetResponseRequest CreateGetResponseRequest(
+            bool isActionActive,
+            bool isLipSyncActive,
+            int recordingFrequency,
+            string characterID,
+            ActionConfig actionConfig,
+            FaceModel faceModel)
+        {
+            GetResponseRequest getResponseConfigRequest = new()
+            {
+                GetResponseConfig = new GetResponseConfig
+                {
+                    CharacterId = characterID,
+                    ApiKey = APIKey, // Assumes apiKey is available
+                    SessionId = _activeConvaiNPC
+                        .sessionID, // Assumes _activeConvaiNPC would not be null, else this will throw NullReferenceException
+
+                    AudioConfig = new AudioConfig
+                    {
+                        SampleRateHertz = recordingFrequency,
+                        EnableFacialData = isLipSyncActive,
+                        FaceModel = faceModel
+                    }
+                }
+            };
+
+            if (isActionActive || _activeConvaiNPC != null)
+                getResponseConfigRequest.GetResponseConfig.ActionConfig = actionConfig;
+
+            return getResponseConfigRequest;
+        }
+
+        /// <summary>
+        ///     Processes audio data continuously from a microphone input and sends it to the server via a gRPC call.
+        /// </summary>
+        /// <param name="call">The streaming call to send audio data to the server.</param>
+        /// <param name="recordingFrequency">The frequency at which the audio is recorded.</param>
+        /// <param name="recordingLength">The length of the audio recording in seconds.</param>
+        /// <param name="audioClip">The AudioClip object that contains the audio data from the microphone.</param>
+        /// <returns>A task that represents the asynchronous operation of processing and sending audio data.</returns>
+        private async Task ProcessAudioContinuously(
+            AsyncDuplexStreamingCall<GetResponseRequest, GetResponseResponse> call,
+            int recordingFrequency,
+            int recordingLength,
+            AudioClip audioClip)
+        {
+            // Run the receiving results from the server in the background without awaiting it here.
+            Task receiveResultsTask =
+                Task.Run(async () => { await ReceiveResultFromServer(call, _cancellationTokenSource.Token); },
+                    _cancellationTokenSource.Token);
+
             int pos = 0;
-
-            int microphonePosition = Microphone.GetPosition(null);
-
-            int diff = microphonePosition - pos;
+            float[] audioData = new float[recordingFrequency * recordingLength];
 
             while (Microphone.IsRecording(null))
             {
-                // Wait for a period of time
                 await Task.Delay(200);
+                int newPos = Microphone.GetPosition(null);
+                int diff = newPos - pos;
 
-                microphonePosition = Microphone.GetPosition(null);
-                diff = microphonePosition - pos;
-
-                audioData = new float[recordingFrequency * recordingLength];
-                audioClip.GetData(audioData, pos);
-
-                await ProcessAudioChunk(call, diff, audioData, enableTestMode, testUserQuery);
-
-                pos += diff;
+                if (diff > 0)
+                {
+                    audioClip.GetData(audioData, pos);
+                    await ProcessAudioChunk(call, diff, audioData);
+                    pos = newPos;
+                }
             }
 
-            await ProcessAudioChunk(call, diff, audioData, enableTestMode, testUserQuery);
-
+            // Process any remaining audio data.
+            await ProcessAudioChunk(call, Microphone.GetPosition(null) - pos, audioData).ConfigureAwait(false);
             await call.RequestStream.CompleteAsync();
-
-            if (recordingMarker != null)
-                recordingMarker.SetActive(false);
         }
 
         /// <summary>
-        /// Stops recording and processing the audio.
+        ///     Stops recording and processing the audio.
         /// </summary>
         public void StopRecordAudio()
         {
+            // End microphone recording
             Microphone.End(null);
+            try
+            {
+                Logger.Info(_activeConvaiNPC.characterName + " has stopped listening", Logger.LogCategory.Character);
+            }
+            catch (Exception)
+            {
+                Logger.Error("No active NPC found", Logger.LogCategory.Character);
+            }
         }
 
         /// <summary>
-        /// Processes each audio chunk and sends it to the server.
+        ///     Processes each audio chunk and sends it to the server.
         /// </summary>
         /// <param name="call">gRPC Streaming call connecting to the getResponse function</param>
         /// <param name="diff">Length of the audio data from the current position to the position of the last sent chunk</param>
         /// <param name="audioData">Chunk of audio data that we want to be processed</param>
-        /// <param name="enableTestMode">Bool specifying whether test mode is enabled</param>
-        /// <param name="testUserQuery">String containing the test query that will be sent to the server for processing</param>
-        async Task ProcessAudioChunk(AsyncDuplexStreamingCall<GetResponseRequest, GetResponseResponse> call, int diff, float[] audioData, bool enableTestMode, string testUserQuery)
+        private static async Task ProcessAudioChunk(
+            AsyncDuplexStreamingCall<GetResponseRequest, GetResponseResponse> call,
+            int diff, IReadOnlyList<float> audioData)
         {
-            // Debug.Log("Recorded diff: " + diff);
-            if (!enableTestMode)
+            if (diff > 0)
             {
-                if (diff > 0)
+                // Convert audio data to byte array
+                byte[] audioByteArray = new byte[diff * sizeof(short)];
+
+                for (int i = 0; i < diff; i++)
                 {
-                    // Convert audio data to byte array
-                    byte[] audioByteArray = new byte[diff * sizeof(short)];
-
-                    for (int i = 0; i < diff; i++)
-                    {
-                        float sample = audioData[i];
-                        short shortSample = (short)(sample * short.MaxValue);
-                        byte[] shortBytes = BitConverter.GetBytes(shortSample);
-                        audioByteArray[i * sizeof(short)] = shortBytes[0];
-                        audioByteArray[i * sizeof(short) + 1] = shortBytes[1];
-                    }
-
-                    // Send audio data to the gRPC server
-                    try
-                    {
-                        await call.RequestStream.WriteAsync(new GetResponseRequest
-                        {
-                            GetResponseData = new GetResponseData
-                            {
-                                AudioData = ByteString.CopyFrom(audioByteArray)
-                            }
-                        });
-
-                    }
-                    catch (RpcException rpcException)
-                    {
-                        if (rpcException.StatusCode == StatusCode.Cancelled)
-                        {
-                            Debug.LogException(rpcException);
-                        }
-                        else
-                        {
-                            throw;
-                        }
-                    }
+                    float sample = audioData[i];
+                    short shortSample = (short)(sample * short.MaxValue);
+                    byte[] shortBytes = BitConverter.GetBytes(shortSample);
+                    audioByteArray[i * sizeof(short)] = shortBytes[0];
+                    audioByteArray[i * sizeof(short) + 1] = shortBytes[1];
                 }
-            }
-            else
-            {
-                // Debug.Log("In the else block!");
 
+                // Send audio data to the gRPC server
                 try
                 {
                     await call.RequestStream.WriteAsync(new GetResponseRequest
                     {
                         GetResponseData = new GetResponseData
                         {
-                            TextData = testUserQuery
+                            AudioData = ByteString.CopyFrom(audioByteArray)
                         }
                     });
-
                 }
                 catch (RpcException rpcException)
                 {
                     if (rpcException.StatusCode == StatusCode.Cancelled)
-                    {
-                        Debug.LogException(rpcException);
-                    }
+                        Logger.Error(rpcException, Logger.LogCategory.Character);
                     else
-                    {
                         throw;
-                    }
                 }
             }
-
         }
 
         /// <summary>
-        /// Periodically receives responses from the server and adds it to a static list in streaming NPC
+        ///     Periodically receives responses from the server and adds it to a static list in streaming NPC
         /// </summary>
         /// <param name="call">gRPC Streaming call connecting to the getResponse function</param>
-        async Task ReceiveResultFromServer(AsyncDuplexStreamingCall<GetResponseRequest, GetResponseResponse> call)
+        /// <param name="cancellationToken"></param>
+        private async Task ReceiveResultFromServer(
+            AsyncDuplexStreamingCall<GetResponseRequest, GetResponseResponse> call, CancellationToken cancellationToken)
         {
-            while (await call.ResponseStream.MoveNext())
-            {
+            while (!cancellationToken.IsCancellationRequested &&
+                   await call.ResponseStream.MoveNext(cancellationToken).ConfigureAwait(false))
                 try
                 {
+                    // Get the response from the server
                     GetResponseResponse result = call.ResponseStream.Current;
 
+
+
+                    // Process different types of responses
                     if (result.UserQuery != null)
-                    {
-                        stringUserText = result.UserQuery.TextData;
-                    }
+                        if (_chatUIHandler != null)
+                            // Add user query to the list
+                            _stringUserText.Add(result.UserQuery.TextData);
+
+                    Debug.Log(result);
 
                     if (result.AudioResponse != null)
                     {
-                        activeConvaiNPC.getResponseResponses.Add(call.ResponseStream.Current);
+                        if (result.AudioResponse.TextData.Length > 0)
+                            // Log audio response data
+                            Logger.Info(result.AudioResponse.TextData, Logger.LogCategory.Character);
+
+                        if (result.AudioResponse.AudioData != null)
+                            // Add response to the list in the active NPC
+                            _activeConvaiNPC.GetResponseResponses.Enqueue(call.ResponseStream.Current);
+
+                        if (result.AudioResponse.FaceData != null)
+                            Logger.Info(
+                                $"Face Data:{result.AudioResponse.FaceData}. Face Data Size: {result.AudioResponse.FaceData.Length}",
+                                Logger.LogCategory.LipSync);
+
+                        if (result.AudioResponse.VisemesData != null)
+                            if (_activeConvaiNPC.lipSyncHandler != null)
+                            {
+                                Logger.Info(result.AudioResponse.VisemesData, Logger.LogCategory.LipSync);
+                                _activeConvaiNPC.lipSyncHandler.faceDataList.Enqueue(result.AudioResponse.VisemesData);
+                            }
                     }
 
-                    activeConvaiNPC.sessionID = call.ResponseStream.Current.SessionId;
+                    if (result.ActionResponse != null)
+                        if (_activeConvaiNPC.actionsHandler != null)
+                            _activeConvaiNPC.actionsHandler.actionResponseList.Add(result.ActionResponse.Action);
+
+                    if (result.AudioResponse == null && result.DebugLog != null)
+                    {
+                        _activeConvaiNPC.GetResponseResponses.Enqueue(call.ResponseStream.Current);
+                    }
+
+                    // Update session ID in the active NPC
+                    _activeConvaiNPC.sessionID = call.ResponseStream.Current.SessionId;
                 }
                 catch (RpcException rpcException)
                 {
+                    // Handle RpcExceptions, log or throw if necessary
                     if (rpcException.StatusCode == StatusCode.Cancelled)
-                    {
-                        Debug.LogException(rpcException);
-                    }
+                        Logger.Error(rpcException, Logger.LogCategory.Character);
                     else
-                    {
                         throw;
-                    }
                 }
-            }
+
+            if (cancellationToken.IsCancellationRequested) await call.RequestStream.CompleteAsync();
         }
-
-        /// <summary>
-        /// Adds WAV header to the audio data
-        /// </summary>
-        /// <param name="audioByteArray">Byte array containing audio data</param>
-        /// <param name="sampleRate">Bit rate of the audio that needs to be processed</param>
-        /// <returns></returns>
-        byte[] AddByteToArray(byte[] audioByteArray, string sampleRate)
-        {
-            var newArray = new byte[audioByteArray.Length + 44];
-            audioByteArray.CopyTo(newArray, 44);
-
-            int intSampleRate = Convert.ToInt32(sampleRate);
-
-            newArray[0] = Convert.ToByte('R');
-            newArray[1] = Convert.ToByte('I');
-            newArray[2] = Convert.ToByte('F');
-            newArray[3] = Convert.ToByte('F');
-
-            var newLength = BitConverter.GetBytes(audioByteArray.Length + 36);
-            Buffer.BlockCopy(newLength, 0, newArray, 4, 4);
-
-            newArray[8] = Convert.ToByte('W');
-            newArray[9] = Convert.ToByte('A');
-            newArray[10] = Convert.ToByte('V');
-            newArray[11] = Convert.ToByte('E');
-
-            newArray[12] = Convert.ToByte('f');
-            newArray[13] = Convert.ToByte('m');
-            newArray[14] = Convert.ToByte('t');
-            newArray[15] = Convert.ToByte(' ');
-
-            Buffer.BlockCopy(BitConverter.GetBytes(16), 0, newArray, 16, 4); // Chunk size
-            Buffer.BlockCopy(BitConverter.GetBytes(1), 0, newArray, 20, 2); // Audio Format
-            Buffer.BlockCopy(BitConverter.GetBytes(1), 0, newArray, 22, 2); // Num of channels
-
-            Buffer.BlockCopy(BitConverter.GetBytes(intSampleRate), 0, newArray, 24, 4); // Sample rate
-
-            Buffer.BlockCopy(BitConverter.GetBytes(intSampleRate * 2), 0, newArray, 28, 4); // Bit rate
-            Buffer.BlockCopy(BitConverter.GetBytes(2), 0, newArray, 32, 2); // Block Align
-            Buffer.BlockCopy(BitConverter.GetBytes(16), 0, newArray, 34, 2); // Bits sample
-
-            newArray[36] = Convert.ToByte('d');
-            newArray[37] = Convert.ToByte('a');
-            newArray[38] = Convert.ToByte('t');
-            newArray[39] = Convert.ToByte('a');
-
-            Buffer.BlockCopy(BitConverter.GetBytes(audioByteArray.Length), 0, newArray, 40, 4); // Number of byte of audio data
-            Buffer.BlockCopy(audioByteArray, 0, newArray, 44, audioByteArray.Length);
-
-            return newArray;
-        }
-
-        #endregion
     }
 }
