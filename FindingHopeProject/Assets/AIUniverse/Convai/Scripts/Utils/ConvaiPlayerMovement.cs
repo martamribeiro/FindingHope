@@ -73,11 +73,11 @@ namespace Convai.Scripts.Utils
         }
 
         /// <summary>
-        ///     Unlock the cursor when the ESC key is pressed, Re-lock the cursor when the left mouse button is pressed
+        ///     Unlock the cursor when the TAB key is pressed, Re-lock the cursor when the left mouse button is pressed
         /// </summary>
         private void HandleCursorLocking()
         {
-            if (Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetKeyDown(KeyCode.Tab))
             {
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
