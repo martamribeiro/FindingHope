@@ -206,14 +206,14 @@ namespace Convai.Scripts
         /// </summary>
         private void HandleCharacterActions()
         {
-            // Start recording audio when the T key is pressed
-            if (Input.GetKeyDown(KeyCode.T))
+            // Start recording audio when the F key is pressed
+            if (Input.GetKeyDown(KeyCode.F))
             {
                 UpdateActionConfig();
                 StartListening();
             }
-            // Stop recording audio when the T key is released
-            else if (Input.GetKeyUp(KeyCode.T))
+            // Stop recording audio when the F key is released
+            else if (Input.GetKeyUp(KeyCode.F))
             {
                 StopListening();
             }

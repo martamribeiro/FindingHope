@@ -3566,6 +3566,10 @@ PrefabInstance:
       propertyPath: characters.Array.data[2].characterTextColor.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8508869731966932246, guid: cd72c1d9bf02ebc489993d1c4bf5e521, type: 3}
+      propertyPath: m_text
+      value: Hold [F] to talk or Type here
+      objectReference: {fileID: 0}
     - target: {fileID: 8717672691028666896, guid: cd72c1d9bf02ebc489993d1c4bf5e521, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -5844,6 +5848,7 @@ GameObject:
   - component: {fileID: 404398691}
   - component: {fileID: 404398690}
   - component: {fileID: 404398689}
+  - component: {fileID: 404398693}
   m_Layer: 5
   m_Name: InstructionsTravel
   m_TagString: Untagged
@@ -5934,6 +5939,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &404398693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404398688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 483151d9d9bcc3c4da625c96208b1451, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &428737568 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 432826, guid: 3f6d5a55a145f4f40bebd7d054c548f0, type: 3}
