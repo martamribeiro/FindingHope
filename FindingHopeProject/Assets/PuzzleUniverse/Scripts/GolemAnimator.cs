@@ -8,6 +8,7 @@ public class GolemAnimator : MonoBehaviour
     private const string IS_WALKING = "IsWalking";
     private const string IS_CARRYING = "IsCarrying";
     private const string INTERACT = "Interact";
+    private const string ACTIVE = "IsActive";
 
     [SerializeField] 
     private Golem golem;
@@ -35,5 +36,10 @@ public class GolemAnimator : MonoBehaviour
     public void TriggerInteractionAnimation()
     {
         animator.SetTrigger(INTERACT);
+    }
+
+    public void TriggerActiveAnimation()
+    {
+        animator.SetTrigger(ACTIVE);
     }
 }
