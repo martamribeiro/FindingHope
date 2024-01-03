@@ -5,10 +5,11 @@ using UnityEngine;
 using UnityEngine.AI;
 using static UnityEngine.Rendering.DebugUI;
 
-public class Golem : MonoBehaviour, IBoxParentObject
+public class Golem : MonoBehaviour, IBoxParentObject, IInteractable
 {
     public enum State
     {
+        Inactive,
         Follow,
         StandBy,
         Moving,
@@ -34,7 +35,7 @@ public class Golem : MonoBehaviour, IBoxParentObject
 
     private IGolemInteractable targetInteractable;
 
-    private State state = State.StandBy;
+    private State state = State.Inactive;
 
     private void Update()
     {
@@ -78,7 +79,8 @@ public class Golem : MonoBehaviour, IBoxParentObject
 
     private void GameInput_OnGolemMoveAction(object sender, System.EventArgs e)
     {
-        PerformMovement();
+        if (state != State.Inactive) 
+            PerformMovement();
     }
 
     private void PerformMovement()
@@ -182,5 +184,11 @@ public class Golem : MonoBehaviour, IBoxParentObject
     public State GetCurrentState()
     {
         return state;
+    }
+
+    public void Interact(Player player)
+    {
+        state = State.StandBy;
+        animator.TriggerActiveAnimation();
     }
 }

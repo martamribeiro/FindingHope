@@ -29,7 +29,7 @@ public class Player : MonoBehaviour, IBoxParentObject
     [SerializeField] private float turningSpeedWhileGrabbing = 4f;
 
     private Box grabbedBox;
-    private bool hasBox = false; 
+    private bool hasBox = false;
 
     private Transform mainCameraTransform;
     private float verticalVelocity;
