@@ -9,13 +9,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker4
+AssetImportWorker3
 -projectPath
 C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject
 -logFile
-Logs/AssetImportWorker4.log
+Logs/AssetImportWorker3.log
 -srvPort
-6403
+7709
 Successfully changed project path to: C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject
 C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2756] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 4011468609 [EditorId] 4011468609 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [32880] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 665938695 [EditorId] 665938695 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2756] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 4011468609 [EditorId] 4011468609 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [32880] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 665938695 [EditorId] 665938695 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 647.11 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 65.72 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -71,44 +71,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012267 seconds.
-- Loaded All Assemblies, in  0.540 seconds
+Registered in 0.008274 seconds.
+- Loaded All Assemblies, in  0.464 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.323 seconds
-Domain Reload Profiling: 862ms
-	BeginReloadAssembly (187ms)
+- Finished resetting the current domain, in  0.295 seconds
+Domain Reload Profiling: 759ms
+	BeginReloadAssembly (175ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (228ms)
-		LoadAssemblies (185ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (172ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (226ms)
-			TypeCache.Refresh (224ms)
-				TypeCache.ScanAssembly (176ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (141ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (324ms)
+	FinalizeReload (296ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (254ms)
+		SetupLoadedEditorAssemblies (230ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (149ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
+			ProcessInitializeOnLoadAttributes (150ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 862ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.258 seconds
-Refreshing native plugins compatible for Editor in 9.94 ms, found 6 plugins.
+- Loaded All Assemblies, in  0.941 seconds
+Refreshing native plugins compatible for Editor in 10.95 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
@@ -128,48 +128,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.904 seconds
-Domain Reload Profiling: 2158ms
-	BeginReloadAssembly (158ms)
+- Finished resetting the current domain, in  0.896 seconds
+Domain Reload Profiling: 1835ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (1012ms)
-		LoadAssemblies (730ms)
+	LoadAllAssembliesAndSetupDomain (716ms)
+		LoadAssemblies (505ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (365ms)
-			TypeCache.Refresh (314ms)
-				TypeCache.ScanAssembly (240ms)
-			ScanForSourceGeneratedMonoScriptInfo (37ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (904ms)
+		AnalyzeDomain (291ms)
+			TypeCache.Refresh (237ms)
+				TypeCache.ScanAssembly (213ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (897ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (706ms)
+		SetupLoadedEditorAssemblies (702ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (6ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (516ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (513ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 9.16 ms, found 6 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 10.15 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6942 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 152 unused Assets / (3.6 MB). Loaded Objects now: 7366.
-Memory consumption went from 342.9 MB to 339.3 MB.
-Total: 5.404500 ms (FindLiveObjects: 0.483500 ms CreateObjectMapping: 0.475000 ms MarkObjects: 3.734700 ms  DeleteObjects: 0.710400 ms)
+Unloading 6938 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (3.6 MB). Loaded Objects now: 7362.
+Memory consumption went from 341.7 MB to 338.1 MB.
+Total: 5.242700 ms (FindLiveObjects: 0.620500 ms CreateObjectMapping: 0.534100 ms MarkObjects: 3.325600 ms  DeleteObjects: 0.761500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -185,46 +185,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 124706.825521 seconds.
-  path: Assets/PuzzleUniverse/PuzzleUniverse/Global Volume Profile.asset
-  artifactKey: Guid(d0bb0aa5971bd3a45b442d62505e43e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/PuzzleUniverse/Global Volume Profile.asset using Guid(d0bb0aa5971bd3a45b442d62505e43e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12c25f27a353ab4930070bb44df2766') in 0.031550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.837528 seconds.
-  path: Assets/PuzzleUniverse/Prefabs/Box.prefab
-  artifactKey: Guid(d6368b28254468f498b0cf5af3f76fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/Prefabs/Box.prefab using Guid(d6368b28254468f498b0cf5af3f76fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1ab3b4a302946f57b96c5940c25980') in 0.335024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PuzzleUniverse/Prefabs/MultiPressurePlate.prefab
-  artifactKey: Guid(e8dcaf634e242a148a5fddf14729b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/Prefabs/MultiPressurePlate.prefab using Guid(e8dcaf634e242a148a5fddf14729b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04046960d118e734f62d119c15fbb07f') in 0.026360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 51
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PuzzleUniverse/Prefabs/MovingPlatform.prefab
-  artifactKey: Guid(9838f02512e5f7443bf1fd30ac46b1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/Prefabs/MovingPlatform.prefab using Guid(9838f02512e5f7443bf1fd30ac46b1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2f487e7563c902ac80f69f5783343b') in 0.024216 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PuzzleUniverse/Prefabs/Button.prefab
-  artifactKey: Guid(77803afda1153d4479f5555c0d511b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleUniverse/Prefabs/Button.prefab using Guid(77803afda1153d4479f5555c0d511b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9374c7371c462bea9a2e73e5273fcecb') in 0.017944 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
