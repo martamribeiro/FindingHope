@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 /// <summary>
@@ -42,7 +43,7 @@ public class DialogManager : MonoBehaviour
     {
         if (dialog == null) throw new Exception("Dialog not found!");
 
-        if (Input.GetKeyDown(KeyCode.E) && !isTyping)
+        if (!isTyping)
         {
             ++currentLine;
             if (currentLine < dialog.Lines.Count)
@@ -79,6 +80,7 @@ public class DialogManager : MonoBehaviour
             dialogText.text += letter;
             yield return new WaitForSeconds(1f / lettersPerSecond); // unnecessary but is cool seeing the letters written one by one
         }
+        yield return new WaitForSeconds(0.7f);
         isTyping = false;
     }
 }

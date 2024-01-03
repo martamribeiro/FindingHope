@@ -10,6 +10,7 @@ public class Movement2D : MonoBehaviour
     public Rigidbody2D rb;
     public ContactFilter2D movementFilter;
     public LayerMask interactableLayer;
+    public GameObject popUp;
 
     private List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
     private Vector2 moveDirection;
@@ -24,9 +25,18 @@ public class Movement2D : MonoBehaviour
     public void HandleUpdate()
     {
         ProcessInput();
-        if (Input.GetKeyDown(KeyCode.E))
+        Collider2D collider = CheckInteractionSpace();
+        
+        if (collider)
         {
-            Interact();
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                collider.GetComponent<Interactable>()?.Interact();
+            }
+            popUp.SetActive(true);
+        } else
+        {
+            popUp.SetActive(false);
         }
 
         if (moveDirection != Vector2.zero)
@@ -46,18 +56,14 @@ public class Movement2D : MonoBehaviour
         }
     }
 
-    private void Interact()
+    private Collider2D CheckInteractionSpace()
     {
         Vector3 facingDirection = animManager.AnimationDirection();
         Vector3 interactPosition = (transform.position + facingDirection);
 
-        Debug.DrawLine(transform.position, interactPosition, Color.blue);
+        //Debug.DrawLine(transform.position, interactPosition, Color.blue);
 
-        Collider2D collider = Physics2D.OverlapCircle(interactPosition, 0.2f, interactableLayer);
-        if (collider)
-        {
-            collider.GetComponent<Interactable>()?.Interact();
-        }
+        return Physics2D.OverlapCircle(interactPosition, 0.2f, interactableLayer);
     }
 
     private bool TryMove(Vector2 direction)

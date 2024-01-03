@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public enum GameState { FREEROAM, DIALOG, BATTLE}
+public enum GameState { FREEROAM, DIALOG }
 
 /// <summary>
 /// Controls current Game State 
@@ -38,9 +38,5 @@ public class GameController : MonoBehaviour
         {
             DialogManager.Instance.HandleUpdate();
         } 
-        else if (state == GameState.BATTLE)
-        {
-            // to be developed
-        }
     }
 }

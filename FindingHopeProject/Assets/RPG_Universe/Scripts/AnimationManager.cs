@@ -22,7 +22,7 @@ public class AnimationManager : MonoBehaviour
         animator.SetFloat("MoveY", stateDirection.y);
     }
 
-    public void IsMoving(bool isMoving) { animator.SetBool("IsMoving", isMoving); }
+    public void IsMoving(bool isMoving) { animator.SetBool("isMoving", isMoving); }
 
     public Vector3 AnimationDirection()
     {
