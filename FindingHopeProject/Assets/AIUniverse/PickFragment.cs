@@ -11,7 +11,7 @@ public class PickFragment : MonoBehaviour
     void Update()
     {
         // Check if the player is pressing the "T" key
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.F) && IsTriggerObjectActive())
         {
             ToggleObjectsVisibility(objectsToShow, true);
             ToggleObjectsVisibility(objectsToHide, false);
