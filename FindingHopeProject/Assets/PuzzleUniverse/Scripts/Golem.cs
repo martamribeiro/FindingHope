@@ -7,7 +7,7 @@ using static UnityEngine.Rendering.DebugUI;
 
 public class Golem : MonoBehaviour, IBoxParentObject
 {
-    private enum State
+    public enum State
     {
         Follow,
         StandBy,
@@ -20,6 +20,7 @@ public class Golem : MonoBehaviour, IBoxParentObject
     [SerializeField] GameInput gameInput;
 
     [SerializeField] Transform boxGrabPosition;
+    [SerializeField] GolemAnimator animator;
 
     [Header("Raycast Settings")]
     [SerializeField] List<LayerMask> raycastLayerMaskList;
@@ -133,6 +134,8 @@ public class Golem : MonoBehaviour, IBoxParentObject
         if (Vector3.Distance(transform.position, navMeshAgent.destination) < 0.5f || (targetInteractable is Box && Vector3.Distance(transform.position, navMeshAgent.destination) < 2f)) {
             state = State.StandBy;
             targetInteractable.Interact(this);
+
+            animator.TriggerInteractionAnimation();
         }
     }
 
@@ -174,5 +177,10 @@ public class Golem : MonoBehaviour, IBoxParentObject
     public Transform GetGrabPositionTransform()
     {
         return boxGrabPosition;
+    }
+
+    public State GetCurrentState()
+    {
+        return state;
     }
 }
