@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 370830793569082444}
   - component: {fileID: 361379138295393348}
   - component: {fileID: 411655303104188750}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 40b5b1cfe73d4444eb7e750bd8e3f90a, type: 2}
+  - {fileID: 2100000, guid: d68389c8f0189ce4f92e616d47251708, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 3943609980971999852}
   - component: {fileID: 9053011464853465757}
   - component: {fileID: 3716671696780384357}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Selected
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
@@ -187,7 +187,7 @@ GameObject:
   - component: {fileID: 2237964111758672130}
   - component: {fileID: 2564096314375186859}
   - component: {fileID: 3250388869667491076}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -204,7 +204,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 1.02, y: 1.02, z: 1.02}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3943609980971999852}
@@ -305,7 +305,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5888325570118583980}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 50
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -384,7 +384,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8294381906388992921}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: InteractionPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -415,7 +415,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7839978754855616164}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: BoxVisuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
