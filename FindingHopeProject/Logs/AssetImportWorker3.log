@@ -15,7 +15,7 @@ C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHo
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-6403
+1372
 Successfully changed project path to: C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject
 C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28608] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 1435793640 [EditorId] 1435793640 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23660] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 2700532566 [EditorId] 2700532566 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [28608] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 1435793640 [EditorId] 1435793640 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23660] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 2700532566 [EditorId] 2700532566 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 21.84 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 54.58 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -71,44 +71,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008899 seconds.
-- Loaded All Assemblies, in  0.766 seconds
+Registered in 0.006199 seconds.
+- Loaded All Assemblies, in  0.380 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.378 seconds
-Domain Reload Profiling: 1143ms
-	BeginReloadAssembly (337ms)
+- Finished resetting the current domain, in  0.260 seconds
+Domain Reload Profiling: 638ms
+	BeginReloadAssembly (147ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (96ms)
-	LoadAllAssembliesAndSetupDomain (251ms)
-		LoadAssemblies (333ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (145ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (247ms)
-			TypeCache.Refresh (244ms)
-				TypeCache.ScanAssembly (219ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (113ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (380ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (261ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (288ms)
+		SetupLoadedEditorAssemblies (202ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (13ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (188ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 1143ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.018 seconds
-Refreshing native plugins compatible for Editor in 14.78 ms, found 6 plugins.
+- Loaded All Assemblies, in  0.965 seconds
+Refreshing native plugins compatible for Editor in 9.06 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
@@ -128,48 +128,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.029 seconds
-Domain Reload Profiling: 2037ms
-	BeginReloadAssembly (148ms)
+- Finished resetting the current domain, in  0.897 seconds
+Domain Reload Profiling: 1859ms
+	BeginReloadAssembly (137ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (765ms)
-		LoadAssemblies (567ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (737ms)
+		LoadAssemblies (478ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (287ms)
-			TypeCache.Refresh (236ms)
-				TypeCache.ScanAssembly (214ms)
-			ScanForSourceGeneratedMonoScriptInfo (37ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1029ms)
+		AnalyzeDomain (338ms)
+			TypeCache.Refresh (279ms)
+				TypeCache.ScanAssembly (207ms)
+			ScanForSourceGeneratedMonoScriptInfo (43ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (897ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (821ms)
+		SetupLoadedEditorAssemblies (706ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (621ms)
-			ProcessInitializeOnLoadMethodAttributes (81ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (496ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 13.64 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 9.31 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6939 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 152 unused Assets / (3.6 MB). Loaded Objects now: 7363.
-Memory consumption went from 342.4 MB to 338.8 MB.
-Total: 6.120100 ms (FindLiveObjects: 0.527000 ms CreateObjectMapping: 0.721900 ms MarkObjects: 3.966200 ms  DeleteObjects: 0.903900 ms)
+Unloading 6946 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (3.6 MB). Loaded Objects now: 7377.
+Memory consumption went from 344.8 MB to 341.2 MB.
+Total: 6.204400 ms (FindLiveObjects: 0.617500 ms CreateObjectMapping: 0.679700 ms MarkObjects: 4.025500 ms  DeleteObjects: 0.880700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,315 +186,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 117516.687059 seconds.
-  path: Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/Convai_NPC_Amy.fbm/Hair_Transparency_Diffuse.png
-  artifactKey: Guid(6a2659f831566ad4ba6f290f51cd1a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/Convai_NPC_Amy.fbm/Hair_Transparency_Diffuse.png using Guid(6a2659f831566ad4ba6f290f51cd1a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f110e25386a4302ed6884ab1ef3bd8b9') in 0.130740 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/hud/heart.png
-  artifactKey: Guid(3a86cac466a4cc74b996c15a90c7bb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/hud/heart.png using Guid(3a86cac466a4cc74b996c15a90c7bb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e6307d7ac837a3729071ba968921b3') in 0.067481 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/hud/health-bar-top-2.png
-  artifactKey: Guid(eeec275bd0778bd40a51ebc62a52cd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/hud/health-bar-top-2.png using Guid(eeec275bd0778bd40a51ebc62a52cd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23c799167d127fd4602f4549cd3cc35') in 0.024301 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/textures/Convai_NPC_Amy/Side_part_wavy/Side_part_wavy/Hair_Transparency/Hair_Transparency_vertexcolormap.jpg
-  artifactKey: Guid(734bf50fecf057b4eb285dd20a78ded0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/textures/Convai_NPC_Amy/Side_part_wavy/Side_part_wavy/Hair_Transparency/Hair_Transparency_vertexcolormap.jpg using Guid(734bf50fecf057b4eb285dd20a78ded0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900ce93f906f4d1ef056f2a46921205b') in 0.015741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/hud-32x32.png
-  artifactKey: Guid(d0bbb2fe69708a842aa9019906bedd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/hud-32x32.png using Guid(d0bbb2fe69708a842aa9019906bedd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868a64dcbc443aca6ad2a2a105d045f0') in 0.024690 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/icon.png
-  artifactKey: Guid(b0f05bc87da87f24b95a58189ccb07eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/icon.png using Guid(b0f05bc87da87f24b95a58189ccb07eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27af78cf877067d98d1f60f0fe8d147') in 0.126028 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 42
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/char/Wizard/idle.gif
-  artifactKey: Guid(eb73cb9ca3bf0524da71499dd4f15041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/char/Wizard/idle.gif using Guid(eb73cb9ca3bf0524da71499dd4f15041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02fcc434b59ee98a0b7fb14a5bda040') in 0.021407 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/monsters/insect-1.png
-  artifactKey: Guid(edbb2aa0906d8ee4fa01455d9a47ec18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/monsters/insect-1.png using Guid(edbb2aa0906d8ee4fa01455d9a47ec18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163f48434dd3945ce56b1360e1e181f6') in 0.028627 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/hud/inventory-case.png
-  artifactKey: Guid(5a729dbf862b1f54ebda86b440ccdca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/hud/inventory-case.png using Guid(5a729dbf862b1f54ebda86b440ccdca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2d82fc6af20d36b00ac2237f7099a5') in 0.026069 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/items/jar.png
-  artifactKey: Guid(0b01791b7a882614caaaeed1aec76492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/items/jar.png using Guid(0b01791b7a882614caaaeed1aec76492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d59f778a3c4d1221681b94e775ae35c') in 0.020555 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/weapons/katana.png
-  artifactKey: Guid(f2b37478f688fb24c83ed137a6fb97f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/weapons/katana.png using Guid(f2b37478f688fb24c83ed137a6fb97f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca36761530ad0eee232f430c048eb8d9') in 0.023328 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/hud/inventory-middle.png
-  artifactKey: Guid(4ccb04fb83906ef4cbd1f61429da935c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/hud/inventory-middle.png using Guid(4ccb04fb83906ef4cbd1f61429da935c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d0ec3697025758db0fac7b5b85b449') in 0.022861 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/keys_2_2.png
-  artifactKey: Guid(7d0273aea7024594c851d1298a34ed0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/keys_2_2.png using Guid(7d0273aea7024594c851d1298a34ed0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4040db3c5c2dd0110cc41ddd00561b5f') in 0.054277 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/particles/leaf-1.png
-  artifactKey: Guid(d088d614f66796a449acae1ae10a9dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/particles/leaf-1.png using Guid(d088d614f66796a449acae1ae10a9dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28295eed486a11e20c0c398219db0e2') in 0.019647 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/particles/leaf-4.png
-  artifactKey: Guid(fbe0873118d737d4388ff1f786df325d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/particles/leaf-4.png using Guid(fbe0873118d737d4388ff1f786df325d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a954546cf55225cd41a01afbcad7b252') in 0.019887 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001517 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/hud/life-box-2.png
-  artifactKey: Guid(6c4e76af2d727b0438d38dda396bec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/hud/life-box-2.png using Guid(6c4e76af2d727b0438d38dda396bec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceefe95ff049d738b9e9a3902cebafba') in 0.018400 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/characters/npc/little-boy-preview.gif
-  artifactKey: Guid(cb65e1698d5569a4b88c3fab92023e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/characters/npc/little-boy-preview.gif using Guid(cb65e1698d5569a4b88c3fab92023e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a2783db7d71e66b80fe9c211a18b68') in 0.019713 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/monsters/leonard.png
-  artifactKey: Guid(ceea0c494578b574bb250cadfd1bb46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/medieval-fantasy/monsters/leonard.png using Guid(ceea0c494578b574bb250cadfd1bb46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f7555ee5ad3331690fb4040d34f0a7') in 0.030882 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/keys_1_3.png
-  artifactKey: Guid(54c30698e69b1964c8a9b841b6fed4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/keys_1_3.png using Guid(54c30698e69b1964c8a9b841b6fed4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651be1d5045a7827e3f9a12709e82fd6') in 0.020137 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/char/mage/idle.gif
-  artifactKey: Guid(ae5c3b68acf652348986a1c42c64842e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/char/mage/idle.gif using Guid(ae5c3b68acf652348986a1c42c64842e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6027623720d7adcb528dd43206200ef0') in 0.023071 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/dino/idle.gif
-  artifactKey: Guid(31d4477fdd833a745b5b54abd5c0a753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/dino/idle.gif using Guid(31d4477fdd833a745b5b54abd5c0a753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fed69ea8dd7cd7dd0c1a303f1d4091') in 0.024981 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/char/bowman/idle.gif
-  artifactKey: Guid(fe49c396f84a20b44a0ea9b4747323a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/char/bowman/idle.gif using Guid(fe49c396f84a20b44a0ea9b4747323a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e13b212ec69871daa594db38cd07038') in 0.025993 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/jar-2.png
-  artifactKey: Guid(6af91e2c179ed604e9afcf1a0214d795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/jar-2.png using Guid(6af91e2c179ed604e9afcf1a0214d795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339abc1695f69a787fe1dddbe554db6c') in 0.060272 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/dragon/hit.gif
-  artifactKey: Guid(7f2687d10046ea9419adf44b08633d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/dragon/hit.gif using Guid(7f2687d10046ea9419adf44b08633d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cfad32b07c6b01402beb476ff273c2') in 0.031221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/items/kunai.png
-  artifactKey: Guid(5191f8982b37669478c3705e74eb37e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/ninja-adventure/items/kunai.png using Guid(5191f8982b37669478c3705e74eb37e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523268207dc668430ab3bf29a9fa6653') in 0.024169 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/keys_1_2.png
-  artifactKey: Guid(266d145b4c84bde41b4404242851d0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/keys_1_2.png using Guid(266d145b4c84bde41b4404242851d0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32da25cce99ea640cd1a3508b80a7704') in 0.020973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/hud/health-bar-top-1.png
-  artifactKey: Guid(1443ad20a4ef7bd4f8d8a41a7e249adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/hud/health-bar-top-1.png using Guid(1443ad20a4ef7bd4f8d8a41a7e249adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af15eef157ae0bdf2a5c8f2169e7acf6') in 0.022367 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/ghost/idle.gif
-  artifactKey: Guid(429de55049a3deb41be78745951e053b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/ghost/idle.gif using Guid(429de55049a3deb41be78745951e053b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf25119aeda847e4402bfce43a323c1') in 0.023113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/cards/icon-leonard.png
-  artifactKey: Guid(ee0f7488277eea64fa1725ac12794b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/cards/icon-leonard.png using Guid(ee0f7488277eea64fa1725ac12794b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fca9e5946346e784a94a56298fac0b') in 0.022026 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/ladder.png
-  artifactKey: Guid(9480e2035aeb0b943831b8a0f9210cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/ladder.png using Guid(9480e2035aeb0b943831b8a0f9210cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a2b064f25141a58f2f52c76a8e4472') in 0.022896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/hud/life-full.png
-  artifactKey: Guid(62ad6ed67d9ab9140816a2321eec128a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/hud/life-full.png using Guid(62ad6ed67d9ab9140816a2321eec128a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0299eed2f614475cd59da7b48e669a') in 0.021368 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/cards/icon-6.png
-  artifactKey: Guid(d94fed9f1dc5b894daa0ef1f25cd3ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/cards/icon-6.png using Guid(d94fed9f1dc5b894daa0ef1f25cd3ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ac42df3938afdfceb5306c14f59b12') in 0.019373 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/characters/robot/head.png
-  artifactKey: Guid(073e6a0a497463346b630ad5ef08e3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/characters/robot/head.png using Guid(073e6a0a497463346b630ad5ef08e3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064a2ed022bbbf86000fcf93f96d98b5') in 0.020151 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/characters/npc/hunter-preview.gif
-  artifactKey: Guid(bd9a7971a5b6e8b4493ab382b6e7f37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/characters/npc/hunter-preview.gif using Guid(bd9a7971a5b6e8b4493ab382b6e7f37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62ec53c54564b584dd33208573c7cf9') in 0.020133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/cards/icon-2.png
-  artifactKey: Guid(654257e7f53b1834c88d8a7d8a32bad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/cards/icon-2.png using Guid(654257e7f53b1834c88d8a7d8a32bad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850260f2e2e639e9ed1fd130825725ec') in 0.020601 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/reptile/Hit.gif
-  artifactKey: Guid(f3c06236a2a055f4c8467a2dcf206cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/monster/reptile/Hit.gif using Guid(f3c06236a2a055f4c8467a2dcf206cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56adfa90ac66570e12b3a86adf4dd410') in 0.020714 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/HUD/icon.gif
-  artifactKey: Guid(9832acac6c4a15d4c80c047467ac843a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/rpg-battle-system/HUD/icon.gif using Guid(9832acac6c4a15d4c80c047467ac843a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16651d7f0f3009a5569223f9e647419f') in 0.018298 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/hud/life-box.png
-  artifactKey: Guid(c86b3cc220767624e86ba1c270fcbe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/hud/life-box.png using Guid(c86b3cc220767624e86ba1c270fcbe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08eb523a80ccf2ff997ad7f35251dca') in 0.018840 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.635 seconds
-Refreshing native plugins compatible for Editor in 12.01 ms, found 6 plugins.
+- Loaded All Assemblies, in  0.599 seconds
+Refreshing native plugins compatible for Editor in 10.41 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
@@ -503,47 +199,47 @@ Native extension for WindowsStandalone target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.645 seconds
-Domain Reload Profiling: 3277ms
-	BeginReloadAssembly (188ms)
+- Finished resetting the current domain, in  2.305 seconds
+Domain Reload Profiling: 2901ms
+	BeginReloadAssembly (166ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (12ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (13ms)
 	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (361ms)
-		LoadAssemblies (423ms)
+	LoadAllAssembliesAndSetupDomain (355ms)
+		LoadAssemblies (406ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
+		AnalyzeDomain (25ms)
 			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (2646ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2306ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (887ms)
+		SetupLoadedEditorAssemblies (746ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (21ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (152ms)
-			ProcessInitializeOnLoadAttributes (607ms)
-			ProcessInitializeOnLoadMethodAttributes (91ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (535ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
 Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 12.04 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 11.57 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6660 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7459.
-Memory consumption went from 290.3 MB to 286.7 MB.
-Total: 6.731800 ms (FindLiveObjects: 0.735300 ms CreateObjectMapping: 0.650400 ms MarkObjects: 4.603200 ms  DeleteObjects: 0.741300 ms)
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7398.
+Memory consumption went from 287.9 MB to 284.3 MB.
+Total: 6.575000 ms (FindLiveObjects: 0.615700 ms CreateObjectMapping: 0.783000 ms MarkObjects: 4.455800 ms  DeleteObjects: 0.719200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -560,8 +256,74 @@ AssetImportParameters requested are different than current active one (requested
   custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi cancelada devido a uma saída do módulo ou a um pedido da aplicação.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.670 seconds
+Refreshing native plugins compatible for Editor in 11.67 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.326 seconds
+Domain Reload Profiling: 2993ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (427ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2327ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (736ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 10.36 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7418.
+Memory consumption went from 289.8 MB to 286.3 MB.
+Total: 7.247000 ms (FindLiveObjects: 0.566300 ms CreateObjectMapping: 0.595900 ms MarkObjects: 5.155000 ms  DeleteObjects: 0.928900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
