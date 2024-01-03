@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'pt' Physical Memory: 16221 MB
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'pt' Physical Memory: 16251 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
+C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62364
-Successfully changed project path to: C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
-C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
+1372
+Successfully changed project path to: C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject
+C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,66 +49,66 @@ C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2664] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 1011485051 [EditorId] 1011485051 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20164] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 3640504897 [EditorId] 3640504897 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2664] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 1011485051 [EditorId] 1011485051 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20164] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 3640504897 [EditorId] 3640504897 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 59.73 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 22.42 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject/Assets
+[Subsystems] Discovering subsystems at path C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
     Vendor:   NVIDIA
-    VRAM:     3962 MB
-    Driver:   31.0.15.1640
+    VRAM:     5968 MB
+    Driver:   31.0.15.3742
 Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017602 seconds.
-- Loaded All Assemblies, in  0.667 seconds
+Registered in 0.009433 seconds.
+- Loaded All Assemblies, in  0.396 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.412 seconds
-Domain Reload Profiling: 1074ms
-	BeginReloadAssembly (227ms)
+- Finished resetting the current domain, in  0.281 seconds
+Domain Reload Profiling: 676ms
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (107ms)
-	LoadAllAssembliesAndSetupDomain (229ms)
-		LoadAssemblies (221ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (115ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (226ms)
-			TypeCache.Refresh (223ms)
-				TypeCache.ScanAssembly (202ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (412ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (126ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (282ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (317ms)
+		SetupLoadedEditorAssemblies (219ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (205ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 1074ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.678 seconds
-Refreshing native plugins compatible for Editor in 28.17 ms, found 6 plugins.
+- Loaded All Assemblies, in  0.924 seconds
+Refreshing native plugins compatible for Editor in 13.24 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
@@ -128,48 +128,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.653 seconds
-Domain Reload Profiling: 3315ms
-	BeginReloadAssembly (267ms)
+- Finished resetting the current domain, in  1.007 seconds
+Domain Reload Profiling: 1928ms
+	BeginReloadAssembly (167ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (79ms)
-	LoadAllAssembliesAndSetupDomain (1247ms)
-		LoadAssemblies (830ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (643ms)
+		LoadAssemblies (427ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (574ms)
-			TypeCache.Refresh (438ms)
-				TypeCache.ScanAssembly (399ms)
-			ScanForSourceGeneratedMonoScriptInfo (61ms)
-			ResolveRequiredComponents (72ms)
-	FinalizeReload (1654ms)
+		AnalyzeDomain (316ms)
+			TypeCache.Refresh (253ms)
+				TypeCache.ScanAssembly (225ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1007ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1321ms)
+		SetupLoadedEditorAssemblies (767ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (194ms)
-			ProcessInitializeOnLoadAttributes (935ms)
-			ProcessInitializeOnLoadMethodAttributes (150ms)
-			AfterProcessingInitializeOnLoad (20ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (548ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 46.86 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 9.60 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6939 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 152 unused Assets / (3.6 MB). Loaded Objects now: 7365.
-Memory consumption went from 342.7 MB to 339.1 MB.
-Total: 13.333100 ms (FindLiveObjects: 0.900400 ms CreateObjectMapping: 1.037700 ms MarkObjects: 10.227600 ms  DeleteObjects: 1.165800 ms)
+Unloading 6946 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (3.6 MB). Loaded Objects now: 7376.
+Memory consumption went from 344.7 MB to 341.2 MB.
+Total: 5.921500 ms (FindLiveObjects: 0.856200 ms CreateObjectMapping: 0.817500 ms MarkObjects: 3.366000 ms  DeleteObjects: 0.880800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,96 +179,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1744.738454 seconds.
-  path: Assets/_Assets
-  artifactKey: Guid(5d2620a7e5983f74e951bc0453c0a193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Assets using Guid(5d2620a7e5983f74e951bc0453c0a193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d169d9a1de426b231d0f2cc9da7c15d') in 0.003140 seconds
+  Time since last request: 136817.442671 seconds.
+  path: Assets/PuzzleUniverse/_Assets/Materials/PolygonStarter_SeeThrough.mat
+  artifactKey: Guid(85f6fdecd1fd5134fb978c214e25f740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/_Assets/Materials/PolygonStarter_SeeThrough.mat using Guid(85f6fdecd1fd5134fb978c214e25f740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a6d40e9007c1ed27a7515d5c2073b0') in 0.276837 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.087 seconds
-Refreshing native plugins compatible for Editor in 31.97 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.368 seconds
-Domain Reload Profiling: 4442ms
-	BeginReloadAssembly (280ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (71ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (658ms)
-		LoadAssemblies (738ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (52ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (33ms)
-	FinalizeReload (3369ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1348ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (10ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (203ms)
-			ProcessInitializeOnLoadAttributes (957ms)
-			ProcessInitializeOnLoadMethodAttributes (147ms)
-			AfterProcessingInitializeOnLoad (20ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (30ms)
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 43.43 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7384.
-Memory consumption went from 286.6 MB to 283.1 MB.
-Total: 8.301600 ms (FindLiveObjects: 0.859800 ms CreateObjectMapping: 1.104600 ms MarkObjects: 5.520400 ms  DeleteObjects: 0.815600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Prepare
 Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 47.58 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 11.92 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (3.5 MB). Loaded Objects now: 7384.
-Memory consumption went from 184.3 MB to 180.8 MB.
-Total: 8.257400 ms (FindLiveObjects: 0.736000 ms CreateObjectMapping: 0.696700 ms MarkObjects: 6.142100 ms  DeleteObjects: 0.681000 ms)
+Unloading 16 unused Assets / (3.5 MB). Loaded Objects now: 7543.
+Memory consumption went from 187.7 MB to 184.1 MB.
+Total: 8.550500 ms (FindLiveObjects: 1.351700 ms CreateObjectMapping: 0.592600 ms MarkObjects: 6.021500 ms  DeleteObjects: 0.581700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -276,10 +207,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
@@ -288,316 +219,10 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.118 seconds
-Refreshing native plugins compatible for Editor in 30.44 ms, found 6 plugins.
+- Loaded All Assemblies, in  0.636 seconds
+Refreshing native plugins compatible for Editor in 10.75 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.526 seconds
-Domain Reload Profiling: 4630ms
-	BeginReloadAssembly (297ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (64ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (637ms)
-		LoadAssemblies (761ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (35ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (3527ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1306ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (11ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (259ms)
-			ProcessInitializeOnLoadAttributes (835ms)
-			ProcessInitializeOnLoadMethodAttributes (163ms)
-			AfterProcessingInitializeOnLoad (22ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (35ms)
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 38.90 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7402.
-Memory consumption went from 288.6 MB to 285.0 MB.
-Total: 12.036400 ms (FindLiveObjects: 1.570000 ms CreateObjectMapping: 1.179600 ms MarkObjects: 8.035000 ms  DeleteObjects: 1.250300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.160 seconds
-Refreshing native plugins compatible for Editor in 34.84 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.484 seconds
-Domain Reload Profiling: 4627ms
-	BeginReloadAssembly (341ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (655ms)
-		LoadAssemblies (795ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (38ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (3485ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1343ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (11ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (242ms)
-			ProcessInitializeOnLoadAttributes (905ms)
-			ProcessInitializeOnLoadMethodAttributes (143ms)
-			AfterProcessingInitializeOnLoad (24ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (40ms)
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 38.62 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7420.
-Memory consumption went from 290.5 MB to 287.0 MB.
-Total: 9.160300 ms (FindLiveObjects: 1.102100 ms CreateObjectMapping: 1.120300 ms MarkObjects: 6.063500 ms  DeleteObjects: 0.872700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.214 seconds
-Refreshing native plugins compatible for Editor in 27.73 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.570 seconds
-Domain Reload Profiling: 4768ms
-	BeginReloadAssembly (335ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (81ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (34ms)
-	initialDomainReloadingComplete (87ms)
-	LoadAllAssembliesAndSetupDomain (679ms)
-		LoadAssemblies (810ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (42ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (3571ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1569ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (10ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (218ms)
-			ProcessInitializeOnLoadAttributes (1107ms)
-			ProcessInitializeOnLoadMethodAttributes (193ms)
-			AfterProcessingInitializeOnLoad (26ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (36ms)
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 33.69 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7438.
-Memory consumption went from 292.5 MB to 288.9 MB.
-Total: 7.147900 ms (FindLiveObjects: 0.671000 ms CreateObjectMapping: 0.622900 ms MarkObjects: 5.045600 ms  DeleteObjects: 0.807000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.149 seconds
-Refreshing native plugins compatible for Editor in 32.83 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
-  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <ac8a1d1a125546cf82b0ec17802fc7c2>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.417 seconds
-Domain Reload Profiling: 4551ms
-	BeginReloadAssembly (348ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (23ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (94ms)
-	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (613ms)
-		LoadAssemblies (739ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (40ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (3418ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1384ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (13ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (266ms)
-			ProcessInitializeOnLoadAttributes (916ms)
-			ProcessInitializeOnLoadMethodAttributes (148ms)
-			AfterProcessingInitializeOnLoad (27ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (49ms)
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 40.00 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7456.
-Memory consumption went from 294.5 MB to 290.9 MB.
-Total: 12.624800 ms (FindLiveObjects: 1.200900 ms CreateObjectMapping: 2.290200 ms MarkObjects: 8.118700 ms  DeleteObjects: 1.013200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.139 seconds
-Refreshing native plugins compatible for Editor in 27.08 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\crist\Desktop\Uni Stuff\Mestrado\Semestre_1\DESDJ\FindingHope\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <a3b02d6f9b494355b946095ea1f25c54>:0 
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <a3b02d6f9b494355b946095ea1f25c54>:0 
   at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
@@ -630,47 +255,47 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.237 seconds
-Domain Reload Profiling: 4360ms
-	BeginReloadAssembly (326ms)
+- Finished resetting the current domain, in  2.431 seconds
+Domain Reload Profiling: 3063ms
+	BeginReloadAssembly (209ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
+		DisableScriptedObjects (21ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (89ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (634ms)
-		LoadAssemblies (754ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (398ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (37ms)
-			TypeCache.Refresh (13ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (3238ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2431ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1221ms)
+		SetupLoadedEditorAssemblies (731ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (232ms)
-			ProcessInitializeOnLoadAttributes (808ms)
-			ProcessInitializeOnLoadMethodAttributes (141ms)
-			AfterProcessingInitializeOnLoad (19ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (506ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (40ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
 Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 29.66 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 11.61 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7474.
-Memory consumption went from 296.4 MB to 292.8 MB.
-Total: 9.043200 ms (FindLiveObjects: 0.674500 ms CreateObjectMapping: 0.699900 ms MarkObjects: 6.790800 ms  DeleteObjects: 0.876400 ms)
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7477.
+Memory consumption went from 292.7 MB to 289.2 MB.
+Total: 7.054900 ms (FindLiveObjects: 0.581200 ms CreateObjectMapping: 0.616900 ms MarkObjects: 4.955200 ms  DeleteObjects: 0.900100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -678,95 +303,23 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.165 seconds
-Refreshing native plugins compatible for Editor in 31.22 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
-  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <ac8a1d1a125546cf82b0ec17802fc7c2>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.546 seconds
-Domain Reload Profiling: 4697ms
-	BeginReloadAssembly (335ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (82ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (660ms)
-		LoadAssemblies (794ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (37ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (3547ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1401ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (13ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (244ms)
-			ProcessInitializeOnLoadAttributes (956ms)
-			ProcessInitializeOnLoadMethodAttributes (153ms)
-			AfterProcessingInitializeOnLoad (21ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (43ms)
 Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 40.56 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 45.49 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7492.
-Memory consumption went from 298.3 MB to 294.8 MB.
-Total: 10.904800 ms (FindLiveObjects: 1.082500 ms CreateObjectMapping: 1.377400 ms MarkObjects: 7.443000 ms  DeleteObjects: 1.000400 ms)
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.5 MB). Loaded Objects now: 7477.
+Memory consumption went from 190.4 MB to 186.9 MB.
+Total: 6.498500 ms (FindLiveObjects: 0.701700 ms CreateObjectMapping: 0.907100 ms MarkObjects: 4.297300 ms  DeleteObjects: 0.591000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -778,24 +331,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4990.621556 seconds.
-  path: Assets/AIUniverse/icon6.png
-  artifactKey: Guid(6b3ff91f2e0cf6b4184cea62edf570f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/icon6.png using Guid(6b3ff91f2e0cf6b4184cea62edf570f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b058aaecb21c1dbda1b0a05e1c273dac') in 0.890476 seconds
+  Time since last request: 1598.531012 seconds.
+  path: Assets/AIUniverse/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBottom.hdr
+  artifactKey: Guid(94b877781ad034640abce933599b6f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBottom.hdr using Guid(94b877781ad034640abce933599b6f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1f05fbb7baea4d1d53d955b13cabed') in 2.654734 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Head_Albedo.tif
+  artifactKey: Guid(d45aa4ef71b87594fa37437494b49260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Head_Albedo.tif using Guid(d45aa4ef71b87594fa37437494b49260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eaaa36dfffd7995f9f4c3e53ef71009') in 0.045600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AIUniverse/stasis-chamber-with-animation/source/Displays_Diffuse.png
+  artifactKey: Guid(01d57a5cd18c5e945a9f1f01937ab220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/stasis-chamber-with-animation/source/Displays_Diffuse.png using Guid(01d57a5cd18c5e945a9f1f01937ab220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7de9d61789f515e2bf76e11f32bc4d4') in 0.081612 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.805 seconds
-Refreshing native plugins compatible for Editor in 37.19 ms, found 6 plugins.
+- Loaded All Assemblies, in  2.811 seconds
+Refreshing native plugins compatible for Editor in 24.11 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
@@ -804,47 +374,47 @@ Native extension for WindowsStandalone target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  5.144 seconds
-Domain Reload Profiling: 6935ms
-	BeginReloadAssembly (548ms)
+- Finished resetting the current domain, in  8.257 seconds
+Domain Reload Profiling: 11092ms
+	BeginReloadAssembly (918ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (24ms)
+		DisableScriptedObjects (78ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (201ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (87ms)
-	LoadAllAssembliesAndSetupDomain (1069ms)
-		LoadAssemblies (1246ms)
+		CreateAndSetChildDomain (457ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (1798ms)
+		LoadAssemblies (1971ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (70ms)
-			TypeCache.Refresh (16ms)
+		AnalyzeDomain (75ms)
+			TypeCache.Refresh (21ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (52ms)
-	FinalizeReload (5145ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (49ms)
+	FinalizeReload (8257ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1415ms)
+		SetupLoadedEditorAssemblies (939ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (13ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (237ms)
-			ProcessInitializeOnLoadAttributes (975ms)
-			ProcessInitializeOnLoadMethodAttributes (153ms)
-			AfterProcessingInitializeOnLoad (21ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (177ms)
+			ProcessInitializeOnLoadAttributes (629ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (37ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
 Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 40.24 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 23.52 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7516.
-Memory consumption went from 304.4 MB to 300.8 MB.
-Total: 10.838500 ms (FindLiveObjects: 1.216000 ms CreateObjectMapping: 0.891400 ms MarkObjects: 7.729400 ms  DeleteObjects: 0.999800 ms)
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7499.
+Memory consumption went from 294.6 MB to 291.0 MB.
+Total: 13.630600 ms (FindLiveObjects: 0.866900 ms CreateObjectMapping: 1.296000 ms MarkObjects: 10.688200 ms  DeleteObjects: 0.777700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -856,77 +426,14 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.565 seconds
-Refreshing native plugins compatible for Editor in 42.01 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.584 seconds
-Domain Reload Profiling: 6122ms
-	BeginReloadAssembly (462ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (120ms)
-	RebuildCommonClasses (110ms)
-	RebuildNativeTypeToScriptingClass (49ms)
-	initialDomainReloadingComplete (119ms)
-	LoadAllAssembliesAndSetupDomain (797ms)
-		LoadAssemblies (992ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (48ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (33ms)
-	FinalizeReload (4585ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1656ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (14ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (270ms)
-			ProcessInitializeOnLoadAttributes (1151ms)
-			ProcessInitializeOnLoadMethodAttributes (182ms)
-			AfterProcessingInitializeOnLoad (25ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (45ms)
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 51.60 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7534.
-Memory consumption went from 306.3 MB to 302.8 MB.
-Total: 7.819900 ms (FindLiveObjects: 0.916900 ms CreateObjectMapping: 1.221000 ms MarkObjects: 4.886600 ms  DeleteObjects: 0.793900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

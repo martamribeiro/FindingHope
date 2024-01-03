@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'pt' Physical Memory: 16221 MB
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'pt' Physical Memory: 16251 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
+C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62364
-Successfully changed project path to: C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
-C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
+1372
+Successfully changed project path to: C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject
+C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,66 +49,66 @@ C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4732] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 290349708 [EditorId] 290349708 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25208] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 4134155321 [EditorId] 4134155321 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4732] Host "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 290349708 [EditorId] 290349708 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25208] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 4134155321 [EditorId] 4134155321 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 61.04 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 23.32 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/marta/Documents/GitHub/FindingHope/FindingHopeProject/Assets
+[Subsystems] Discovering subsystems at path C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
     Vendor:   NVIDIA
-    VRAM:     3962 MB
-    Driver:   31.0.15.1640
+    VRAM:     5968 MB
+    Driver:   31.0.15.3742
 Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.018898 seconds.
-- Loaded All Assemblies, in  0.642 seconds
+Registered in 0.006707 seconds.
+- Loaded All Assemblies, in  0.394 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.417 seconds
-Domain Reload Profiling: 1054ms
-	BeginReloadAssembly (214ms)
+- Finished resetting the current domain, in  0.272 seconds
+Domain Reload Profiling: 666ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (118ms)
-	LoadAllAssembliesAndSetupDomain (225ms)
-		LoadAssemblies (207ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (108ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (222ms)
-			TypeCache.Refresh (220ms)
-				TypeCache.ScanAssembly (198ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (418ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (127ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (273ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (319ms)
+		SetupLoadedEditorAssemblies (210ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (204ms)
-			ProcessInitializeOnLoadMethodAttributes (85ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (139ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,35 +117,9 @@ Domain Reload Profiling: 1054ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.644 seconds
-Refreshing native plugins compatible for Editor in 39.00 ms, found 6 plugins.
+- Loaded All Assemblies, in  0.950 seconds
+Refreshing native plugins compatible for Editor in 9.76 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <ac8a1d1a125546cf82b0ec17802fc7c2>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
@@ -154,48 +128,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.677 seconds
-Domain Reload Profiling: 3307ms
-	BeginReloadAssembly (269ms)
+- Finished resetting the current domain, in  1.031 seconds
+Domain Reload Profiling: 1978ms
+	BeginReloadAssembly (165ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (82ms)
-	LoadAllAssembliesAndSetupDomain (1211ms)
-		LoadAssemblies (813ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (673ms)
+		LoadAssemblies (424ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (556ms)
-			TypeCache.Refresh (456ms)
-				TypeCache.ScanAssembly (415ms)
-			ScanForSourceGeneratedMonoScriptInfo (60ms)
-			ResolveRequiredComponents (38ms)
-	FinalizeReload (1678ms)
+		AnalyzeDomain (347ms)
+			TypeCache.Refresh (278ms)
+				TypeCache.ScanAssembly (248ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1031ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1339ms)
+		SetupLoadedEditorAssemblies (782ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (197ms)
-			ProcessInitializeOnLoadAttributes (949ms)
-			ProcessInitializeOnLoadMethodAttributes (150ms)
-			AfterProcessingInitializeOnLoad (19ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (560ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 52.40 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 11.06 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6939 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 152 unused Assets / (3.6 MB). Loaded Objects now: 7365.
-Memory consumption went from 342.7 MB to 339.1 MB.
-Total: 11.508900 ms (FindLiveObjects: 1.074400 ms CreateObjectMapping: 1.007800 ms MarkObjects: 8.203300 ms  DeleteObjects: 1.221600 ms)
+Unloading 6946 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (3.6 MB). Loaded Objects now: 7376.
+Memory consumption went from 344.8 MB to 341.2 MB.
+Total: 5.640700 ms (FindLiveObjects: 0.567200 ms CreateObjectMapping: 0.650200 ms MarkObjects: 3.636200 ms  DeleteObjects: 0.786000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -205,72 +179,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 136817.187344 seconds.
+  path: Assets/PuzzleUniverse/_Assets/Materials/Terrain.mat
+  artifactKey: Guid(6f13fb26e4429b344a77e05861706700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/_Assets/Materials/Terrain.mat using Guid(6f13fb26e4429b344a77e05861706700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8081793c6922f20b87200ef3789b4338') in 0.297055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 12.44 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.5 MB). Loaded Objects now: 7543.
+Memory consumption went from 187.7 MB to 184.2 MB.
+Total: 8.135500 ms (FindLiveObjects: 1.163100 ms CreateObjectMapping: 0.585500 ms MarkObjects: 4.895800 ms  DeleteObjects: 1.487800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1744.731337 seconds.
-  path: Assets/Convai
-  artifactKey: Guid(7ebf01af1bc48134db04a121d4f483a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convai using Guid(7ebf01af1bc48134db04a121d4f483a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29af75e0023aa218506d768b209c3194') in 0.003425 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.019724 seconds.
-  path: Assets/Convai/Settings
-  artifactKey: Guid(59be6cee535e8a54cbb65a5d9692b1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convai/Settings using Guid(59be6cee535e8a54cbb65a5d9692b1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e17b33831a6b026c812659750cbbb6c') in 0.001103 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.661466 seconds.
-  path: Assets/Convai/Settings/Script State
-  artifactKey: Guid(f48e49367ff3dba47bdad40a24a1db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convai/Settings/Script State using Guid(f48e49367ff3dba47bdad40a24a1db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8865c86b1ce1b0c9e7be74a0dc4a2e03') in 0.001568 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.162496 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(ab99a2a2b0468c84b804a89762b34197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(ab99a2a2b0468c84b804a89762b34197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2b8459c84612377934399c4589a304') in 0.000827 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.052759 seconds.
-  path: Assets/Resources/ConvaiAPIKey.asset
-  artifactKey: Guid(dd48e192ecb6d2c42b8fabd6f6ef7277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ConvaiAPIKey.asset using Guid(dd48e192ecb6d2c42b8fabd6f6ef7277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02b13bab117f5a98b5ee31a7d96cb9a') in 0.016500 seconds
+  Time since last request: 89.074653 seconds.
+  path: Assets/PuzzleUniverse/Terrain.asset
+  artifactKey: Guid(00ab96893dba8e2498f221d224fb2c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/Terrain.asset using Guid(00ab96893dba8e2498f221d224fb2c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c27b2383dbaa21968b43706babac931') in 0.020606 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
-Received Import Request.
-  Time since last request: 6.676558 seconds.
-  path: Assets/Scenes/Puzzle Universe
-  artifactKey: Guid(f00ef154f19c8a849aa6701139abb833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Puzzle Universe using Guid(f00ef154f19c8a849aa6701139abb833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d9ea753f44c10071962321a13a4f8a') in 0.001436 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.608864 seconds.
-  path: Assets/Scenes/Puzzle Universe/PuzzleUniverse.unity
-  artifactKey: Guid(b4e974d042941c448ab59819af8f7736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Puzzle Universe/PuzzleUniverse.unity using Guid(b4e974d042941c448ab59819af8f7736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd093f37b3972aa73e8a3f861737762da') in 0.000838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.094 seconds
-Refreshing native plugins compatible for Editor in 33.52 ms, found 6 plugins.
+- Loaded All Assemblies, in  0.638 seconds
+Refreshing native plugins compatible for Editor in 10.04 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
@@ -279,747 +237,71 @@ Native extension for WindowsStandalone target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.364 seconds
-Domain Reload Profiling: 4445ms
-	BeginReloadAssembly (281ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (670ms)
-		LoadAssemblies (755ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (57ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (38ms)
-	FinalizeReload (3365ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1338ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (11ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (199ms)
-			ProcessInitializeOnLoadAttributes (961ms)
-			ProcessInitializeOnLoadMethodAttributes (137ms)
-			AfterProcessingInitializeOnLoad (20ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (31ms)
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 31.22 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7385.
-Memory consumption went from 286.6 MB to 283.1 MB.
-Total: 7.033000 ms (FindLiveObjects: 1.237300 ms CreateObjectMapping: 0.856900 ms MarkObjects: 4.239500 ms  DeleteObjects: 0.697600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 57.931131 seconds.
-  path: Assets/Scenes/AIUniverse/AIUniverse.unity
-  artifactKey: Guid(5f2f6c69daf0b4945a49bb2c165c6fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AIUniverse/AIUniverse.unity using Guid(5f2f6c69daf0b4945a49bb2c165c6fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d316d0067954dcd22938678a9ab6a7') in 0.001978 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 47.45 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (3.5 MB). Loaded Objects now: 7385.
-Memory consumption went from 182.9 MB to 179.4 MB.
-Total: 8.288600 ms (FindLiveObjects: 0.711500 ms CreateObjectMapping: 0.705100 ms MarkObjects: 6.180000 ms  DeleteObjects: 0.690000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.118 seconds
-Refreshing native plugins compatible for Editor in 30.63 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <ac8a1d1a125546cf82b0ec17802fc7c2>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.546 seconds
-Domain Reload Profiling: 4651ms
-	BeginReloadAssembly (306ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (640ms)
-		LoadAssemblies (765ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (36ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (3547ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1318ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (13ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (254ms)
-			ProcessInitializeOnLoadAttributes (861ms)
-			ProcessInitializeOnLoadMethodAttributes (153ms)
-			AfterProcessingInitializeOnLoad (22ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (47ms)
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 35.70 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7403.
-Memory consumption went from 288.6 MB to 285.0 MB.
-Total: 11.232100 ms (FindLiveObjects: 0.809200 ms CreateObjectMapping: 0.950200 ms MarkObjects: 8.516100 ms  DeleteObjects: 0.954200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.186 seconds
-Refreshing native plugins compatible for Editor in 30.36 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.477 seconds
-Domain Reload Profiling: 4648ms
-	BeginReloadAssembly (352ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (86ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (674ms)
-		LoadAssemblies (817ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (40ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (3479ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1358ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (11ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (258ms)
-			ProcessInitializeOnLoadAttributes (900ms)
-			ProcessInitializeOnLoadMethodAttributes (147ms)
-			AfterProcessingInitializeOnLoad (22ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (36ms)
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 39.15 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7421.
-Memory consumption went from 290.5 MB to 287.0 MB.
-Total: 11.254900 ms (FindLiveObjects: 0.781100 ms CreateObjectMapping: 0.801200 ms MarkObjects: 8.801200 ms  DeleteObjects: 0.869800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.206 seconds
-Refreshing native plugins compatible for Editor in 29.06 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <ac8a1d1a125546cf82b0ec17802fc7c2>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.565 seconds
-Domain Reload Profiling: 4753ms
-	BeginReloadAssembly (328ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (75ms)
-	RebuildCommonClasses (72ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (681ms)
-		LoadAssemblies (815ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (41ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (3565ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1566ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (219ms)
-			ProcessInitializeOnLoadAttributes (1106ms)
-			ProcessInitializeOnLoadMethodAttributes (190ms)
-			AfterProcessingInitializeOnLoad (27ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (40ms)
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 30.68 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7439.
-Memory consumption went from 292.5 MB to 288.9 MB.
-Total: 6.527800 ms (FindLiveObjects: 0.643200 ms CreateObjectMapping: 0.601100 ms MarkObjects: 4.616300 ms  DeleteObjects: 0.665800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.157 seconds
-Refreshing native plugins compatible for Editor in 33.41 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.387 seconds
-Domain Reload Profiling: 4529ms
-	BeginReloadAssembly (350ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (22ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (93ms)
-	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (86ms)
-	LoadAllAssembliesAndSetupDomain (613ms)
-		LoadAssemblies (740ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (40ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (3388ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1369ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (11ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (252ms)
-			ProcessInitializeOnLoadAttributes (919ms)
-			ProcessInitializeOnLoadMethodAttributes (146ms)
-			AfterProcessingInitializeOnLoad (23ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (44ms)
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 46.33 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7457.
-Memory consumption went from 294.4 MB to 290.9 MB.
-Total: 14.440300 ms (FindLiveObjects: 0.921400 ms CreateObjectMapping: 1.506300 ms MarkObjects: 10.725000 ms  DeleteObjects: 1.285700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.162 seconds
-Refreshing native plugins compatible for Editor in 26.51 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\marta\Documents\GitHub\FindingHope\FindingHopeProject\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <a3b02d6f9b494355b946095ea1f25c54>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <ac8a1d1a125546cf82b0ec17802fc7c2>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.231 seconds
-Domain Reload Profiling: 4378ms
-	BeginReloadAssembly (338ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (88ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (640ms)
-		LoadAssemblies (772ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (36ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (3232ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1208ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (11ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (245ms)
-			ProcessInitializeOnLoadAttributes (776ms)
-			ProcessInitializeOnLoadMethodAttributes (144ms)
-			AfterProcessingInitializeOnLoad (19ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (42ms)
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 35.85 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7475.
-Memory consumption went from 296.4 MB to 292.8 MB.
-Total: 9.726200 ms (FindLiveObjects: 0.730600 ms CreateObjectMapping: 0.694800 ms MarkObjects: 6.883700 ms  DeleteObjects: 1.415900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.183 seconds
-Refreshing native plugins compatible for Editor in 32.26 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.513 seconds
-Domain Reload Profiling: 4680ms
-	BeginReloadAssembly (346ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (84ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (665ms)
-		LoadAssemblies (790ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (41ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (3513ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1387ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (14ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (241ms)
-			ProcessInitializeOnLoadAttributes (941ms)
-			ProcessInitializeOnLoadMethodAttributes (155ms)
-			AfterProcessingInitializeOnLoad (22ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (37ms)
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 41.84 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7493.
-Memory consumption went from 298.3 MB to 294.7 MB.
-Total: 9.200800 ms (FindLiveObjects: 1.000300 ms CreateObjectMapping: 1.113800 ms MarkObjects: 6.282800 ms  DeleteObjects: 0.802100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 3731.948416 seconds.
-  path: Assets/AIUniverse/AI Universe.png
-  artifactKey: Guid(e965eb11ec1167346ac8cf59eca215d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/AI Universe.png using Guid(e965eb11ec1167346ac8cf59eca215d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24e764266828bf3efa6eff349378f6d') in 0.611768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 416.615906 seconds.
-  path: Assets/AIUniverse/icon4.png
-  artifactKey: Guid(944bfa7e31ce20d4791a90c052af0c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/icon4.png using Guid(944bfa7e31ce20d4791a90c052af0c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc99765e121479a280b1171ad4b212f4') in 0.043010 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 292.517059 seconds.
-  path: Assets/AIUniverse/Pages.png
-  artifactKey: Guid(940fa0360986bd34b91967153ff8157a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Pages.png using Guid(940fa0360986bd34b91967153ff8157a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bf4ed002b44fb7c4fb8f7be05fac60') in 0.059776 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 296.033483 seconds.
-  path: Assets/AIUniverse/Pages (1).png
-  artifactKey: Guid(77d9c37627859ef48b35a8b90182dc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/Pages (1).png using Guid(77d9c37627859ef48b35a8b90182dc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fd6a4d90e640532f5b7edcb59ac052') in 0.061175 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 171.275929 seconds.
-  path: Assets/AIUniverse/icon5.png
-  artifactKey: Guid(b51c5dd2329e9914da6e7ca89eac0f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AIUniverse/icon5.png using Guid(b51c5dd2329e9914da6e7ca89eac0f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1603092a382396f61bae045db7cf4c34') in 0.033919 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.823 seconds
-Refreshing native plugins compatible for Editor in 35.67 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  5.169 seconds
-Domain Reload Profiling: 6982ms
-	BeginReloadAssembly (580ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (28ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (217ms)
-	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (82ms)
-	LoadAllAssembliesAndSetupDomain (1054ms)
-		LoadAssemblies (1254ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (53ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (37ms)
-	FinalizeReload (5170ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1458ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (14ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (236ms)
-			ProcessInitializeOnLoadAttributes (1020ms)
-			ProcessInitializeOnLoadMethodAttributes (151ms)
-			AfterProcessingInitializeOnLoad (20ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (39ms)
-Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 42.77 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7520.
-Memory consumption went from 304.3 MB to 300.8 MB.
-Total: 11.658900 ms (FindLiveObjects: 1.171900 ms CreateObjectMapping: 1.168100 ms MarkObjects: 8.248400 ms  DeleteObjects: 1.068300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.510 seconds
-Refreshing native plugins compatible for Editor in 38.54 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.609 seconds
-Domain Reload Profiling: 6095ms
-	BeginReloadAssembly (424ms)
+- Finished resetting the current domain, in  2.429 seconds
+Domain Reload Profiling: 3064ms
+	BeginReloadAssembly (216ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (25ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (99ms)
-	RebuildCommonClasses (91ms)
-	RebuildNativeTypeToScriptingClass (36ms)
-	initialDomainReloadingComplete (103ms)
-	LoadAllAssembliesAndSetupDomain (831ms)
-		LoadAssemblies (1009ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (327ms)
+		LoadAssemblies (384ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (52ms)
-			TypeCache.Refresh (16ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (33ms)
-	FinalizeReload (4610ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2430ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1653ms)
+		SetupLoadedEditorAssemblies (730ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (13ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (282ms)
-			ProcessInitializeOnLoadAttributes (1125ms)
-			ProcessInitializeOnLoadMethodAttributes (193ms)
-			AfterProcessingInitializeOnLoad (23ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (504ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (52ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
 Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
-Refreshing native plugins compatible for Editor in 52.44 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 11.77 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6661 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7538.
-Memory consumption went from 306.3 MB to 302.7 MB.
-Total: 12.666800 ms (FindLiveObjects: 0.866300 ms CreateObjectMapping: 0.812200 ms MarkObjects: 10.007700 ms  DeleteObjects: 0.978600 ms)
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7477.
+Memory consumption went from 292.7 MB to 289.2 MB.
+Total: 7.161700 ms (FindLiveObjects: 0.951700 ms CreateObjectMapping: 0.722900 ms MarkObjects: 4.801600 ms  DeleteObjects: 0.684400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 41.55 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.5 MB). Loaded Objects now: 7477.
+Memory consumption went from 190.4 MB to 186.9 MB.
+Total: 6.789200 ms (FindLiveObjects: 0.668100 ms CreateObjectMapping: 0.759300 ms MarkObjects: 4.576100 ms  DeleteObjects: 0.784400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1031,7 +313,596 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 477.494345 seconds.
+  path: Assets/PuzzleUniverse/Shaders/Terrain.shadergraph
+  artifactKey: Guid(1b0d805ee1584134987fad1133304f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/Shaders/Terrain.shadergraph using Guid(1b0d805ee1584134987fad1133304f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a2d10f4804d32094232d2fc5e1f2cb') in 2.282808 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 1029.742761 seconds.
+  path: Assets/AIUniverse/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBack.hdr
+  artifactKey: Guid(a779becf00399924184cd13e046a100e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBack.hdr using Guid(a779becf00399924184cd13e046a100e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850bbff24a0319c2488a0b6b49850103') in 0.451650 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/RPG_Universe/Assets/TurnBasedHUD/Sprites/Dwayne.psd
+  artifactKey: Guid(3f3a5ea5ace79004eba15d892dcc01a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/TurnBasedHUD/Sprites/Dwayne.psd using Guid(3f3a5ea5ace79004eba15d892dcc01a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0223e946522d099924eb077639d70c') in 0.083981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Body_Occlusion.tif
+  artifactKey: Guid(79e9a3fba6241f640b332875f39c332f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Body_Occlusion.tif using Guid(79e9a3fba6241f640b332875f39c332f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1db0d2b1fb5a36260d40fb2b1442ca') in 0.082415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Head_Dirty_SpecularSmoothness.tif
+  artifactKey: Guid(34fccd0ccd8a0aa4b82f4d9e19934651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Head_Dirty_SpecularSmoothness.tif using Guid(34fccd0ccd8a0aa4b82f4d9e19934651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12b66bba5b3f5dd6b680a213c3fd8b0') in 0.028508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/icons/door.png
+  artifactKey: Guid(af68d37a71268154ba210da8c9abc04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/hud/icons/door.png using Guid(af68d37a71268154ba210da8c9abc04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e7f7796437ca54eb84c1afef80ff8f') in 0.033749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AIUniverse/SkySeries Freebie/FreebieHdri/CosmicCoolCloudLeft.hdr
+  artifactKey: Guid(740f96d568f4f3e40b049c40f11603e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/SkySeries Freebie/FreebieHdri/CosmicCoolCloudLeft.hdr using Guid(740f96d568f4f3e40b049c40f11603e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5517daffbf6ebfd85be3fccac18b3542') in 0.028796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Textures/dark-color.png
+  artifactKey: Guid(d65ae29772ec4ab4b949103da54086be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Textures/dark-color.png using Guid(d65ae29772ec4ab4b949103da54086be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5bf24cd02264ee05e9036d4b45fa3c') in 0.028135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AIUniverse/SkySeries Freebie/FreebieHdri/DayInTheClouds4k.hdr
+  artifactKey: Guid(90196f2c2d8d2f2448717676e1a09894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/SkySeries Freebie/FreebieHdri/DayInTheClouds4k.hdr using Guid(90196f2c2d8d2f2448717676e1a09894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedad127050f392a17706b5507667747') in 0.157529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AIUniverse/SkySeries Freebie/FreebieHdri/FluffballDayFront.hdr
+  artifactKey: Guid(4499836ec803a0443834895abc208fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/SkySeries Freebie/FreebieHdri/FluffballDayFront.hdr using Guid(4499836ec803a0443834895abc208fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d98c5c66b173d3e18832bb1333b1d66') in 0.022442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/Convai_NPC_Amy.fbm/Female_Brow_Transparency_Diffuse.png
+  artifactKey: Guid(c553bc89f1793b9459cde9eb820aaae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/Convai_NPC_Amy.fbm/Female_Brow_Transparency_Diffuse.png using Guid(c553bc89f1793b9459cde9eb820aaae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42429f3efbd75ede2c7e120d81fec1a5') in 0.029415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Body_Albedo.tif
+  artifactKey: Guid(be0111b341746904d972d1bb2fa0e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Body_Albedo.tif using Guid(be0111b341746904d972d1bb2fa0e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a0eeae155d943bf47dbd66fe1b61a7') in 0.039426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Head_Dirty_Normal.tif
+  artifactKey: Guid(1d21eddbaa494da419449cbb0a555ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Head_Dirty_Normal.tif using Guid(1d21eddbaa494da419449cbb0a555ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd75b54029c12fba03f02926f33965c') in 0.047391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Head_Normal.tif
+  artifactKey: Guid(55d979bd379deb945970769a993a4afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Head_Normal.tif using Guid(55d979bd379deb945970769a993a4afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2648d4e33fd5db5b3dc5132a7c8e1f') in 0.028079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AIUniverse/SkySeries Freebie/FreebieHdri/FluffballDayBack.hdr
+  artifactKey: Guid(50762494be58d144d98d179cd6ba1470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/SkySeries Freebie/FreebieHdri/FluffballDayBack.hdr using Guid(50762494be58d144d98d179cd6ba1470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742894559a3975fb1db6ae03121e2e2c') in 0.024301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Body_Dirty_Normal.tif
+  artifactKey: Guid(3f13fc152adc4684a93003f7ed55a6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Body_Dirty_Normal.tif using Guid(3f13fc152adc4684a93003f7ed55a6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c69219f79997aada6804e0df6cbd8f') in 0.030838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_head_SpecularSmoothness.tif
+  artifactKey: Guid(935d99a93f3e0a049b5fe3adc4084776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_head_SpecularSmoothness.tif using Guid(935d99a93f3e0a049b5fe3adc4084776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5075d3e8ec50cf88e1a44de96337fbef') in 0.024606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Body_Normal.tif
+  artifactKey: Guid(8349958633769e34bb7496659a03983d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Body_Normal.tif using Guid(8349958633769e34bb7496659a03983d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffa4a3c294a2047a04704ec298ac701') in 0.059310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Body_Dirty_MetallicSmooth.tif
+  artifactKey: Guid(fd9c2899baee2864b8a1df109fa8ec9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Body_Dirty_MetallicSmooth.tif using Guid(fd9c2899baee2864b8a1df109fa8ec9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fa1d112d0d79534fac6f33e1acd1ab') in 0.022434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/dollar.png
+  artifactKey: Guid(85982edfffab360408911fa9d6ccb6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/dollar.png using Guid(85982edfffab360408911fa9d6ccb6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228e8a67bc939ca50ae1198d7e829740') in 0.020342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/textures/Convai_NPC_Amy/Denim_shorts/Denim_shorts/Denim_shorts/Denim_shorts_HDRP.png
+  artifactKey: Guid(c7a528f932e4bf74d98071eaace972c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/textures/Convai_NPC_Amy/Denim_shorts/Denim_shorts/Denim_shorts/Denim_shorts_HDRP.png using Guid(c7a528f932e4bf74d98071eaace972c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c41076803e14a6ffbde4190e591286') in 0.023106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/background/door.gif
+  artifactKey: Guid(0b368a48c9f343a4aac08a54d9419e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/top-down-shooter/background/door.gif using Guid(0b368a48c9f343a4aac08a54d9419e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d48e93dd70ef964ac139ab8c3c415a1') in 0.024159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+  artifactKey: Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg using Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c00e76983cd63e1544f3d57b3778680') in 0.019353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Head_Microdetail.tif
+  artifactKey: Guid(eb1b3af505a9c4c1c81b05081339e090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Head_Microdetail.tif using Guid(eb1b3af505a9c4c1c81b05081339e090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6b62c05d5c9e7cfbfa257a08975736') in 0.021698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Hair_Albedo.tif
+  artifactKey: Guid(c972f3c75ef7ab94694a309009dd016f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Hair_Albedo.tif using Guid(c972f3c75ef7ab94694a309009dd016f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763f199243c28a5424e5cfc537e899a2') in 0.022744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/Convai_NPC_Amy.fbm/Female_Brow_Base_Transparency_Diffuse.png
+  artifactKey: Guid(e400d66de80a55840a4e7a716c9a8820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/Convai_NPC_Amy.fbm/Female_Brow_Base_Transparency_Diffuse.png using Guid(e400d66de80a55840a4e7a716c9a8820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079a5fc54616d9a413c06224a2973382') in 0.027455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/dice.png
+  artifactKey: Guid(1dadfe1fad137c2478e87a3a54760dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/dice.png using Guid(1dadfe1fad137c2478e87a3a54760dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625baa3c9450baaf4312918a84c9f7ee') in 0.020829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/Convai_NPC_Amy.fbm/Denim_shorts_Normal.jpg
+  artifactKey: Guid(a5e4726b0ec9a2e4a9889d93f07eb633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/Convai_NPC_Amy.fbm/Denim_shorts_Normal.jpg using Guid(a5e4726b0ec9a2e4a9889d93f07eb633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ec3d9091c85147ff06b956abb47ad2') in 0.025592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/Convai_NPC_Amy.fbm/Denim_shorts_Diffuse.jpg
+  artifactKey: Guid(5ab89f1b5a4100e4a90bdd22d623dede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/Convai_NPC_Amy.fbm/Denim_shorts_Diffuse.jpg using Guid(5ab89f1b5a4100e4a90bdd22d623dede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b46242c10b7b7471f354fa79b3312fd') in 0.024476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PuzzleUniverse/_Assets/Textures/dirt_floor_disp_1k.png
+  artifactKey: Guid(715dd96fd81ff8e419c0f6f84ca95b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/_Assets/Textures/dirt_floor_disp_1k.png using Guid(715dd96fd81ff8e419c0f6f84ca95b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2cfd838770abfd44e29af94eadf213') in 0.029487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AIUniverse/SkySeries Freebie/FreebieHdri/FluffballDayLeft.hdr
+  artifactKey: Guid(a78d8299279fda54098aca1c72ecfae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/SkySeries Freebie/FreebieHdri/FluffballDayLeft.hdr using Guid(a78d8299279fda54098aca1c72ecfae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12044247c7bd401b83c574f43678838') in 0.018874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/dollars.png
+  artifactKey: Guid(61dc14bb54fa34b4094b97ef71230f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/item/dollars.png using Guid(61dc14bb54fa34b4094b97ef71230f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac81c365dcf35fde86cd8373fcca9e00') in 0.027711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AIUniverse/SkySeries Freebie/FreebieHdri/FluffballDayTop.hdr
+  artifactKey: Guid(c769857dc541ab7449d1352d7ff46ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/SkySeries Freebie/FreebieHdri/FluffballDayTop.hdr using Guid(c769857dc541ab7449d1352d7ff46ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a162347089dd6ac80f1139fcb5914838') in 0.018456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AIUniverse/SkySeries Freebie/FreebieHdri/DarkStorm4K.hdr
+  artifactKey: Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/SkySeries Freebie/FreebieHdri/DarkStorm4K.hdr using Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba726524578a711c3263ef8252d70eba') in 0.066734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Eye_Albedo.tif
+  artifactKey: Guid(aa185cea8422ad24fa12ce1f3645e5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Eye_Albedo.tif using Guid(aa185cea8422ad24fa12ce1f3645e5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f52a0b4074a6eec36c26927eb920ea') in 0.020583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AIUniverse/SkySeries Freebie/FreebieHdri/CosmicCoolCloudTop.hdr
+  artifactKey: Guid(a199da0432efa6a489df8883d1f3bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/SkySeries Freebie/FreebieHdri/CosmicCoolCloudTop.hdr using Guid(a199da0432efa6a489df8883d1f3bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8a6b137c2444afb7b53a04f9ed86dd') in 0.026086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf0bc3e38e76d58d340cc77c1f3e94b') in 0.023498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/textures/Convai_NPC_Amy/Denim_shorts/Denim_shorts/Denim_shorts/Denim_shorts_ao.jpg
+  artifactKey: Guid(01f9af6b4a4ba9843b77f26895a6b7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/textures/Convai_NPC_Amy/Denim_shorts/Denim_shorts/Denim_shorts/Denim_shorts_ao.jpg using Guid(01f9af6b4a4ba9843b77f26895a6b7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108cfbb73b8d7dda48323d7fc8c2a33e') in 0.020914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PuzzleUniverse/_Assets/Textures/dirt_floor_diff_1k.jpg
+  artifactKey: Guid(bb6ea9cf893e0ce469cc7bb7a941e4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/_Assets/Textures/dirt_floor_diff_1k.jpg using Guid(bb6ea9cf893e0ce469cc7bb7a941e4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17df126eb8bb8af5467372dd85e0f0c4') in 0.023692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PuzzleUniverse/_Assets/Textures/dirt_floor_ao_1k.jpg
+  artifactKey: Guid(b2abd7430ec5ab74494ae81fbb2af4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/_Assets/Textures/dirt_floor_ao_1k.jpg using Guid(b2abd7430ec5ab74494ae81fbb2af4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8eab21e9ff23d04e96e5824f71866c0') in 0.023777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AIUniverse/SkySeries Freebie/FreebieHdri/CosmicCoolCloudFront.hdr
+  artifactKey: Guid(d822c5eff7d42f04691027bc8c2b0716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/SkySeries Freebie/FreebieHdri/CosmicCoolCloudFront.hdr using Guid(d822c5eff7d42f04691027bc8c2b0716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b150ec491183edb04df9b500b770eb15') in 0.126227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+  artifactKey: Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd using Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5b776fc6ddb9c8233a2ed885c04d36') in 0.020126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Head_Dirty_Albedo.tif
+  artifactKey: Guid(239addd3cadd792469ca17f3ea8c2ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Head_Dirty_Albedo.tif using Guid(239addd3cadd792469ca17f3ea8c2ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c1845901b3b344897b4b58e3e0d6b7') in 0.022196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Body_MetallicSmooth.tif
+  artifactKey: Guid(d6dbc9ef89fd5b94d889616bfa730aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Body_MetallicSmooth.tif using Guid(d6dbc9ef89fd5b94d889616bfa730aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb61b92b495278ce083982b7e9b6cc3') in 0.050462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/textures/Convai_NPC_Amy/Denim_shorts/Denim_shorts/Denim_shorts/Denim_shorts_MetallicAlpha.png
+  artifactKey: Guid(3505fd611c3ded54e97388c569ea4740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/textures/Convai_NPC_Amy/Denim_shorts/Denim_shorts/Denim_shorts/Denim_shorts_MetallicAlpha.png using Guid(3505fd611c3ded54e97388c569ea4740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42801537ecf83875f52decbd68c7b83') in 0.023003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PuzzleUniverse/_Assets/Textures/dirt_floor_arm_1k.jpg
+  artifactKey: Guid(fc1b3316ad50f704bb3ac8d4e25d16c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzleUniverse/_Assets/Textures/dirt_floor_arm_1k.jpg using Guid(fc1b3316ad50f704bb3ac8d4e25d16c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9c4553ea931bccf6071b5e25ab6905') in 0.022514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AIUniverse/SkySeries Freebie/FreebieHdri/CosmicCoolCloudEQ_hdr.exr
+  artifactKey: Guid(09999639e73bcd64abda22253af612d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/SkySeries Freebie/FreebieHdri/CosmicCoolCloudEQ_hdr.exr using Guid(09999639e73bcd64abda22253af612d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6852113bd34d369bb8b0fbc049272507') in 0.057058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AIUniverse/SkySeries Freebie/FreebieHdri/FluffballDayBottom.hdr
+  artifactKey: Guid(42e0664ae4c5c424ebcd980a10687e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/SkySeries Freebie/FreebieHdri/FluffballDayBottom.hdr using Guid(42e0664ae4c5c424ebcd980a10687e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffc985ad1c62cf680079c68e8884c19') in 0.021267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Body_Dirty_Albedo.tif
+  artifactKey: Guid(616bd08975e2f8640aa67f0800697c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Body_Dirty_Albedo.tif using Guid(616bd08975e2f8640aa67f0800697c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b673c766e986d9519f1501622ad55cf2') in 0.023468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AIUniverse/SkySeries Freebie/FreebieHdri/FluffballDay4k.hdr
+  artifactKey: Guid(3e80b688af9b1d84ea52c5d36bb1cbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/SkySeries Freebie/FreebieHdri/FluffballDay4k.hdr using Guid(3e80b688af9b1d84ea52c5d36bb1cbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16e4498bbb61afc736616af45ab0f73') in 0.067015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/3D-desk/desk-texture.png
+  artifactKey: Guid(9630a1d4b68e7614e846e46e5ac3e57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/3D-desk/desk-texture.png using Guid(9630a1d4b68e7614e846e46e5ac3e57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fce511f97cba41280721be4a108322a') in 0.024234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/character and tileset/demonstration.png
+  artifactKey: Guid(08b4e460172853a4cb7941d2d886fd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/2D Pixel Dungeon Asset Pack/character and tileset/demonstration.png using Guid(08b4e460172853a4cb7941d2d886fd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce239ab3f42fdfb2048be4338e6b9f80') in 0.030289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Body_Emission.tif
+  artifactKey: Guid(b4b755d5cc444c54ca35b5c41555844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Body_Emission.tif using Guid(b4b755d5cc444c54ca35b5c41555844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3447513e10f99fddf2ef9447590230ba') in 0.029633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Head_MetallicSmooth.tif
+  artifactKey: Guid(aaf6c0fbd19ec2f4f8caa35ff92c9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Characters Resources/Textures/Ellen/Ellen_Head_MetallicSmooth.tif using Guid(aaf6c0fbd19ec2f4f8caa35ff92c9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864a322f9f6c632492d316943f43d421') in 0.031211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  4.291 seconds
+Refreshing native plugins compatible for Editor in 16.22 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.646 seconds
+Domain Reload Profiling: 10958ms
+	BeginReloadAssembly (1597ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (187ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (719ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (2589ms)
+		LoadAssemblies (3011ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (73ms)
+			TypeCache.Refresh (33ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (6647ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (940ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (643ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 23.43 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7558.
+Memory consumption went from 294.9 MB to 291.3 MB.
+Total: 16.285800 ms (FindLiveObjects: 0.952100 ms CreateObjectMapping: 1.124500 ms MarkObjects: 12.233600 ms  DeleteObjects: 1.973300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 757.301405 seconds.
+  path: Assets/RPG_Universe/Assets/TurnBasedHUD/Sprites/Rock.psd
+  artifactKey: Guid(eadcbc87c8ef09a41ae6012707b3d60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/TurnBasedHUD/Sprites/Rock.psd using Guid(eadcbc87c8ef09a41ae6012707b3d60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3403e804fec6b614cb377f54b6bbf9a') in 0.282347 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/rock-6.png
+  artifactKey: Guid(6bce8945a4e69f34fa1def71880a2835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/rock-6.png using Guid(6bce8945a4e69f34fa1def71880a2835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f952971afeacd96a281cc92b751819') in 0.019489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/items/rocket-1.png
+  artifactKey: Guid(3fd8b224e40c6934b82ed9378d6a33ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/items/rocket-1.png using Guid(3fd8b224e40c6934b82ed9378d6a33ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329f828eac5073dff59ad37edfa7602a') in 0.022620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/particles/rock-particle-4.png
+  artifactKey: Guid(79f376cab5572804684bf9566001c431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/particles/rock-particle-4.png using Guid(79f376cab5572804684bf9566001c431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b79374abdbe50d114ab450f2435d57') in 0.023232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/rock-2.png
+  artifactKey: Guid(836be0b7c23bd6c4b8c93a2b0368be84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/rock-2.png using Guid(836be0b7c23bd6c4b8c93a2b0368be84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2e7eab239ec04b9424f300d4ecf070') in 0.021144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/items/rocket-2.png
+  artifactKey: Guid(58cd76b0ba038784c959a2d093cc4a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/space-shooter/items/rocket-2.png using Guid(58cd76b0ba038784c959a2d093cc4a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f4983cb6e833b3bb73e55960a7e025') in 0.021459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/particles/rock-particle-2.png
+  artifactKey: Guid(451f9189e54b9114b92b45c8ca3a288b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/fx/particles/rock-particle-2.png using Guid(451f9189e54b9114b92b45c8ca3a288b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34583696f2191061f07910cf73a3a0c9') in 0.021143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/particles/rock-1.png
+  artifactKey: Guid(a3b685dccb29c974eb9347eef9dcc074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/particles/rock-1.png using Guid(a3b685dccb29c974eb9347eef9dcc074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09248de74b046856cd1f593ffb3e640') in 0.017909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/rock-3.png
+  artifactKey: Guid(49bde89a22064554ebc6546a8f852b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/western-fps-2d/background-elements/rock-3.png using Guid(49bde89a22064554ebc6546a8f852b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3630f573ba917f22d9201efe365887') in 0.021553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/background-elements/rock-3.png
+  artifactKey: Guid(0c980e50d99248a48b2d5a936a486f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Universe/Assets/KaiserRPGAssets/Sprites/superpowers-asset-packs-master/prehistoric-platformer/background-elements/rock-3.png using Guid(0c980e50d99248a48b2d5a936a486f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e27444fe2fe7fdf224c9708025f65d') in 0.024838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi cancelada devido a uma saída do módulo ou a um pedido da aplicação.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

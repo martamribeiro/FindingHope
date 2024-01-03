@@ -1,0 +1,1748 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'pt' Physical Memory: 16251 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+1372
+Successfully changed project path to: C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject
+C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23660] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 2700532566 [EditorId] 2700532566 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23660] Host "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 2700532566 [EditorId] 2700532566 [Version] 1048832 [Id] WindowsEditor(7,Sakkris) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 54.58 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/crist/Desktop/Uni Stuff/Mestrado/Semestre_1/DESDJ/FindingHope/FindingHope/FindingHopeProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   31.0.15.3742
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006199 seconds.
+- Loaded All Assemblies, in  0.380 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.260 seconds
+Domain Reload Profiling: 638ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (145ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (261ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (202ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.965 seconds
+Refreshing native plugins compatible for Editor in 9.06 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.897 seconds
+Domain Reload Profiling: 1859ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (737ms)
+		LoadAssemblies (478ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (338ms)
+			TypeCache.Refresh (279ms)
+				TypeCache.ScanAssembly (207ms)
+			ScanForSourceGeneratedMonoScriptInfo (43ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (897ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (706ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (496ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 9.31 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6946 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (3.6 MB). Loaded Objects now: 7377.
+Memory consumption went from 344.8 MB to 341.2 MB.
+Total: 6.204400 ms (FindLiveObjects: 0.617500 ms CreateObjectMapping: 0.679700 ms MarkObjects: 4.025500 ms  DeleteObjects: 0.880700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.599 seconds
+Refreshing native plugins compatible for Editor in 10.41 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.305 seconds
+Domain Reload Profiling: 2901ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (355ms)
+		LoadAssemblies (406ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2306ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (746ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (535ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 11.57 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7398.
+Memory consumption went from 287.9 MB to 284.3 MB.
+Total: 6.575000 ms (FindLiveObjects: 0.615700 ms CreateObjectMapping: 0.783000 ms MarkObjects: 4.455800 ms  DeleteObjects: 0.719200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.670 seconds
+Refreshing native plugins compatible for Editor in 11.67 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.326 seconds
+Domain Reload Profiling: 2993ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (427ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2327ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (736ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 10.36 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7418.
+Memory consumption went from 289.8 MB to 286.3 MB.
+Total: 7.247000 ms (FindLiveObjects: 0.566300 ms CreateObjectMapping: 0.595900 ms MarkObjects: 5.155000 ms  DeleteObjects: 0.928900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.664 seconds
+Refreshing native plugins compatible for Editor in 10.56 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.279 seconds
+Domain Reload Profiling: 2938ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (399ms)
+		LoadAssemblies (456ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2280ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (731ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (519ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 10.87 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7438.
+Memory consumption went from 291.8 MB to 288.2 MB.
+Total: 6.054400 ms (FindLiveObjects: 0.653400 ms CreateObjectMapping: 0.755600 ms MarkObjects: 3.938100 ms  DeleteObjects: 0.706300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.809 seconds
+Refreshing native plugins compatible for Editor in 19.36 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.007 seconds
+Domain Reload Profiling: 4813ms
+	BeginReloadAssembly (256ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (458ms)
+		LoadAssemblies (537ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (4007ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (941ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (654ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (43ms)
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 13.12 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7458.
+Memory consumption went from 293.7 MB to 290.2 MB.
+Total: 13.115900 ms (FindLiveObjects: 0.956200 ms CreateObjectMapping: 5.554000 ms MarkObjects: 5.906600 ms  DeleteObjects: 0.697900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.809 seconds
+Refreshing native plugins compatible for Editor in 10.87 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.319 seconds
+Domain Reload Profiling: 3120ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (508ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (2320ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1028ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (742ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (41ms)
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 20.23 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7478.
+Memory consumption went from 295.7 MB to 292.1 MB.
+Total: 15.442200 ms (FindLiveObjects: 0.828900 ms CreateObjectMapping: 0.921300 ms MarkObjects: 12.378300 ms  DeleteObjects: 1.312500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.588 seconds
+Refreshing native plugins compatible for Editor in 13.29 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.567 seconds
+Domain Reload Profiling: 2150ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (320ms)
+		LoadAssemblies (377ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1567ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (720ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (515ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 14.23 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7498.
+Memory consumption went from 297.6 MB to 294.1 MB.
+Total: 5.469800 ms (FindLiveObjects: 0.719700 ms CreateObjectMapping: 0.689000 ms MarkObjects: 3.219500 ms  DeleteObjects: 0.840300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.660 seconds
+Refreshing native plugins compatible for Editor in 9.36 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.417 seconds
+Domain Reload Profiling: 3074ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (371ms)
+		LoadAssemblies (433ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2418ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (708ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (498ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 15.57 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7518.
+Memory consumption went from 299.6 MB to 296.0 MB.
+Total: 8.686300 ms (FindLiveObjects: 0.653900 ms CreateObjectMapping: 0.735200 ms MarkObjects: 5.902300 ms  DeleteObjects: 1.393800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.631 seconds
+Refreshing native plugins compatible for Editor in 11.54 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.458 seconds
+Domain Reload Profiling: 3086ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (400ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2459ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (701ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (491ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 10.68 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.6 MB). Loaded Objects now: 7538.
+Memory consumption went from 301.5 MB to 297.9 MB.
+Total: 5.430900 ms (FindLiveObjects: 0.542200 ms CreateObjectMapping: 0.537800 ms MarkObjects: 3.696100 ms  DeleteObjects: 0.653900 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.646 seconds
+Refreshing native plugins compatible for Editor in 13.15 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.406 seconds
+Domain Reload Profiling: 3048ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (351ms)
+		LoadAssemblies (417ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2406ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (717ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (498ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 10.91 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7558.
+Memory consumption went from 303.4 MB to 299.9 MB.
+Total: 9.291500 ms (FindLiveObjects: 0.638300 ms CreateObjectMapping: 1.146100 ms MarkObjects: 5.680900 ms  DeleteObjects: 1.825000 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.618 seconds
+Refreshing native plugins compatible for Editor in 12.60 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.766 seconds
+Domain Reload Profiling: 2380ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (312ms)
+		LoadAssemblies (389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1767ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (705ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (492ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 12.49 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7578.
+Memory consumption went from 305.4 MB to 301.8 MB.
+Total: 5.339600 ms (FindLiveObjects: 0.529200 ms CreateObjectMapping: 0.544800 ms MarkObjects: 3.347600 ms  DeleteObjects: 0.916800 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.554 seconds
+Refreshing native plugins compatible for Editor in 10.20 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.612 seconds
+Domain Reload Profiling: 2160ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (306ms)
+		LoadAssemblies (354ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1612ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (716ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (497ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 12.86 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7598.
+Memory consumption went from 307.3 MB to 303.8 MB.
+Total: 6.759200 ms (FindLiveObjects: 0.990200 ms CreateObjectMapping: 1.044700 ms MarkObjects: 4.120200 ms  DeleteObjects: 0.602900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.607 seconds
+Refreshing native plugins compatible for Editor in 10.16 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.360 seconds
+Domain Reload Profiling: 2964ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (395ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2361ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (722ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (496ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 9.54 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7618.
+Memory consumption went from 309.3 MB to 305.7 MB.
+Total: 4.913100 ms (FindLiveObjects: 0.593200 ms CreateObjectMapping: 0.609900 ms MarkObjects: 3.122800 ms  DeleteObjects: 0.586100 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.587 seconds
+Refreshing native plugins compatible for Editor in 10.00 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-FindingHopeProject
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.585 seconds
+Domain Reload Profiling: 2168ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
+		LoadAssemblies (374ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1585ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (709ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (490ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Shader 'Reallusion/RL_HairShader_2nd_Pass_Variants_3D': fallback shader 'diffuse' not found
+Refreshing native plugins compatible for Editor in 12.21 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (3.5 MB). Loaded Objects now: 7638.
+Memory consumption went from 311.2 MB to 307.6 MB.
+Total: 5.365100 ms (FindLiveObjects: 0.756600 ms CreateObjectMapping: 0.666900 ms MarkObjects: 3.261400 ms  DeleteObjects: 0.679100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 141975.023252 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/art_1.fbx
+  artifactKey: Guid(eb75e9f492c943a4dac52c742f729357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/art_1.fbx using Guid(eb75e9f492c943a4dac52c742f729357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375ee29b55dc6b3e6e61e26ec6528aa9') in 0.649887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/column_kneel_2.fbx
+  artifactKey: Guid(b250e3bd6d5535e4798eee919e2f8cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/column_kneel_2.fbx using Guid(b250e3bd6d5535e4798eee919e2f8cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1153b7b8b50bf0a6498a522448d5f1cd') in 0.022716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AIUniverse/Convai/Prefabs/Convai Player Character.prefab
+  artifactKey: Guid(3fc60925b72651f4d8454f2dc785e354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Prefabs/Convai Player Character.prefab using Guid(3fc60925b72651f4d8454f2dc785e354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf6d5e4320d252cd3eb1696fb312f21') in 0.005114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/console_screen.prefab
+  artifactKey: Guid(814f2f52d8dd87948a0fba9364aa412b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/console_screen.prefab using Guid(814f2f52d8dd87948a0fba9364aa412b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8094ded82edd931db751bf4778d34388') in 0.053995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/Prefabs/Convai_NPC_Amy.prefab
+  artifactKey: Guid(a104b113fa6dd1e4ca6f6698355720a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Avatars/Convai NPC Amy/Prefabs/Convai_NPC_Amy.prefab using Guid(a104b113fa6dd1e4ca6f6698355720a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3db27c1974c0e52f5153a9724dc190b') in 2.224590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 616
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_chair_LOD1.fbx
+  artifactKey: Guid(aba422dda12c21b4497dd186a005e8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_chair_LOD1.fbx using Guid(aba422dda12c21b4497dd186a005e8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ea4fbad7ebc2f01a7402fb653d4f5f') in 0.024162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/column_kneel.fbx
+  artifactKey: Guid(9eee1c765d8a58342beec1835ce7ce64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/column_kneel.fbx using Guid(9eee1c765d8a58342beec1835ce7ce64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fffde656300d16695e690a316e98bdc') in 0.028231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/blank_wall_C.fbx
+  artifactKey: Guid(1f977334a78ed00469d9a6558eecaa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/blank_wall_C.fbx using Guid(1f977334a78ed00469d9a6558eecaa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23811af5e4ca02e00726baccbc927756') in 0.021758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AIUniverse/Christmas pack/Models/ChristmasSock.fbx
+  artifactKey: Guid(b8ca6700cabb2af459c1f324bfc6f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Christmas pack/Models/ChristmasSock.fbx using Guid(b8ca6700cabb2af459c1f324bfc6f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68ebd9113f65809f26ff2156cfdb2ca') in 0.034281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/bunk_bed.fbx
+  artifactKey: Guid(574e37233b065eb4faed1290880c8ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/bunk_bed.fbx using Guid(574e37233b065eb4faed1290880c8ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4b85b7b6eb600ec423ed9f9e3abb52') in 0.022829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/art_2.fbx
+  artifactKey: Guid(ac4b748f8929540418552255a129f014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/art_2.fbx using Guid(ac4b748f8929540418552255a129f014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d63cb42e8513949e89eee61cb864a3') in 0.020831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AIUniverse/StarterAssets/Environment/Prefabs/Box_100x100x100_Prefab.prefab
+  artifactKey: Guid(e5f4daf24146ee040b5a2d7a73b30aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/StarterAssets/Environment/Prefabs/Box_100x100x100_Prefab.prefab using Guid(e5f4daf24146ee040b5a2d7a73b30aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a68828ad104e5c40bae0cca0a524bd3') in 0.028455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/column_middle.fbx
+  artifactKey: Guid(6c1e1578589b5f84c82931f52c63f41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/column_middle.fbx using Guid(6c1e1578589b5f84c82931f52c63f41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e2738a94cf53dd43c081b9ae0cffd1') in 0.026220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AIUniverse/Christmas pack/Prefabs/Candle_Small.prefab
+  artifactKey: Guid(0028db48146f308478646a9ed409dadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Christmas pack/Prefabs/Candle_Small.prefab using Guid(0028db48146f308478646a9ed409dadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723e2e5071d3a01635c6f734353e678e') in 0.073769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_wall_4_no_computer_LOD0.fbx
+  artifactKey: Guid(bf457f6799881e747bbd9e01d6dc3ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_wall_4_no_computer_LOD0.fbx using Guid(bf457f6799881e747bbd9e01d6dc3ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5db88a863ad037b660131d33149330') in 0.029254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_2_LOD1.fbx
+  artifactKey: Guid(763877bc2c66e6641ad695116685b5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_2_LOD1.fbx using Guid(763877bc2c66e6641ad695116685b5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d6aaa02773788592b66defbb20a175') in 0.022115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/decorative_plant.prefab
+  artifactKey: Guid(83a919b0e630c394780833b59a51ab4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/decorative_plant.prefab using Guid(83a919b0e630c394780833b59a51ab4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d8d9551586c72eab6f8e58b3021027') in 0.026439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_plant_small.fbx
+  artifactKey: Guid(ee525e307c7e23c449adda79b8029a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_plant_small.fbx using Guid(ee525e307c7e23c449adda79b8029a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b29c73e3b043c4358d84142a0d06235') in 0.026568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Tables/decorative_table_small_no_glass.prefab
+  artifactKey: Guid(26af61b285562a24abea55bb623bf8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Tables/decorative_table_small_no_glass.prefab using Guid(26af61b285562a24abea55bb623bf8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bce986ec65b7a64d9fadc5ec2550497') in 0.022687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Corridors/Corridor_1.prefab
+  artifactKey: Guid(f18932879bb23b84ca5370b65419ee41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Corridors/Corridor_1.prefab using Guid(f18932879bb23b84ca5370b65419ee41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51472849b0c275030e43c7c019be3c70') in 0.028876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Arts/art_6.prefab
+  artifactKey: Guid(52c2612af80526741a33c2092448618c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Arts/art_6.prefab using Guid(52c2612af80526741a33c2092448618c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7ac8cd9c049ed2eeda556652ec61f7') in 0.018038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_wall_4_computer_LOD0.fbx
+  artifactKey: Guid(f6910e490da85c643b2e09c71b8b5a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_wall_4_computer_LOD0.fbx using Guid(f6910e490da85c643b2e09c71b8b5a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa9eee74ba3f9445e9952d538ebae74') in 0.052202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_2_LOD0.fbx
+  artifactKey: Guid(2f9d1dcfed18d0741beb67e027251e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_2_LOD0.fbx using Guid(2f9d1dcfed18d0741beb67e027251e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03452fe994b4087a65a8065a3ce8e27') in 0.018515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Corridors/Corridor_3.prefab
+  artifactKey: Guid(abfbd13ce6faa9e48ae2b9da1b4dd476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Corridors/Corridor_3.prefab using Guid(abfbd13ce6faa9e48ae2b9da1b4dd476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70005299134ff0ad36203c8e9342a540') in 0.023923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/battery_medium.fbx
+  artifactKey: Guid(c1c48e1341ea35d4fa172cdb915ed140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/battery_medium.fbx using Guid(c1c48e1341ea35d4fa172cdb915ed140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c13b13e354b16b606f7ad95fb125c5') in 0.021681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_wall_1_LOD1.fbx
+  artifactKey: Guid(0eb978c8eaeb00e4882ac2cf4e1ab020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_wall_1_LOD1.fbx using Guid(0eb978c8eaeb00e4882ac2cf4e1ab020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bead8e0b725266fea4e4ccfdfce97d') in 0.021517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/cabinet_L.fbx
+  artifactKey: Guid(90f9643ad123a084381069ff86695c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/cabinet_L.fbx using Guid(90f9643ad123a084381069ff86695c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7a64cac9efc0e795525d8229eacaef') in 0.020089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_4_LOD1.fbx
+  artifactKey: Guid(b57b8db81ab64b04c817c7c3feabc2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_4_LOD1.fbx using Guid(b57b8db81ab64b04c817c7c3feabc2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c467f59c7d870376121e91b9f1eabfa7') in 0.026170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Tables/decorative_table_no_glass_only_top.prefab
+  artifactKey: Guid(699db2b0a61aefe44b1da8ec52e44bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Tables/decorative_table_no_glass_only_top.prefab using Guid(699db2b0a61aefe44b1da8ec52e44bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e65ce52be7e0a65f1a791e15ca6645c') in 0.018559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/container_big.fbx
+  artifactKey: Guid(1037e3cf0dc55a54fb6095b7d4075f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/container_big.fbx using Guid(1037e3cf0dc55a54fb6095b7d4075f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120b5f1abf810c3335a8423b9c5974c7') in 0.018060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/big_screen.fbx
+  artifactKey: Guid(752b74f5002e02f49927d7006a3e51e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/big_screen.fbx using Guid(752b74f5002e02f49927d7006a3e51e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead08f20d534c529a43657b3ebeda1ba') in 0.019702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/Cube_2x2_extended.fbx
+  artifactKey: Guid(ec74d4db4ff77cd4ea59472a32ad58d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/Cube_2x2_extended.fbx using Guid(ec74d4db4ff77cd4ea59472a32ad58d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37649e21835fec5407687e288295a41') in 0.017896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_3.prefab
+  artifactKey: Guid(2216270888a4ced48b33b7b5641611e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_3.prefab using Guid(2216270888a4ced48b33b7b5641611e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0294c941dae8503f1aee811dff241458') in 0.018467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_table_small_no_glass.fbx
+  artifactKey: Guid(e4f7e70184d1727499222527f1ac3508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_table_small_no_glass.fbx using Guid(e4f7e70184d1727499222527f1ac3508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd235bd97823d137c7901871326aa04de') in 0.017752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AIUniverse/Christmas pack/Prefabs/ChristmasSock.prefab
+  artifactKey: Guid(60779b5cdf25b8741a48382acfb698b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Christmas pack/Prefabs/ChristmasSock.prefab using Guid(60779b5cdf25b8741a48382acfb698b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465f4005d6ed57ef68d8b9246b453317') in 0.062676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/decorative_plant_desk.prefab
+  artifactKey: Guid(7dd02c12b2c21ff49aa148934b3c1395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/decorative_plant_desk.prefab using Guid(7dd02c12b2c21ff49aa148934b3c1395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f810769336172516102fbc8394e7a8') in 0.023173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AIUniverse/Christmas pack/Models/Candle_Small.fbx
+  artifactKey: Guid(6f789b41df35c1e44a98b8fb20942b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Christmas pack/Models/Candle_Small.fbx using Guid(6f789b41df35c1e44a98b8fb20942b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a593580b1f99ba7831cb2725c99f96a') in 0.015999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_1.prefab
+  artifactKey: Guid(ef77650fcc7dfd64a8d614922d90c382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_1.prefab using Guid(ef77650fcc7dfd64a8d614922d90c382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b23b0ffefcccd323f53ba7d205b2b87') in 0.020866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/art_4.fbx
+  artifactKey: Guid(c03a6c397607c84439753a0506e06e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/art_4.fbx using Guid(c03a6c397607c84439753a0506e06e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82f49ebcff236ca660aa76b77da2541') in 0.020842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/blank_wall_D.prefab
+  artifactKey: Guid(8641c0ea619290f46a68c207dc6ff828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/blank_wall_D.prefab using Guid(8641c0ea619290f46a68c207dc6ff828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581b330ee26e05462db30309fb062638') in 0.017833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Arts/art_4.prefab
+  artifactKey: Guid(d958a3a196d271942ba6a229a5d5ccd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Arts/art_4.prefab using Guid(d958a3a196d271942ba6a229a5d5ccd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005ce02912aba27aaf2ec592b0cdb185') in 0.019885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/Half walls/decorative_half_wall_5.prefab
+  artifactKey: Guid(e521c664fa8f8c845a0f2f463f0d05b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/Half walls/decorative_half_wall_5.prefab using Guid(e521c664fa8f8c845a0f2f463f0d05b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd297cbef6759f22a10afbcd4d661bea1') in 0.019904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/battery.fbx
+  artifactKey: Guid(154329710c2ffe04397c646ac704cdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/battery.fbx using Guid(154329710c2ffe04397c646ac704cdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c62e65260d806245f401ba4b096596') in 0.016500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/bunk_bed.prefab
+  artifactKey: Guid(9efb87eb649319c4c8c3a954a74df462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/bunk_bed.prefab using Guid(9efb87eb649319c4c8c3a954a74df462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6de6bdcf2d20b62bbff24d2b09a9440') in 0.015786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Tables/decorative_table_small_glass.prefab
+  artifactKey: Guid(f7511fb92e623b7469d7f61a89549084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Tables/decorative_table_small_glass.prefab using Guid(f7511fb92e623b7469d7f61a89549084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b0d3e2908001dda9007b0ecb3df501') in 0.019949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_chair_LOD0.fbx
+  artifactKey: Guid(812faa734d6a8c24bb3a23792b50221f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_chair_LOD0.fbx using Guid(812faa734d6a8c24bb3a23792b50221f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc6a1e0ac9a6f2b49f7fb6924c6014c') in 0.016749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/computer_station.prefab
+  artifactKey: Guid(82c3b8fcabff82d4787f83e992e386df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/computer_station.prefab using Guid(82c3b8fcabff82d4787f83e992e386df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21435478e74a09e1d88e914791da27b1') in 0.019523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_sofa_LOD0.fbx
+  artifactKey: Guid(fb39861b198df51498e189d15f1ebc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_sofa_LOD0.fbx using Guid(fb39861b198df51498e189d15f1ebc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6bc796f5fd880b0c58221b3da5e7de') in 0.020430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_4_computer.prefab
+  artifactKey: Guid(897c9b0e5e04118499e0903c7754628f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_4_computer.prefab using Guid(897c9b0e5e04118499e0903c7754628f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d69961d583c66b416aaddd9afba10c') in 0.021996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AIUniverse/Christmas pack/Models/CandyCane.fbx
+  artifactKey: Guid(396da59c596f08546b2a2dc57be9136a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Christmas pack/Models/CandyCane.fbx using Guid(396da59c596f08546b2a2dc57be9136a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfc28c96ff32e1167cd9f74c945ddfb') in 0.031709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_5.prefab
+  artifactKey: Guid(339299a7e2fdedf47b7788ab1a25c9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_5.prefab using Guid(339299a7e2fdedf47b7788ab1a25c9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b1f4d57e82f7161b031e36284062e9') in 0.016818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AIUniverse/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx
+  artifactKey: Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx using Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc980ef6d63e6d75a371bb6d0f0d83c3') in 0.048576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Machines/container_big.prefab
+  artifactKey: Guid(9d79238e340446545b920b58f2cd9574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Machines/container_big.prefab using Guid(9d79238e340446545b920b58f2cd9574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df90949f698ec23b9d939fc89c2f6c9') in 0.016889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/blank_wall_D.fbx
+  artifactKey: Guid(f2542f8a4907dc24d9a2eea57712af9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/blank_wall_D.fbx using Guid(f2542f8a4907dc24d9a2eea57712af9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d21d37b65d9dc987ba03eb47e4b2c2') in 0.011652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_4_no_computer.prefab
+  artifactKey: Guid(73d3182f2ceb62f48b8ab3173dc89e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_4_no_computer.prefab using Guid(73d3182f2ceb62f48b8ab3173dc89e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a8ef1441c73b80d5bf2ade272c5a1e') in 0.018730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/Half walls/decorative_half_wall_4_LOD.prefab
+  artifactKey: Guid(04109e82c0d966447966dba624e3821b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/Half walls/decorative_half_wall_4_LOD.prefab using Guid(04109e82c0d966447966dba624e3821b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca823a74e284ab0122c61d895afca578') in 0.017911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_wall_4_no_computer_LOD1.fbx
+  artifactKey: Guid(5d3d38b9dc0d8f64db55c838c959297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_wall_4_no_computer_LOD1.fbx using Guid(5d3d38b9dc0d8f64db55c838c959297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcb278de5ffa751302934f8c93e063d') in 0.021100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/console_celing.fbx
+  artifactKey: Guid(a6a5e0bb41ac5234fb1d67dd58baab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/console_celing.fbx using Guid(a6a5e0bb41ac5234fb1d67dd58baab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980035743ce22ea2e097270e1ad62995') in 0.018156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/blank_wall_B.prefab
+  artifactKey: Guid(b613f4d0dd5a33c429d212479c575885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/blank_wall_B.prefab using Guid(b613f4d0dd5a33c429d212479c575885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62e5cc08ae7cffdcd0b9e365bd6bbaa') in 0.016113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/console.fbx
+  artifactKey: Guid(7d22befb952c070459bc8f06ba0a5f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/console.fbx using Guid(7d22befb952c070459bc8f06ba0a5f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901f217851919c099a337b9b3ee7b308') in 0.015804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_table_glass_only_top.fbx
+  artifactKey: Guid(ff8f8f75adfd48d4991367a973d14ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_table_glass_only_top.fbx using Guid(ff8f8f75adfd48d4991367a973d14ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc8776c5f61e95f68b0f75b0f6d88ce') in 0.012065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Column/column_kneel.prefab
+  artifactKey: Guid(1acf2995551e93f4fb86449e38b67314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Column/column_kneel.prefab using Guid(1acf2995551e93f4fb86449e38b67314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d53346c848fdcf211da2e51b0d84f7b') in 0.016539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/art_3.fbx
+  artifactKey: Guid(3bfbdc734e9c13841add85180e90c4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/art_3.fbx using Guid(3bfbdc734e9c13841add85180e90c4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b58c65f3087b1b247f254bc77a1498e') in 0.018857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/bulletin_board_big.prefab
+  artifactKey: Guid(9050f6c8a29d61f49ac1b3052875c968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/bulletin_board_big.prefab using Guid(9050f6c8a29d61f49ac1b3052875c968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cc003f87c4e1cff38de4fc383d21f6') in 0.014671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/blank_wall_A.prefab
+  artifactKey: Guid(e37a5396a520a8e4e8e48c74975b6a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/blank_wall_A.prefab using Guid(e37a5396a520a8e4e8e48c74975b6a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0689d9ba9b2faa3f28f7998727469d') in 0.016454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/Half walls/decorative_half_wall_2_LOD.prefab
+  artifactKey: Guid(73b9a287a502a0d44ba093849abc1ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/Half walls/decorative_half_wall_2_LOD.prefab using Guid(73b9a287a502a0d44ba093849abc1ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ef02b2c1d60b5b1314e6d8631e9f96') in 0.018573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_pilow.fbx
+  artifactKey: Guid(dd574b0211f8115498c621597dbe7485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_pilow.fbx using Guid(dd574b0211f8115498c621597dbe7485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd688331d38b3316e8df9712c844cc77e') in 0.011970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/cabinet.fbx
+  artifactKey: Guid(dd8d5ab829c8a6c48aafbfe7a869bb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/cabinet.fbx using Guid(dd8d5ab829c8a6c48aafbfe7a869bb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7f38154c8ce08082b7abe2f3b6a8ee') in 0.015567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_wall_3_LOD0.fbx
+  artifactKey: Guid(6503a922a0ea44849b460610b2ab6d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_wall_3_LOD0.fbx using Guid(6503a922a0ea44849b460610b2ab6d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da349c148d7be5adcbd9d1cd48636fe1') in 0.018025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_6.prefab
+  artifactKey: Guid(f3a954679d4d04b49953424fc6bf526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_6.prefab using Guid(f3a954679d4d04b49953424fc6bf526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584b87b6f541a822a853e6829e9cfa18') in 0.017238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_6.fbx
+  artifactKey: Guid(f3f3969456048c64c8a9b962c9501f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_6.fbx using Guid(f3f3969456048c64c8a9b962c9501f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defeb39f89c1bbe6a600a35982aac63c') in 0.011346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Corridors/Corridor_L.prefab
+  artifactKey: Guid(3fb07e96bb0cae643a28994c86ddc64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Corridors/Corridor_L.prefab using Guid(3fb07e96bb0cae643a28994c86ddc64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa2377cb716ca94bb6a54a5ec64f977') in 0.040828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 189
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/Half walls/decorative_half_wall_6.prefab
+  artifactKey: Guid(b2921be07fb71344985447616d3d64d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Walls/Half walls/decorative_half_wall_6.prefab using Guid(b2921be07fb71344985447616d3d64d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520eaef4a87935f778f12812f5e7e166') in 0.016318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Arts/art_5.prefab
+  artifactKey: Guid(b1b2094e689c43d4ea4fd01f7c8b5849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Arts/art_5.prefab using Guid(b1b2094e689c43d4ea4fd01f7c8b5849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9213f1c9f5db56aedcd7535cb65d8c44') in 0.015546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/battery_big.fbx
+  artifactKey: Guid(3968c912f8d8eb74db8c60e247cb61e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/battery_big.fbx using Guid(3968c912f8d8eb74db8c60e247cb61e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e083f102652d596600219b40315c2b8') in 0.017358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_1_LOD0.fbx
+  artifactKey: Guid(126da1070311a154885091b4c21323c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_1_LOD0.fbx using Guid(126da1070311a154885091b4c21323c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b026f763f569fb6e46d74810cc7f8f60') in 0.016600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_table_glass.fbx
+  artifactKey: Guid(e022ff0c9dac29d48a070accea073e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_table_glass.fbx using Guid(e022ff0c9dac29d48a070accea073e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ab7c182a8784cc0496f70d9dbfc33f') in 0.011750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_wall_4_computer_LOD1.fbx
+  artifactKey: Guid(c23fae69e42c1a844878231b997a2c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Sci-Fi Styled Modular Pack/Models/decorative_wall_4_computer_LOD1.fbx using Guid(c23fae69e42c1a844878231b997a2c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8bc15a85e8008f4c0e82ee7fd2e250') in 0.019167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AIUniverse/Convai/Prefabs/Convai Crosshair Canvas.prefab
+  artifactKey: Guid(99fcf5dabc3b8ef48925730528a2d1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIUniverse/Convai/Prefabs/Convai Crosshair Canvas.prefab using Guid(99fcf5dabc3b8ef48925730528a2d1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e211eb249bdeeb1ee9fbff010e5cb8d3') in 0.009259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
