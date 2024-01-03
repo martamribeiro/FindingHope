@@ -472,7 +472,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &26798225
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2702,6 +2702,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToShowRight:
   - {fileID: 449531779}
+  - {fileID: 980312917}
+  - {fileID: 1516596138}
   objectsToHideRight:
   - {fileID: 456122755}
   - {fileID: 892308600}
@@ -2709,6 +2711,7 @@ MonoBehaviour:
   - {fileID: 1768400544}
   - {fileID: 1528328461}
   - {fileID: 1502709453}
+  - {fileID: 1266635655}
   objectsToShowWrong:
   - {fileID: 456122755}
   objectsToHideWrong: []
@@ -4400,19 +4403,7 @@ MonoBehaviour:
         m_MethodName: showIt
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 771064933}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1322058845}
-        m_TargetAssemblyTypeName: UIBehaviour, Assembly-CSharp
-        m_MethodName: showIt
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1440514230}
+          m_ObjectArgument: {fileID: 1266635655}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -14647,7 +14638,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &980312918
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18432,7 +18423,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1236993965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19263,7 +19254,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1272483013
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19480,7 +19471,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1299548647
 RectTransform:
   m_ObjectHideFlags: 0
@@ -26684,7 +26675,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1851673216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27355,7 +27346,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1944772077
 MonoBehaviour:
   m_ObjectHideFlags: 0
