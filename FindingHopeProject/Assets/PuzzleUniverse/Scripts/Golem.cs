@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 using static UnityEngine.Rendering.DebugUI;
@@ -21,11 +22,12 @@ public class Golem : MonoBehaviour, IBoxParentObject
     [SerializeField] Transform boxGrabPosition;
 
     [Header("Raycast Settings")]
-    [SerializeField] LayerMask raycastLayerMask;
+    [SerializeField] List<LayerMask> raycastLayerMaskList;
     [SerializeField] float maxDistance;
 
     private Box grabbedBox;
 
+    private LayerMask raycastLayerMask;
     private NavMeshAgent navMeshAgent;
     private Player playerInstance;
 
@@ -68,6 +70,9 @@ public class Golem : MonoBehaviour, IBoxParentObject
         gameInput.OnGolemMoveAction += GameInput_OnGolemMoveAction;
 
         playerInstance = Player.Instance;
+
+        foreach (LayerMask layerMask in raycastLayerMaskList)
+            raycastLayerMask |= layerMask;
     }
 
     private void GameInput_OnGolemMoveAction(object sender, System.EventArgs e)
